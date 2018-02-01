@@ -1,4 +1,4 @@
-setwd("/home/kia/Dropbox/Teaching/BU-Teaching/BU-CS555-Data-Analytics-Class/R-Examples/")
+# setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
 
 # install.packages("aod")
 # install.packages("pROC")
