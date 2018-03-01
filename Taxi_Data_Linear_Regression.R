@@ -7,7 +7,7 @@
 # green taxi data is smaller than yellow taxis. 
 # For example this one https://s3.amazonaws.com/nyc-tlc/trip+data/green_tripdata_2017-01.csv 
 
-taxi <- read.csv("green_tripdata_2017-01.csv" )
+taxi <- read.csv("./Datasets/green_tripdata_2017-01.csv" )
 
 head(taxi, n=4)
 

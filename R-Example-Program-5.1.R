@@ -9,6 +9,9 @@ salary1 <- salary/1000
 # Now we create a New Data frame out of age, heit and Salary
 data1 <- data.frame(age, height, salary1)
 
+# You can also the following command to replace the column inside the original dataframe. 
+# data[,"salary"] <- salary1
+
 # Calulate Correlation Coefficient 
 cor(data1)
 

@@ -2,7 +2,7 @@
 ### Install packages if you don't have them yet
 ### Typical install:
 # install.packages('ggplot2',  dependencies = T)
-install.packages('dplyr', dependencies = T)
+# install.packages('dplyr', dependencies = T)
 
 ### Install personal copy (no admin rights)
 # install.packages('gpplot2',lib="/path/to/myfolder")
