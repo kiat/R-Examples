@@ -37,7 +37,7 @@ adjusted_R2 <-  1 - (SSE/SST )  * (( length(poverty) - 1 ) / ( length(poverty) -
 
 
 # A second model - Simple Linear Regression Only considering the age 
-m2 <- lm(salary1~age)
+m2 <- lm(poverty~female_house)
 anova_table2<-anova(m2)
 anova_table2
 
@@ -45,7 +45,7 @@ totalss_anova2 <-anova_table2$`Sum Sq`[1]+anova_table2$`Sum Sq`[2]
 totalss_anova2
 
 # A third  model - Simple Linear Regression Only considering the height  
-m3 <- lm(salary1~height)
+m3 <- lm(poverty~white)
 anova_table3<-anova(m3)
 anova_table3
 
