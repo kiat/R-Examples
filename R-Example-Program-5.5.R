@@ -6,29 +6,35 @@ attach(states)
 # data <-data.frame(poverty, metro_res, white, hs_grad, female_house)
 
 
-m <- lm(poverty~female_house)
+m <- lm(poverty~female_house+white)
 
 # Summar function can calculate almost everything that you need. 
 summary(m)
 
-# Calulate R squared Manually and the P-Value
 
-# Total Sume of Squared. 
-totalss <- sum((poverty - mean(poverty))^2)
-
-# Regression and Residual Sum of the Squered. 
-regss <- sum((fitted(m) - mean(poverty))^2)
-
-# Calulate R squared.
-R2 <- regss/totalss
-
-adjusted_R2<-1- (regss/totalss )
 
 # Using anova table 
 anova_table <-anova(m)
 anova_table
-totalss_anova <-anova_table$`Sum Sq`[1]+anova_table$`Sum Sq`[2]
-totalss_anova
+
+SSE <-anova_table$`Sum Sq`[3]
+SSE
+
+
+SST <-anova_table$`Sum Sq`[1]+anova_table$`Sum Sq`[2]+anova_table$`Sum Sq`[3]
+SST
+
+R2 <- (anova_table$`Sum Sq`[1]+anova_table$`Sum Sq`[2]) / SST
+
+
+# adjusted R^2
+# adjusted_R2 <-  1 - (SSE/SST )  * (( n - 1 ) / ( n - k - 1) )
+# n number of samples
+# k number of independent varaibles 
+
+adjusted_R2 <-  1 - (SSE/SST )  * (( length(poverty) - 1 ) / ( length(poverty) - 2 - 1) )
+
+
 
 # A second model - Simple Linear Regression Only considering the age 
 m2 <- lm(salary1~age)
@@ -45,5 +51,3 @@ anova_table3
 
 totalss_anova3 <-anova_table3$`Sum Sq`[1]+anova_table3$`Sum Sq`[2]
 totalss_anova3
-
-
