@@ -22,7 +22,7 @@ regss <- sum((fitted(m) - mean(poverty))^2)
 # Calulate R squared.
 R2 <- regss/totalss
 
-
+adjusted_R2<-1- (regss/totalss )
 
 # Using anova table 
 anova_table <-anova(m)
