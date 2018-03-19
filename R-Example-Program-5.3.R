@@ -7,6 +7,11 @@ attach(states)
 
 data <-data.frame(poverty, metro_res, white, hs_grad, female_house)
 
+# Data is about poverty in 50 states plus district of Colombia. 
+# 
+# The variables are percentage living in poverty in each state, 
+# percentage of residents living in a metropolitan area, percentage white, 
+# percentage of high school graduates, and percentage of female head of householders. 
 
 ## put correlations on the upper panels,
 ## with size proportional to the correlations.
