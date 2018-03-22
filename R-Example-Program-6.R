@@ -24,8 +24,12 @@ boxplot(data$SBP~data$group, data=data, main="SBP by smoking status", xlab="grou
 m <- aov(data$SBP~data$group, data=data)
 summary(m)
 
-# pairwise t test , with bonferroni adjustment 
+# pairwise t test 
+pairwise.t.test(data$SBP, data$group, p.adj="none")
+
+# pairwise t test with bonferroni adjustment 
 pairwise.t.test(data$SBP, data$group, p.adj="bonferroni")
+
 
 # Compute Tukey Honest Significant Differences
 ?TukeyHSD
