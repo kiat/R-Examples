@@ -15,8 +15,6 @@ model <- lm(Energy~PreStretch + AnkleWeights + PreStretch * AnkleWeights, data=e
 # You will get the same with the following model code. 
 # model <- lm(Energy ~ PreStretch * AnkleWeights, data=exercise)
 # model <- lm(Energy ~ PreStretch + AnkleWeights + PreStretch:AnkleWeights, data=exercise)
-# test the following command as well. 
-# model <- lm(Energy~PreStretch:AnkleWeights, data=exercise) 
 
 summary(model)
 Anova(model, type=3)
