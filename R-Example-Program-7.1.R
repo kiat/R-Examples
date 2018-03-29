@@ -4,7 +4,7 @@
 data<- read.csv("Datasets/smoker.csv")
 # Print out the data and check what it is inside
 print(data)
-View(data)
+# View(data)
 
 
 attach(data)
@@ -18,7 +18,7 @@ data$g3 <- ifelse(data$group=='neverSmoker', 1, 0)
 
 print("Our Data after addomg Dummy Variables")
 print(data)
-View(data)
+# View(data)
 
 
 # One-way ANOVA using lm() function
@@ -31,12 +31,20 @@ summary(m3)
 m4 <- lm(data$SBP~data$g0+data$g2+data$g3, data=data)
 summary(m4)
 
+
+
+# First run a normal one way anova 
+anova.model <- aov(data$SBP~group, data=data)
+summary(anova.model)
+
+
 # Install one time the "car" package. 
 # install.packages('car')
 # Re-run ANOVA adjusting for Age
 library(car)
 
 # ANCOVA
+# Now we run ANVOA with adjusting for age 
 Anova(lm(data$SBP~data$group+data$age), type=3)
 
 # Type should be 3. It defines the different types of sums of squares.  Read more about it here 

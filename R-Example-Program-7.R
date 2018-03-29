@@ -22,8 +22,6 @@ summary(my_anova_Model)
 pairwise.t.test(distance, brand, p.adj='none')
 
 
-
-
 # Define Dummy Variables 
 golfBals$g0 <- ifelse(brand=='Callaway', 1, 0)
 golfBals$g1 <- ifelse(brand=='Nike', 1, 0)
