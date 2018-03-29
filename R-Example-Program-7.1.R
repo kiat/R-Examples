@@ -1,14 +1,13 @@
 # setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
 
-
-
 # Load the smoker data set. 
 data<- read.csv("Datasets/smoker.csv")
+# Print out the data and check what it is inside
+print(data)
+View(data)
+
 
 attach(data)
-
-print(data)
-
 
 # Create dummy variables
 data$g0 <- ifelse(data$group=='currentHeavySmokers', 1, 0)
@@ -16,9 +15,10 @@ data$g1 <- ifelse(data$group=='currentLightSmoker', 1, 0)
 data$g2 <- ifelse(data$group=='formerSmoker', 1, 0)
 data$g3 <- ifelse(data$group=='neverSmoker', 1, 0)
 
+
 print("Our Data after addomg Dummy Variables")
 print(data)
-
+View(data)
 
 
 # One-way ANOVA using lm() function
@@ -30,6 +30,29 @@ summary(m3)
 
 m4 <- lm(data$SBP~data$g0+data$g2+data$g3, data=data)
 summary(m4)
+
+# Install one time the "car" package. 
+# install.packages('car')
+# Re-run ANOVA adjusting for Age
+library(car)
+
+# ANCOVA
+Anova(lm(data$SBP~data$group+data$age), type=3)
+
+# Type should be 3. It defines the different types of sums of squares.  Read more about it here 
+
+# https://www.r-bloggers.com/anova-%E2%80%93-type-iiiiii-ss-explained/ 
+  
+# Least square means
+# install.packages('lsmeans')  # one time installation only 
+
+library(lsmeans)
+
+# Set the options for lsmeans
+options(contrasts=c("contr.treatment", "contr.poly"))
+
+# Calculate the lsmeans 
+lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
 
 
 
