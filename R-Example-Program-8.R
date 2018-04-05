@@ -3,7 +3,7 @@
 
 
 # Load the smoker data set. 
-data<- read.csv("Datasets/smoker.csv")
+data<- read.csv("Datasets/smoking_SBP.csv")
 attach(data)
 
 data
@@ -37,9 +37,13 @@ Anova(lm(data$SBP~data$group+data$age), type=3)
 # one time installation needed only 
 # Least square means
 library(lsmeans)
+
+# install.packages("emmeans")
+# library(emmeans)
+
 options(contrasts=c("contr.treatment", "contr.poly"))
 
-# with none adjustment 
+
 lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
 
 # with none adjust=[method])

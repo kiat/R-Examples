@@ -1,7 +1,7 @@
 # setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
 
 # Load the smoker data set. 
-data<- read.csv("Datasets/smoker.csv")
+data<- read.csv("Datasets/smoking_SBP.csv")
 # Print out the data and check what it is inside
 print(data)
 # View(data)
@@ -10,10 +10,10 @@ print(data)
 attach(data)
 
 # Create dummy variables
-data$g0 <- ifelse(data$group=='currentHeavySmokers', 1, 0)
-data$g1 <- ifelse(data$group=='currentLightSmoker', 1, 0)
-data$g2 <- ifelse(data$group=='formerSmoker', 1, 0)
-data$g3 <- ifelse(data$group=='neverSmoker', 1, 0)
+data$g0 <- ifelse(data$group=='Current heavy smokers', 1, 0)
+data$g1 <- ifelse(data$group=='Current light smoker', 1, 0)
+data$g2 <- ifelse(data$group=='Former smoker', 1, 0)
+data$g3 <- ifelse(data$group=='Never smoker', 1, 0)
 
 
 print("Our Data after addomg Dummy Variables")
