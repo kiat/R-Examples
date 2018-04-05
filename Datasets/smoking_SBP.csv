@@ -1,0 +1,20 @@
+grpnum,group,age,SBP
+0,Current heavy smoker,40,130
+0,Current heavy smoker,54,144
+0,Current heavy smoker,54,144
+0,Current heavy smoker,65,155
+1,Current light smoker,37,127
+1,Current light smoker,49,140
+1,Current light smoker,51,141
+1,Current light smoker,40,129
+1,Current light smoker,48,138
+2,Former smoker,30,120
+2,Former smoker,39,128
+2,Former smoker,34,123
+2,Former smoker,37,126
+3,Never smoker,17,106
+3,Never smoker,20,110
+3,Never smoker,29,119
+3,Never smoker,27,117
+3,Never smoker,19,110
+3,Never smoker,19,109
