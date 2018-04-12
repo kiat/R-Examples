@@ -67,6 +67,8 @@ data$prob <-predict(m2, type=c("response"))
 
 # ROC Curve 
 g <- roc(data$event ~ data$prob)
+print(g)
+
 plot(g)
 
 
