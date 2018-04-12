@@ -1,5 +1,3 @@
-setwd("/home/kia/Dropbox/Teaching/BU-Teaching/BU-CS555-Data-Analytics-Class/R-Examples/")
-
 # install.packages("aod")
 # install.packages("pROC")
 
@@ -10,13 +8,14 @@ library(pROC)
 
 
 
-data<-read.csv("cevent.csv")
+data<-read.csv("Datasets/cevent.csv")
 
 attach(data)
 # print a small part of the data 
 head(data)
 
 
+# fit a logistic regeression 
 m <- glm(data$event ~ data$chol, family = binomial) 
 
 summary(m)
@@ -28,6 +27,7 @@ exp(cbind(OR = coef(m), confint.default(m)))
 
 
 # OR per 10 unit increase 
+# m$coefficients gives me access to coefficient values
 exp(m$coefficients[2]*10)
 exp((m$coefficients[2]-qnorm(0.975)*summary(m)$coefficients[2,2])*10)
 exp((m$coefficients[2]+qnorm(0.975)*summary(m)$coefficients[2,2])*10)
