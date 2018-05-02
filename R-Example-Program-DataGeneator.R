@@ -105,3 +105,6 @@ fitted(my.model)
 
 # residuals of my model 
 resid(my.model)
+
+
+
