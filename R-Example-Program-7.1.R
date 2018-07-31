@@ -1,5 +1,5 @@
 # setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
-
+emmeans:::convert_scripts()
 # Load the smoker data set. 
 data<- read.csv("Datasets/smoking_SBP.csv")
 # Print out the data and check what it is inside
@@ -10,7 +10,7 @@ print(data)
 attach(data)
 
 # Create dummy variables
-data$g0 <- ifelse(data$group=='Current heavy smokers', 1, 0)
+data$g0 <- ifelse(data$group=='Current heavy smoker', 1, 0)
 data$g1 <- ifelse(data$group=='Current light smoker', 1, 0)
 data$g2 <- ifelse(data$group=='Former smoker', 1, 0)
 data$g3 <- ifelse(data$group=='Never smoker', 1, 0)
@@ -62,5 +62,12 @@ options(contrasts=c("contr.treatment", "contr.poly"))
 # Calculate the lsmeans 
 lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
 
+
+# install.packages('emmeans')
+library(emmeans)
+my.model<-lm(SBP~group+age,  data = data)
+emm_options(contrasts=c("contr.treatment", "contr.poly"))
+spb.emm.s<-emmeans(my.model, pairwise ~ group)
+spb.emm.s
 
 
