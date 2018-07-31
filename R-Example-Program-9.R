@@ -28,4 +28,4 @@ table(clinical.trial$age < 60)
 table(clinical.trial$age < 60, useNA = "always")
 
 
-table(clinical.trial$age < 60)
+table(clinical.trial$age > 60)
