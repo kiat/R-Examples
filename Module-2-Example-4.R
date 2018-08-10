@@ -21,7 +21,7 @@ boxplot(strength~weeks)
 # Bar graph with ionfdenie intervals
 means <- tapply(strength, weeks, mean)
 
-
+# Calculate the Confidence Interval. 
 lower <- tapply(strength, weeks, function(v) t.test(v)$conf.int[1])
 
 upper <- tapply(strength, weeks, function(v) t.test(v)$conf.int[2])
@@ -31,6 +31,7 @@ upper <- tapply(strength, weeks, function(v) t.test(v)$conf.int[2])
 # 
 max(upper)
 
+# A bar plot with intervals on top of it. 
 barplot2(means, plot.ci=TRUE, ci.l=lower, ci.u=upper, ylim = c(0, max(upper)*1.1), 
          names.arg=c("2 weeks", "16 weeks"))
 
