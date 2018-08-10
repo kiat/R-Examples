@@ -48,21 +48,11 @@ summary(my.model)
 # create Analysis of Variance Table
 anova(my.model)
 
-
-
 # fitted values of my model 
 fitted(my.model)
 
 # residuals of my model 
 resid(my.model)
-
-
-
-
-
-
-
-
 
 
 # As an extra task describe what these plots are 
