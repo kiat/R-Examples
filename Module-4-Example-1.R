@@ -3,42 +3,46 @@
 data <- read.csv("Datasets/CEO_salary.csv")
 attach(data)
 
-# Divid the Salary by 1000 to be able to better show the values. 
+# Divid the Salary by 1000 to be able to better show the values.
 salary1 <- salary/1000
 
 # Now we create a New Data frame out of age, heit and Salary
 data1 <- data.frame(age, height, salary1)
 
-# You can also the following command to replace the column inside the original dataframe. 
+plot(salary1, age)
+
+plot(salary1, height)
+
+# You can also the following command to replace the column inside the original dataframe.
 # data[,"salary"] <- salary1
 
-# Calulate Correlation Coefficient 
+# Calulate Correlation Coefficient
 cor(data1)
 
 # Plot Scatterplot Matrix
 pairs(data1)
 
-# Fit a Multiple Linear Regression model into data. 
-# Variables are Salary and age 
+# Fit a Multiple Linear Regression model into data.
+# Variables are Salary and age
 lm(formula = salary1 ~ age + height)
 
-# or better store the resulted model into a variable for further use. 
+# or better store the resulted model into a variable for further use.
 
 m <- lm(salary1~age+height)
 
-# Summar function can calculate almost everything that you need. 
+# Summar function can calculate almost everything that you need.
 summary(m)
 
 # Calulate R squared Manually and the P-Value
 
-# Total Sume of Squared. 
+# Total Sume of Squared.
 totalss <- sum((salary1 - mean(salary1))^2)
 
-# Regression and Residual Sum of the Squered. 
+# Regression and Residual Sum of the Squered.
 regss <- sum((fitted(m) - mean(salary1))^2)
 resiss <- sum((salary1-fitted(m))^2)
 
-# Calulate the F Value. 
+# Calulate the F Value.
 fstatistic <- (regss/2)/(resiss/97)
 
 # The P-Value for F-Statistic.
@@ -62,5 +66,10 @@ hist(resid(m))
 
 
 
+# Cooks distance
+cooks.dist<-cooks.distance(m)
 
+# Where the cook's distance is higher than 4/(n-k-1) (k is the number if parameters in equation)
+# 4/(102 - 2 -1) = 4/97
 
+which(cooks.dist > (4/(nrow(data1)-2-1)))
