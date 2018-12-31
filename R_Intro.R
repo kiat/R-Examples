@@ -204,8 +204,14 @@ str(iris)
 # Note iris is a data.frame data type; this is simply a list.
 
 ## ----pca1 
-data("iris")
+
+
+# Compute the correlation matrix
+# R= (1/n-1) X^T . X
+# Here X is our (centered and scaled) data matrix, n is the number of rows/observations in our data, and XT is the transpose of X.
+# (Hint: t(X) is transpose operator and A%*%B performs matrix multiplication on the matricies A and B) data("iris")
 # get numeric portions of list and make a matrix
+
 X <- as.matrix(iris[1:4])
 # center and scale
 X <- scale(X,center = TRUE,scale=TRUE)
