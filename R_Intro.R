@@ -12,6 +12,8 @@ list.files()
 ############
 
 
+#--------------------------------------------------
+
 ############
 ?read.table
 ?read.csv
@@ -41,12 +43,18 @@ set3 <- read.table("../../data/readin/ReadMeIn3.txt",
            sep=',',
            na.strings = '')
 
-##################
-?write.csv
-## write.csv(myRObject,
-##           file="/path/to/save/spot/file.csv",
-##           row.names=FALSE)
+#--------------------------------------------------
 
+##################
+# write data to file 
+# Options largely the same as their read counterparts
+# row.names = FALSE is helpful to avoid have 1,2,3,... as a variable/column
+
+?write.csv
+write.csv(myRObject, file="/path/to/save/spot/file.csv", row.names=FALSE)
+
+#--------------------------------------------------
+# saveRDS/readRDS are used to save (compressed version of) individual R objects
 ## # save our data set
 saveRDS(set1,file="TstObj.rds")
 ## # get it back
@@ -55,12 +63,22 @@ newtst <- readRDS("TstObj.rds")
 my.vector <- c(1,8,-100)
 saveRDS(my.vector, file="JustAVector.rds")
 
+
+#--------------------------------------------------
+
+# We can save all variables in the current R workspace with save.image We can load in a saved workspace with load
+# R will ask you save your work when you exit
+
 ## # Save all our work
 save.image("AllMyWork.RData")
 ## # Reload it
 load("AllMyWork.RData")
 ## # name given to default save
 # load(".RData")
+
+
+#--------------------------------------------------
+# Let us learb some basic operations of R 
 
 # numeric types: interger, double
 348
@@ -79,7 +97,7 @@ TRUE | FALSE
 # &, |, !
 # <,>,<=,>=, ==, !=
 
-## ----datatypes2----------------------------------------------------------
+## ---- datatypes2 ----------------------------------------------------------
 # variables assignment is done with the <- operator
 my.number <- 483
 # the '.' above does nothing. we could have done:
@@ -175,10 +193,15 @@ named.list <- list(Item1="my string",
 # [[]] also works
 c(named.list$Item1,named.list[[1]])
 
+
+# ---------------------------------------------------
+# ---------------------------------------------------
 ## ----get iris dataset 
 data("iris")
 head(iris)
 str(iris)
+
+# Note iris is a data.frame data type; this is simply a list.
 
 ## ----pca1 
 data("iris")
