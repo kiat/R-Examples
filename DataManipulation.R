@@ -1,4 +1,3 @@
-## ----ReadInDelayreal,message=FALSE,echo=FALSE,results='hide'-------------
 # install.pacakges('dplyr')
 library(stats)
 library(base)
@@ -15,10 +14,9 @@ delay.dat.houston <- read.csv(DelayDataLocation,
 delay.dat.houston <- tbl_df(delay.dat.houston)
 
 
-## ----ExamineAir,size='tiny'----------------------------------------------
+###
 delay.dat.houston
 
-## ----ReadInAirreal,echo=FALSE,results='hide'-----------------------------
 # Airport information
 AirDataLocation <- "./Datasets/airline/airports.csv"
 airport.dat <- read.table(AirDataLocation,
@@ -29,28 +27,27 @@ airport.dat <- read.table(AirDataLocation,
 airport.dat <- tbl_df(airport.dat)
 
 
-## ----AirHead,size='tiny'-------------------------------------------------
+###
 airport.dat
 
-## ----filterEx1,size='tiny'-----------------------------------------------
 # Find all flight which occurred in Janurary
 filter(delay.dat.houston, Month==1)
 
 # we could of course save this too
 # delay.dat.houston.jan <- fitler(delay.dat.houston, Month==1)
 
-## ----filterEx2,size='tiny'-----------------------------------------------
+## ---- filterEx2 -----------------------------------------------
 # Using airport data, find a list of iata abbreviations for houston texas airports
 filter(airport.dat, state=='TX', city=='Houston')
 
-## ----filterEx3,eval=FALSE------------------------------------------------
+## ---- filterEx3 ------------------------------------------------
 # Find the subset of flight departing from Hobby Airport "HOU" for which the Actual
 # Elapsed Time was greater than the CRS Elapsed Time.
 filter(delay.dat.houston,
        Origin == 'HOU', # iata code for Hobby
        ActualElapsedTime > CRSElapsedTime)
 
-## ----filterEx4, eval=FALSE-----------------------------------------------
+## ---- filterEx4 -----------------------------------------------
 # Find the subset of flights departing on the weekend.
 filter(delay.dat.houston, DayOfWeek == 6 | DayOfWeek == 7)
 
@@ -59,7 +56,7 @@ filter(delay.dat.houston,  DayOfWeek %in% c(6,7))
 
 
 
-## ----arrangeEx1,size='tiny'----------------------------------------------
+## ---- arrangeEx1 ----------------------------------------------
 # arrange, like filter, operates on data.frame rows
 # arrange is used for sorting data.frame rows w.r.t. a given column(s)
 
@@ -68,41 +65,41 @@ filter(delay.dat.houston,  DayOfWeek %in% c(6,7))
 
 arrange(delay.dat.houston, DayofMonth)
 
-## ----arrangeEx2,size='tiny'----------------------------------------------
+## ---- arrangeEx2 ----------------------------------------------
 # sort by DayofMonth largest to smallest
 arrange(delay.dat.houston, desc(DayofMonth))
 
-## ----arrangeEx3,size='tiny'----------------------------------------------
+## ---- arrangeEx3 ----------------------------------------------
 # sort by Month, use DayofMonth to break ties
 arrange(delay.dat.houston, desc(Month), desc(DayofMonth))
 
-## ----selectEx1,eval=FALSE------------------------------------------------
+## ---- selectEx1 ------------------------------------------------
 select(delay.dat.houston, Year, Month, DayofMonth)
 select(delay.dat.houston, Year:DayofMonth)
 select(delay.dat.houston, -(Year:DayofMonth))
 
-## ----helperlist, eval=FALSE----------------------------------------------
+## ---- helperlist----------------------------------------------
 ## # will give list of helper functions
 ?select
 
-## ----helperex, size='small'----------------------------------------------
+## ---- helperex ----------------------------------------------
 # search for text string/regular expression
 select(delay.dat.houston, contains('Dep'))
 
-## ----helperex2, eval=FALSE-----------------------------------------------
+## ---- helperex2 -----------------------------------------------
 select(delay.dat.houston,
        one_of('UniqueCarrier',
               'FlightNum'))
 select(delay.dat.houston,
        ends_with('Time'))
 
-## ----distinctEx1,size='tiny'---------------------------------------------
+## ---- distinctEx1 ---------------------------------------------
 # returns a data.frame with 12 observations
 distinct(delay.dat.houston, Month)
 
 distinct(delay.dat.houston, Month,.keep_all=TRUE)
 
-## ----distinctEx2,size='tiny'---------------------------------------------
+## ---- distinctEx2 ---------------------------------------------
 # returns a data.frame with 12*7=84 observations
 distinct(delay.dat.houston, Month,DayOfWeek)
 
@@ -120,7 +117,7 @@ delay.dat.houston %>%
   distinct(UniqueCarrier,.keep_all=TRUE) %>%
   select(UniqueCarrier,ActualElapsedTime)
 
-## ----ChainSols1,eval=FALSE-----------------------------------------------
+## ---- ChainSols1 -----------------------------------------------
 # Find a list of the distinct Origin airports
 delay.dat.houston %>%
   distinct(Origin) 
@@ -136,14 +133,14 @@ delay.dat.houston %>%
   select(Month,Origin, DepDelay) %>%
   distinct(Origin,.keep_all = TRUE)
 
-## ----ChainSols2,eval=FALSE-----------------------------------------------
+## ---- ChainSols2 -----------------------------------------------
 # largest departure delay for each carrier for each month
 delay.dat.houston %>%
   arrange(Month,desc(DepDelay)) %>%
   select(Month,UniqueCarrier,DepDelay) %>%
   distinct(Month,UniqueCarrier,.keep_all=TRUE)
 
-## ----mutateexs,eval=FALSE------------------------------------------------
+## ---- mutateexs ------------------------------------------------
 # create new variable ElapsedDifference:
 delay.dat.houston %>% mutate(
   ElapsedDiffernce = ActualElapsedTime - CRSElapsedTime)
@@ -152,7 +149,7 @@ delay.dat.houston %>% mutate(
 delay.dat.houston %>% transmute(
   ElapsedDiffernce = ActualElapsedTime - CRSElapsedTime)
 
-## ----summariseEx1--------------------------------------------------------
+## ---- summariseEx1 --------------------------------------------------------
 # Basic example with no grouping
 delay.dat.houston %>%
   summarise(
@@ -160,7 +157,7 @@ delay.dat.houston %>%
     )
 # Results identical to transmutate. boring.
 
-## ----summariseEx2,size='tiny'--------------------------------------------
+## ---- summariseEx2 . --------------------------------------------
 # With grouping
 # n() is dplyr function counts # obs in each group
 delay.dat.houston %>%
@@ -169,13 +166,13 @@ delay.dat.houston %>%
     MeanDistance=mean(Distance,na.rm=TRUE),
     NFlights = n())
 
-## ----summex3-------------------------------------------------------------
+## ---- summex3 -------------------------------------------------------------
 delay.dat.houston %>%
   group_by(Month, UniqueCarrier) %>%
   summarise(MaxDepDelay = max(DepDelay,na.rm=TRUE)) %>%
   head(5)
 
-## ----plotdley,eval=FALSE-------------------------------------------------
+## ---- plotdley -------------------------------------------------
 library(ggplot2)
 delay.dat.houston %>%
   group_by(Month,UniqueCarrier) %>%
@@ -187,7 +184,7 @@ qplot(Month,Dep,data=tmp) +
   facet_wrap(~UniqueCarrier)
 
 
-## ----plotsize2,eval=FALSE------------------------------------------------
+## ---- plotsize2 ------------------------------------------------
 delay.dat.houston %>%
   group_by(Month,UniqueCarrier) %>%
   summarise(
@@ -200,7 +197,7 @@ qplot(Month,NFlights,data=tmp) +
 
 
 
-## ----scatter_explot,echo=FALSE,size='tiny'-------------------------------
+## ---- scatter_explot -------------------------------
 delay.dat.houston %>%
   group_by(UniqueCarrier) %>%
   summarise(
@@ -212,7 +209,7 @@ delay.dat.houston %>%
     PercentCancelled)
 
 
-## ----nuthers,echo=FALSE,out.width=".7\\linewidth"------------------------
+## ---- nuthers ------------------------
 delay.dat.houston %>%
   group_by(UniqueCarrier) %>%
   summarise(
@@ -227,7 +224,7 @@ qplot(Dep,
       size=log(NFlights))+
   geom_abline(intercept=0,slope=1,color='red')
 
-## ----merge_toy_read,results='hide',echo=FALSE----------------------------
+## ---- merge_toy_read .  ----------------------------
 people.info <- read.table('./data/mergedata/PeopleInfo.csv',
                           sep=',',
                           header=TRUE)
@@ -237,11 +234,11 @@ occup.info <- read.table('./data/mergedata/OccupationInfo.csv',
 
 
 
-## ----look_at_toy---------------------------------------------------------
+## ---- look_at_toy ---------------------------------------------------------
 people.info
 occup.info
 
-## ----join_try1,eval=FALSE------------------------------------------------
+## ---- join_try1 ------------------------------------------------
 # What do you think the following snippets will do
 # Try to guess before running, then run to confirm
 left_join(people.info, occup.info)
@@ -255,18 +252,18 @@ right_join(occup.info, people.info)
 # Do you think this will work?
 people.info %>% left_join(occup.info)
 
-## ----weird_joins,eval=FALSE----------------------------------------------
+## ---- weird_joins ----------------------------------------------
 semi_join(people.info, occup.info)
 anti_join(people.info, occup.info)
 full_join(people.info, occup.info)
 
-## ----mergit,eval=FALSE---------------------------------------------------
+## ---- mergit ---------------------------------------------------
 delay.dat.houston %>%
   left_join(airport.dat,
             by=c("Dest" = 'iata'))
 
 
-## ----plotmregereal,echo=FALSE,out.width=".7\\linewidth"------------------
+## ---- plotmregereal  ------------------
 delay.dat.houston %>%
   left_join(airport.dat,
             by=c("Dest" = 'iata')) %>%
@@ -276,7 +273,7 @@ delay.dat.houston %>%
   ) %>%
   select(state,NFlights)
 
-## ----mregeplots25,eval=FALSE---------------------------------------------
+## ----   mregeplots25   ---------------------------------------------
 # one option
 delay.dat.houston %>%
   left_join(airport.dat,
