@@ -1,4 +1,3 @@
-
 # set the seed so that the random data is generate by this seed 
 set.seed(1234)
 
