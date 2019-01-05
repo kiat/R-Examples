@@ -1,3 +1,7 @@
+
+babyData <- rnorm(100, mean = 3500, sd=500)
+
+
 # Create two plots side by cide 
 # First we set the par
 par(mfrow=c(1,2)) # Make device region 1 by 2
