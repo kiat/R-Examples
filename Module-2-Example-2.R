@@ -77,9 +77,6 @@ parent
 # Here we want to calculate the mean, but subset it based on their group  
 means <- tapply(child, chl, mean)  
 
-# Now, we find out the lower bound of the heights for each group
-# Please note that we use here a function that we defined and inside that function we use the t.test the t test to 
-lower <- tapply(child, chl, function(v) t.test(v)$conf.int[1])
 
 # To understand how I get the lower bound of my data from t.test function, you can take a look on the return values that t test function returns. 
 
@@ -110,6 +107,8 @@ t.test(heightsOfBoys)$conf.int[1]
 # this is the higher bound 
 t.test(heightsOfBoys)$conf.int[2]
 
+# Now, we find out the lower bound of the heights for each group
+# Please note that we use here a function that we defined and inside that function we use the t.test the t test to 
 # We want to use this function to present the lowerbound and upperbound of the heights of our data to add that to our bar plot and have a nice bar plot.  
 # For this purpose we combine it with tapply command 
 lower <- tapply(child, chl, function(v) t.test(v)$conf.int[1])
