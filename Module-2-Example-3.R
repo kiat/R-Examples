@@ -32,17 +32,22 @@ summary(decay$strength[decay$weeks==16])
 
 # Compute the test t statistic and the associated p-value
 # Reject H0 if p <= alph, p<=0.1
-ttest <- t.test(decay$strength[decay$weeks==2], decay$strength[decay$weeks==16], alternative="greater", conf.level=0.9)
+ttest1 <- t.test(decay$strength[decay$weeks==2], decay$strength[decay$weeks==16], alternative="greater", conf.level=0.9)
+
+print(ttest1)
 
 # p-value = 0.1857
 
 # Using higher confidence level of 0.95
 # Two Sample t-test
-ttest <- t.test(decay$strength[decay$weeks==2], decay$strength[decay$weeks==16], alternative="two.sided", conf.level=0.95)
+ttest2 <- t.test(decay$strength[decay$weeks==2], decay$strength[decay$weeks==16], alternative="two.sided", conf.level=0.95)
+
+print(test2)
 
 # alternative hypothesis: true difference in means is not equal to 0
 # 95 percent confidence interval:
 # -12.2789  27.0789
+
 
 names(ttest)
 
