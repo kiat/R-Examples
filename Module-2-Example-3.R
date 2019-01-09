@@ -48,7 +48,7 @@ print(test2)
 # 95 percent confidence interval:
 # -12.2789  27.0789
 
-
-names(ttest)
+# return value has some contents 
+names(ttest2)
 
 

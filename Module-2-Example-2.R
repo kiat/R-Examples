@@ -23,6 +23,9 @@ colnames(data)
 # print first 4 rows of mydata
 head(data, n=4)
 
+# By using the attach command, we can attach the whole dataframe and access the columns as variable names, like height and make 
+attach(data)
+
 
 # The data is selected first based on the column name height and then based on the column name toyota. 
 heightsOfBoys <- data$child[data$chl=="Son"]
@@ -64,8 +67,7 @@ par(mfrow=c(2,2))
 # we use the "~" to seperate the height of each child groups in to subsets based on their genders
 boxplot(data$child~data$chl)
 
-# By using the attach command, we can attach the whole dataframe and access the columns as variable names, like height and make 
-attach(data)
+
 
 # print out the earning
 child
