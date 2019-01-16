@@ -15,7 +15,7 @@ plot(bodymass, height, pch = 16, cex = 1.3, col = "blue", main = "HEIGHT PLOTTED
 # Correlation 
 cor(bodymass, height)
 
-cor(height, bodymass,)
+cor(height, bodymass)
 
 # A simple linear regression
 m<-lm(height ~ bodymass)
