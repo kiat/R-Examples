@@ -1,6 +1,4 @@
 # setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
-
-
 student <- read.csv("Datasets/students.csv")
 student
 
@@ -17,10 +15,10 @@ cor(study.hours, score)
 
 cor(score, study.hours)
 
-a<-cor(score, study.hours)
+a <- cor(score, study.hours)
 print(a)
 
-my.model<-lm(student$score~student$hours)
+my.model <- lm(student$score~student$hours)
 
 # print the linearValues
 print(my.model)
@@ -73,10 +71,5 @@ hist(residuals(my.model))
 # Something more - not required for the class 
 # As an extra task describe what these plots are 
 layout(matrix(c(1,2,3,4), 2, 2 ))
+
 plot(my.model)
-
-
-# regression diagnostics 
-influence(my.model)
-
-

@@ -66,8 +66,16 @@ hist(resid(m))
 
 
 
+# influence function 
+# This function provides the basic quantities which are used in forming a wide variety
+# of diagnostics for checking the quality of regression fits.
+influence(my.model)
+
+
+# Checking for influence points 
+
 # Cooks distance
-cooks.dist<-cooks.distance(m)
+cooks.dist <- cooks.distance(m)
 
 # Where the cook's distance is higher than 4/(n-k-1) (k is the number if parameters in equation)
 # 4/(102 - 2 -1) = 4/97
