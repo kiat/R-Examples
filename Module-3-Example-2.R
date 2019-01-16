@@ -55,5 +55,7 @@ fitted(my.model)
 resid(my.model)
 
 
-# As an extra task describe what these plots are 
+# As an extra task for you 
+# Describe what are these plots
 plot(my.model)
+
