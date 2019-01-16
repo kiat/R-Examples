@@ -18,11 +18,17 @@ cor(bodymass, height)
 cor(height, bodymass)
 
 # A simple linear regression
-m<-lm(height ~ bodymass)
+
+lm(height ~ bodymass)
 
 # A line on the past plot
-# abline(98.0054, 0.9528)
+abline(98.0054, 0.9528)
 
-# better would be to do this. 
+
+# A better approach is to use variables and pass data to other functions 
+m <- lm(height ~ bodymass)
+
+# better would be to do this - No hard coding of data values.
 abline(m)
+
 
