@@ -24,7 +24,7 @@ errorCal <- function(beta0, beta1, x, y){
 errorValues <-c()
 beta1Values <-c()
 count<-1
-for (beta1 in seq(-100, 100, length.out = 1000) ){
+for (beta1 in seq(-100, 100, length.out = 300) ){
     beta1Values[count] <- beta1
     errorValues[count] <- errorCal(0, beta1, x , y)
     count <- count + 1
@@ -44,4 +44,45 @@ plot(errorValues, type="l")
 
 # We see that the minimum is on zero point. 
 min(errorValues)
-which(a == min(a))
+index<-which(errorValues == min(errorValues))
+beta1Values[index]
+##############################################
+
+
+
+
+# In the following example we are looking for both beta1 and beta0
+#############################################
+
+
+errorValues <-c()
+beta1Values <-c()
+beta0Values <-c()
+count<-1
+
+for (beta0 in seq(-2, 2, length.out = 300) ){
+  
+  for (beta1 in seq(-2, 2, length.out =300) ){
+    beta0Values[count] <- beta0
+    beta1Values[count] <- beta1
+    errorValues[count] <- errorCal(beta0, beta1, x , y)
+    count <- count + 1
+  }
+}
+
+length(beta1Values)
+
+# We see that the minimum is on zero point. 
+min(errorValues)
+index<-which(errorValues == min(errorValues))
+beta1Values[index]
+beta0Values[index]
+
+
+# Now let us visualize this. 
+# install.packages("plotly")
+library(plotly)
+
+
+p <- plot_ly(x = ~beta0Values, y = ~beta1Values, z = ~errorValues, type = 'mesh3d')
+p
