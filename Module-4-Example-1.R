@@ -69,7 +69,7 @@ hist(resid(m))
 # influence function 
 # This function provides the basic quantities which are used in forming a wide variety
 # of diagnostics for checking the quality of regression fits.
-influence(my.model)
+influence(m)
 
 
 # Checking for influence points 
