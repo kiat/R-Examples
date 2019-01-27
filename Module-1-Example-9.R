@@ -99,7 +99,8 @@ text(mean(rightSkewed)-3, .13, "Median", cex = 1.6, col='green')
 # https://www.r-bloggers.com/measures-of-skewness-and-kurtosis/
 
 
-# 
+# One time installation of moments package is needed. 
+# install.packages("moments")
 library(moments)
 
 
