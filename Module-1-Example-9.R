@@ -26,21 +26,25 @@ normalData<-rnorm(4000, mean = 20, sd=5)
 par(mfrow=c(1,3))
 ######################################################
 
-hist(rightSkewed, 
-     probability=T, nclass=max(rightSkewed)-min(rightSkewed)+1, 
-   col='lightblue', 
-    main='Right Skewed', border = F)
-ines(density(rightSkewed,bw=1), col='red', lwd=3)
+hist(leftSkewed, 
+     probability=T, nclass=max(leftSkewed)-min(leftSkewed)+1, 
+     col='lightblue', 
+     main='Left Skewed' , border = F)
 
-# plot(density(rightSkewed), main='Right Skewed' , col='red', lwd=3, type="l")
+lines(density(leftSkewed,bw=1), col='red', lwd=3)
 
-
-abline(v=mean(rightSkewed), col='blue', lwd=3)
-abline(v=median(rightSkewed), col='green', lwd=3)
+# plot(density(leftSkewed), main='Left Skewed' , col='red', lwd=3, type="l")
 
 
-text(mean(rightSkewed)-3, .12, "Mean", cex = 1.6, col='blue')
-text(mean(rightSkewed)-3, .13, "Median", cex = 1.6, col='green')
+abline(v=mean(leftSkewed), col='blue', lwd=3)
+abline(v=median(leftSkewed), col='green', lwd=3)
+
+text(mean(leftSkewed)+2, .19, "Mean", cex = 1.6, col='blue')
+text(mean(leftSkewed)+2, .20, "Median", cex = 1.6, col='green')
+
+
+
+
 
 ######################################################
 
@@ -61,18 +65,68 @@ abline(v=median(normalData), col='green', lwd=3)
 
 
 ######################################################
-hist(leftSkewed, 
-     probability=T, nclass=max(leftSkewed)-min(leftSkewed)+1, 
-    col='lightblue', 
-    main='Left Skewed' , border = F)
-
-lines(density(leftSkewed,bw=1), col='red', lwd=3)
-
-# plot(density(leftSkewed), main='Left Skewed' , col='red', lwd=3, type="l")
 
 
-abline(v=mean(leftSkewed), col='blue', lwd=3)
-abline(v=median(leftSkewed), col='green', lwd=3)
 
-text(mean(leftSkewed)+2, .19, "Mean", cex = 1.6, col='blue')
-text(mean(leftSkewed)+2, .20, "Median", cex = 1.6, col='green')
+
+hist(rightSkewed, 
+     probability=T, nclass=max(rightSkewed)-min(rightSkewed)+1, 
+     col='lightblue', 
+     main='Right Skewed', border = F)
+ines(density(rightSkewed,bw=1), col='red', lwd=3)
+
+# plot(density(rightSkewed), main='Right Skewed' , col='red', lwd=3, type="l")
+
+
+abline(v=mean(rightSkewed), col='blue', lwd=3)
+abline(v=median(rightSkewed), col='green', lwd=3)
+
+
+text(mean(rightSkewed)-3, .12, "Mean", cex = 1.6, col='blue')
+text(mean(rightSkewed)-3, .13, "Median", cex = 1.6, col='green')
+
+
+######################################################
+#     Optional Material - Skeweness tests 
+######################################################
+
+# Some good reference to read about it 
+# https://en.wikipedia.org/wiki/Skewness
+# https://help.gooddata.com/display/doc/Normality+Testing+-+Skewness+and+Kurtosis
+
+
+# Test implementation in R 
+# https://www.r-bloggers.com/measures-of-skewness-and-kurtosis/
+
+
+# 
+library(moments)
+
+
+
+# SKEWNESS Test. 
+# As a general rule of thumb:
+# If skewness is less than -1 or greater than 1, the distribution is highly skewed.
+# If skewness is between -1 and -0.5 or between 0.5 and 1, the distribution is moderately skewed.
+# If skewness is between -0.5 and 0.5, the distribution is approximately symmetric.
+
+
+# KURTOSIS
+# Kurtosis tells you the height and sharpness of the central peak, relative to that of a standard bell curve.
+
+# Values for  a  right Skewed, Negative Skewed. 
+skewness(rightSkewed)
+kurtosis(rightSkewed)
+
+
+# Values for  a  right Skewed, Positive Skewed 
+skewness(leftSkewed)
+kurtosis(leftSkewed)
+
+
+
+# Values for  a  right Skewed
+skewness(normalData)
+kurtosis(normalData)
+
+
