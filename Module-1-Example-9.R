@@ -14,8 +14,8 @@ set.seed(1)
 
 # generate 3 different data sets. 
 
-rightSkewed <- rbeta(4000,9,1.2)*40
-leftSkewed <- rbeta(4000,1,9)*40
+leftSkewed <- rbeta(4000,9,1.2)*40
+rightSkewed <- rbeta(4000,1,9)*40
 normalData<-rnorm(4000, mean = 20, sd=5)
 
 
@@ -41,9 +41,6 @@ abline(v=median(leftSkewed), col='green', lwd=3)
 
 text(mean(leftSkewed)+2, .19, "Mean", cex = 1.6, col='blue')
 text(mean(leftSkewed)+2, .20, "Median", cex = 1.6, col='green')
-
-
-
 
 
 ######################################################
@@ -123,7 +120,6 @@ kurtosis(rightSkewed)
 # Values for  a  right Skewed, Positive Skewed 
 skewness(leftSkewed)
 kurtosis(leftSkewed)
-
 
 
 # Values for  a  right Skewed
