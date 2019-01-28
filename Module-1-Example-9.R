@@ -112,17 +112,17 @@ library(moments)
 # KURTOSIS
 # Kurtosis tells you the height and sharpness of the central peak, relative to that of a standard bell curve.
 
-# Values for  a  right Skewed, Negative Skewed. 
+# Values for a right Skewed, Negative Skewed. 
 skewness(rightSkewed)
 kurtosis(rightSkewed)
 
 
-# Values for  a  right Skewed, Positive Skewed 
+# Values for a left Skewed, Positive Skewed 
 skewness(leftSkewed)
 kurtosis(leftSkewed)
 
 
-# Values for  a  right Skewed
+# Values for a normal Skewed
 skewness(normalData)
 kurtosis(normalData)
 
