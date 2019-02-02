@@ -22,10 +22,10 @@ print(p)
 
 # Using the t.test function directyl 
 # Please note that conf.level in the t.test function is used only to calculate the confidence intervals
-t.test(shark_len, mu=20, alternative="greater", conf.level = 0.90)
+t.test(shark_len, mu=20, alternative="two.sided", conf.level = 0.90)
 
 # It is a good idea to put the results in a variables 
-results<-t.test(shark_len, mu=20, alternative="greater")
+results<-t.test(shark_len, mu=20, alternative="two.sided")
 
 # You can use the 
 names(results)
