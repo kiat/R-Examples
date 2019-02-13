@@ -37,7 +37,7 @@ confint(my.model)
 ?confint
 
 
-# default level is .95
+# default level is .90
 confint(my.model, level = .90)
 
 

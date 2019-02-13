@@ -9,7 +9,7 @@ babyData <- rnorm(100, mean = 3500, sd=500)
 plot(babyData)
 
 # make a barplot 
-barplot(babyData)
+barplot(babyData, ylim  = c(2000, 5000) )
 
 # make a histogram 
 hist(babyData)

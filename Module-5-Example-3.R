@@ -1,5 +1,5 @@
 # setwd("SET THE Working Director to THE PATH TO THIS DIRECTORY")
-emmeans:::convert_scripts()
+# emmeans:::convert_scripts()
 # Load the smoker data set. 
 data<- read.csv("Datasets/smoking_SBP.csv")
 # Print out the data and check what it is inside
@@ -45,7 +45,7 @@ library(car)
 
 # ANCOVA
 # Now we run ANVOA with adjusting for age 
-Anova(lm(data$SBP~data$group+data$age), type=3)
+Anova(lm(data$SBP ~ data$group + data$age), type=3)
 
 # Type should be 3. It defines the different types of sums of squares.  Read more about it here 
 
@@ -60,14 +60,20 @@ library(lsmeans)
 options(contrasts=c("contr.treatment", "contr.poly"))
 
 # Calculate the lsmeans 
-lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
+lsmeans( lm(data$SBP~ data$group + data$age), pairwise~data$group, adjust="none")
 
 
+
+# https://cran.r-project.org/web/packages/emmeans/vignettes/transition-from-lsmeans.html
 # install.packages('emmeans')
 library(emmeans)
 my.model<-lm(SBP~group+age,  data = data)
 emm_options(contrasts=c("contr.treatment", "contr.poly"))
-spb.emm.s<-emmeans(my.model, pairwise ~ group)
-spb.emm.s
+emmeans(my.model, specs = "group")
+
+
+# spb.emm.s<-emmeans(my.model, pairwise ~ group)
+# spb.emm.s
+
 
 
