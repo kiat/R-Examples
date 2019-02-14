@@ -71,9 +71,8 @@ my.model<-lm(SBP~group+age,  data = data)
 emm_options(contrasts=c("contr.treatment", "contr.poly"))
 emmeans(my.model, specs = "group")
 
-
-# spb.emm.s<-emmeans(my.model, pairwise ~ group)
-# spb.emm.s
+# or with pairwise comnparisions 
+emmeans(my.model, specs = "group", contr = "pairwise")
 
 
 
