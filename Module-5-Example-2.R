@@ -33,5 +33,3 @@ my_linear_regression_model <- lm(distance~g1+g2, data=golfBals)
 # Get the summary of the model 
 summary(my_linear_regression_model)
 
-# Create Analysis of Variance Table
-anova(my_linear_regression_model)
