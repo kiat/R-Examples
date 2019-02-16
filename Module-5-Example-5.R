@@ -32,23 +32,29 @@ library(car)
 Anova(lm(data$SBP~data$group+data$age), type=3)
 
 
-# Install package lsmeans "Companion to Applied Regression"
+# calculating the lsmeans 
+# lsmeans package is deprecated 
 # install.packages("lsmeans")
 # one time installation needed only 
 # Least square means
-library(lsmeans)
-
-# install.packages("emmeans")
-# library(emmeans)
-
-options(contrasts=c("contr.treatment", "contr.poly"))
-
-
-lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
-
+# library(lsmeans)
+# options(contrasts=c("contr.treatment", "contr.poly"))
+# lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="none")
 # with none adjust=[method])
 # Note: method = “tukey”, “scheffe”, “sidak", "bonferroni", “dunnettx", “mvt", "none")
+# lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="tukey")
 
-lsmeans(lm(data$SBP~data$group+data$age), pairwise~data$group, adjust="tukey")
+# install.packages("emmeans")
+library(emmeans)
+my.model<-lm(SBP~group+age,  data = data)
+emm_options(contrasts=c("contr.treatment", "contr.poly"))
+emmeans(my.model, specs = "group")
 
+# no p value adjustment 
+emmeans(my.model, specs = "group" , contr = "pairwise",  adjust="none")
 
+# P value adjustment: tukey method
+emmeans(my.model, specs = "group" , contr = "pairwise",  adjust="tukey")
+
+# P value adjustment: bonferroni method for 6 tests 
+emmeans(my.model, specs = "group" , contr = "pairwise",  adjust="bonferroni")
