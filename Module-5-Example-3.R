@@ -47,7 +47,8 @@ library(car)
 # Now we run ANVOA with adjusting for age 
 Anova(lm(data$SBP ~ data$group + data$age), type=3)
 
-# Type should be 3. It defines the different types of sums of squares.  Read more about it here 
+# Type should be type 3 sum of squares. 
+# It defines the different types of sums of squares.  Read more about it here 
 
 # https://www.r-bloggers.com/anova-%E2%80%93-type-iiiiii-ss-explained/ 
   
