@@ -7,17 +7,15 @@ library(aod)
 library(stats)
 library(pROC)
 
-
-
-
-data<-read.csv("cevent.csv")
+data<-read.csv("Datasets/cevent.csv")
 
 attach(data)
 # print a small part of the data 
 head(data)
 
 
-m <- glm(data$event ~ data$chol, family = binomial) 
+m <- glm(data$event ~ data$chol, family = "binomial")
+
 
 summary(m)
 

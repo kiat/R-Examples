@@ -81,3 +81,8 @@ cooks.dist <- cooks.distance(m)
 # 4/(102 - 2 -1) = 4/97
 
 which(cooks.dist > (4/(nrow(data1)-2-1)))
+
+#############################################################
+# Identifying Influential Data Points
+# https://newonlinecourses.science.psu.edu/stat501/node/340/
+
