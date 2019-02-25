@@ -13,6 +13,9 @@
 # See the manual page for prop.test() function 
 ?prop.test
 
+# The procedure gives a chi-square statistic which is equal to the square of the z-statistic.
+# http://sphweb.bumc.bu.edu/otlt/MPH-Modules/BS/R/R-Manual/R-Manual13.html 
+
 # One Sample Tests for a Proportion 
 prop.test (70 , 100 , p=0.8 , conf.level=0.95 , correct=FALSE)
 
