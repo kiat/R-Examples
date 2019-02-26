@@ -21,6 +21,9 @@ summary(m)
 
 # ORs per 1 unit increase 
 # same as calculation by hand (OR): exp(0.02119)
+
+exp(m$coefficients[2])
+
 exp(cbind(OR = coef(m), confint.default(m)))
 
 
@@ -38,6 +41,7 @@ risk
 
 # predict risk for patient with chol of 190: exp(-3.12716+0.02119*190)/(1+exp(-3.12716+0.02119*190))
 risk[41]
+
 exp(m$coefficients[1] + m$coefficients[2]*190) / (1+exp(m$coefficients[1] + m$coefficients[2]*190))
 
 
@@ -65,10 +69,18 @@ data$prob <-predict(m2, type=c("response"))
 
 # ROC Curve 
 g <- roc(data$event ~ data$prob)
+
+# Get the Area under the curve
+# c-statistics 
+g
+
+print(g)
+
+# Plot the ROC Curve. 
 plot(g)
 
 
-
+# better would be to see the x axis as 1-Specificity
 plot(1- g$specificities, g$sensitivities, type="l", xlab="1-Specifity", ylab="Sensivity", main="ROC Curve")
 abline(a=0, b=1)
 grid()
