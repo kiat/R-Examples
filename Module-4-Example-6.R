@@ -47,11 +47,10 @@ for (i in 1:num_iters) {
 
 print(theta)
 
-plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear Regression by Gradient Descent')
-
 # plot data and converging fit
-for (i in c(1,2,3, 4, 6, 8, seq(10, num_iters, by=10))) {
-  abline(coef=theta_history[[i]], col=rgb(0.8,0,0,0.3),  lwd = 5)
+plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear regression by gradient descent')
+for (i in c(1,3,6,10,14,seq(20,num_iters,by=10))) {
+  abline(coef=theta_history[[i]], col=rgb(0.8,0,0,0.3))
 }
 abline(coef=theta, col='blue')
 
