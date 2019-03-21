@@ -1,3 +1,7 @@
+# This example will generate an animation. 
+# It will first generate lots of png image files 
+# and then use ImageMagick software to convert them into an animation. 
+
 # Generate Animations
 # Linear Regression with Gradient Descent
 # https://www.r-bloggers.com/linear-regression-by-gradient-descent/
@@ -84,7 +88,7 @@ abline(coef=theta, col='blue')
 
 
 
-
+# The following command will work if you have ImageMagick on your machine. 
 #run ImageMagick
 my_command <- 'convert *.png -delay 20 -loop 0 animation.gif'
 system(my_command)
