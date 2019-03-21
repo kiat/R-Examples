@@ -1,57 +1,40 @@
-# https://www.r-bloggers.com/linear-regression-by-gradient-descent/
-
-# generate random data in which y is a noisy function of x
-x <- runif(1000, -5, 5)
-y <- x + rnorm(1000) + 3
-
-# Look at the scotterplot 
-plot(y, x)
-
-# fit a linear model
-res <- lm( y ~ x )
-print(res)
-
-# plot the data and the model
-plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear Regression ')
-abline(res, col='blue')
+# Matrix Operations in R  https://www.statmethods.net/advstats/matrix.html 
+# Some good example https://datascienceplus.com/linear-regression-from-scratch-in-r/
 
 
-# squared error cost function
-cost <- function(X, y, theta) {
-  sum( (X %*% theta - y)^2 ) / (2*length(y))
-}
+data <- read.csv("Datasets/CEO_salary.csv")
+salary1 <- data$salary/1000
 
-# learning rate and iteration limit
-alpha <- 0.01
-num_iters <- 1000
+y <- salary1
+X <- as.matrix(cbind(data$age, data$height))
 
-# keep history
-cost_history <- double(num_iters)
-theta_history <- list(num_iters)
+# vector of ones with same length as rows in y
+int <- rep(1, length(y))
 
-# initialize coefficients
-theta <- matrix(c(0,0), nrow=2)
+# Add intercept column to X
+X <- cbind(int, X)
 
-# add a column of 1's for the intercept coefficient
-X <- cbind(1, matrix(x))
+# Implement closed-form solution
+betas <- solve(t(X) %*% X) %*% t(X) %*% y
+
+# Round for easier viewing
+betas <- round(betas, 2)
+
+print(betas)
 
 
-# gradient descent
-for (i in 1:num_iters) {
-  error <- (X %*% theta - y)
-  delta <- t(X) %*% error / length(y)
-  theta <- theta - alpha * delta
-  cost_history[i] <- cost(X, y, theta)
-  theta_history[[i]] <- theta
-}
 
-print(theta)
+# Linear regression model
+lm.mod  <- lm(salary1~ data$age + data$height)
 
-# plot data and converging fit
-plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear regression by gradient descent')
-for (i in c(1,3,6,10,14,seq(20,num_iters,by=10))) {
-  abline(coef=theta_history[[i]], col=rgb(0.8,0,0,0.3))
-}
-abline(coef=theta, col='blue')
+# Round for easier viewing
+lm.betas <- round(lm.mod$coefficients, 2)
 
-plot(cost_history, type='line', col='blue', lwd=2, main='Cost function', ylab='cost', xlab='Iterations')
+# Create data.frame of results
+results <- data.frame(our.results=betas, lm.results=lm.betas)
+
+print(results)
+
+
+
+

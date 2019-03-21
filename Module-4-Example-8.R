@@ -1,3 +1,5 @@
+# Generate Animations
+# Linear Regression with Gradient Descent
 # https://www.r-bloggers.com/linear-regression-by-gradient-descent/
 
 # generate random data in which y is a noisy function of x
@@ -47,11 +49,54 @@ for (i in 1:num_iters) {
 
 print(theta)
 
+
+
+# function for creating file name with leading zeros
+# makes it easier to process them sequentially
+rename <- function(x){
+  if (x < 10) {
+    return(name <- paste('000',i,'plot.png',sep=''))
+  }
+  if (x < 100 && i >= 10) {
+    return(name <- paste('00',i,'plot.png', sep=''))
+  }
+  if (x >= 100) {
+    return(name <- paste('0', i,'plot.png', sep=''))
+  }
+}
+
+
+
 # plot data and converging fit
-plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear regression by gradient descent')
-for (i in c(1,3,6,10,14,seq(20,num_iters,by=10))) {
-  abline(coef=theta_history[[i]], col=rgb(0.8,0,0,0.3))
+for (i in c(1,2,3, seq(4, num_iters, by=2))) {
+  name <- rename(i)
+  
+  #saves the plot as a .png file in the working directory
+  
+  png(name)
+  plot(x,y, col=rgb(0.2,0.4,0.6,0.4), main='Linear Regression by Gradient Descent')
+  # print(theta_history[[i]])
+  abline(coef=theta_history[[i]], col=rgb(0.8,0,0,0.3),  lwd = 5)
+  dev.off()
 }
 abline(coef=theta, col='blue')
 
+
+
+
+
+#run ImageMagick
+my_command <- 'convert *.png -delay 20 -loop 0 animation.gif'
+system(my_command)
+
+
+
+
 plot(cost_history, type='line', col='blue', lwd=2, main='Cost function', ylab='cost', xlab='Iterations')
+
+
+
+
+
+      
+      
