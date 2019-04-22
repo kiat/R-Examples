@@ -1,0 +1,501 @@
+District,Grade Level,Program Type,Department,Class Size,Number of Students,Number of Classes,% of Students within Grade
+1,HS Core,Gen Ed/ICT/Acc,English,<15,165,16,4.6
+1,HS Core,Gen Ed/ICT/Acc,English,15,135,9,3.8
+1,HS Core,Gen Ed/ICT/Acc,English,16,16,1,0.5
+1,HS Core,Gen Ed/ICT/Acc,English,17,85,5,2.4
+1,HS Core,Gen Ed/ICT/Acc,English,18,234,13,6.6
+1,HS Core,Gen Ed/ICT/Acc,English,19,171,9,4.8
+1,HS Core,Gen Ed/ICT/Acc,English,20,60,3,1.7
+1,HS Core,Gen Ed/ICT/Acc,English,21,168,8,4.7
+1,HS Core,Gen Ed/ICT/Acc,English,22,198,9,5.6
+1,HS Core,Gen Ed/ICT/Acc,English,23,184,8,5.2
+1,HS Core,Gen Ed/ICT/Acc,English,24,288,12,8.1
+1,HS Core,Gen Ed/ICT/Acc,English,25,125,5,3.5
+1,HS Core,Gen Ed/ICT/Acc,English,26,130,5,3.7
+1,HS Core,Gen Ed/ICT/Acc,English,27,81,3,2.3
+1,HS Core,Gen Ed/ICT/Acc,English,28,84,3,2.4
+1,HS Core,Gen Ed/ICT/Acc,English,29,87,3,2.5
+1,HS Core,Gen Ed/ICT/Acc,English,30,210,7,5.9
+1,HS Core,Gen Ed/ICT/Acc,English,31,186,6,5.2
+1,HS Core,Gen Ed/ICT/Acc,English,32,160,5,4.5
+1,HS Core,Gen Ed/ICT/Acc,English,33,198,6,5.6
+1,HS Core,Gen Ed/ICT/Acc,English,34,442,13,12.5
+1,HS Core,Gen Ed/ICT/Acc,English,>34,142,4,4
+1,HS Core,Gen Ed/ICT/Acc,Math,<15,233,20,9
+1,HS Core,Gen Ed/ICT/Acc,Math,15,60,4,2.3
+1,HS Core,Gen Ed/ICT/Acc,Math,16,112,7,4.3
+1,HS Core,Gen Ed/ICT/Acc,Math,17,34,2,1.3
+1,HS Core,Gen Ed/ICT/Acc,Math,18,108,6,4.2
+1,HS Core,Gen Ed/ICT/Acc,Math,19,95,5,3.7
+1,HS Core,Gen Ed/ICT/Acc,Math,20,140,7,5.4
+1,HS Core,Gen Ed/ICT/Acc,Math,21,126,6,4.9
+1,HS Core,Gen Ed/ICT/Acc,Math,22,176,8,6.8
+1,HS Core,Gen Ed/ICT/Acc,Math,23,184,8,7.1
+1,HS Core,Gen Ed/ICT/Acc,Math,24,120,5,4.6
+1,HS Core,Gen Ed/ICT/Acc,Math,25,225,9,8.7
+1,HS Core,Gen Ed/ICT/Acc,Math,26,78,3,3
+1,HS Core,Gen Ed/ICT/Acc,Math,27,108,4,4.2
+1,HS Core,Gen Ed/ICT/Acc,Math,28,28,1,1.1
+1,HS Core,Gen Ed/ICT/Acc,Math,29,87,3,3.4
+1,HS Core,Gen Ed/ICT/Acc,Math,30,90,3,3.5
+1,HS Core,Gen Ed/ICT/Acc,Math,31,124,4,4.8
+1,HS Core,Gen Ed/ICT/Acc,Math,32,64,2,2.5
+1,HS Core,Gen Ed/ICT/Acc,Math,33,264,8,10.2
+1,HS Core,Gen Ed/ICT/Acc,Math,34,102,3,3.9
+1,HS Core,Gen Ed/ICT/Acc,Math,>34,36,1,1.4
+1,HS Core,Gen Ed/ICT/Acc,Science,<15,143,13,5.6
+1,HS Core,Gen Ed/ICT/Acc,Science,15,105,7,4.1
+1,HS Core,Gen Ed/ICT/Acc,Science,16,96,6,3.7
+1,HS Core,Gen Ed/ICT/Acc,Science,17,68,4,2.7
+1,HS Core,Gen Ed/ICT/Acc,Science,18,36,2,1.4
+1,HS Core,Gen Ed/ICT/Acc,Science,19,76,4,3
+1,HS Core,Gen Ed/ICT/Acc,Science,20,80,4,3.1
+1,HS Core,Gen Ed/ICT/Acc,Science,21,126,6,4.9
+1,HS Core,Gen Ed/ICT/Acc,Science,22,220,10,8.6
+1,HS Core,Gen Ed/ICT/Acc,Science,23,115,5,4.5
+1,HS Core,Gen Ed/ICT/Acc,Science,24,192,8,7.5
+1,HS Core,Gen Ed/ICT/Acc,Science,25,250,10,9.8
+1,HS Core,Gen Ed/ICT/Acc,Science,26,156,6,6.1
+1,HS Core,Gen Ed/ICT/Acc,Science,27,135,5,5.3
+1,HS Core,Gen Ed/ICT/Acc,Science,28,84,3,3.3
+1,HS Core,Gen Ed/ICT/Acc,Science,29,29,1,1.1
+1,HS Core,Gen Ed/ICT/Acc,Science,30,30,1,1.2
+1,HS Core,Gen Ed/ICT/Acc,Science,32,96,3,3.7
+1,HS Core,Gen Ed/ICT/Acc,Science,33,165,5,6.4
+1,HS Core,Gen Ed/ICT/Acc,Science,34,306,9,11.9
+1,HS Core,Gen Ed/ICT/Acc,Science,>34,54,1,2.1
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,<15,154,13,6.4
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,15,45,3,1.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,16,80,5,3.3
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,17,17,1,0.7
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,18,72,4,3
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,19,57,3,2.4
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,20,120,6,5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,21,63,3,2.6
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,22,132,6,5.5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,23,184,8,7.6
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,24,144,6,5.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,25,50,2,2.1
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,26,78,3,3.2
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,27,162,6,6.7
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,28,84,3,3.5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,29,58,2,2.4
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,30,60,2,2.5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,31,124,4,5.1
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,32,192,6,7.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,33,66,2,2.7
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,34,340,10,14
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,>34,140,3,5.8
+1,HS Core,Gen Ed/ICT/Acc,English,<15,77,7,8.1
+1,HS Core,Gen Ed/ICT/Acc,English,17,17,1,1.8
+1,HS Core,Gen Ed/ICT/Acc,English,18,18,1,1.9
+1,HS Core,Gen Ed/ICT/Acc,English,19,19,1,2
+1,HS Core,Gen Ed/ICT/Acc,English,20,40,2,4.2
+1,HS Core,Gen Ed/ICT/Acc,English,21,21,1,2.2
+1,HS Core,Gen Ed/ICT/Acc,English,22,66,3,7
+1,HS Core,Gen Ed/ICT/Acc,English,24,72,3,7.6
+1,HS Core,Gen Ed/ICT/Acc,English,25,100,4,10.6
+1,HS Core,Gen Ed/ICT/Acc,English,26,52,2,5.5
+1,HS Core,Gen Ed/ICT/Acc,English,27,27,1,2.9
+1,HS Core,Gen Ed/ICT/Acc,English,28,56,2,5.9
+1,HS Core,Gen Ed/ICT/Acc,English,29,58,2,6.1
+1,HS Core,Gen Ed/ICT/Acc,English,30,60,2,6.3
+1,HS Core,Gen Ed/ICT/Acc,English,31,31,1,3.3
+1,HS Core,Gen Ed/ICT/Acc,English,32,64,2,6.8
+1,HS Core,Gen Ed/ICT/Acc,English,33,66,2,7
+1,HS Core,Gen Ed/ICT/Acc,English,34,102,3,10.8
+1,HS Core,Gen Ed/ICT/Acc,Math,<15,27,2,3.2
+1,HS Core,Gen Ed/ICT/Acc,Math,15,15,1,1.8
+1,HS Core,Gen Ed/ICT/Acc,Math,18,18,1,2.2
+1,HS Core,Gen Ed/ICT/Acc,Math,19,38,2,4.6
+1,HS Core,Gen Ed/ICT/Acc,Math,20,40,2,4.8
+1,HS Core,Gen Ed/ICT/Acc,Math,21,42,2,5
+1,HS Core,Gen Ed/ICT/Acc,Math,22,22,1,2.6
+1,HS Core,Gen Ed/ICT/Acc,Math,23,92,4,11
+1,HS Core,Gen Ed/ICT/Acc,Math,24,48,2,5.8
+1,HS Core,Gen Ed/ICT/Acc,Math,25,75,3,9
+1,HS Core,Gen Ed/ICT/Acc,Math,26,104,4,12.5
+1,HS Core,Gen Ed/ICT/Acc,Math,29,116,4,13.9
+1,HS Core,Gen Ed/ICT/Acc,Math,31,31,1,3.7
+1,HS Core,Gen Ed/ICT/Acc,Math,32,32,1,3.8
+1,HS Core,Gen Ed/ICT/Acc,Math,33,99,3,11.9
+1,HS Core,Gen Ed/ICT/Acc,Math,34,34,1,4.1
+1,HS Core,Gen Ed/ICT/Acc,Science,<15,36,3,4.7
+1,HS Core,Gen Ed/ICT/Acc,Science,20,20,1,2.6
+1,HS Core,Gen Ed/ICT/Acc,Science,21,21,1,2.7
+1,HS Core,Gen Ed/ICT/Acc,Science,22,44,2,5.7
+1,HS Core,Gen Ed/ICT/Acc,Science,23,23,1,3
+1,HS Core,Gen Ed/ICT/Acc,Science,24,96,4,12.5
+1,HS Core,Gen Ed/ICT/Acc,Science,25,75,3,9.7
+1,HS Core,Gen Ed/ICT/Acc,Science,26,52,2,6.7
+1,HS Core,Gen Ed/ICT/Acc,Science,27,27,1,3.5
+1,HS Core,Gen Ed/ICT/Acc,Science,28,28,1,3.6
+1,HS Core,Gen Ed/ICT/Acc,Science,29,58,2,7.5
+1,HS Core,Gen Ed/ICT/Acc,Science,30,30,1,3.9
+1,HS Core,Gen Ed/ICT/Acc,Science,32,160,5,20.8
+1,HS Core,Gen Ed/ICT/Acc,Science,33,33,1,4.3
+1,HS Core,Gen Ed/ICT/Acc,Science,34,68,2,8.8
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,<15,22,2,2.5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,16,16,1,1.8
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,18,18,1,2.1
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,20,40,2,4.6
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,21,42,2,4.8
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,23,69,3,7.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,24,96,4,10.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,25,75,3,8.6
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,26,52,2,5.9
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,27,27,1,3.1
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,29,29,1,3.3
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,30,30,1,3.4
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,31,93,3,10.6
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,32,64,2,7.3
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,33,33,1,3.8
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,34,136,4,15.5
+1,HS Core,Gen Ed/ICT/Acc,Social Studies,>34,35,1,4
+1,HS Core,SC,English,< 6,3,1,100
+1,HS Core,SC,Math,< 6,6,2,100
+1,HS Core,SC,Social Studies,< 6,2,1,100
+1,MS Core,Gen Ed/ICT/Acc,Math,30,30,1,100
+1,MS Core,Gen Ed/ICT/Acc,Science,32,32,1,100
+1,MS Core,Gen Ed/ICT/Acc,English,<15,26,3,3.6
+1,MS Core,Gen Ed/ICT/Acc,English,15,15,1,2
+1,MS Core,Gen Ed/ICT/Acc,English,17,17,1,2.3
+1,MS Core,Gen Ed/ICT/Acc,English,19,38,2,5.2
+1,MS Core,Gen Ed/ICT/Acc,English,22,44,2,6
+1,MS Core,Gen Ed/ICT/Acc,English,23,92,4,12.6
+1,MS Core,Gen Ed/ICT/Acc,English,24,48,2,6.6
+1,MS Core,Gen Ed/ICT/Acc,English,25,25,1,3.4
+1,MS Core,Gen Ed/ICT/Acc,English,26,26,1,3.6
+1,MS Core,Gen Ed/ICT/Acc,English,27,81,3,11.1
+1,MS Core,Gen Ed/ICT/Acc,English,28,84,3,11.5
+1,MS Core,Gen Ed/ICT/Acc,English,29,116,4,15.8
+1,MS Core,Gen Ed/ICT/Acc,English,30,120,4,16.4
+1,MS Core,Gen Ed/ICT/Acc,Math,<15,60,7,4.6
+1,MS Core,Gen Ed/ICT/Acc,Math,15,15,1,1.1
+1,MS Core,Gen Ed/ICT/Acc,Math,17,34,2,2.6
+1,MS Core,Gen Ed/ICT/Acc,Math,18,36,2,2.8
+1,MS Core,Gen Ed/ICT/Acc,Math,19,95,5,7.3
+1,MS Core,Gen Ed/ICT/Acc,Math,20,20,1,1.5
+1,MS Core,Gen Ed/ICT/Acc,Math,21,21,1,1.6
+1,MS Core,Gen Ed/ICT/Acc,Math,22,44,2,3.4
+1,MS Core,Gen Ed/ICT/Acc,Math,23,92,4,7
+1,MS Core,Gen Ed/ICT/Acc,Math,24,48,2,3.7
+1,MS Core,Gen Ed/ICT/Acc,Math,25,100,4,7.6
+1,MS Core,Gen Ed/ICT/Acc,Math,26,78,3,6
+1,MS Core,Gen Ed/ICT/Acc,Math,27,81,3,6.2
+1,MS Core,Gen Ed/ICT/Acc,Math,28,140,5,10.7
+1,MS Core,Gen Ed/ICT/Acc,Math,29,232,8,17.7
+1,MS Core,Gen Ed/ICT/Acc,Math,30,150,5,11.5
+1,MS Core,Gen Ed/ICT/Acc,Math,31,31,1,2.4
+1,MS Core,Gen Ed/ICT/Acc,Math,32,32,1,2.4
+1,MS Core,Gen Ed/ICT/Acc,Science,<15,68,6,4.9
+1,MS Core,Gen Ed/ICT/Acc,Science,17,17,1,1.2
+1,MS Core,Gen Ed/ICT/Acc,Science,18,54,3,3.9
+1,MS Core,Gen Ed/ICT/Acc,Science,19,114,6,8.2
+1,MS Core,Gen Ed/ICT/Acc,Science,21,42,2,3
+1,MS Core,Gen Ed/ICT/Acc,Science,22,44,2,3.2
+1,MS Core,Gen Ed/ICT/Acc,Science,23,115,5,8.2
+1,MS Core,Gen Ed/ICT/Acc,Science,24,72,3,5.2
+1,MS Core,Gen Ed/ICT/Acc,Science,25,50,2,3.6
+1,MS Core,Gen Ed/ICT/Acc,Science,26,26,1,1.9
+1,MS Core,Gen Ed/ICT/Acc,Science,28,196,7,14.1
+1,MS Core,Gen Ed/ICT/Acc,Science,29,261,9,18.7
+1,MS Core,Gen Ed/ICT/Acc,Science,30,240,8,17.2
+1,MS Core,Gen Ed/ICT/Acc,Science,31,31,1,2.2
+1,MS Core,Gen Ed/ICT/Acc,Science,32,64,2,4.6
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,<15,48,4,5.1
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,17,34,2,3.6
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,18,18,1,1.9
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,19,38,2,4
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,20,40,2,4.2
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,21,21,1,2.2
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,22,88,4,9.3
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,23,46,2,4.9
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,24,48,2,5.1
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,25,50,2,5.3
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,26,52,2,5.5
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,27,27,1,2.9
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,28,140,5,14.8
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,29,174,6,18.4
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,30,90,3,9.5
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,32,32,1,3.4
+1,MS Core,Gen Ed/ICT/Acc,English,<15,25,2,2.9
+1,MS Core,Gen Ed/ICT/Acc,English,16,16,1,1.8
+1,MS Core,Gen Ed/ICT/Acc,English,17,17,1,1.9
+1,MS Core,Gen Ed/ICT/Acc,English,18,18,1,2.1
+1,MS Core,Gen Ed/ICT/Acc,English,19,19,1,2.2
+1,MS Core,Gen Ed/ICT/Acc,English,20,40,2,4.6
+1,MS Core,Gen Ed/ICT/Acc,English,21,63,3,7.2
+1,MS Core,Gen Ed/ICT/Acc,English,22,44,2,5
+1,MS Core,Gen Ed/ICT/Acc,English,23,46,2,5.2
+1,MS Core,Gen Ed/ICT/Acc,English,24,72,3,8.2
+1,MS Core,Gen Ed/ICT/Acc,English,25,75,3,8.6
+1,MS Core,Gen Ed/ICT/Acc,English,26,78,3,8.9
+1,MS Core,Gen Ed/ICT/Acc,English,27,54,2,6.2
+1,MS Core,Gen Ed/ICT/Acc,English,28,84,3,9.6
+1,MS Core,Gen Ed/ICT/Acc,English,29,29,1,3.3
+1,MS Core,Gen Ed/ICT/Acc,English,30,120,4,13.7
+1,MS Core,Gen Ed/ICT/Acc,English,32,32,1,3.6
+1,MS Core,Gen Ed/ICT/Acc,English,>34,45,1,5.1
+1,MS Core,Gen Ed/ICT/Acc,Math,<15,38,3,4.3
+1,MS Core,Gen Ed/ICT/Acc,Math,16,32,2,3.6
+1,MS Core,Gen Ed/ICT/Acc,Math,17,17,1,1.9
+1,MS Core,Gen Ed/ICT/Acc,Math,18,18,1,2
+1,MS Core,Gen Ed/ICT/Acc,Math,19,38,2,4.3
+1,MS Core,Gen Ed/ICT/Acc,Math,20,40,2,4.6
+1,MS Core,Gen Ed/ICT/Acc,Math,21,63,3,7.2
+1,MS Core,Gen Ed/ICT/Acc,Math,22,88,4,10
+1,MS Core,Gen Ed/ICT/Acc,Math,23,46,2,5.2
+1,MS Core,Gen Ed/ICT/Acc,Math,24,48,2,5.5
+1,MS Core,Gen Ed/ICT/Acc,Math,25,25,1,2.8
+1,MS Core,Gen Ed/ICT/Acc,Math,26,78,3,8.9
+1,MS Core,Gen Ed/ICT/Acc,Math,27,54,2,6.1
+1,MS Core,Gen Ed/ICT/Acc,Math,28,112,4,12.7
+1,MS Core,Gen Ed/ICT/Acc,Math,29,58,2,6.6
+1,MS Core,Gen Ed/ICT/Acc,Math,30,60,2,6.8
+1,MS Core,Gen Ed/ICT/Acc,Math,32,64,2,7.3
+1,MS Core,Gen Ed/ICT/Acc,Science,<15,25,2,3.3
+1,MS Core,Gen Ed/ICT/Acc,Science,15,15,1,2
+1,MS Core,Gen Ed/ICT/Acc,Science,16,16,1,2.1
+1,MS Core,Gen Ed/ICT/Acc,Science,17,17,1,2.3
+1,MS Core,Gen Ed/ICT/Acc,Science,18,18,1,2.4
+1,MS Core,Gen Ed/ICT/Acc,Science,19,19,1,2.5
+1,MS Core,Gen Ed/ICT/Acc,Science,20,40,2,5.3
+1,MS Core,Gen Ed/ICT/Acc,Science,21,63,3,8.4
+1,MS Core,Gen Ed/ICT/Acc,Science,22,66,3,8.8
+1,MS Core,Gen Ed/ICT/Acc,Science,23,46,2,6.1
+1,MS Core,Gen Ed/ICT/Acc,Science,24,120,5,16
+1,MS Core,Gen Ed/ICT/Acc,Science,25,50,2,6.7
+1,MS Core,Gen Ed/ICT/Acc,Science,26,52,2,7
+1,MS Core,Gen Ed/ICT/Acc,Science,27,27,1,3.6
+1,MS Core,Gen Ed/ICT/Acc,Science,28,56,2,7.5
+1,MS Core,Gen Ed/ICT/Acc,Science,29,58,2,7.8
+1,MS Core,Gen Ed/ICT/Acc,Science,30,60,2,8
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,19,19,1,3.2
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,20,20,1,3.3
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,21,42,2,7
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,22,66,3,11
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,23,46,2,7.7
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,24,24,1,4
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,25,100,4,16.7
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,26,52,2,8.7
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,27,54,2,9
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,28,56,2,9.3
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,29,29,1,4.8
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,30,60,2,10
+1,MS Core,Gen Ed/ICT/Acc,Social Studies,31,31,1,5.2
+1,MS Core,SC,English,< 6,4,1,5.6
+1,MS Core,SC,English,7,7,1,9.9
+1,MS Core,SC,English,8,16,2,22.5
+1,MS Core,SC,English,10,20,2,28.2
+1,MS Core,SC,English,12,24,2,33.8
+1,MS Core,SC,Math,< 6,4,1,5.6
+1,MS Core,SC,Math,6,6,1,8.3
+1,MS Core,SC,Math,7,7,1,9.7
+1,MS Core,SC,Math,10,20,2,27.8
+1,MS Core,SC,Math,11,11,1,15.3
+1,MS Core,SC,Math,12,24,2,33.3
+1,MS Core,SC,Science,7,7,1,19.4
+1,MS Core,SC,Science,9,9,1,25
+1,MS Core,SC,Science,10,20,2,55.6
+1,MS Core,SC,Social Studies,7,7,1,25.9
+1,MS Core,SC,Social Studies,10,20,2,74.1
+2,HS Core,Gen Ed/ICT/Acc,English,<15,2303,212,7.7
+2,HS Core,Gen Ed/ICT/Acc,English,15,495,33,1.7
+2,HS Core,Gen Ed/ICT/Acc,English,16,384,24,1.3
+2,HS Core,Gen Ed/ICT/Acc,English,17,578,34,1.9
+2,HS Core,Gen Ed/ICT/Acc,English,18,648,36,2.2
+2,HS Core,Gen Ed/ICT/Acc,English,19,589,31,2
+2,HS Core,Gen Ed/ICT/Acc,English,20,1020,51,3.4
+2,HS Core,Gen Ed/ICT/Acc,English,21,1008,48,3.4
+2,HS Core,Gen Ed/ICT/Acc,English,22,1496,68,5
+2,HS Core,Gen Ed/ICT/Acc,English,23,1150,50,3.9
+2,HS Core,Gen Ed/ICT/Acc,English,24,936,39,3.1
+2,HS Core,Gen Ed/ICT/Acc,English,25,1250,50,4.2
+2,HS Core,Gen Ed/ICT/Acc,English,26,1794,69,6
+2,HS Core,Gen Ed/ICT/Acc,English,27,2214,82,7.4
+2,HS Core,Gen Ed/ICT/Acc,English,28,2240,80,7.5
+2,HS Core,Gen Ed/ICT/Acc,English,29,1363,47,4.6
+2,HS Core,Gen Ed/ICT/Acc,English,30,1260,42,4.2
+2,HS Core,Gen Ed/ICT/Acc,English,31,1550,50,5.2
+2,HS Core,Gen Ed/ICT/Acc,English,32,1952,61,6.5
+2,HS Core,Gen Ed/ICT/Acc,English,33,1749,53,5.9
+2,HS Core,Gen Ed/ICT/Acc,English,34,3094,91,10.4
+2,HS Core,Gen Ed/ICT/Acc,English,>34,731,18,2.5
+2,HS Core,Gen Ed/ICT/Acc,Math,<15,1039,97,4
+2,HS Core,Gen Ed/ICT/Acc,Math,15,285,19,1.1
+2,HS Core,Gen Ed/ICT/Acc,Math,16,320,20,1.2
+2,HS Core,Gen Ed/ICT/Acc,Math,17,425,25,1.6
+2,HS Core,Gen Ed/ICT/Acc,Math,18,414,23,1.6
+2,HS Core,Gen Ed/ICT/Acc,Math,19,608,32,2.3
+2,HS Core,Gen Ed/ICT/Acc,Math,20,640,32,2.4
+2,HS Core,Gen Ed/ICT/Acc,Math,21,714,34,2.7
+2,HS Core,Gen Ed/ICT/Acc,Math,22,748,34,2.9
+2,HS Core,Gen Ed/ICT/Acc,Math,23,1081,47,4.1
+2,HS Core,Gen Ed/ICT/Acc,Math,24,768,32,2.9
+2,HS Core,Gen Ed/ICT/Acc,Math,25,900,36,3.4
+2,HS Core,Gen Ed/ICT/Acc,Math,26,1118,43,4.3
+2,HS Core,Gen Ed/ICT/Acc,Math,27,1485,55,5.7
+2,HS Core,Gen Ed/ICT/Acc,Math,28,1652,59,6.3
+2,HS Core,Gen Ed/ICT/Acc,Math,29,1595,55,6.1
+2,HS Core,Gen Ed/ICT/Acc,Math,30,1860,62,7.1
+2,HS Core,Gen Ed/ICT/Acc,Math,31,1736,56,6.6
+2,HS Core,Gen Ed/ICT/Acc,Math,32,2112,66,8.1
+2,HS Core,Gen Ed/ICT/Acc,Math,33,2376,72,9.1
+2,HS Core,Gen Ed/ICT/Acc,Math,34,3434,101,13.1
+2,HS Core,Gen Ed/ICT/Acc,Math,>34,910,22,3.5
+2,HS Core,Gen Ed/ICT/Acc,Science,<15,811,74,3.2
+2,HS Core,Gen Ed/ICT/Acc,Science,15,180,12,0.7
+2,HS Core,Gen Ed/ICT/Acc,Science,16,352,22,1.4
+2,HS Core,Gen Ed/ICT/Acc,Science,17,357,21,1.4
+2,HS Core,Gen Ed/ICT/Acc,Science,18,342,19,1.3
+2,HS Core,Gen Ed/ICT/Acc,Science,19,380,20,1.5
+2,HS Core,Gen Ed/ICT/Acc,Science,20,740,37,2.9
+2,HS Core,Gen Ed/ICT/Acc,Science,21,630,30,2.5
+2,HS Core,Gen Ed/ICT/Acc,Science,22,814,37,3.2
+2,HS Core,Gen Ed/ICT/Acc,Science,23,943,41,3.7
+2,HS Core,Gen Ed/ICT/Acc,Science,24,1080,45,4.2
+2,HS Core,Gen Ed/ICT/Acc,Science,25,1075,43,4.2
+2,HS Core,Gen Ed/ICT/Acc,Science,26,1092,42,4.3
+2,HS Core,Gen Ed/ICT/Acc,Science,27,1269,47,4.9
+2,HS Core,Gen Ed/ICT/Acc,Science,28,1232,44,4.8
+2,HS Core,Gen Ed/ICT/Acc,Science,29,986,34,3.8
+2,HS Core,Gen Ed/ICT/Acc,Science,30,1290,43,5
+2,HS Core,Gen Ed/ICT/Acc,Science,31,2356,76,9.2
+2,HS Core,Gen Ed/ICT/Acc,Science,32,2176,68,8.5
+2,HS Core,Gen Ed/ICT/Acc,Science,33,2838,86,11
+2,HS Core,Gen Ed/ICT/Acc,Science,34,3876,114,15.1
+2,HS Core,Gen Ed/ICT/Acc,Science,>34,868,21,3.4
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,<15,942,83,3.6
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,15,285,19,1.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,16,288,18,1.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,17,357,21,1.4
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,18,540,30,2.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,19,304,16,1.2
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,20,620,31,2.4
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,21,588,28,2.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,22,814,37,3.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,23,759,33,2.9
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,24,1104,46,4.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,25,950,38,3.7
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,26,1170,45,4.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,27,1404,52,5.4
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,28,2016,72,7.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,29,1247,43,4.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,30,1590,53,6.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,31,1736,56,6.7
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,32,1344,42,5.2
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,33,3036,92,11.7
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,34,4046,119,15.6
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,>34,769,21,3
+2,HS Core,Gen Ed/ICT/Acc,English,<15,96,9,0.8
+2,HS Core,Gen Ed/ICT/Acc,English,15,30,2,0.2
+2,HS Core,Gen Ed/ICT/Acc,English,16,48,3,0.4
+2,HS Core,Gen Ed/ICT/Acc,English,17,85,5,0.7
+2,HS Core,Gen Ed/ICT/Acc,English,18,54,3,0.4
+2,HS Core,Gen Ed/ICT/Acc,English,19,190,10,1.5
+2,HS Core,Gen Ed/ICT/Acc,English,20,180,9,1.4
+2,HS Core,Gen Ed/ICT/Acc,English,21,231,11,1.8
+2,HS Core,Gen Ed/ICT/Acc,English,22,506,23,4
+2,HS Core,Gen Ed/ICT/Acc,English,23,621,27,4.9
+2,HS Core,Gen Ed/ICT/Acc,English,24,792,33,6.3
+2,HS Core,Gen Ed/ICT/Acc,English,25,775,31,6.1
+2,HS Core,Gen Ed/ICT/Acc,English,26,676,26,5.3
+2,HS Core,Gen Ed/ICT/Acc,English,27,729,27,5.8
+2,HS Core,Gen Ed/ICT/Acc,English,28,784,28,6.2
+2,HS Core,Gen Ed/ICT/Acc,English,29,957,33,7.6
+2,HS Core,Gen Ed/ICT/Acc,English,30,900,30,7.1
+2,HS Core,Gen Ed/ICT/Acc,English,31,1085,35,8.6
+2,HS Core,Gen Ed/ICT/Acc,English,32,704,22,5.6
+2,HS Core,Gen Ed/ICT/Acc,English,33,1485,45,11.7
+2,HS Core,Gen Ed/ICT/Acc,English,34,1292,38,10.2
+2,HS Core,Gen Ed/ICT/Acc,English,>34,438,11,3.5
+2,HS Core,Gen Ed/ICT/Acc,Math,<15,81,7,0.7
+2,HS Core,Gen Ed/ICT/Acc,Math,15,60,4,0.5
+2,HS Core,Gen Ed/ICT/Acc,Math,16,64,4,0.6
+2,HS Core,Gen Ed/ICT/Acc,Math,17,68,4,0.6
+2,HS Core,Gen Ed/ICT/Acc,Math,18,108,6,1
+2,HS Core,Gen Ed/ICT/Acc,Math,19,190,10,1.7
+2,HS Core,Gen Ed/ICT/Acc,Math,20,200,10,1.8
+2,HS Core,Gen Ed/ICT/Acc,Math,21,210,10,1.9
+2,HS Core,Gen Ed/ICT/Acc,Math,22,418,19,3.8
+2,HS Core,Gen Ed/ICT/Acc,Math,23,299,13,2.7
+2,HS Core,Gen Ed/ICT/Acc,Math,24,384,16,3.5
+2,HS Core,Gen Ed/ICT/Acc,Math,25,525,21,4.8
+2,HS Core,Gen Ed/ICT/Acc,Math,26,572,22,5.2
+2,HS Core,Gen Ed/ICT/Acc,Math,27,891,33,8.2
+2,HS Core,Gen Ed/ICT/Acc,Math,28,980,35,9
+2,HS Core,Gen Ed/ICT/Acc,Math,29,870,30,8
+2,HS Core,Gen Ed/ICT/Acc,Math,30,780,26,7.1
+2,HS Core,Gen Ed/ICT/Acc,Math,31,1147,37,10.5
+2,HS Core,Gen Ed/ICT/Acc,Math,32,928,29,8.5
+2,HS Core,Gen Ed/ICT/Acc,Math,33,660,20,6
+2,HS Core,Gen Ed/ICT/Acc,Math,34,1122,33,10.3
+2,HS Core,Gen Ed/ICT/Acc,Math,>34,369,7,3.4
+2,HS Core,Gen Ed/ICT/Acc,Science,<15,58,5,0.6
+2,HS Core,Gen Ed/ICT/Acc,Science,16,16,1,0.2
+2,HS Core,Gen Ed/ICT/Acc,Science,17,51,3,0.5
+2,HS Core,Gen Ed/ICT/Acc,Science,18,108,6,1.1
+2,HS Core,Gen Ed/ICT/Acc,Science,19,95,5,1
+2,HS Core,Gen Ed/ICT/Acc,Science,20,120,6,1.3
+2,HS Core,Gen Ed/ICT/Acc,Science,21,231,11,2.4
+2,HS Core,Gen Ed/ICT/Acc,Science,22,198,9,2.1
+2,HS Core,Gen Ed/ICT/Acc,Science,23,322,14,3.4
+2,HS Core,Gen Ed/ICT/Acc,Science,24,408,17,4.3
+2,HS Core,Gen Ed/ICT/Acc,Science,25,575,23,6
+2,HS Core,Gen Ed/ICT/Acc,Science,26,546,21,5.7
+2,HS Core,Gen Ed/ICT/Acc,Science,27,648,24,6.8
+2,HS Core,Gen Ed/ICT/Acc,Science,28,560,20,5.9
+2,HS Core,Gen Ed/ICT/Acc,Science,29,725,25,7.6
+2,HS Core,Gen Ed/ICT/Acc,Science,30,810,27,8.5
+2,HS Core,Gen Ed/ICT/Acc,Science,31,868,28,9.1
+2,HS Core,Gen Ed/ICT/Acc,Science,32,992,31,10.4
+2,HS Core,Gen Ed/ICT/Acc,Science,33,1089,33,11.4
+2,HS Core,Gen Ed/ICT/Acc,Science,34,884,26,9.3
+2,HS Core,Gen Ed/ICT/Acc,Science,>34,249,7,2.6
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,<15,53,5,0.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,15,60,4,0.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,16,48,3,0.4
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,17,34,2,0.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,18,90,5,0.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,19,152,8,1.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,20,220,11,1.9
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,21,168,8,1.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,22,220,10,1.9
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,23,253,11,2.2
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,24,456,19,3.9
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,25,500,20,4.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,26,676,26,5.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,27,756,28,6.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,28,672,24,5.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,29,1189,41,10.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,30,1170,39,10.1
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,31,899,29,7.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,32,1216,38,10.5
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,33,1188,36,10.3
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,34,1360,40,11.8
+2,HS Core,Gen Ed/ICT/Acc,Social Studies,>34,177,5,1.5
+2,HS Core,SC,English,< 6,13,3,7.3
+2,HS Core,SC,English,6,24,4,13.4
+2,HS Core,SC,English,8,16,2,8.9
+2,HS Core,SC,English,9,18,2,10.1
+2,HS Core,SC,English,10,20,2,11.2
+2,HS Core,SC,English,11,33,3,18.4
+2,HS Core,SC,English,12,12,1,6.7
+2,HS Core,SC,English,13,13,1,7.3
+2,HS Core,SC,English,15,30,2,16.8
+2,HS Core,SC,Math,6,6,1,3.7
+2,HS Core,SC,Math,8,48,6,29.3
+2,HS Core,SC,Math,9,9,1,5.5
+2,HS Core,SC,Math,10,10,1,6.1
+2,HS Core,SC,Math,11,33,3,20.1
+2,HS Core,SC,Math,14,28,2,17.1
+2,HS Core,SC,Math,15,30,2,18.3
+2,HS Core,SC,Science,< 6,17,4,13.8
+2,HS Core,SC,Science,6,6,1,4.9
+2,HS Core,SC,Science,9,18,2,14.6
+2,HS Core,SC,Science,10,20,2,16.3
+2,HS Core,SC,Science,11,11,1,8.9
+2,HS Core,SC,Science,12,24,2,19.5
+2,HS Core,SC,Science,13,13,1,10.6
+2,HS Core,SC,Science,14,14,1,11.4
