@@ -86,3 +86,29 @@ which(cooks.dist > (4/(nrow(data1)-2-1)))
 # Identifying Influential Data Points
 # https://newonlinecourses.science.psu.edu/stat501/node/340/
 
+
+
+
+# Finding outliers 
+
+
+# IQR Outlier detection.
+outlier_iqr <- function(x){
+  iqr <- IQR(x,na.rm = T,type = 7)
+  q <- quantile(x)
+  upper_bound = q[4]+(iqr*1.5)
+  lower_bound = q[2]-(iqr*1.5)
+  outliers <- which ((x > upper_bound) | (x < lower_bound))
+  return(outliers)
+}
+
+# The two axises , X_1 and X_2
+print(outlier_iqr(age))
+
+print(outlier_iqr(height))
+
+
+# The Y-Axis outlers 
+print(outlier_iqr(salary1))
+
+
