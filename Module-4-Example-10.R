@@ -24,6 +24,9 @@ par(mfrow = c(2,2))
 
 plot(m, ask=F)
 
+# Good resource for understanding the lm plots 
+
+# https://data.library.virginia.edu/diagnostic-plots/
 
 
 # Here we do some advanced regression diagnostics. 
