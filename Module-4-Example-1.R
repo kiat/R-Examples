@@ -112,3 +112,9 @@ print(outlier_iqr(height))
 print(outlier_iqr(salary1))
 
 
+# How to remove data row from a dataframe 
+
+dataRemoved <-  data1
+
+dataRemoved <- dataRemoved[-c(1),]
+  
