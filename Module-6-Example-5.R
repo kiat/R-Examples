@@ -9,12 +9,6 @@ data<-read.csv("Datasets/cevent.csv")
 m <- glm(data$event ~ data$chol, family = "binomial")
 summary(m)
 
-# multiple logistic regression 
-data$male <- ifelse(data$sex =="M", 1, 0)
-m2<-glm(data$event ~ data$chol + data$male + data$age, family=binomial)
-summary(m2)
-
-
 # Another way to do logistic regression in R is to use rms package. 
 # install.packages("rms")
 library(rms)
