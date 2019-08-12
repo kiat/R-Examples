@@ -85,23 +85,22 @@ par(pty="s")
 roc(data$event ~ data$prob, plot=TRUE)
 
 
-# If you want to have a normal x-axis from zero to one 
-roc(data$event ~ data$prob, plot=TRUE, legacy.axes=T)
-
-
-# if you want to get values in precentages 
-roc(data$event ~ data$prob, plot=TRUE, legacy.axes=T, percent=T)
-
-
-# If you want to understand better specificities and sensitivities. 
-# These are just false positive and true negatives. 
-roc(data$event ~ data$prob, plot=TRUE, legacy.axes=T, percent=T, xlab="False Positive (%)", ylab="True Positive (%)")
-
-# chaning the color 
-roc(data$event ~ data$prob, plot=TRUE, legacy.axes=T, percent=T, xlab="False Positive (%)", ylab="True Positive (%)", col="blue", lwd=4)
-
-
 # Another way would be to see the x axis as 1-Specificity
 plot(1- g$specificities, g$sensitivities, type="l", xlab="1-Specifity", ylab="Sensivity", main="ROC Curve")
 abline(a=0, b=1)
 grid()
+
+
+# If you want to have a normal x-axis from zero to one 
+roc(data$event ~ data$prob, plot=TRUE, legacy.axes=TRUE)
+
+# if you want to get values in precentages 
+roc(data$event ~ data$prob, plot=TRUE, legacy.axes=TRUE, percent=TRUE)
+
+# If you want to understand better specificities and sensitivities. 
+# These are just false positive and true negatives. 
+roc(data$event ~ data$prob, plot=TRUE, legacy.axes=TRUE, percent=TRUE, xlab="False Positive (%)", ylab="True Positive (%)")
+
+# chaning the color 
+roc(data$event ~ data$prob, plot=TRUE, legacy.axes=TRUE, percent=TRUE, xlab="False Positive (%)", ylab="True Positive (%)", col="blue", lwd=4)
+
