@@ -33,6 +33,10 @@ exp(m$coefficients[2]*10)
 exp((m$coefficients[2]-qnorm(0.975)*summary(m)$coefficients[2,2])*10)
 exp((m$coefficients[2]+qnorm(0.975)*summary(m)$coefficients[2,2])*10)
 
+# The same cab be produced by using the following 
+exp(10 * cbind(OR = coef(m), confint.default(m)))
+
+
 # predict risk for each patient
 risk <-predict(m, type=c("response"))
 
