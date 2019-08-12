@@ -24,6 +24,10 @@ data$prob <-predict(m2, type=c("response"))
 
 roc.info <-roc(data$event ~ data$prob, legacy.axes=T)
 
+# different thresholds 
+roc.info$thresholds
+
+
 roc.df <-data.frame(
   tpp=roc.info$sensitivities * 100,
   fpp=(1-roc.info$specificities) * 100,
