@@ -32,3 +32,15 @@ wald.test(b = coef(m) , Sigma = vcov(m) , Terms = 3:5)
 
 # It gives as a result Chi-Squared test results and p-value of it 
 # if p is smaller than 0.05 you can reject the null hypothesis
+
+
+
+# Wald Test using multcomp package. 
+library(multcomp)
+regTermTest(m, "chol")
+regTermTest(m, "age")
+
+# 
+regTermTest(m, c("chol","age"))
+regTermTest(m, ~chol+age)
+
