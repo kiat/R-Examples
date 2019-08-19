@@ -47,6 +47,10 @@ predictValues <- predict(m , newdata = test.Data,  type = "response")
 
 
 final.prediction <- ifelse(predictValues > 0.5, 1, 0)
+
+# install.packages("caret")
+library(caret)
+
 cm <- confusionMatrix(test.Data$heart.target, final.prediction)
 print(cm)
 # Or you can go directly Like following
@@ -58,7 +62,7 @@ print(cm)
 library(ROCR)
 library(Metrics)
 pr <- prediction(predictValues,  test.Data$heart.target)
-perf <- performance(pr,measure = "tpr",x.measure = "fpr")
+perf <- performance(pr, measure = "tpr",x.measure = "fpr")
 plot(perf)
 auc(test.Data$heart.target, predictValues)
 
