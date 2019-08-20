@@ -49,10 +49,12 @@ predictValues <- predict(m , newdata = test.Data,  type = "response")
 final.prediction <- ifelse(predictValues > 0.5, 1, 0)
 
 # install.packages("caret")
+# install.packages('e1071', dependencies=TRUE)
 library(caret)
 
-cm <- confusionMatrix(test.Data$heart.target, final.prediction)
+cm <- confusionMatrix(as.factor(final.prediction), as.factor(test.Data$heart.target))
 print(cm)
+
 # Or you can go directly Like following
 # cm <- confusionMatrix(test.Data$heart.target, predictValues,   threshold = 0.5)
 
