@@ -77,7 +77,7 @@ optCutOff <- optimalCutoff(actuals=test.Data$heart.target, predictedScores=predi
 
 optCutOff$optimalCutoff
 # optCutOff$optimalCutoff
-# [1] 0.5322385
+# [1]0.4014107
 
 
 
