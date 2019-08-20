@@ -3,6 +3,9 @@ rm(list = ls())
 
 # https://www.r-bloggers.com/evaluating-logistic-regression-models/
 
+# If you have some trouble with packages on MacOS use the following link 
+# https://swvanderlaan.github.io/post/getting-r-with-tcl-tk-on-my-mac/
+
 library(aod)
 library(stats)
 library(pROC)
@@ -54,10 +57,6 @@ library(caret)
 
 cm <- confusionMatrix(as.factor(final.prediction), as.factor(test.Data$heart.target))
 print(cm)
-
-# Or you can go directly Like following
-# cm <- confusionMatrix(test.Data$heart.target, predictValues,   threshold = 0.5)
-
 
 
 #plot ROC
