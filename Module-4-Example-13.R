@@ -2,7 +2,12 @@
 # Create a Materix in R
 a <- matrix(c(2, -2, 1, 4), nrow = 2, ncol = 2)
 
+c <- matrix(c(2, 3, 1, 1, 6, 5), nrow = 2, ncol = 3)
+
 print(a)
+print(c)
+
+f <- a %*% c 
 
 # Print transpose 
 print(t(a))
