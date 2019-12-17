@@ -71,19 +71,25 @@ summary(lm2)
 
 
 
-
+# Q6 Are the infection risks in us Regions different? Write your Hypothesis and provide significant tests.
+# 
 # H_0 is that mean of all group are the same 
 # H_1 at least one mean that is different 
 
 m<-aov(Infection.risk~Region, data=hospitals)
 summary(m)
 
-
+# If we want to know which exact regions are different we can do the pairwise comparision. 
+# And if we want to be more correct we can adjust the p-value. 
 pairwise.t.test(Infection.risk, Region, p.adjust.method = "none")
 pairwise.t.test(Infection.risk, Region, p.adjust.method = "bonferroni")
 TukeyHSD(m, conf.level = 0.90)
 
 
+# Q7: Is number of Nurses in each hospital a significan covariate? Are the differences in different
+# region driven by the number of Nureses?
+# To answer the above question we need to do ANCOVA and consider the number of nurses as a covariate. 
+# We check if the number of nurses is a covariate or not. 
 
 library(car)
 library(lsmeans) # is depricated 
@@ -92,10 +98,9 @@ library(emmeans)
 
 Anova(lm(Infection.risk~Region+Nurses, data=hospitals), type=3)
 
-# after adjusting for Nurses we see the Region is not siginificat here 
+# After adjusting for Nurses we see the Region is not siginificat here 
 # And Number of nurses is drving here 
-
-
+# We can adjust for number of nurses. 
 
 options(contrasts =c("contr.treatment","contr.poly") )
 lsmeans(lm(Infection.risk~Region+Nurses, data=hospitals), pairwise~Region, adjust="Tukey" )
@@ -108,4 +113,14 @@ summary(m)
 
 m<-aov(Infection.risk~Region+Nurses, data=hospitals)
 summary(m)
+
+# Q8: Considering the case that Hospitals are affiliated medical school and they are in different reigons,
+# are all of these hospitals different in terms of infection risks? 
+
+# Med school (Yes or not) is categorical variable. 
+# We need here to do two-way anova with two categorical variables (region and MedSchool) and one continous variable infection risks. 
+
+
+
+
 
