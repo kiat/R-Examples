@@ -13,7 +13,7 @@
 # Perform the test at the α=0.10 level of significance.
 
 # First read the data as a dataframe into your R memory 
-decay<- read.csv("Datasets/decay.csv" )
+decay<- read.csv("https://raw.githubusercontent.com/kiat/R-Examples/master/Datasets/decay.csv" )
 
 #print the dataframe to check the content
 # Note, this is only possible if your data is small 
