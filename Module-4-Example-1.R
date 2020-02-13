@@ -117,4 +117,6 @@ print(outlier_iqr(salary1))
 dataRemoved <-  data1
 
 dataRemoved <- dataRemoved[-c(1),]
+
+
   
