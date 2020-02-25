@@ -34,7 +34,7 @@ summary(m4)
 
 
 # First run a normal one way anova 
-anova.model <- aov(data$SBP~group, data=data)
+anova.model <- aov(data$SBP ~ group, data=data)
 summary(anova.model)
 
 
@@ -45,7 +45,7 @@ library(car)
 
 # ANCOVA
 # Now we run ANVOA with adjusting for age 
-Anova(lm(data$SBP ~ data$group + data$age), type=3)
+Anova(lm(data$SBP ~ data$age + data$group), type=3)
 
 # Type should be type 3 sum of squares. 
 # It defines the different types of sums of squares.  Read more about it here 

@@ -5,7 +5,7 @@ states <- read.csv("Datasets/states.csv")
 attach(states)
 
 
-data <-data.frame(poverty, metro_res, white, hs_grad, female_house)
+data <- data.frame(poverty, metro_res, white, hs_grad, female_house)
 
 # Data is about poverty in 50 states plus district of Colombia. 
 # 

@@ -84,7 +84,7 @@ means <- tapply(child, chl, mean)
 
 # then we run t.test and print out the results
 # Read the results of this test and try to understand the details 
-results<-t.test(heightsOfBoys)
+t.test(heightsOfBoys)
 
 # The result of the t-test is something like the following. 
 #Result os
