@@ -18,7 +18,7 @@ CGPA.out <- boxplot(CGPA)
 out <- CGPA.out$out
 which (data$CGPA %in% out)
 data <- data[-59, ] 
-
+data <- data[-59, ]
 
 m <- lm(data$admit ~ data$CGPA + data$Research)
 summary(m)
