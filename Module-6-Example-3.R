@@ -52,7 +52,7 @@ exp(m$coefficients[1] + m$coefficients[2]*190) / (1+exp(m$coefficients[1] + m$co
 
 # multiple logistic regression 
 data$male <- ifelse(data$sex =="M", 1, 0)
-m2<-glm(data$event ~ data$chol + data$male + data$age, family=binomial)
+m2<-glm(data$event ~ data$chol + data$male + data$age, family="binomial")
 summary(m2)
 
 

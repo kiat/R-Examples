@@ -28,5 +28,8 @@ lm.mod <- lm(medv ~ ., data=Boston)
 # Round for easier viewing
 lm.betas <- round(lm.mod$coefficients, 2)
 
+
 # Create data.frame of results
 results <- data.frame(our.results=betas, lm.results=lm.betas)
+
+print(results)

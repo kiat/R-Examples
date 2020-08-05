@@ -45,7 +45,9 @@ totalss_anova2 <-anova_table2$`Sum Sq`[1]+anova_table2$`Sum Sq`[2]
 totalss_anova2
 
 # A third  model - Simple Linear Regression Only considering the height  
-m3 <- lm(poverty~white)
+m3 <- lm(poverty~female_house)
+
+summary(m3)
 anova_table3<-anova(m3)
 anova_table3
 

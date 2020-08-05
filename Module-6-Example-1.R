@@ -22,7 +22,7 @@ table(clinical.trial$center)
 # in seeing those in the table also. It is shown both ways by setting the “useNA” argument to table.
 
 ## a logical vector is created and passed into table
-table(clinical.trial$age < 60)
+table(clinical.trial$age < "60")
 
 ## the useNA argument shows the missing values, too
 table(clinical.trial$age < 60, useNA = "always")
