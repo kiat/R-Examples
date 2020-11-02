@@ -43,8 +43,7 @@ leveragePlots(m) # leverage plots
 
 
 # Influential Observations
-# added variable plots 
-av.Plots(m)
+
 # Cook's D plot
 # identify D values > 4/(n-k-1) 
 cutoff <- 4/((nrow(data1)-length(m$coefficients)-2)) 
