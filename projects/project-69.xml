@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>69</projectID>
+
+<projectDescription>
+  Kickstarter is a website where people can pitch a project for it to be funded by the public.
+  The person who pitches the project asks for a goal amount of money for the project to be able to start and the deadline when all the pledges have to come in.
+  The people who wants to fund the project will then decide if and how much money they want to donate to the project and if the total amount of pledge meets the goal amount within the time limit, the project is classed as successful.
+
+  We are interested in understanding the differences between Kickstarter projects that were successfully funded and those that failed.
+  Since we are only looking at 500 data points from the data set, we will limit our analysis on a few categories.
+</projectDescription>
+
+<dataSource>
+  The full data set can be found on Kaggle:
+  https://www.kaggle.com/kemical/kickstarter-projects
+</dataSource>
+
+<dataDescription>
+  Using the kickstarter project data set from Kaggle, we will be limiting the data set from 400 thousand data points to 500 data points.
+  There are many variables in this data set, such as number of backers and launch date, that will not be useful for our analysis.
+  Therefore, we only be looking at the following columns:
+
+  main category – The nature of the project. Can be film, music, designs, etc
+  state – the state of the project during the time of gathering the dataset.
+  Possible states include successful, failed, canceled, live, etc. We will only be looking at the projects with a successful or failed state.
+</dataDescription>
+
+<researchQuestion>
+We want to understand the differences between successful projects and failed projects.
+Specifically, we want to see if there is a significant difference in success rate of different project categories.
+If there is a significant difference between at least 2 categories, we want to find out which ones are they.
+</researchQuestion>
+
+<conclusion>
+  For a alpha = 0.05 confidence level, we would need an F-value over 1.7 using the degrees of freedom given to us by the ANOVA table to reject the null hypothesis that there is no difference in success rates of different project categories. 
+  Since the F-value we get from the ANOVA table is 1.1, smaller than the critical value, we therefore failed to reject the null hypothesis.
+
+  Therefore, we conclude that there is no significant differences between the success rates of different project categories.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

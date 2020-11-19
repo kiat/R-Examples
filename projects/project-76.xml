@@ -1,0 +1,43 @@
+
+<project>
+
+<projectID>76</projectID>
+
+<projectDescription>
+From the dataset of titanic, we can see personal information about the passengers, the financial and physical situation of the ship.
+As there’re three levels of class in the ship(the highest, the medium, the lowest), the passengers paid different amount of fare to book these three classes.
+In general, people have to pay more as the class get upgrade, but in titanic does the fare vary by the passenger class significantly?
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+The original data set has 11 columns. PassengerId is a sequence of integers indicating the ID.
+Survive column means the passenger survived(‘1’) or died(‘0’).
+Pclass column indicates the class level(1,2,3) taken by the passengers.
+Name column indicates the passengers names.
+Sibsp column means the number of siblings or spouses that passengers have.
+Parch column means the number of parents or children that the passenger have.
+Ticket and fare respectively indicates the ticket number and expense.
+Cabin information is supposed to show the room information of every passenger but not complete.
+Embarked indicates the location of embarking for every passenger.
+</dataDescription>
+
+<researchQuestion>
+  Does the Fare vary by the Pclass?
+  Perform a one-way anova using the aov or anova function in R to access.
+</researchQuestion>
+
+<conclusion>
+From that, we have significant evidence α=0.05 level that there is a difference in fare between class2 and class1.
+Also, we have significant evidence α=0.05 level that there is a difference in fare between class3 and class1. 
+However, we don’t have significant evidence alpha = 0.05 level that there is a difference in fare between class2 and class3.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

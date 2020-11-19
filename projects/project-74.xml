@@ -1,0 +1,43 @@
+
+<project>
+
+<projectID>74</projectID>
+
+<projectDescription>
+Nowadays airplane become more and more popular, so that people always choose airplane as transportation tool.
+It is really annoying that plane got delayed when you are waiting in airport. 
+We are interested in using flight scheduled departure data to predict whether a given flight will be delayed.
+There are many factors that influence the arrival time.
+In this task we would use data set with 8 variables to build a logistic regression model in order to predict delay.
+</projectDescription>
+
+<dataSource>
+  The resources for this dataset can be found at https://www.openml.org/d/1169.
+</dataSource>
+
+<dataDescription>
+  Airlines Dataset Inspired in the regression dataset from Elena Ikonomovska. 
+  The task is to predict whether a given flight will be delayed, given the information of the scheduled departure. 
+  This data set contain 8 variables (Airline, Flight, AirportFrom, AirportTo, DayOfWeek, Time, Length, Delay). This data has no missing value. 
+  We are using DayOfWeek, Time, Length to build a logistic regression model to predicting the delay.
+  DayOfWeek: Use number represent the flight depart. (Monday is 1, Tuesday is 2…)
+  Time: Actual elapsed time.
+  Length: Distance.
+</dataDescription>
+
+<researchQuestion>
+  We are interested in using flight scheduled departure data to predict whether a given flight will be delayed. 
+  In this task we would use data set with 8 variables to build a logistic regression module in order to predict delay.
+</researchQuestion>
+
+<conclusion>
+The test result shows there are association between delay and DayOfWeek, Time and Length.
+The model we build has an accuracy about 60% which is good.
+We can add more variables into the model to increase the accuracy.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

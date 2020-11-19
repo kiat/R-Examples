@@ -1,0 +1,44 @@
+
+<project>
+
+<projectID>40</projectID>
+
+<projectDescription>
+  A data set was collected in New York City hospitals about the Infant Mortality Rate by Maternal Race/Ethnicity   2007-2016
+
+  Counts of infant deaths (age less than 1 year), neonatal infant deaths(age less than 28 days) as well as post neonatal infant deaths (between 1 month and 1 year) are based on NYC death certificates.
+  The rate is calculated using the counts of deaths as the numerator and the count of live births from NYC birth certificates as the denominator
+</projectDescription>
+
+<dataDescription>
+  Infant Mortality Rate by Maternal Race/Ethnicity for New York City, 2007-2016
+  Counts of infant deaths (age less than 1 year) are based on NYC death certificates. The rate is calculated using the counts of infant deaths as the numerator and the count of live births from NYC birth certificates as the denominator.
+  The data contains the number of infant deaths, the infant mortality rate, neonatal infant deaths, neonatal mortality rate, number of live births, postneonatal infant deaths and postneonatal mortality rate separately for each year and maternal race.
+  Link to the data set:
+  https://data.cityofnewyork.us/Health/Infant-Mortality/fcau-jc6k
+
+  To read as csv use the following link:-
+  https://data.cityofnewyork.us/resource/fcau-jc6k.csv
+
+</dataDescription>
+
+<dataSource>
+https://data.cityofnewyork.us/resource/fcau-jc6k.csv
+</dataSource>
+
+<researchQuestion>
+  Our main research question is to understand the range of infants who were born in New York city depending on the race of mother.
+  We hope to understand if there larger number of children were born for different race of mother which would warrant additional research.
+</researchQuestion>
+
+
+<conclusion>
+  From our analysis we see that there is a significant evidence to conclude that there is a difference between the number of live births based on race of the mother in New York City.
+  We can further conclude that the the number of live births are difference for each pair of race of mother in New York City.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

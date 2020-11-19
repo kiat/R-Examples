@@ -1,0 +1,46 @@
+
+<project>
+<projectID>50</projectID>
+
+<projectDescription>
+Can commercial Loan interest rate be predicted based on installment, Loan term and amount.
+That is to say is there any Linear relationship between Loan Interest rate and interest rate be predicted based on installment, Loan term and amount?
+</projectDescription>
+
+<dataDescription>
+  LendingClub Loan Data link available in Kaggle. Full LendingClub data available from their site. There are separate files for accepted and rejected loans.
+  The accepted loans also include the FICO scores.
+
+  Lending Club Data Analysis and Default Rate Prediction is the world’s largest online marketplace connecting borrowers and investors.
+  Lending Club operates at a lower cost than traditional bank lending programs and pass the savings on to borrowers in the form of lower rates and to investors in the form of solid risk-adjusted returns.
+</dataDescription>
+
+<researchQuestion>
+Can Lending Clud Loan interest rate be calculated / predicted based on installment, Loan term and amount?
+</researchQuestion>
+
+<dataSource>
+
+</dataSource>
+
+
+<conclusion>
+  Estimated value of the Beta coefficients are as below
+
+  Estimate Std. Error t value Pr(>|t|)
+  (Intercept) -8.374e+00  3.686e-02  -227.2   less than 2e-16 ***
+  installment  5.031e-02  9.733e-05   516.9   less than 2e-16 ***
+  loan_amnt   -1.568e-03  2.953e-06  -530.9   less than 2e-16 ***
+  term         5.241e-01  8.875e-04   590.5   less than 2e-16 ***
+
+  Also the model F statistic is way larger than the critical value of F statistics.
+
+  Hence we can perform Hypothesis test and if we assume Null hypothesis is the F statistic is not significant we would reject Null hypothesis and conclude that the Model is significant and hence we would conclude that yes there is strong evidence of Linear relationship between interest rate, installment, loan amount and term.
+  Iinterest rate can be predicted based on the explanatory variables installment , loan amount and term.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

@@ -1,0 +1,49 @@
+
+<project>
+
+<projectID>2</projectID>
+
+<projectDescription>
+Features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass.
+They describe the characteristics of the cell nuclei present in the image.
+The target feature records the prognosis (malignant or benign).
+We are interested in estimating the proportion of breast mass from the data collected that are benign just by the clump thickness.
+We suspect that it may be 60% if clump thickness is greater than or equal to 6.
+A random sample of 499 of breast mass is taken from the overall dataset.
+Of those sampled, only 342 out of 499 are benign.
+Formally test if the proportion of breast mass that is benign is different from 60% if clump thickness is greater than or equal to 6.
+</projectDescription>
+
+<dataDescription>
+The original data sample was produced by Dr. William H. Wolberg in 1992,
+from his patient records at the University of Wisconsin Hospitals.
+The dataset contained 699 samples with 458 benign and 241 malignant cases.
+After looking at the overall data, the first attribute (Clump thickness) was selected ahead of all the other attribute
+because it is a good predictor of the Class.
+According to the research paper, clump thickness is used to assess if cells are mono-layered or multi-layered.
+Benign cells tend to be grouped in mono-layers, while cancerous cells are often grouped in multi-layer.
+[1] Due to the guidelines on this assignment, our data set was reduced to 499 records
+with two attributes that is Clump thickness and the Class.
+</dataDescription>
+
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+Formally test if the proportion of breast mass that is benign is different from 60% if clump thickness is greater than or equal to 6.
+</researchQuestion>
+
+
+<conclusion>
+We reject our assumption that the proportion of breast mass that is benign is 60% if the clump thickness is greater than or equal to 6.
+In our sample, we are 95% sure that the proportion of breast mass that is benign is 68.54%
+if the clump thickness is greater than or equal to 6 and not 60% as we initially thought.
+</conclusion>
+
+<class>
+Two-Sample Tests for Proportions
+</class>
+
+</project>

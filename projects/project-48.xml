@@ -1,0 +1,57 @@
+
+<project>
+
+<projectID>48</projectID>
+
+<projectDescription>
+The percent of a man’s body that is fat is matter of concern for health and fitness reasons.
+However, the percentage of body fat is difficult and expensive to measure accurately.
+According to HealthLine, the most accurate method for determining body fat percentage is with an MRI or computerized tomography (CT) scan which can cost as little as $474 or as high as $13259 with health insurance coverage.
+The dataset “Bodyfat” offers correct percentage of bodyfat measurements along with a variety of easily to find measurements.
+</projectDescription>
+
+<dataDescription>
+  Source: BYU Human Performance Research Center http://www.byu.edu/chhp/intro.html#lrc Director: Mark Ricard 116A RB, (801) 378-8958
+
+  The dataset “Bodyfat” includes measurements of 250 men of various ages. Below is a list of the variables relevant to the research study and short description:
+
+  Pct.BF- the percentage of body fat (measured with MRI/ CT)
+  Age- the age of the individual
+  Weight- the weight in pounds (lb) of the individual
+  Height- the height in inches (in) of the individual
+  Neck- the neck size in centimeters (cm) of the individual
+  Chest- the chest size in centimeters (cm) of the individual
+  Waist- the waist size in inches (in) of the individual
+  Bicep- the bicep size in centimeters (cm) of the individual
+  Forearm- the forearm size in centimeters (cm) of the individual
+  BMI- the body mass index of the individual as calculated by the American Cancer Society
+  WeightRange- a categorial variable with categories: Underweight, Normal, Overweight, Obese (ACS)
+</dataDescription>
+
+<dataSource>
+http://www.byu.edu/chhp/intro.html#lrc
+</dataSource>
+
+
+<researchQuestion>
+Given the high cost of measuring a person’s percentage of bodyfat, can one build a model to predict the percentage of bodyfat, with a high degree of accuracy, using more easily made measurements?
+</researchQuestion>
+
+<conclusion>
+Simple Model: PercentageofBodyFat = -41.86 + 1.68Waist
+Refined Model: PercentageofBodyFat = -36.56 + 2.48Waist - 11Weight -40Neck
+The intent of this study was to find a cost-effective solution to calculating a person’s body fat percentage.
+This solution would require building a predictive model using easily made measurements instead of an MRI or CT.
+A simple model was used to assess which variable had the most predictive power.
+I found that the Waist variable (a measure of an individual’s waist) was able to explain 65.26% of the variation in body fat percentage.
+A refined model was then built to control for other factor such as, Weight and Neck size.
+The refined model shown above was able to explain 70.26% of the variation in body fat percentage.
+Overall, this model can predict a person’s percentage of body fat fairly accurately, given waist, weight, and neck size.
+This model is a start to finding a cost-effective solution, perhaps a more effect model would include average daily caloric intake.
+</conclusion>
+
+<class>
+SLR, MLR
+</class>
+
+</project>

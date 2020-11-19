@@ -1,0 +1,41 @@
+
+<project>
+
+<projectID>15</projectID>
+
+<projectDescription>
+A researcher was interested in determining if working on a research project as an undergraduate provided a better chance of getting accepted into a graduate program. Four hundred students were surveyed on campus asking what their college GPA was and if they were on a research project or not.
+</projectDescription>
+
+<dataDescription>
+  https://www.kaggle.com/mohansacharya/graduate-admissions
+
+  Data was pulled from this dataset. The columns kept are CGPA which is the college undergraduate grade point average.
+  Research is another column with 1 being yes and 0 being no for if the student was on a research project.
+  The Admit column was the chances the student would be admitted to the graduate program they wanted.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/mohansacharya/graduate-admissions
+</dataSource>
+
+<researchQuestion>
+  Does working on a research project during a student’s undergraduate influence the chances of getting accepted into the graduate program they chose?
+</researchQuestion>
+
+<conclusion>
+There is evidence that a student’s college grade point average (GPA) and if they were on a research project gives them a higher chance of being accepted into the graduate school they applied to.
+Being a research assistant gives them almost a 4% higher chance of being accepted into the graduate program they applied to.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>3</field>
+ <field>1</field>
+ <field>2</field>
+</fields>
+
+</project>

@@ -1,0 +1,501 @@
+"","main_category","state","status"
+"1","Publishing","failed",0
+"2","Film & Video","failed",0
+"3","Film & Video","failed",0
+"4","Music","failed",0
+"6","Food","successful",1
+"7","Food","successful",1
+"8","Food","failed",0
+"11","Publishing","failed",0
+"12","Music","successful",1
+"13","Crafts","failed",0
+"14","Games","failed",0
+"15","Games","successful",1
+"16","Design","failed",0
+"17","Comics","failed",0
+"18","Publishing","failed",0
+"19","Music","successful",1
+"20","Food","failed",0
+"21","Fashion","successful",1
+"22","Fashion","failed",0
+"23","Theater","failed",0
+"24","Food","failed",0
+"25","Comics","successful",1
+"26","Music","successful",1
+"27","Crafts","failed",0
+"28","Film & Video","successful",1
+"29","Comics","successful",1
+"30","Film & Video","successful",1
+"31","Food","failed",0
+"32","Design","successful",1
+"33","Design","successful",1
+"34","Art","failed",0
+"35","Music","successful",1
+"36","Film & Video","failed",0
+"37","Music","successful",1
+"38","Film & Video","successful",1
+"39","Art","failed",0
+"40","Music","successful",1
+"42","Music","successful",1
+"43","Photography","successful",1
+"44","Games","failed",0
+"45","Music","successful",1
+"46","Film & Video","failed",0
+"47","Food","successful",1
+"48","Film & Video","successful",1
+"49","Games","successful",1
+"50","Art","failed",0
+"51","Film & Video","successful",1
+"52","Photography","failed",0
+"53","Art","failed",0
+"54","Photography","successful",1
+"55","Film & Video","successful",1
+"56","Food","failed",0
+"57","Publishing","failed",0
+"58","Film & Video","successful",1
+"59","Film & Video","failed",0
+"60","Games","successful",1
+"61","Film & Video","failed",0
+"62","Fashion","failed",0
+"63","Art","failed",0
+"64","Food","successful",1
+"65","Music","failed",0
+"66","Technology","failed",0
+"67","Theater","successful",1
+"68","Technology","failed",0
+"70","Crafts","failed",0
+"72","Technology","failed",0
+"73","Music","successful",1
+"76","Design","failed",0
+"77","Fashion","failed",0
+"78","Theater","successful",1
+"79","Film & Video","failed",0
+"80","Games","failed",0
+"81","Fashion","failed",0
+"82","Games","failed",0
+"83","Film & Video","successful",1
+"84","Music","successful",1
+"85","Fashion","successful",1
+"86","Comics","successful",1
+"87","Publishing","failed",0
+"88","Theater","failed",0
+"89","Food","failed",0
+"90","Music","failed",0
+"91","Games","successful",1
+"92","Comics","failed",0
+"93","Theater","successful",1
+"95","Music","successful",1
+"96","Film & Video","successful",1
+"97","Film & Video","successful",1
+"98","Film & Video","successful",1
+"99","Technology","failed",0
+"100","Food","failed",0
+"101","Film & Video","successful",1
+"102","Music","successful",1
+"103","Publishing","successful",1
+"104","Design","failed",0
+"106","Food","successful",1
+"107","Film & Video","failed",0
+"108","Film & Video","failed",0
+"109","Fashion","successful",1
+"110","Fashion","successful",1
+"111","Music","successful",1
+"112","Games","successful",1
+"113","Technology","failed",0
+"114","Food","failed",0
+"115","Music","failed",0
+"116","Music","failed",0
+"117","Art","successful",1
+"118","Film & Video","failed",0
+"119","Music","failed",0
+"120","Film & Video","failed",0
+"121","Publishing","failed",0
+"122","Design","failed",0
+"123","Dance","failed",0
+"124","Games","successful",1
+"125","Food","failed",0
+"126","Photography","failed",0
+"127","Games","successful",1
+"128","Technology","failed",0
+"129","Art","failed",0
+"130","Film & Video","failed",0
+"131","Art","successful",1
+"132","Film & Video","successful",1
+"133","Music","failed",0
+"134","Technology","failed",0
+"135","Publishing","successful",1
+"136","Technology","failed",0
+"137","Games","failed",0
+"138","Music","failed",0
+"139","Publishing","successful",1
+"140","Art","successful",1
+"141","Photography","failed",0
+"142","Film & Video","successful",1
+"143","Art","successful",1
+"144","Design","failed",0
+"145","Fashion","failed",0
+"146","Technology","failed",0
+"147","Games","failed",0
+"148","Publishing","failed",0
+"149","Music","failed",0
+"150","Music","failed",0
+"151","Games","failed",0
+"152","Games","failed",0
+"153","Technology","failed",0
+"154","Theater","successful",1
+"155","Technology","successful",1
+"156","Photography","failed",0
+"157","Film & Video","failed",0
+"158","Film & Video","failed",0
+"159","Publishing","successful",1
+"160","Games","failed",0
+"161","Music","successful",1
+"162","Games","failed",0
+"163","Fashion","successful",1
+"164","Technology","failed",0
+"165","Technology","failed",0
+"166","Music","failed",0
+"167","Film & Video","failed",0
+"168","Publishing","failed",0
+"169","Art","failed",0
+"171","Technology","failed",0
+"172","Music","failed",0
+"173","Music","successful",1
+"174","Publishing","successful",1
+"175","Film & Video","failed",0
+"176","Design","successful",1
+"177","Music","successful",1
+"178","Design","failed",0
+"179","Film & Video","successful",1
+"180","Design","failed",0
+"181","Film & Video","failed",0
+"182","Games","failed",0
+"183","Music","successful",1
+"186","Publishing","successful",1
+"187","Design","successful",1
+"188","Technology","successful",1
+"189","Music","failed",0
+"190","Publishing","successful",1
+"191","Film & Video","successful",1
+"192","Art","successful",1
+"193","Games","failed",0
+"194","Music","successful",1
+"195","Technology","successful",1
+"196","Photography","failed",0
+"197","Games","failed",0
+"198","Journalism","failed",0
+"199","Fashion","failed",0
+"200","Games","successful",1
+"201","Design","successful",1
+"203","Design","failed",0
+"204","Food","failed",0
+"205","Fashion","successful",1
+"206","Photography","failed",0
+"207","Film & Video","failed",0
+"208","Film & Video","failed",0
+"209","Comics","successful",1
+"210","Theater","successful",1
+"211","Design","successful",1
+"212","Fashion","successful",1
+"213","Design","failed",0
+"214","Art","failed",0
+"216","Film & Video","failed",0
+"217","Theater","successful",1
+"218","Games","successful",1
+"219","Publishing","failed",0
+"220","Games","successful",1
+"221","Film & Video","failed",0
+"222","Games","failed",0
+"223","Art","successful",1
+"224","Music","failed",0
+"225","Publishing","failed",0
+"226","Crafts","failed",0
+"227","Food","successful",1
+"228","Games","successful",1
+"229","Comics","successful",1
+"230","Publishing","successful",1
+"231","Food","successful",1
+"233","Games","failed",0
+"234","Dance","successful",1
+"235","Design","successful",1
+"236","Publishing","failed",0
+"237","Publishing","failed",0
+"238","Music","failed",0
+"239","Design","failed",0
+"240","Music","failed",0
+"241","Film & Video","successful",1
+"242","Comics","failed",0
+"243","Photography","failed",0
+"244","Comics","successful",1
+"245","Technology","successful",1
+"246","Film & Video","successful",1
+"247","Film & Video","successful",1
+"248","Food","failed",0
+"249","Film & Video","successful",1
+"250","Art","successful",1
+"252","Food","failed",0
+"253","Art","failed",0
+"254","Dance","failed",0
+"255","Photography","successful",1
+"256","Technology","failed",0
+"257","Food","failed",0
+"258","Art","failed",0
+"259","Film & Video","failed",0
+"261","Publishing","successful",1
+"262","Technology","successful",1
+"263","Games","failed",0
+"264","Food","failed",0
+"265","Dance","successful",1
+"266","Music","successful",1
+"267","Film & Video","failed",0
+"268","Music","successful",1
+"269","Fashion","successful",1
+"270","Fashion","failed",0
+"271","Design","failed",0
+"272","Film & Video","failed",0
+"273","Games","failed",0
+"274","Film & Video","failed",0
+"275","Film & Video","failed",0
+"276","Music","successful",1
+"277","Art","successful",1
+"278","Film & Video","failed",0
+"279","Film & Video","failed",0
+"280","Film & Video","successful",1
+"281","Film & Video","successful",1
+"282","Film & Video","failed",0
+"283","Art","successful",1
+"284","Fashion","failed",0
+"285","Art","failed",0
+"286","Technology","successful",1
+"287","Art","successful",1
+"288","Comics","successful",1
+"289","Publishing","failed",0
+"290","Design","failed",0
+"291","Publishing","successful",1
+"292","Art","successful",1
+"293","Fashion","failed",0
+"294","Food","failed",0
+"295","Music","failed",0
+"296","Crafts","successful",1
+"297","Film & Video","successful",1
+"299","Fashion","failed",0
+"300","Film & Video","successful",1
+"301","Film & Video","failed",0
+"302","Art","successful",1
+"304","Publishing","failed",0
+"305","Journalism","successful",1
+"306","Games","successful",1
+"307","Food","failed",0
+"309","Fashion","failed",0
+"310","Film & Video","failed",0
+"312","Design","successful",1
+"313","Theater","successful",1
+"314","Photography","failed",0
+"315","Design","failed",0
+"316","Art","successful",1
+"317","Food","successful",1
+"318","Film & Video","failed",0
+"319","Games","successful",1
+"320","Games","successful",1
+"321","Fashion","successful",1
+"322","Publishing","failed",0
+"323","Music","failed",0
+"324","Food","failed",0
+"325","Photography","failed",0
+"326","Food","successful",1
+"328","Art","failed",0
+"330","Film & Video","successful",1
+"331","Technology","successful",1
+"332","Art","successful",1
+"333","Publishing","failed",0
+"334","Art","failed",0
+"335","Fashion","failed",0
+"336","Music","failed",0
+"337","Photography","successful",1
+"338","Film & Video","successful",1
+"339","Fashion","failed",0
+"340","Design","failed",0
+"341","Publishing","failed",0
+"342","Food","successful",1
+"344","Film & Video","failed",0
+"345","Comics","failed",0
+"346","Technology","failed",0
+"347","Fashion","failed",0
+"348","Design","successful",1
+"349","Film & Video","successful",1
+"350","Technology","failed",0
+"351","Dance","failed",0
+"352","Music","successful",1
+"353","Food","failed",0
+"354","Music","successful",1
+"355","Film & Video","successful",1
+"357","Music","failed",0
+"358","Music","failed",0
+"359","Music","failed",0
+"360","Film & Video","failed",0
+"361","Design","successful",1
+"362","Music","failed",0
+"363","Art","failed",0
+"364","Fashion","successful",1
+"365","Technology","failed",0
+"366","Technology","successful",1
+"367","Design","failed",0
+"368","Technology","failed",0
+"369","Film & Video","failed",0
+"370","Photography","successful",1
+"371","Comics","failed",0
+"372","Film & Video","successful",1
+"373","Games","failed",0
+"374","Music","failed",0
+"376","Games","successful",1
+"377","Technology","failed",0
+"378","Film & Video","successful",1
+"379","Food","successful",1
+"380","Publishing","failed",0
+"381","Film & Video","successful",1
+"382","Art","successful",1
+"383","Publishing","failed",0
+"384","Art","successful",1
+"385","Film & Video","failed",0
+"386","Film & Video","failed",0
+"388","Games","successful",1
+"389","Music","successful",1
+"390","Film & Video","successful",1
+"391","Publishing","failed",0
+"392","Music","successful",1
+"393","Film & Video","failed",0
+"394","Film & Video","successful",1
+"395","Film & Video","failed",0
+"396","Music","failed",0
+"397","Comics","failed",0
+"399","Journalism","failed",0
+"401","Dance","successful",1
+"402","Photography","successful",1
+"403","Film & Video","successful",1
+"404","Food","failed",0
+"406","Film & Video","successful",1
+"407","Music","successful",1
+"408","Technology","failed",0
+"409","Comics","failed",0
+"410","Design","failed",0
+"411","Design","successful",1
+"412","Publishing","failed",0
+"413","Art","failed",0
+"414","Fashion","failed",0
+"415","Fashion","failed",0
+"416","Film & Video","failed",0
+"417","Fashion","successful",1
+"418","Art","failed",0
+"419","Comics","successful",1
+"420","Publishing","failed",0
+"421","Film & Video","failed",0
+"422","Film & Video","failed",0
+"423","Film & Video","successful",1
+"424","Film & Video","failed",0
+"425","Food","successful",1
+"426","Publishing","failed",0
+"427","Design","failed",0
+"428","Publishing","failed",0
+"429","Film & Video","successful",1
+"430","Technology","successful",1
+"432","Design","successful",1
+"434","Photography","failed",0
+"435","Art","failed",0
+"436","Art","successful",1
+"437","Design","failed",0
+"438","Design","failed",0
+"439","Publishing","failed",0
+"440","Art","failed",0
+"441","Comics","successful",1
+"442","Food","successful",1
+"443","Fashion","failed",0
+"444","Art","successful",1
+"445","Music","failed",0
+"446","Theater","failed",0
+"447","Art","failed",0
+"448","Journalism","successful",1
+"449","Music","successful",1
+"450","Film & Video","failed",0
+"451","Music","successful",1
+"452","Music","failed",0
+"453","Publishing","successful",1
+"454","Publishing","failed",0
+"455","Games","failed",0
+"456","Technology","failed",0
+"457","Publishing","failed",0
+"458","Design","successful",1
+"461","Technology","failed",0
+"462","Art","failed",0
+"463","Film & Video","failed",0
+"464","Games","failed",0
+"465","Art","failed",0
+"466","Art","successful",1
+"467","Technology","failed",0
+"468","Film & Video","failed",0
+"469","Art","failed",0
+"471","Dance","successful",1
+"472","Crafts","successful",1
+"474","Film & Video","successful",1
+"475","Music","failed",0
+"476","Games","successful",1
+"477","Publishing","successful",1
+"478","Music","successful",1
+"479","Design","failed",0
+"480","Publishing","failed",0
+"482","Comics","successful",1
+"483","Art","successful",1
+"484","Art","failed",0
+"485","Film & Video","successful",1
+"486","Film & Video","failed",0
+"487","Fashion","failed",0
+"488","Games","failed",0
+"489","Art","successful",1
+"490","Film & Video","successful",1
+"491","Games","failed",0
+"492","Food","failed",0
+"493","Film & Video","successful",1
+"496","Games","successful",1
+"497","Film & Video","failed",0
+"498","Film & Video","failed",0
+"500","Publishing","successful",1
+"501","Food","failed",0
+"502","Crafts","failed",0
+"503","Music","successful",1
+"504","Food","failed",0
+"505","Theater","failed",0
+"506","Music","successful",1
+"507","Film & Video","failed",0
+"508","Food","successful",1
+"510","Film & Video","successful",1
+"511","Technology","successful",1
+"512","Film & Video","failed",0
+"513","Games","successful",1
+"514","Crafts","successful",1
+"515","Technology","failed",0
+"516","Film & Video","successful",1
+"517","Technology","successful",1
+"518","Music","successful",1
+"520","Games","failed",0
+"521","Film & Video","successful",1
+"522","Art","failed",0
+"523","Technology","failed",0
+"524","Publishing","failed",0
+"525","Music","successful",1
+"526","Technology","failed",0
+"527","Crafts","failed",0
+"528","Film & Video","failed",0
+"529","Design","failed",0
+"530","Music","failed",0
+"531","Film & Video","failed",0
+"533","Music","successful",1
+"534","Comics","successful",1
+"535","Design","failed",0
+"536","Theater","successful",1
+"537","Games","failed",0
+"540","Technology","successful",1
+"541","Art","successful",1
+"542","Music","successful",1
+"543","Design","failed",0
+"544","Art","failed",0
+"546","Design","successful",1
+"547","Design","successful",1

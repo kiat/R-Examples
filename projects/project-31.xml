@@ -1,0 +1,54 @@
+
+<project>
+
+<projectID>31</projectID>
+
+<projectDescription>
+  In 1991, American Journal of Clinical Nutrition published the data for Arizona Pimas.
+  We are interested in the association between Age, BMI, Plasma Glucose Concentration, DiabetesPedigree on Outcome,
+  that means to check effect of these independent continuous variable in predicting whether women have diabetes or not.
+  Original research conducted on 769 observations but for simplicity and reality of data we are omitting women with below 30 years of age.
+  We are interested in formally testing whether Glucose Concentration is a factor for having risk of diabetes at the alpha = 0.05.
+  We are also interested in checking of 10-unit increase of Glucose on prediction probability on diabetes.
+  We are also checking whether other factors are associated in diabetes as outcome.
+</projectDescription>
+
+<dataDescription>
+  Diabetes Pima data set is public data set and cloned from original data to below public data location.
+  https://www.kaggle.com/rushikeshjoshi/biostatastics/downloads/Diabetes_In_Indian_Women.csv/1
+
+  This data contains other columns which we might not be interested for our research purpose. We are removing few of unnecessary columns.
+  We are also omitting data for women with Age less than 30 years. This reduces data to 251 observations.
+  We will see if there are any outliers or not, and if there are then will remove them from dataset.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/rushikeshjoshi/biostatastics/downloads/Diabetes_In_Indian_Women.csv/1
+</dataSource>
+
+
+
+<researchQuestion>
+  We are predicting Pimas women have diabetes from Plasma Glucose Concentration, we are finding Odds ratio for Glucose Concentration.
+
+  We are going to use hypothesis test to see whether Age, BMI, DiabetesPedigree are associated for diabetes or not.
+  We will do global Null hypothesis test H0 : beat_Glucose = beta_Age = beat_BMI = beta_Pediagree = 0 which means they are associated or we can reject Null hypothesis.
+
+  What is the c-statistic of the model and shows ROC curve for model?
+
+  We will find probability of having diabetes with GlucoseLevel = 99 and Age = 33, including all other factors.
+</researchQuestion>
+
+<conclusion>
+  Our Logistic Regression indicates that Glucose Level is significant in predicting for diabetes.
+
+  We did null hypothesis for Multiple Logistic Regression and we conclude that there is no significant association between factors like Age and Pedigree with Glucose level. We might exclude Age, Pedigree one by one and can conclude the details.
+
+  We also predicted that with Glucose = 99 and Age = 33, there are 33% chances that Pima Women might get a diabetes.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

@@ -1,0 +1,500 @@
+﻿country,year,sex,age,suicides_no,population, gdp_for_year ($) ,gdp_per_capita ($),generation
+Albania,1987,male,15-24 years,21,312900,"2,156,624,900",796,Generation X
+Albania,1987,male,35-54 years,16,308000,"2,156,624,900",796,Silent
+Albania,1987,female,15-24 years,14,289700,"2,156,624,900",796,Generation X
+Albania,1987,male,75+ years,1,21800,"2,156,624,900",796,G.I. Generation
+Albania,1987,male,25-34 years,9,274300,"2,156,624,900",796,Boomers
+Albania,1987,female,75+ years,1,35600,"2,156,624,900",796,G.I. Generation
+Albania,1987,female,35-54 years,6,278800,"2,156,624,900",796,Silent
+Albania,1987,female,25-34 years,4,257200,"2,156,624,900",796,Boomers
+Albania,1987,male,55-74 years,1,137500,"2,156,624,900",796,G.I. Generation
+Albania,1987,female,5-14 years,0,311000,"2,156,624,900",796,Generation X
+Albania,1987,female,55-74 years,0,144600,"2,156,624,900",796,G.I. Generation
+Albania,1987,male,5-14 years,0,338200,"2,156,624,900",796,Generation X
+Albania,1988,female,75+ years,2,36400,"2,126,000,000",769,G.I. Generation
+Albania,1988,male,15-24 years,17,319200,"2,126,000,000",769,Generation X
+Albania,1988,male,75+ years,1,22300,"2,126,000,000",769,G.I. Generation
+Albania,1988,male,35-54 years,14,314100,"2,126,000,000",769,Silent
+Albania,1988,male,55-74 years,4,140200,"2,126,000,000",769,G.I. Generation
+Albania,1988,female,15-24 years,8,295600,"2,126,000,000",769,Generation X
+Albania,1988,female,55-74 years,3,147500,"2,126,000,000",769,G.I. Generation
+Albania,1988,female,25-34 years,5,262400,"2,126,000,000",769,Boomers
+Albania,1988,male,25-34 years,5,279900,"2,126,000,000",769,Boomers
+Albania,1988,female,35-54 years,4,284500,"2,126,000,000",769,Silent
+Albania,1988,female,5-14 years,0,317200,"2,126,000,000",769,Generation X
+Albania,1988,male,5-14 years,0,345000,"2,126,000,000",769,Generation X
+Albania,1989,male,75+ years,2,22500,"2,335,124,988",833,G.I. Generation
+Albania,1989,male,25-34 years,18,283600,"2,335,124,988",833,Boomers
+Albania,1989,male,35-54 years,15,318400,"2,335,124,988",833,Silent
+Albania,1989,male,55-74 years,6,142100,"2,335,124,988",833,G.I. Generation
+Albania,1989,male,15-24 years,12,323500,"2,335,124,988",833,Generation X
+Albania,1989,female,35-54 years,7,288600,"2,335,124,988",833,Silent
+Albania,1989,female,15-24 years,5,299900,"2,335,124,988",833,Generation X
+Albania,1989,female,25-34 years,2,266300,"2,335,124,988",833,Boomers
+Albania,1989,female,55-74 years,1,149600,"2,335,124,988",833,G.I. Generation
+Albania,1989,female,5-14 years,0,321900,"2,335,124,988",833,Generation X
+Albania,1989,female,75+ years,0,37000,"2,335,124,988",833,G.I. Generation
+Albania,1989,male,5-14 years,0,349700,"2,335,124,988",833,Generation X
+Albania,1992,male,35-54 years,12,343800,"709,452,584",251,Boomers
+Albania,1992,male,15-24 years,9,263700,"709,452,584",251,Generation X
+Albania,1992,male,55-74 years,5,159500,"709,452,584",251,Silent
+Albania,1992,male,25-34 years,7,245500,"709,452,584",251,Boomers
+Albania,1992,female,15-24 years,7,292400,"709,452,584",251,Generation X
+Albania,1992,female,25-34 years,4,267400,"709,452,584",251,Boomers
+Albania,1992,female,35-54 years,2,323100,"709,452,584",251,Boomers
+Albania,1992,female,55-74 years,1,164900,"709,452,584",251,Silent
+Albania,1992,female,5-14 years,0,336700,"709,452,584",251,Millenials
+Albania,1992,female,75+ years,0,38700,"709,452,584",251,G.I. Generation
+Albania,1992,male,5-14 years,0,362900,"709,452,584",251,Millenials
+Albania,1992,male,75+ years,0,23900,"709,452,584",251,G.I. Generation
+Albania,1993,male,15-24 years,18,243300,"1,228,071,038",437,Generation X
+Albania,1993,male,55-74 years,7,165000,"1,228,071,038",437,Silent
+Albania,1993,male,75+ years,1,24200,"1,228,071,038",437,G.I. Generation
+Albania,1993,male,25-34 years,9,230100,"1,228,071,038",437,Boomers
+Albania,1993,female,15-24 years,10,285300,"1,228,071,038",437,Generation X
+Albania,1993,male,35-54 years,10,350300,"1,228,071,038",437,Boomers
+Albania,1993,female,25-34 years,7,261800,"1,228,071,038",437,Boomers
+Albania,1993,female,35-54 years,7,331200,"1,228,071,038",437,Boomers
+Albania,1993,female,55-74 years,2,169500,"1,228,071,038",437,Silent
+Albania,1993,female,5-14 years,1,340300,"1,228,071,038",437,Millenials
+Albania,1993,male,5-14 years,1,367000,"1,228,071,038",437,Millenials
+Albania,1993,female,75+ years,0,39300,"1,228,071,038",437,G.I. Generation
+Albania,1994,male,75+ years,2,24600,"1,985,673,798",697,G.I. Generation
+Albania,1994,male,55-74 years,11,171400,"1,985,673,798",697,Silent
+Albania,1994,female,75+ years,2,39900,"1,985,673,798",697,G.I. Generation
+Albania,1994,male,25-34 years,6,231400,"1,985,673,798",697,Boomers
+Albania,1994,male,35-54 years,9,362800,"1,985,673,798",697,Boomers
+Albania,1994,male,15-24 years,6,242200,"1,985,673,798",697,Generation X
+Albania,1994,female,15-24 years,6,282600,"1,985,673,798",697,Generation X
+Albania,1994,female,25-34 years,4,261100,"1,985,673,798",697,Boomers
+Albania,1994,female,35-54 years,2,342500,"1,985,673,798",697,Boomers
+Albania,1994,female,55-74 years,1,174600,"1,985,673,798",697,Silent
+Albania,1994,male,5-14 years,1,371800,"1,985,673,798",697,Millenials
+Albania,1994,female,5-14 years,0,344400,"1,985,673,798",697,Millenials
+Albania,1995,male,25-34 years,13,232900,"2,424,499,009",835,Generation X
+Albania,1995,male,55-74 years,9,178000,"2,424,499,009",835,Silent
+Albania,1995,female,75+ years,2,40800,"2,424,499,009",835,G.I. Generation
+Albania,1995,female,15-24 years,13,283500,"2,424,499,009",835,Generation X
+Albania,1995,male,15-24 years,11,241200,"2,424,499,009",835,Generation X
+Albania,1995,male,75+ years,1,25100,"2,424,499,009",835,G.I. Generation
+Albania,1995,male,35-54 years,14,375900,"2,424,499,009",835,Boomers
+Albania,1995,female,25-34 years,7,264000,"2,424,499,009",835,Generation X
+Albania,1995,female,35-54 years,8,356400,"2,424,499,009",835,Boomers
+Albania,1995,male,5-14 years,6,376500,"2,424,499,009",835,Millenials
+Albania,1995,female,55-74 years,2,180400,"2,424,499,009",835,Silent
+Albania,1995,female,5-14 years,2,348700,"2,424,499,009",835,Millenials
+Albania,1996,male,75+ years,2,25400,"3,314,898,292",1127,G.I. Generation
+Albania,1996,male,15-24 years,17,243600,"3,314,898,292",1127,Generation X
+Albania,1996,male,25-34 years,14,235300,"3,314,898,292",1127,Generation X
+Albania,1996,female,15-24 years,16,287700,"3,314,898,292",1127,Generation X
+Albania,1996,female,75+ years,2,41200,"3,314,898,292",1127,G.I. Generation
+Albania,1996,female,25-34 years,10,267900,"3,314,898,292",1127,Generation X
+Albania,1996,male,35-54 years,12,379600,"3,314,898,292",1127,Boomers
+Albania,1996,female,35-54 years,9,362000,"3,314,898,292",1127,Boomers
+Albania,1996,male,55-74 years,3,179900,"3,314,898,292",1127,Silent
+Albania,1996,female,55-74 years,1,183100,"3,314,898,292",1127,Silent
+Albania,1996,male,5-14 years,2,380400,"3,314,898,292",1127,Millenials
+Albania,1996,female,5-14 years,1,354100,"3,314,898,292",1127,Millenials
+Albania,1997,male,25-34 years,36,236000,"2,359,903,108",793,Generation X
+Albania,1997,male,15-24 years,33,244400,"2,359,903,108",793,Generation X
+Albania,1997,male,75+ years,3,25400,"2,359,903,108",793,G.I. Generation
+Albania,1997,male,35-54 years,30,380800,"2,359,903,108",793,Boomers
+Albania,1997,female,15-24 years,21,294000,"2,359,903,108",793,Generation X
+Albania,1997,male,55-74 years,12,180300,"2,359,903,108",793,Silent
+Albania,1997,female,25-34 years,16,273900,"2,359,903,108",793,Generation X
+Albania,1997,female,75+ years,2,42100,"2,359,903,108",793,G.I. Generation
+Albania,1997,female,35-54 years,7,370100,"2,359,903,108",793,Boomers
+Albania,1997,female,5-14 years,6,361800,"2,359,903,108",793,Millenials
+Albania,1997,male,5-14 years,4,381500,"2,359,903,108",793,Millenials
+Albania,1997,female,55-74 years,0,187000,"2,359,903,108",793,Silent
+Albania,1998,male,75+ years,3,25800,"2,707,123,772",899,G.I. Generation
+Albania,1998,male,15-24 years,27,248800,"2,707,123,772",899,Generation X
+Albania,1998,female,15-24 years,32,295600,"2,707,123,772",899,Generation X
+Albania,1998,male,25-34 years,26,240400,"2,707,123,772",899,Generation X
+Albania,1998,male,35-54 years,29,388200,"2,707,123,772",899,Boomers
+Albania,1998,male,55-74 years,9,183800,"2,707,123,772",899,Silent
+Albania,1998,female,25-34 years,10,275300,"2,707,123,772",899,Generation X
+Albania,1998,female,55-74 years,6,188200,"2,707,123,772",899,Silent
+Albania,1998,female,35-54 years,9,372100,"2,707,123,772",899,Boomers
+Albania,1998,male,5-14 years,2,388400,"2,707,123,772",899,Millenials
+Albania,1998,female,5-14 years,1,363800,"2,707,123,772",899,Millenials
+Albania,1998,female,75+ years,0,42300,"2,707,123,772",899,G.I. Generation
+Albania,1999,male,75+ years,3,25900,"3,414,760,915",1127,G.I. Generation
+Albania,1999,male,15-24 years,24,250600,"3,414,760,915",1127,Generation X
+Albania,1999,female,75+ years,4,42400,"3,414,760,915",1127,G.I. Generation
+Albania,1999,male,35-54 years,31,391100,"3,414,760,915",1127,Boomers
+Albania,1999,male,25-34 years,19,242300,"3,414,760,915",1127,Generation X
+Albania,1999,male,55-74 years,14,185200,"3,414,760,915",1127,Silent
+Albania,1999,female,15-24 years,19,296800,"3,414,760,915",1127,Generation X
+Albania,1999,female,25-34 years,13,276500,"3,414,760,915",1127,Generation X
+Albania,1999,female,55-74 years,6,188800,"3,414,760,915",1127,Silent
+Albania,1999,female,35-54 years,5,373600,"3,414,760,915",1127,Boomers
+Albania,1999,female,5-14 years,1,365200,"3,414,760,915",1127,Millenials
+Albania,1999,male,5-14 years,0,391300,"3,414,760,915",1127,Millenials
+Albania,2000,male,25-34 years,17,232000,"3,632,043,908",1299,Generation X
+Albania,2000,male,55-74 years,10,177400,"3,632,043,908",1299,Silent
+Albania,2000,female,75+ years,2,37800,"3,632,043,908",1299,G.I. Generation
+Albania,2000,male,75+ years,1,24900,"3,632,043,908",1299,G.I. Generation
+Albania,2000,female,15-24 years,6,263900,"3,632,043,908",1299,Generation X
+Albania,2000,male,15-24 years,5,240000,"3,632,043,908",1299,Generation X
+Albania,2000,female,35-54 years,5,332200,"3,632,043,908",1299,Boomers
+Albania,2000,female,25-34 years,3,245800,"3,632,043,908",1299,Generation X
+Albania,2000,male,35-54 years,4,374700,"3,632,043,908",1299,Boomers
+Albania,2000,male,5-14 years,1,374900,"3,632,043,908",1299,Millenials
+Albania,2000,female,5-14 years,0,324700,"3,632,043,908",1299,Millenials
+Albania,2000,female,55-74 years,0,168000,"3,632,043,908",1299,Silent
+Albania,2001,male,25-34 years,22,206484,"4,060,758,804",1451,Generation X
+Albania,2001,male,35-54 years,34,378826,"4,060,758,804",1451,Boomers
+Albania,2001,male,55-74 years,11,196670,"4,060,758,804",1451,Silent
+Albania,2001,female,75+ years,2,47254,"4,060,758,804",1451,Silent
+Albania,2001,male,15-24 years,10,256039,"4,060,758,804",1451,Millenials
+Albania,2001,female,15-24 years,9,271359,"4,060,758,804",1451,Millenials
+Albania,2001,female,35-54 years,12,370191,"4,060,758,804",1451,Boomers
+Albania,2001,male,75+ years,1,31044,"4,060,758,804",1451,Silent
+Albania,2001,female,55-74 years,6,189799,"4,060,758,804",1451,Silent
+Albania,2001,male,5-14 years,6,321556,"4,060,758,804",1451,Millenials
+Albania,2001,female,25-34 years,4,222771,"4,060,758,804",1451,Generation X
+Albania,2001,female,5-14 years,2,307356,"4,060,758,804",1451,Millenials
+Albania,2002,male,75+ years,4,31007,"4,435,078,648",1573,Silent
+Albania,2002,male,25-34 years,23,206286,"4,435,078,648",1573,Generation X
+Albania,2002,male,35-54 years,35,382139,"4,435,078,648",1573,Boomers
+Albania,2002,male,55-74 years,13,198130,"4,435,078,648",1573,Silent
+Albania,2002,male,15-24 years,15,263067,"4,435,078,648",1573,Millenials
+Albania,2002,female,15-24 years,14,275970,"4,435,078,648",1573,Millenials
+Albania,2002,female,35-54 years,15,375113,"4,435,078,648",1573,Boomers
+Albania,2002,female,25-34 years,7,223685,"4,435,078,648",1573,Generation X
+Albania,2002,female,75+ years,1,47407,"4,435,078,648",1573,Silent
+Albania,2002,female,55-74 years,4,191712,"4,435,078,648",1573,Silent
+Albania,2002,female,5-14 years,1,304850,"4,435,078,648",1573,Millenials
+Albania,2002,male,5-14 years,1,319473,"4,435,078,648",1573,Millenials
+Albania,2003,female,75+ years,6,49088,"5,746,945,913",2021,Silent
+Albania,2003,male,55-74 years,16,201520,"5,746,945,913",2021,Silent
+Albania,2003,male,35-54 years,28,386196,"5,746,945,913",2021,Boomers
+Albania,2003,male,15-24 years,15,273235,"5,746,945,913",2021,Millenials
+Albania,2003,female,15-24 years,14,283709,"5,746,945,913",2021,Millenials
+Albania,2003,female,55-74 years,9,195699,"5,746,945,913",2021,Silent
+Albania,2003,male,25-34 years,9,205433,"5,746,945,913",2021,Generation X
+Albania,2003,female,25-34 years,9,222941,"5,746,945,913",2021,Generation X
+Albania,2003,female,35-54 years,13,381760,"5,746,945,913",2021,Boomers
+Albania,2003,male,75+ years,1,32667,"5,746,945,913",2021,Silent
+Albania,2003,male,5-14 years,4,313204,"5,746,945,913",2021,Millenials
+Albania,2003,female,5-14 years,0,298477,"5,746,945,913",2021,Millenials
+Albania,2004,male,75+ years,4,35526,"7,314,865,176",2544,Silent
+Albania,2004,male,35-54 years,39,391767,"7,314,865,176",2544,Boomers
+Albania,2004,male,25-34 years,16,203938,"7,314,865,176",2544,Generation X
+Albania,2004,female,15-24 years,20,292268,"7,314,865,176",2544,Millenials
+Albania,2004,male,15-24 years,19,286768,"7,314,865,176",2544,Millenials
+Albania,2004,female,75+ years,3,50970,"7,314,865,176",2544,Silent
+Albania,2004,female,25-34 years,11,222389,"7,314,865,176",2544,Generation X
+Albania,2004,male,55-74 years,10,207202,"7,314,865,176",2544,Silent
+Albania,2004,female,35-54 years,17,391436,"7,314,865,176",2544,Boomers
+Albania,2004,female,55-74 years,3,203841,"7,314,865,176",2544,Silent
+Albania,2004,female,5-14 years,3,286705,"7,314,865,176",2544,Millenials
+Albania,2004,male,5-14 years,1,302181,"7,314,865,176",2544,Millenials
+Albania,2005,female,15-24 years,0,281922,"8,158,548,717",2931,Millenials
+Albania,2005,female,25-34 years,0,190745,"8,158,548,717",2931,Generation X
+Albania,2005,female,35-54 years,0,386513,"8,158,548,717",2931,Boomers
+Albania,2005,female,5-14 years,0,276559,"8,158,548,717",2931,Millenials
+Albania,2005,female,55-74 years,0,210998,"8,158,548,717",2931,Silent
+Albania,2005,female,75+ years,0,53191,"8,158,548,717",2931,Silent
+Albania,2005,male,15-24 years,0,281675,"8,158,548,717",2931,Millenials
+Albania,2005,male,25-34 years,0,177519,"8,158,548,717",2931,Generation X
+Albania,2005,male,35-54 years,0,380242,"8,158,548,717",2931,Boomers
+Albania,2005,male,5-14 years,0,291367,"8,158,548,717",2931,Millenials
+Albania,2005,male,55-74 years,0,214118,"8,158,548,717",2931,Silent
+Albania,2005,male,75+ years,0,38471,"8,158,548,717",2931,Silent
+Albania,2006,female,15-24 years,0,283138,"8,992,642,349",3235,Millenials
+Albania,2006,female,25-34 years,0,186391,"8,992,642,349",3235,Generation X
+Albania,2006,female,35-54 years,0,388746,"8,992,642,349",3235,Boomers
+Albania,2006,female,5-14 years,0,267316,"8,992,642,349",3235,Millenials
+Albania,2006,female,55-74 years,0,215907,"8,992,642,349",3235,Silent
+Albania,2006,female,75+ years,0,56011,"8,992,642,349",3235,Silent
+Albania,2006,male,15-24 years,0,286679,"8,992,642,349",3235,Millenials
+Albania,2006,male,25-34 years,0,174092,"8,992,642,349",3235,Generation X
+Albania,2006,male,35-54 years,0,379076,"8,992,642,349",3235,Boomers
+Albania,2006,male,5-14 years,0,282678,"8,992,642,349",3235,Millenials
+Albania,2006,male,55-74 years,0,219360,"8,992,642,349",3235,Silent
+Albania,2006,male,75+ years,0,40782,"8,992,642,349",3235,Silent
+Albania,2007,male,75+ years,8,42366,"10,701,011,897",3863,Silent
+Albania,2007,male,35-54 years,29,378626,"10,701,011,897",3863,Boomers
+Albania,2007,male,55-74 years,14,224160,"10,701,011,897",3863,Silent
+Albania,2007,female,75+ years,3,57404,"10,701,011,897",3863,Silent
+Albania,2007,male,25-34 years,9,172494,"10,701,011,897",3863,Generation X
+Albania,2007,female,15-24 years,13,281080,"10,701,011,897",3863,Millenials
+Albania,2007,male,15-24 years,13,288349,"10,701,011,897",3863,Millenials
+Albania,2007,female,25-34 years,8,183629,"10,701,011,897",3863,Generation X
+Albania,2007,female,55-74 years,9,221120,"10,701,011,897",3863,Silent
+Albania,2007,female,35-54 years,14,391811,"10,701,011,897",3863,Boomers
+Albania,2007,male,5-14 years,4,272497,"10,701,011,897",3863,Generation Z
+Albania,2007,female,5-14 years,0,256808,"10,701,011,897",3863,Generation Z
+Albania,2008,male,25-34 years,21,172855,"12,881,352,688",4672,Generation X
+Albania,2008,male,35-54 years,37,377119,"12,881,352,688",4672,Boomers
+Albania,2008,male,55-74 years,21,228672,"12,881,352,688",4672,Silent
+Albania,2008,female,75+ years,5,59369,"12,881,352,688",4672,Silent
+Albania,2008,female,15-24 years,20,276073,"12,881,352,688",4672,Millenials
+Albania,2008,female,25-34 years,9,182663,"12,881,352,688",4672,Generation X
+Albania,2008,female,35-54 years,19,393832,"12,881,352,688",4672,Boomers
+Albania,2008,male,75+ years,2,44574,"12,881,352,688",4672,Silent
+Albania,2008,male,15-24 years,11,286702,"12,881,352,688",4672,Millenials
+Albania,2008,female,55-74 years,7,226448,"12,881,352,688",4672,Silent
+Albania,2008,male,5-14 years,7,262464,"12,881,352,688",4672,Generation Z
+Albania,2008,female,5-14 years,1,246288,"12,881,352,688",4672,Generation Z
+Albania,2009,female,15-24 years,0,270003,"12,044,212,904",4387,Millenials
+Albania,2009,female,25-34 years,0,182712,"12,044,212,904",4387,Generation X
+Albania,2009,female,35-54 years,0,394286,"12,044,212,904",4387,Boomers
+Albania,2009,female,5-14 years,0,236174,"12,044,212,904",4387,Generation Z
+Albania,2009,female,55-74 years,0,233302,"12,044,212,904",4387,Silent
+Albania,2009,female,75+ years,0,61582,"12,044,212,904",4387,Silent
+Albania,2009,male,15-24 years,0,283448,"12,044,212,904",4387,Millenials
+Albania,2009,male,25-34 years,0,174955,"12,044,212,904",4387,Generation X
+Albania,2009,male,35-54 years,0,374365,"12,044,212,904",4387,Boomers
+Albania,2009,male,5-14 years,0,253007,"12,044,212,904",4387,Generation Z
+Albania,2009,male,55-74 years,0,234570,"12,044,212,904",4387,Silent
+Albania,2009,male,75+ years,0,47331,"12,044,212,904",4387,Silent
+Albania,2010,male,55-74 years,20,241852,"11,926,953,259",4359,Silent
+Albania,2010,male,35-54 years,20,371611,"11,926,953,259",4359,Generation X
+Albania,2010,male,25-34 years,9,179720,"11,926,953,259",4359,Generation X
+Albania,2010,male,75+ years,2,50767,"11,926,953,259",4359,Silent
+Albania,2010,male,15-24 years,10,279508,"11,926,953,259",4359,Millenials
+Albania,2010,female,25-34 years,6,183579,"11,926,953,259",4359,Generation X
+Albania,2010,female,75+ years,2,64415,"11,926,953,259",4359,Silent
+Albania,2010,female,35-54 years,12,394593,"11,926,953,259",4359,Generation X
+Albania,2010,female,55-74 years,7,241491,"11,926,953,259",4359,Silent
+Albania,2010,female,15-24 years,6,263581,"11,926,953,259",4359,Millenials
+Albania,2010,female,5-14 years,2,223969,"11,926,953,259",4359,Generation Z
+Albania,2010,male,5-14 years,0,240939,"11,926,953,259",4359,Generation Z
+Antigua and Barbuda,1985,female,15-24 years,0,7709,"240,923,926",3850,Generation X
+Antigua and Barbuda,1985,female,25-34 years,0,6344,"240,923,926",3850,Boomers
+Antigua and Barbuda,1985,female,35-54 years,0,6173,"240,923,926",3850,Silent
+Antigua and Barbuda,1985,female,5-14 years,0,7339,"240,923,926",3850,Generation X
+Antigua and Barbuda,1985,female,55-74 years,0,3778,"240,923,926",3850,G.I. Generation
+Antigua and Barbuda,1985,female,75+ years,0,949,"240,923,926",3850,G.I. Generation
+Antigua and Barbuda,1985,male,15-24 years,0,7667,"240,923,926",3850,Generation X
+Antigua and Barbuda,1985,male,25-34 years,0,6194,"240,923,926",3850,Boomers
+Antigua and Barbuda,1985,male,35-54 years,0,5970,"240,923,926",3850,Silent
+Antigua and Barbuda,1985,male,5-14 years,0,7304,"240,923,926",3850,Generation X
+Antigua and Barbuda,1985,male,55-74 years,0,2723,"240,923,926",3850,G.I. Generation
+Antigua and Barbuda,1985,male,75+ years,0,424,"240,923,926",3850,G.I. Generation
+Antigua and Barbuda,1986,female,15-24 years,0,7668,"290,440,148",4740,Generation X
+Antigua and Barbuda,1986,female,25-34 years,0,6209,"290,440,148",4740,Boomers
+Antigua and Barbuda,1986,female,35-54 years,0,6101,"290,440,148",4740,Silent
+Antigua and Barbuda,1986,female,5-14 years,0,6907,"290,440,148",4740,Generation X
+Antigua and Barbuda,1986,female,55-74 years,0,3764,"290,440,148",4740,G.I. Generation
+Antigua and Barbuda,1986,female,75+ years,0,1014,"290,440,148",4740,G.I. Generation
+Antigua and Barbuda,1986,male,15-24 years,0,7563,"290,440,148",4740,Generation X
+Antigua and Barbuda,1986,male,25-34 years,0,6023,"290,440,148",4740,Boomers
+Antigua and Barbuda,1986,male,35-54 years,0,5947,"290,440,148",4740,Silent
+Antigua and Barbuda,1986,male,5-14 years,0,6827,"290,440,148",4740,Generation X
+Antigua and Barbuda,1986,male,55-74 years,0,2771,"290,440,148",4740,G.I. Generation
+Antigua and Barbuda,1986,male,75+ years,0,476,"290,440,148",4740,G.I. Generation
+Antigua and Barbuda,1987,female,15-24 years,0,7583,"337,174,852",5595,Generation X
+Antigua and Barbuda,1987,female,25-34 years,0,6101,"337,174,852",5595,Boomers
+Antigua and Barbuda,1987,female,35-54 years,0,6059,"337,174,852",5595,Silent
+Antigua and Barbuda,1987,female,5-14 years,0,6623,"337,174,852",5595,Generation X
+Antigua and Barbuda,1987,female,55-74 years,0,3738,"337,174,852",5595,G.I. Generation
+Antigua and Barbuda,1987,female,75+ years,0,1081,"337,174,852",5595,G.I. Generation
+Antigua and Barbuda,1987,male,15-24 years,0,7421,"337,174,852",5595,Generation X
+Antigua and Barbuda,1987,male,25-34 years,0,5893,"337,174,852",5595,Boomers
+Antigua and Barbuda,1987,male,35-54 years,0,5927,"337,174,852",5595,Silent
+Antigua and Barbuda,1987,male,5-14 years,0,6499,"337,174,852",5595,Generation X
+Antigua and Barbuda,1987,male,55-74 years,0,2798,"337,174,852",5595,G.I. Generation
+Antigua and Barbuda,1987,male,75+ years,0,538,"337,174,852",5595,G.I. Generation
+Antigua and Barbuda,1988,female,15-24 years,0,7413,"398,637,741",6693,Generation X
+Antigua and Barbuda,1988,female,25-34 years,0,6041,"398,637,741",6693,Boomers
+Antigua and Barbuda,1988,female,35-54 years,0,6021,"398,637,741",6693,Silent
+Antigua and Barbuda,1988,female,5-14 years,0,6527,"398,637,741",6693,Generation X
+Antigua and Barbuda,1988,female,55-74 years,0,3708,"398,637,741",6693,G.I. Generation
+Antigua and Barbuda,1988,female,75+ years,0,1141,"398,637,741",6693,G.I. Generation
+Antigua and Barbuda,1988,male,15-24 years,0,7209,"398,637,741",6693,Generation X
+Antigua and Barbuda,1988,male,25-34 years,0,5826,"398,637,741",6693,Boomers
+Antigua and Barbuda,1988,male,35-54 years,0,5907,"398,637,741",6693,Silent
+Antigua and Barbuda,1988,male,5-14 years,0,6355,"398,637,741",6693,Generation X
+Antigua and Barbuda,1988,male,55-74 years,0,2813,"398,637,741",6693,G.I. Generation
+Antigua and Barbuda,1988,male,75+ years,0,603,"398,637,741",6693,G.I. Generation
+Antigua and Barbuda,1989,female,15-24 years,0,7152,"438,794,778",7407,Generation X
+Antigua and Barbuda,1989,female,25-34 years,0,6059,"438,794,778",7407,Boomers
+Antigua and Barbuda,1989,female,35-54 years,0,5969,"438,794,778",7407,Silent
+Antigua and Barbuda,1989,female,5-14 years,0,6621,"438,794,778",7407,Generation X
+Antigua and Barbuda,1989,female,55-74 years,0,3696,"438,794,778",7407,G.I. Generation
+Antigua and Barbuda,1989,female,75+ years,0,1195,"438,794,778",7407,G.I. Generation
+Antigua and Barbuda,1989,male,15-24 years,0,6927,"438,794,778",7407,Generation X
+Antigua and Barbuda,1989,male,25-34 years,0,5835,"438,794,778",7407,Boomers
+Antigua and Barbuda,1989,male,35-54 years,0,5862,"438,794,778",7407,Silent
+Antigua and Barbuda,1989,male,5-14 years,0,6403,"438,794,778",7407,Generation X
+Antigua and Barbuda,1989,male,55-74 years,0,2843,"438,794,778",7407,G.I. Generation
+Antigua and Barbuda,1989,male,75+ years,0,676,"438,794,778",7407,G.I. Generation
+Antigua and Barbuda,1990,male,35-54 years,1,5799,"459,469,074",7744,Silent
+Antigua and Barbuda,1990,female,15-24 years,0,6827,"459,469,074",7744,Generation X
+Antigua and Barbuda,1990,female,25-34 years,0,6172,"459,469,074",7744,Boomers
+Antigua and Barbuda,1990,female,35-54 years,0,5895,"459,469,074",7744,Silent
+Antigua and Barbuda,1990,female,5-14 years,0,6877,"459,469,074",7744,Generation X
+Antigua and Barbuda,1990,female,55-74 years,0,3706,"459,469,074",7744,G.I. Generation
+Antigua and Barbuda,1990,female,75+ years,0,1252,"459,469,074",7744,G.I. Generation
+Antigua and Barbuda,1990,male,15-24 years,0,6598,"459,469,074",7744,Generation X
+Antigua and Barbuda,1990,male,25-34 years,0,5937,"459,469,074",7744,Boomers
+Antigua and Barbuda,1990,male,5-14 years,0,6611,"459,469,074",7744,Generation X
+Antigua and Barbuda,1990,male,55-74 years,0,2902,"459,469,074",7744,G.I. Generation
+Antigua and Barbuda,1990,male,75+ years,0,758,"459,469,074",7744,G.I. Generation
+Antigua and Barbuda,1991,female,15-24 years,0,6595,"481,706,333",7976,Generation X
+Antigua and Barbuda,1991,female,25-34 years,0,6396,"481,706,333",7976,Boomers
+Antigua and Barbuda,1991,female,35-54 years,0,6198,"481,706,333",7976,Boomers
+Antigua and Barbuda,1991,female,5-14 years,0,7089,"481,706,333",7976,Millenials
+Antigua and Barbuda,1991,female,55-74 years,0,3665,"481,706,333",7976,Silent
+Antigua and Barbuda,1991,female,75+ years,0,1293,"481,706,333",7976,G.I. Generation
+Antigua and Barbuda,1991,male,15-24 years,0,6401,"481,706,333",7976,Generation X
+Antigua and Barbuda,1991,male,25-34 years,0,6156,"481,706,333",7976,Boomers
+Antigua and Barbuda,1991,male,35-54 years,0,6122,"481,706,333",7976,Boomers
+Antigua and Barbuda,1991,male,5-14 years,0,6818,"481,706,333",7976,Millenials
+Antigua and Barbuda,1991,male,55-74 years,0,2857,"481,706,333",7976,Silent
+Antigua and Barbuda,1991,male,75+ years,0,804,"481,706,333",7976,G.I. Generation
+Antigua and Barbuda,1992,female,15-24 years,0,6369,"499,281,148",8087,Generation X
+Antigua and Barbuda,1992,female,25-34 years,0,6650,"499,281,148",8087,Boomers
+Antigua and Barbuda,1992,female,35-54 years,0,6534,"499,281,148",8087,Boomers
+Antigua and Barbuda,1992,female,5-14 years,0,7311,"499,281,148",8087,Millenials
+Antigua and Barbuda,1992,female,55-74 years,0,3648,"499,281,148",8087,Silent
+Antigua and Barbuda,1992,female,75+ years,0,1339,"499,281,148",8087,G.I. Generation
+Antigua and Barbuda,1992,male,15-24 years,0,6221,"499,281,148",8087,Generation X
+Antigua and Barbuda,1992,male,25-34 years,0,6409,"499,281,148",8087,Boomers
+Antigua and Barbuda,1992,male,35-54 years,0,6497,"499,281,148",8087,Boomers
+Antigua and Barbuda,1992,male,5-14 years,0,7059,"499,281,148",8087,Millenials
+Antigua and Barbuda,1992,male,55-74 years,0,2851,"499,281,148",8087,Silent
+Antigua and Barbuda,1992,male,75+ years,0,853,"499,281,148",8087,G.I. Generation
+Antigua and Barbuda,1993,male,25-34 years,1,6668,"535,172,778",8453,Boomers
+Antigua and Barbuda,1993,female,15-24 years,0,6182,"535,172,778",8453,Generation X
+Antigua and Barbuda,1993,female,25-34 years,0,6914,"535,172,778",8453,Boomers
+Antigua and Barbuda,1993,female,35-54 years,0,6917,"535,172,778",8453,Boomers
+Antigua and Barbuda,1993,female,5-14 years,0,7529,"535,172,778",8453,Millenials
+Antigua and Barbuda,1993,female,55-74 years,0,3662,"535,172,778",8453,Silent
+Antigua and Barbuda,1993,female,75+ years,0,1386,"535,172,778",8453,G.I. Generation
+Antigua and Barbuda,1993,male,15-24 years,0,6069,"535,172,778",8453,Generation X
+Antigua and Barbuda,1993,male,35-54 years,0,6915,"535,172,778",8453,Boomers
+Antigua and Barbuda,1993,male,5-14 years,0,7298,"535,172,778",8453,Millenials
+Antigua and Barbuda,1993,male,55-74 years,0,2879,"535,172,778",8453,Silent
+Antigua and Barbuda,1993,male,75+ years,0,896,"535,172,778",8453,G.I. Generation
+Antigua and Barbuda,1994,female,15-24 years,0,6083,"589,429,593",9062,Generation X
+Antigua and Barbuda,1994,female,25-34 years,0,7151,"589,429,593",9062,Boomers
+Antigua and Barbuda,1994,female,35-54 years,0,7357,"589,429,593",9062,Boomers
+Antigua and Barbuda,1994,female,5-14 years,0,7722,"589,429,593",9062,Millenials
+Antigua and Barbuda,1994,female,55-74 years,0,3715,"589,429,593",9062,Silent
+Antigua and Barbuda,1994,female,75+ years,0,1437,"589,429,593",9062,G.I. Generation
+Antigua and Barbuda,1994,male,15-24 years,0,5976,"589,429,593",9062,Generation X
+Antigua and Barbuda,1994,male,25-34 years,0,6886,"589,429,593",9062,Boomers
+Antigua and Barbuda,1994,male,35-54 years,0,7359,"589,429,593",9062,Boomers
+Antigua and Barbuda,1994,male,5-14 years,0,7494,"589,429,593",9062,Millenials
+Antigua and Barbuda,1994,male,55-74 years,0,2935,"589,429,593",9062,Silent
+Antigua and Barbuda,1994,male,75+ years,0,929,"589,429,593",9062,G.I. Generation
+Antigua and Barbuda,1995,female,15-24 years,0,6099,"577,280,741",8636,Generation X
+Antigua and Barbuda,1995,female,25-34 years,0,7333,"577,280,741",8636,Generation X
+Antigua and Barbuda,1995,female,35-54 years,0,7851,"577,280,741",8636,Boomers
+Antigua and Barbuda,1995,female,5-14 years,0,7885,"577,280,741",8636,Millenials
+Antigua and Barbuda,1995,female,55-74 years,0,3808,"577,280,741",8636,Silent
+Antigua and Barbuda,1995,female,75+ years,0,1488,"577,280,741",8636,G.I. Generation
+Antigua and Barbuda,1995,male,15-24 years,0,5953,"577,280,741",8636,Generation X
+Antigua and Barbuda,1995,male,25-34 years,0,7023,"577,280,741",8636,Generation X
+Antigua and Barbuda,1995,male,35-54 years,0,7809,"577,280,741",8636,Boomers
+Antigua and Barbuda,1995,male,5-14 years,0,7632,"577,280,741",8636,Millenials
+Antigua and Barbuda,1995,male,55-74 years,0,3021,"577,280,741",8636,Silent
+Antigua and Barbuda,1995,male,75+ years,0,944,"577,280,741",8636,G.I. Generation
+Antigua and Barbuda,1998,female,15-24 years,0,6529,"727,860,593",10078,Generation X
+Antigua and Barbuda,1998,female,25-34 years,0,8332,"727,860,593",10078,Generation X
+Antigua and Barbuda,1998,female,35-54 years,0,9615,"727,860,593",10078,Boomers
+Antigua and Barbuda,1998,female,5-14 years,0,8183,"727,860,593",10078,Millenials
+Antigua and Barbuda,1998,female,55-74 years,0,3921,"727,860,593",10078,Silent
+Antigua and Barbuda,1998,female,75+ years,0,1476,"727,860,593",10078,G.I. Generation
+Antigua and Barbuda,1998,male,15-24 years,0,5916,"727,860,593",10078,Generation X
+Antigua and Barbuda,1998,male,25-34 years,0,7294,"727,860,593",10078,Generation X
+Antigua and Barbuda,1998,male,35-54 years,0,9086,"727,860,593",10078,Boomers
+Antigua and Barbuda,1998,male,5-14 years,0,7706,"727,860,593",10078,Millenials
+Antigua and Barbuda,1998,male,55-74 years,0,3213,"727,860,593",10078,Silent
+Antigua and Barbuda,1998,male,75+ years,0,954,"727,860,593",10078,G.I. Generation
+Antigua and Barbuda,1999,female,15-24 years,0,6589,"766,198,926",10378,Generation X
+Antigua and Barbuda,1999,female,25-34 years,0,8526,"766,198,926",10378,Generation X
+Antigua and Barbuda,1999,female,35-54 years,0,10311,"766,198,926",10378,Boomers
+Antigua and Barbuda,1999,female,5-14 years,0,8314,"766,198,926",10378,Millenials
+Antigua and Barbuda,1999,female,55-74 years,0,3968,"766,198,926",10378,Silent
+Antigua and Barbuda,1999,female,75+ years,0,1451,"766,198,926",10378,G.I. Generation
+Antigua and Barbuda,1999,male,15-24 years,0,5845,"766,198,926",10378,Generation X
+Antigua and Barbuda,1999,male,25-34 years,0,7263,"766,198,926",10378,Generation X
+Antigua and Barbuda,1999,male,35-54 years,0,9537,"766,198,926",10378,Boomers
+Antigua and Barbuda,1999,male,5-14 years,0,7805,"766,198,926",10378,Millenials
+Antigua and Barbuda,1999,male,55-74 years,0,3276,"766,198,926",10378,Silent
+Antigua and Barbuda,1999,male,75+ years,0,947,"766,198,926",10378,G.I. Generation
+Antigua and Barbuda,2000,male,55-74 years,1,3333,"830,158,778",11021,Silent
+Antigua and Barbuda,2000,male,35-54 years,1,10033,"830,158,778",11021,Boomers
+Antigua and Barbuda,2000,female,15-24 years,0,6616,"830,158,778",11021,Generation X
+Antigua and Barbuda,2000,female,25-34 years,0,8595,"830,158,778",11021,Generation X
+Antigua and Barbuda,2000,female,35-54 years,0,11040,"830,158,778",11021,Boomers
+Antigua and Barbuda,2000,female,5-14 years,0,8439,"830,158,778",11021,Millenials
+Antigua and Barbuda,2000,female,55-74 years,0,3986,"830,158,778",11021,Silent
+Antigua and Barbuda,2000,female,75+ years,0,1413,"830,158,778",11021,G.I. Generation
+Antigua and Barbuda,2000,male,15-24 years,0,5783,"830,158,778",11021,Generation X
+Antigua and Barbuda,2000,male,25-34 years,0,7177,"830,158,778",11021,Generation X
+Antigua and Barbuda,2000,male,5-14 years,0,7973,"830,158,778",11021,Millenials
+Antigua and Barbuda,2000,male,75+ years,0,938,"830,158,778",11021,G.I. Generation
+Antigua and Barbuda,2001,male,35-54 years,2,10281,"800,740,259",10468,Boomers
+Antigua and Barbuda,2001,female,15-24 years,0,6902,"800,740,259",10468,Millenials
+Antigua and Barbuda,2001,female,25-34 years,0,8425,"800,740,259",10468,Generation X
+Antigua and Barbuda,2001,female,35-54 years,0,11402,"800,740,259",10468,Boomers
+Antigua and Barbuda,2001,female,5-14 years,0,8428,"800,740,259",10468,Millenials
+Antigua and Barbuda,2001,female,55-74 years,0,4037,"800,740,259",10468,Silent
+Antigua and Barbuda,2001,female,75+ years,0,1487,"800,740,259",10468,Silent
+Antigua and Barbuda,2001,male,15-24 years,0,6084,"800,740,259",10468,Millenials
+Antigua and Barbuda,2001,male,25-34 years,0,7071,"800,740,259",10468,Generation X
+Antigua and Barbuda,2001,male,5-14 years,0,7958,"800,740,259",10468,Millenials
+Antigua and Barbuda,2001,male,55-74 years,0,3442,"800,740,259",10468,Silent
+Antigua and Barbuda,2001,male,75+ years,0,980,"800,740,259",10468,Silent
+Antigua and Barbuda,2002,female,15-24 years,0,7196,"814,615,333",10499,Millenials
+Antigua and Barbuda,2002,female,25-34 years,0,8155,"814,615,333",10499,Generation X
+Antigua and Barbuda,2002,female,35-54 years,0,11760,"814,615,333",10499,Boomers
+Antigua and Barbuda,2002,female,5-14 years,0,8408,"814,615,333",10499,Millenials
+Antigua and Barbuda,2002,female,55-74 years,0,4050,"814,615,333",10499,Silent
+Antigua and Barbuda,2002,female,75+ years,0,1547,"814,615,333",10499,Silent
+Antigua and Barbuda,2002,male,15-24 years,0,6416,"814,615,333",10499,Millenials
+Antigua and Barbuda,2002,male,25-34 years,0,6921,"814,615,333",10499,Generation X
+Antigua and Barbuda,2002,male,35-54 years,0,10604,"814,615,333",10499,Boomers
+Antigua and Barbuda,2002,male,5-14 years,0,7980,"814,615,333",10499,Millenials
+Antigua and Barbuda,2002,male,55-74 years,0,3527,"814,615,333",10499,Silent
+Antigua and Barbuda,2002,male,75+ years,0,1024,"814,615,333",10499,Silent
+Antigua and Barbuda,2003,male,55-74 years,1,3594,"855,643,111",10878,Silent
+Antigua and Barbuda,2003,female,15-24 years,0,7454,"855,643,111",10878,Millenials
+Antigua and Barbuda,2003,female,25-34 years,0,7831,"855,643,111",10878,Generation X
+Antigua and Barbuda,2003,female,35-54 years,0,12129,"855,643,111",10878,Boomers
+Antigua and Barbuda,2003,female,5-14 years,0,8423,"855,643,111",10878,Millenials
+Antigua and Barbuda,2003,female,55-74 years,0,4054,"855,643,111",10878,Silent
+Antigua and Barbuda,2003,female,75+ years,0,1583,"855,643,111",10878,Silent
+Antigua and Barbuda,2003,male,15-24 years,0,6730,"855,643,111",10878,Millenials
+Antigua and Barbuda,2003,male,25-34 years,0,6734,"855,643,111",10878,Generation X
+Antigua and Barbuda,2003,male,35-54 years,0,10997,"855,643,111",10878,Boomers
+Antigua and Barbuda,2003,male,5-14 years,0,8061,"855,643,111",10878,Millenials
+Antigua and Barbuda,2003,male,75+ years,0,1068,"855,643,111",10878,Silent
+Antigua and Barbuda,2004,male,55-74 years,1,3665,"919,577,148",11535,Silent
+Antigua and Barbuda,2004,male,35-54 years,1,11406,"919,577,148",11535,Boomers
+Antigua and Barbuda,2004,female,15-24 years,0,7648,"919,577,148",11535,Millenials
+Antigua and Barbuda,2004,female,25-34 years,0,7531,"919,577,148",11535,Generation X
+Antigua and Barbuda,2004,female,35-54 years,0,12492,"919,577,148",11535,Boomers
+Antigua and Barbuda,2004,female,5-14 years,0,8488,"919,577,148",11535,Millenials
+Antigua and Barbuda,2004,female,55-74 years,0,4088,"919,577,148",11535,Silent
+Antigua and Barbuda,2004,female,75+ years,0,1590,"919,577,148",11535,Silent
+Antigua and Barbuda,2004,male,15-24 years,0,6968,"919,577,148",11535,Millenials
+Antigua and Barbuda,2004,male,25-34 years,0,6556,"919,577,148",11535,Generation X
+Antigua and Barbuda,2004,male,5-14 years,0,8196,"919,577,148",11535,Millenials
+Antigua and Barbuda,2004,male,75+ years,0,1094,"919,577,148",11535,Silent
+Antigua and Barbuda,2005,female,15-24 years,0,7780,"1,022,191,296",12649,Millenials
+Antigua and Barbuda,2005,female,25-34 years,0,7327,"1,022,191,296",12649,Generation X
+Antigua and Barbuda,2005,female,35-54 years,0,12835,"1,022,191,296",12649,Boomers
+Antigua and Barbuda,2005,female,5-14 years,0,8584,"1,022,191,296",12649,Millenials
+Antigua and Barbuda,2005,female,55-74 years,0,4157,"1,022,191,296",12649,Silent
+Antigua and Barbuda,2005,female,75+ years,0,1575,"1,022,191,296",12649,Silent
+Antigua and Barbuda,2005,male,15-24 years,0,7113,"1,022,191,296",12649,Millenials
+Antigua and Barbuda,2005,male,25-34 years,0,6444,"1,022,191,296",12649,Generation X
+Antigua and Barbuda,2005,male,35-54 years,0,11778,"1,022,191,296",12649,Boomers
+Antigua and Barbuda,2005,male,5-14 years,0,8358,"1,022,191,296",12649,Millenials
+Antigua and Barbuda,2005,male,55-74 years,0,3748,"1,022,191,296",12649,Silent
+Antigua and Barbuda,2005,male,75+ years,0,1110,"1,022,191,296",12649,Silent
+Antigua and Barbuda,2006,female,15-24 years,0,7902,"1,157,005,444",14114,Millenials
+Antigua and Barbuda,2006,female,25-34 years,0,7098,"1,157,005,444",14114,Generation X
+Antigua and Barbuda,2006,female,35-54 years,0,13374,"1,157,005,444",14114,Boomers
+Antigua and Barbuda,2006,female,5-14 years,0,8571,"1,157,005,444",14114,Millenials
+Antigua and Barbuda,2006,female,55-74 years,0,4256,"1,157,005,444",14114,Silent
+Antigua and Barbuda,2006,female,75+ years,0,1573,"1,157,005,444",14114,Silent
+Antigua and Barbuda,2006,male,15-24 years,0,7239,"1,157,005,444",14114,Millenials

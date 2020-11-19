@@ -1,0 +1,40 @@
+
+<project>
+
+<projectID>86</projectID>
+
+<projectDescription>
+The sinking of the Titanic was a shocking shipwreck, there are only a few people survived.
+A husband is not sure whether his wife survived in this accident, and we want to help him to compute the rate of his 25-year-old wife survived in this accident.
+So, We wonder whether there is any relationship between sex and age of the people and whether people survived in Titanic accident.
+We also want to predict the chance of survived in shipwreck through sex and age of the person. We also want to whether our prediction is accurate.
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+  After clean up our data, there are three columns in the dataset (sex, age and whether people survived).
+  In the column of survived, we use 1 to represent survival and 0 to represent dead.
+  There are 188 women and 143 of them survived. There are 312 men and 64 of them survived.
+</dataDescription>
+
+<researchQuestion>
+We want to test (at the alpha = 0.05 level) whether the proportion of people survived is the same across men and women, predict the rate of surviving for 35 women and compute ROC of the prediction model.
+</researchQuestion>
+
+<conclusion>
+  We 99.5% confident that sex will influence the rate of survived, female will have a greater chance to survive in Titanic accident.
+  (Because the p-value of the test between sex and whether people survived is very small, and z value =sqrt(x-squared)=12.73, which is greater than z value (1.96) at 0.05 level)
+
+  the rate of surviving for 25-years-old women is 0.789
+
+  Our prediction is middle precision (ROC=0.7815 and 0.631 . 0.78158 and 0.631 is greater than 0.5, but these are not a very big number between 0 to 1)
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

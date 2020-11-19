@@ -1,0 +1,42 @@
+
+<project>
+
+<projectID>56</projectID>
+
+<projectDescription>
+  Provided by Columbia Business School in 2004, this data set called ‘SpeedDating’ was contributed by those who have partaken in experimental speed dating evens from 2002 to 2004.
+  These participants, after spending a 4 minute first date with another participant of the opposite gender, was asked whether he or she would like to see the person again. In this sense, the dependent variable is a binomial factor of ‘match.’
+  This data set includes a host of explanatory elements, including not only the attendee’s individual demographics like age and gender, but also evaluations by the attendee based on such attributes as attractiveness, shared interests, and fun.
+</projectDescription>
+
+<dataSource>
+The link to the original data set is here: https://www.openml.org/d/40536.
+</dataSource>
+
+<dataDescription>
+  As guided by the direction, the original data set has 8379 observations.
+  Thereby, we only use the first 200 observations, which are in the first wave of the experiment. Since the second wave has 600 observations, we decide to use the first wave.
+  As there are many independent variables, likewise, we then also clean columns that we intend not to use. In this analysis, we narrow down to 5 columns for explanatory variables.
+  The variable ‘gender’ here has 2 choices—male and female—and we code male as 1. The variable ‘d_age’ describes the age difference. The variable ‘samerace’ shows whether the two people are of the same race, with 1 being the same.
+  The variable ‘funny_partner’ is rated by the attendee about how funny his or her date was. Lastly, the variable ‘shared_interests_partner’ is rated by the attendee about how much he or she shares interests with the date.
+</dataDescription>
+
+<researchQuestion>
+Our main research question is which of basic demographics (gender, age, and race) and inner traits (interest sharing and fun character) increases the likelihood of match.
+Do males tend to want to see again after first date than females, and do race and age differences play a role, and what about being funny or sharing interests?
+</researchQuestion>
+
+<conclusion>
+First of all, we run the global F-test to see if any of the variables is a significant factor for match. Since the p-value is 0.00029, we can reject the null hypothesis that none of these variables has a 0 slope.
+Next, we run the glm function to see which of the variables can explain match. All basic demographics, gender, age, and race, do not have significant findings.
+On the other hand, a unit increase of being funny, with all the other variables held constant, increases the probability of match by 0.50 at 0.001 significance level.
+Sharing interests, with all the other variables held constant, increases the probability of match by 0.14 at the 0.05 significance level.
+Next, we am 95% confident that the odds of having a match are between 1.33 and 2.03 higher for every 1-unit increase in being funny and that the odds of having a match are between 1.01 and 1.31 higher for every 1-unit increase in sharing interests.
+To sum up, gender, race, and age do not increase the probability of match, but being funny and sharing interests are significant factors of match, with the former having a greater magnitude of effect at a higher significance level.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

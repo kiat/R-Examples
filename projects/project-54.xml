@@ -1,0 +1,38 @@
+
+<project>
+
+<projectID>54</projectID>
+
+<projectDescription>
+  In order to study about a given flight in more detailed and to see if it will be delayed has a relationship between the given information of the scheduled departure.
+  -	First by build multiple linear regression
+  -	Follow the set a hypothesis test - F test
+  -	Compare the F- statistics with F = MS reg /MS res, also compare the p-value
+  -	Finally, to have a conclusion
+</projectDescription>
+
+<dataSource>
+https://www.openml.org/d/1169
+</dataSource>
+
+<dataDescription>
+The airlines dataset has been cleaned and reduce to 399 rows.
+The columns that I will use which are Time (duration of flight), Length (distance between airports) and Delay (the number of delay).
+</dataDescription>
+
+<researchQuestion>
+  Is there a linear relationship between the flight will be delayed and duration of the flight and the distance between airports?
+  Preform this test at the alpha = 0.05 level
+</researchQuestion>
+
+<conclusion>
+Reject the null hypothesis since F-statistic is 4.832 which greater than 3.018566.
+We also have significant evidence at the alpha =0.05 level that beta_time not equal to 0.
+There is evidence of a linear association between the delay of flight and Time(duration of flight).
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

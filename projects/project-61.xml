@@ -1,0 +1,44 @@
+
+<project>
+
+<projectID>61</projectID>
+
+<projectDescription>
+As the rapid development of the society, more and more people are getting stressful in their life.
+An organization would like to investigate the happiness index in the world.
+The organization has collected potential factors impacting people’s happiness from more than 100 countries, and they want to find which factor or factors affecting the happiness score.
+</projectDescription>
+
+<dataSource>
+The dataset is the latest World Happiness report in 2018 from https://worldhappiness.report/ed/2019/.
+</dataSource>
+
+<dataDescription>
+Before use the dataset, we have canceled some unnecessary attributes and combined two different excel sheets into one csv.
+This are the attributes used in my mini project.
+Country: Name of each country. (String)
+Happiness Score: The Happiness Score in 2018. (Number)
+GDP: GDP per capita. (Number)
+Social support: Social support of the country. (Number)
+Health: Health condition of the country. (Number)
+Freedom: Freedom condition of the country. (Number)
+Generosity: The level of people’s generosity in the country. (Number)
+Corruption: The level of corruption in the country. (Number)
+Changes in happiness scores: The amount changed between 2017’ score and 2018’s score.
+</dataDescription>
+
+<researchQuestion>
+  1.	Simple statistics of Happiness score: mean, standard deviation, histogram and boxplot.
+  2.	Perform multiple logistic regression predicting Happiness score from GDP and Freedom. Give the odds ratio for GDP and Freedom rate. What is its c-statistics?
+  3.	Calculate the least squares regression equation that predicts Happiness.score from GDP, Social.support, Health, Freedom, Generosity and Corruption?
+</researchQuestion>
+
+<conclusion>
+  Logistic Regression
+</conclusion>
+
+<class>
+
+</class>
+
+</project>

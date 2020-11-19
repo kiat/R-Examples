@@ -1,0 +1,67 @@
+
+<project>
+
+<projectID>26</projectID>
+
+<projectDescription>
+  We are interested in understanding differences in New York City school district student class room size.
+  Since we limited our data set to 500, we will only review the number of students within certain departments.
+  We want to understand if there are substantial differences between the class sizes dependent on the department a class is categorized in.
+
+  We are using New York City school district data for Middle School and High School.
+  The data set contains information on the number of students in various courses for grades 6-12.
+  ICT courses (a category of the course section column) where there are more than 100 or less than 7 students are excluded.
+  Similarly, for the self-contained course section with fewer than two students there is a filter.
+  The data set is published by the New York Department of Education.
+</projectDescription>
+
+<dataDescription>
+  Data set:
+  https://data.cityofnewyork.us/Education/2018-2019-Class-Size-Pct-District-MSHS/4wgu-f3yf
+
+  There are eight variables in the dataset. Each is identified and described below.
+
+  1)	District
+  a.	Numeric form
+  b.	Provides a number per each district
+  c.	There is no key to detail what number corresponds to what district
+  2)	Grade Level
+  a.	Describes what grade level students are in
+  b.	There are two grade levels – HS Core and MS Core
+  3)	Program Type
+  a.	Describes the type of program student is enrolled in
+  b.	There are two programs General Education and Self-Contained courses
+  i.	No further explanation is given
+  4)	Department
+  a.	The department type details which department the class is within
+  b.	There are four departments – English, Math, Science, and Social Studies
+  5)	Class Size
+  a.	Details the total number of students in one class
+  6)	Number of Students
+  a.	Details the total number of students enrolled in all classes of respective course
+  7)	Number of Classes
+  a.	Details the number of classes per a respective program type
+  8)	% of Students within Grade
+  a.	Describes the percentage of students within a grade
+</dataDescription>
+
+
+<dataSource>
+https://data.cityofnewyork.us/Education/2018-2019-Class-Size-Pct-District-MSHS/4wgu-f3yf
+</dataSource>
+
+
+<researchQuestion>
+  Our main research question is to understand the range of class sizes per department.
+  We are hoping to understand if there are larger classroom sizes for certain departments which would warrant additional research.
+</researchQuestion>
+
+<conclusion>
+From our analysis we see that there is no significant difference between the class sizes of the various departments.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

@@ -1,0 +1,54 @@
+
+<project>
+
+<projectID>63</projectID>
+
+<projectDescription>
+  The Economic Freedom Index is a score card for nations released every year to show how open and fair each country’s economy is.
+  Through this data set we will seek to find which variables that go into the score can best predict Per Capita GDP, a measure of individual wealth within a country.
+  The second part of the research will analyze whether or not there is a statistically significant difference between the Per Capita GDP in each region of the world.
+  The findings of this research will be useful for country’s who are trying to develop their Per Capita GDP through economic levers.
+  Knowing which ones are more important will help allocate resources more efficiently thus having a larger impact on wealth generation.
+</projectDescription>
+
+<dataSource>
+https://www.kaggle.com/lewisduncan93/the-economic-freedom-index
+</dataSource>
+
+<dataDescription>
+  The original data set had 186 rows, 1 for each country.  There are 29 columns that contain data on economic measures such as inflation, unemployment rate, GDP, per capita GDP, public debt levels, etc.
+  There are also scores for various aspects of a countries economy and society including judicial effectiveness, business freedom, labor freedom, tax burden, property rights, etc.  
+  Higher scores indicate better performance. All of these factors are used to then generate an overall country score which is used to rank each country against the others.
+
+  Cleaning the data was important.  We removed 7 countries because no data was available for them (North Korea, Syria, etc.).
+  Some values were missing for a few countries and these were left as empty because they clearly weren’t meant to be 0 or another value.
+  Some redundant columns were also removed and dummy variables were created for the regions of the world.
+</dataDescription>
+
+<researchQuestion>
+  What are the main drivers that increase GDP per capita?
+  Is there a statistically significant difference between region’s GDP per capita?
+</researchQuestion>
+
+<conclusion>
+  After analyzing which variables correlated with GDP per capita and not with each other, the 2 most important variables for increasing GDP per capita are Government Integrity and Financial Freedom.
+  This model accounts for 53% of the variation in GDP per capita.
+  Both variables are highly statistically significant and can be interpreted as when the score for government integrity increases by 1, GDP per capita increases by on average $628.13 when holding all else constant and when financial freedom score increases by 1, GDP per capita increases by on average $289.97 when holding all else constant.
+  This means that governments should strengthen the rule of law, fairness of elections and personal freedoms as well as keep their financial systems open to competition.
+
+  A second regression with only economic variables was conducted but the max variability it could account for, judged by using the kitchen sink approach, is 28.6% of variation in GDP per capita.
+  The best model for economic only variables can be interpreted as when unemployment increases by 1%, GDP per capita decreases by $1,024.4 when holding all else constant, when corporate tax rate increases by 1%, GDP per capita decreases by $805.4 when holding all else constant and when tax burden as a percent of GDP increases by 1%, GDP per capita increases by $743.4 when holding all else constant.  
+  GDP growth was significant but was removed because it didn’t pass the logic test since it indicated that higher growth reduced GDP per capita, this is due to poorer countries having higher growth rate yet their poverty means lower GDP per capita.  
+  High tax burden likely is correlated with higher GDP per capita because wealthy countries, such as those in Europe, have higher taxes and thus this may also not be useful.
+
+  The test to see if the regions of the world had a statistically significant difference rejected the null hypothesis that the average is the same.
+  When looking at the pair-wise differences using a more stringent measure the only regions that had statistically significant differences are Europe and everywhere except the middle east and north Africa, Asia and everywhere except Americas, and sub-Saharan Africa and everywhere except Americas.
+  These pairwise comparisons can partially be explained by the combination of North and South America into the ‘Americas’ category. 
+  If this region were split, there likely would be more differences between since the Americas region contains both very wealth and very poor countries thus having a large variance.
+</conclusion>
+
+<class>
+MPL
+</class>
+
+</project>

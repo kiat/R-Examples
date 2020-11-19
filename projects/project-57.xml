@@ -1,0 +1,37 @@
+
+<project>
+
+<projectID>57</projectID>
+
+<projectDescription>
+For my experiences, we would give tips to the driver when it’s a long drive.
+For short distance drive, we and driver may not have a chance to start a conversation, we usually play with my phone and keep doing this till my arrive;
+but for long drive, since the ride needs a lot of time, there will be an opportunity to chat with each other. Good mood can lead to the action of paying tips to the driver.
+We want to see if there is a relationship with the long trip distance and the action of giving tips.
+</projectDescription>
+
+<dataSource>
+Data comes from: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+</dataSource>
+
+<dataDescription>
+  We removed other unused columns, and only kept three helpful columns: trip_distance, tip_amount, payment_type.
+  First, we have to set up a standard to represent if it’s a long trip. We used “hist()” to see if there was a skewness in this sample data, the graph showed a left skewness; so I used the median instead of the mean. When trip_distance no less than the median, distance_level =1, otherwise distance_level=0.
+  When there is an action of paying tips, that is when tip_amount larger than 0, tip_level =1, otherwise tip_level=0.
+  We also cleaned all rows which payment_type =2. The data dictionary said when passengers use cash payment, they can’t collect the tip information, so they must be removed.
+</dataDescription>
+
+<researchQuestion>
+Perform a logistic regression with the distance of trip as the explanatory variable. We use alpha=0.05 to test that if there is an association between far trip distance and the action of giving tips.
+</researchQuestion>
+
+<conclusion>
+  We can see the p-value is 0.569, much larger than 0.05.
+  We don’t have significant evidence at alpha=0.05 to say there is an association between the far trip distance and the action of giving tips.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

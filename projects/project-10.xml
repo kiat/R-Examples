@@ -1,0 +1,51 @@
+
+<project>
+
+<projectID>10</projectID>
+
+<projectDescription>
+This FIFA19 dataset consists of data points such as age, nationality, height, weight, value, wage, reaction, balance, strength etc of a list of 500 soccer players exist in the game who are currently playing in different soccer clubs around the world.
+Having these data on hand, we would like to analyze the soccer player’s value and performance based on the given data.
+Such as looking into questions like whether their value is correlated with their wage,
+how soccer player’s overall score associated with their clubs or whether their age, height, weight have impact on their reaction, balance, and strength
+by using the technique like linear regression, ANOVA, and logistic regression.
+</projectDescription>
+
+<dataDescription>
+We have obtained my dataset under the topic FIFA 19 complete player dataset from kaggle website using this link https://www.kaggle.com/karangadiya/fifa19/version/4.
+The original dataset consists of 89 columns and 18206 rows of soccer player data, which then being reduced to 15 columns including ID, Name, Age, Nationality, Overall Score, Potential Score, Club, Value, Wage, Jersey.Number, Height, Weight, Reactions, Balance, and Strength for the top 500 players.
+Value and Wage have been formatted to numeric fields by removing the € sign and M for in millions or K for in thousands.
+Also Weight has also been formatted to numeric data by omitting the unit in lbs and Height has been converted from the format of “ft’inch” to number in inches.
+Although there is one outlier each in Age and Weight after testing the data using boxplot, the two players are not eliminated since the outlier values are not far off from the data range as well as they are accurate data.
+</dataDescription>
+
+
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+We am interested in testing whether there is a correlation between soccer player’s value and their wage.
+Whether there is a difference in soccer player’s overall performance score among various clubs (FC Barcelona, Juventus, and Real Madrid).
+Also we want to know that whether age has influence on the soccer player’s reaction and if height and weight are factors which will impact soccer player’s balance.
+</researchQuestion>
+
+
+<conclusion>
+  1.	Correlation coefficient between soccer player's value and their wage is equal to 0.754.
+  By running a simple linear regression test, we have sufficient evidence to conclude that there is a linear relationship between soccer player's value and their wage due to a p-value which is small enough to reject the null hypothesis that there's no linear relationship at an alpha level of 0.05.
+
+  2.	By running the One-way ANOVA test among the three soccer club: FC Barcelona, Juventus and Real Madrid, we do not have sufficient evidence to reject the null hypothesis because p-value in this case is equal to 0.812.
+  When we further look at the pairwise comparisons using Tukey's procedure the differences in overall performance score means are ranged in between 0.334 and 0.734 which also confirms the insignificance.
+
+  3.	According to the logistic regression test, we can conclude that at alpha level equal to 0.05 there is sufficient evidence to show that there is an association between age and the odds of soccer player's reaction score being rated above or below 80.
+  In addition, when running a multiple logistic regression predicting balance level from height and weight both factors have association with the balance level results.
+  From the global wald test we got a p-value equal to 0 and from the multiple logistic regression test each factor among height and weight do have significant evidence to suggest that there is an association between height or weight after controlling the other variable and the odds of soccer player's balance level above or below 60.
+</conclusion>
+
+<class>
+SLR, ANOVA, Logistic Regression
+</class>
+
+</project>

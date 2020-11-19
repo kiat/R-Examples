@@ -1,0 +1,35 @@
+
+<project>
+
+<projectID>79</projectID>
+
+<projectDescription>
+A researcher was interested in determining if the gender of patient is associated with angina when exercise,
+303 patients were surveyed in Heart Disease UCI asking whether they have angina when they are exercise.
+</projectDescription>
+
+<dataSource>
+The dataset is downloaded from https://www.kaggle.com/ronitf/heart-disease-uci/version/1
+</dataSource>
+
+<dataDescription>
+  This dataset contains 14 columns, and 303 observations.
+  •	1 = male and 2 = female.
+  •	exercise induced angina (1 = yes; 0 = no)
+
+  Read the dataset into R:
+</dataDescription>
+
+<researchQuestion>
+We are interested in whether the proportion of male and female with angina when exercise are equal.
+</researchQuestion>
+
+<conclusion>
+Since the p-value is 0.01367, which is less than 0.05, so we can reject the null hypothesis, and have significant evidence to conclude that the proportion of male and female which have angina when exercise are not the same.
+</conclusion>
+
+<class>
+Two-Sample Tests for Proportions
+</class>
+
+</project>

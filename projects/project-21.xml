@@ -1,0 +1,46 @@
+
+<project>
+
+<projectID>21</projectID>
+
+<projectDescription>
+  Titanic, British luxury passenger liner that sank after striking an iceberg on April 14–15, 1912, during its maiden voyage, killing about 1,500 passengers.
+
+  Analyze the passenger data, try to find out the survivorship percentage, passenger distribution per class, passenger distribution related to age and class, passenger distribution per embarked location, relationship between survivorship and age etc., then draw some conclusion based on the analysis result.
+</projectDescription>
+
+<dataDescription>
+  The main data set source link:
+  https://github.com/awesomedata/awesome-public-datasets
+
+  Original data set has total 11 columns. Passengerid is a self-increasement column indicates the ID. Survive column indicates that passenger survived (“1”) or died (“0”).
+  Column Pclass indicates passengers’ class, 1 is the highest class and then 2, and 3. ‘Name’ column describes passengers’ name which is not going to be used in this assignment.
+  And ‘SibSp’ and ‘Parch’ columns indicate passengers’ sibling/spouse number and parent/children number, which will not be used in the assignment, neither for column ‘Ticket’ and ‘Faree’ which shows passengers’ ticket number and fare paid.
+  ‘Cabin’ column shows passengers’ cabin information most of which is not complete in the original data, we will delete this column too.
+  ‘Embarked’ column shows passenger’s embarked places.
+
+  After removing unused columns, and those who don’t have age info, we refine our data set as following file shows: (columns ‘Survived’, ‘Pclass’, ‘Sex’ are selected)
+</dataDescription>
+
+<dataSource>
+https://github.com/awesomedata/awesome-public-datasets
+</dataSource>
+
+<researchQuestion>
+  1.What’s the association between Pclass, sex on a survived event in the passengers?
+  2. If we control the sex, what’s the association between different Pclass and survive event for males?
+</researchQuestion>
+
+<conclusion>
+  1. The proportion (risk) difference between female and male survived groups is 55%.
+  A proportion test at α=.05 level, we got X-squared equals to 149.2 with p-value less than 0.001.
+  Based on above effect measure, the risk of an event that survived rate is 55% higher among females as among males.
+
+  2. The proportion(risk difference between Pclass 1 and Pclass 3 male survivors is 18.6% higher among higher Pclass (1) as among lower Pclass (3).
+</conclusion>
+
+<class>
+Two-Sample Tests for Proportions
+</class>
+
+</project>

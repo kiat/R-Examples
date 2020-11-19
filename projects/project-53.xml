@@ -1,0 +1,52 @@
+
+<project>
+
+<projectID>53</projectID>
+
+<projectDescription>
+  A developer cum entrepreneur is planning to design a google play store app under category "Tools".
+  He want to analyze that beside the features for the application what other factors can make a user install the App. Does size, reviews, ratings, etc play a role in increased number of installation.
+  Traditionally it is thought that App's UI, functionality, ratings and reviews determine that the App will be installed or not.
+</projectDescription>
+
+<dataSource>
+  Main Data Set Source : https://www.kaggle.com/lava18/google-play-store-apps
+</dataSource>
+
+<dataDescription>
+  Dataset: Google Play Store Apps
+  Attributes used:
+  •	App: Application name
+  •	Category: Category to which the app belongs
+  •	Rating: Overall user rating of the app (as when scraped)
+  •	Reviews: Number of user reviews for the app (as when scraped)
+  •	Size: Size of the app (as when scraped)
+  •	Installs: Number of user downloads/installs for the app (as when scraped)
+  Data after pre-processing is sampled on basis of the Category attribute (="TOOLS").
+  Pre-process involves removal of NaN, empty cells, conversion of categorical to numeric (e.g. 5+ to 5), etc.
+  Categorical values are uneven in original dataset so lot of time was involved to convert them in numeric.
+</dataDescription>
+
+<researchQuestion>
+Perform a simple linear regression that predict number of installation from rating, reviews, and size.
+Assess whether the model assumptions are met (linearity, constant variance and normality).
+If the overall models were significant, summarize the information.
+</researchQuestion>
+
+<conclusion>
+  Rating and Number of Installation do not share constant relationship (Non-linear, 0 Correlation), though at a very higher rating there are chances of high number of installation but that may not be always be the case.
+
+  Seems no relationship between Reviews and Number of Installations, though if we have data for positive or negative reviews that could be helpful to significant conclusion.
+  Currently only 1 interesting observation i.e. almost negligible reviews App could also have very good competitive number of installations.
+
+  Nothing could be commented on relationship between Size and Number of Installations, except that lesser memory apps have more chances to get installed and remain installed.
+
+  More data (and may be more detailed data) is required to make better conclusions.
+  Also, currently analysis is on one of the category with heavy weigh outliers influence (though once outliers were removed from data), we could try some sampling and balancing techniques on dataset and then could do more effective study.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

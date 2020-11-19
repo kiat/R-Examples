@@ -1,0 +1,45 @@
+
+<project>
+
+<projectID>44</projectID>
+
+<projectDescription>
+  A research group was interested in determining if the mean number of deaths in NYC are in any way related to race/ethnicity of the deceased person.
+  A total of 1000 responses were recorded of and a subset of that data has been leveraged in this particular area.
+</projectDescription>
+
+<dataDescription>
+  The leading causes of death by sex and ethnicity in New York City in since 2007.
+  Cause of death is derived from the NYC death certificate which is issued for every death that occurs in New York City.
+</dataDescription>
+
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+  Our primary area of concern pertains to whether race/ethnicity plays a significant role in the decedents death.
+  We hope to understand if there are larger number of deaths for different ethnicity’s which would warrant additional research in to this particular subject matter.
+</researchQuestion>
+
+<conclusion>
+  From the above plots, and the F test, we have significance evidence at the alpha = 0.05, that there are at least two races with different number of mean deaths
+
+  Based on the pairwise test results,
+  We can say that we do not have sufficient evidence that mean deaths are different between the following pair of races:
+  Not Stated/Unknown - Asian and Pacific Islander
+  Other Race/ Ethnicity - Asian and Pacific Islander
+  White Non-Hispanic - Asian and Pacific Islander
+  Other Race/ Ethnicity - Not Stated/Unknown
+  White Non-Hispanic - Not Stated/Unknown
+  White Non-Hispanic - Asian and Pacific Islander
+
+  And we can conclude for all other pairs that the mean deaths is different.s
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

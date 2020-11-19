@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>6</projectID>
+
+<projectDescription>
+  We want to find out that if the temperature is related/affected by the precipitation.
+  So we download the weather data from 2019.1.1 to 2019.2.28 of Boston
+</projectDescription>
+
+<dataDescription>
+  My data is about the weather from 2019.1.1 to 2019.2.28 in Boston
+  There are two columns of my data.
+  The first column is the daily average temperature(℃),and the second
+  column is True/False that if the day has precipitation.
+
+  http://tianqi.2345.com/inter_history/america/boston-ma.htm
+
+  The data is download from the website above. And I calculate the average temperature .
+
+</dataDescription>
+
+
+<dataSource>
+http://tianqi.2345.com/inter_history/america/boston-ma.htm
+</dataSource>
+
+
+<researchQuestion>
+We would like to know that if the temperature is related to the precipitation.
+If so, what kind of relationship do they have?
+</researchQuestion>
+
+
+<conclusion>
+  First, we calculate the correlation coefficient between temperature and precipitation,
+  the result is 0.33, which indicates there is a little positive relationship between temperature and precipitation.
+  Then, we divide the temperature into two groups(high,low) by their mean and calculate the correlation coefficient.
+  The result is 0.28, which indicates the precipitation has no relationship with the temperature in degree(if high/low).
+
+</conclusion>
+
+<class>
+Correlation Tests
+</class>
+
+</project>

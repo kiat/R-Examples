@@ -1,0 +1,40 @@
+
+<project>
+
+<projectID>60</projectID>
+
+<projectDescription>
+  Glass is a non-crystalline amorphous solid produced by chemical compound silica.
+  A lot of applications of silicate glasses will transmit, reflect and refract light to be enhanced by cutting and polishing to make different types of glasses.
+  Further, we can motivate the study of identification of types of glass by criminological investigation.
+  Today, we want to discuss about weather the RI (refractive index), Na (Sodium) or Si(Silicon) vary by glass type.
+  If we can correctly identify the type, at the scene of the crime, the glass left can be used as evidence.
+</projectDescription>
+
+<dataSource>
+https://www.openml.org/d/41
+</dataSource>
+
+<dataDescription>
+In this database, we have 214 different instances glasses from 6 types: building windows float processed, building windows non float processed, vehicle windows float processed, containers, tableware and headlamps.
+Although there are 10 attribute information, in this project, we only want to discuss the relationship between type and RI, type and Na, type and Si.
+Also, there exists few outliers to remove.
+</dataDescription>
+
+<researchQuestion>
+  Do the RI (refractive index) vary by glass type? Do the Na (Sodium) vary by glass type?
+  How about Si(Silicon)? (Associated with alpha=0.05.)
+  Perform a one-way ANOVA using the aov function in R to assess.
+</researchQuestion>
+
+<conclusion>
+  F-distribution with 5, 208 degrees of freedom and associated with alpha =0.05 equals about 2.2575. Because F value of Type associated with refractive index is 1.609, there is no linear association between refractive index of glass and glass type. We use the same decision rule, we can see the F-value of type associated with Sodium is 28.55 and F-value of type associated with Silicon is 2.787, which are both greater than 2.2575.
+  Thus, we have conclusion that it is a linear relationship between Sodium and glass type, Silicon and glass type as well.
+  At the scene of the crime, the police can analyze the content of Sodium, Silicon or other elements to identify the type of glass left as evidence.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

@@ -1,0 +1,70 @@
+
+<project>
+
+<projectID>5</projectID>
+
+<projectDescription>
+  The Exoplanet Exploration Program Office is supporting work to compile a list of nearby stars and their properties for future mission planning. Dataset is from the NASA Exoplanet Archive.
+  Analysis will be finding if there is or not an association regarding star distance, spectral type, stellar luminosity, and degrees/temperature.
+  Breakdown of the research questions will be as below.
+  1.	Is there correlation between distance and luminosity or between degrees/temperature and luminosity?
+  2.	Significant pairwise analysis will be used to do a SLR (F and T test).
+  3.	All variables will be used for a MLR.
+  4.	One way ANOVA will be done to compare means of two most significant variables.
+  5.	Multiple logistic regression will be analyzed to summarize the model.
+
+</projectDescription>
+
+<dataDescription>
+  Cleanup performed: removed columns not relevant for this analysis, kept the ones of interest. Description of each variable is below.
+  1.	Star_name: Stellar name most commonly used
+  2.	Decimal_degrees: Declination of the planetary system in decimal degrees
+  3.	Star_dist: Distance to the planetary system in units of parsecs
+  4.	St_spttype: Classification of the star based on their spectral characteristics following the Morgan-Keenan system. This was kept in order to segment the stars into groups, but upon closer review they have too many groups to categorize for aov.
+  5.	St_lum: Amount of energy emitted by a star per unit time, measured in units of solar luminosities. The bolometric corrections are derived from V-K or B-V colors
+  Stars that did not have data on record for luminosity were removed for this analysis, leaving 315 stars in total. Columns were formatted to 2 decimal places for standardization.
+  Functions were used to get an overview of the data prior to analysis and models: summary, boxplot, and histogram.
+</dataDescription>
+
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+  Given star distance and luminosity have a linear positive relationship, will conduct pairwise tests as well as SLR, MLR, and later ANCOVA.
+  Will compare significance of different models in regards to these variables in particular star distance and star luminosity controlling for degrees/temperature and not controlling.
+  Assumption:
+  Will not be removing outliers or influence points in this analysis. We will simply locate them as this is a “as is” analysis of the dataset, intended as a first iteration.
+  A second iteration analysis on this dataset could be performed based on this initial analysis.
+</researchQuestion>
+
+<conclusion>
+  Highlighting items based on each section
+  1.	Can conclude distance and luminosity are more correlated than distance and temperature.
+  2.	Used distance as response variable and luminosity as the explanatory variable.
+  This test allowed to quantify relationship between the two variables resulting in an approximate equation of y= 16.845+0.026x.
+  The formal H0 was B1 = 0 meaning no linear relationship and HA B1≠0 which would mean there is a linear relationship.
+  The H0 was rejected at 0.05 level given significant p value.
+  Visually there was a positive linear relationship observed from plots. As predicted degrees and luminosity returned a cluster plot given their lack of correlation.
+  3.	Results for MLR gave an equation of y= 16.842+ 0.026 x_lum + -0.003 x_deg resulting in a significant p value for luminosity and a non-significant p value for degrees.
+  F statistic was 8.575 with a small pvalue for overall test of 0.00023.
+  4.	Goal of ANOVA was to compare means against groups. Two groups were created based on luminosity low for stars under 50 parsecs and high for 50 and above parsecs.
+  The results were an F statistic of 27.99 which is the ratio of variability between groups to the variability between groups.
+  When formally testing would reject H0 stating all means are the same given test resulted in 27.99 F> 3.87critical value.
+  5.	Lastly in multiple logistic regression created a dummy variable defining success as distance proximity less than or equal to the mean of the data (17.37 units of parsecs).
+  Results were both luminosity and decimal degrees were significant.
+</conclusion>
+
+<classes>
+  <class>SLR</class>
+  <class>MLR</class>
+  <class>ANCOVA</class>
+</classes>
+
+<fields>
+ <field>3</field>
+ <field>5</field>
+</fields>
+
+</project>

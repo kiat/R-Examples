@@ -1,0 +1,424 @@
+Country,Sex,Suicides.100k,HDI,GDP,Generation
+Australia,male,23.34,0.935,66809,Millenials
+Australia,male,20.67,0.935,66809,Boomers
+Australia,male,16.89,0.935,66809,Millenials
+Australia,female,8.68,0.935,66809,Generation X
+Australia,female,6.93,0.935,66809,Millenials
+Australia,female,6.7,0.935,66809,Boomers
+Australia,female,6.31,0.935,66809,Millenials
+Australia,female,5.2,0.935,66809,Silent
+Australia,female,1.06,0.935,66809,Generation Z
+Australia,male,0.4,0.935,66809,Generation Z
+Denmark,male,22.7,0.923,66114,Generation X
+Denmark,female,14.46,0.923,66114,Silent
+Denmark,male,12.89,0.923,66114,Millenials
+Denmark,male,8.37,0.923,66114,Millenials
+Denmark,female,7.62,0.923,66114,Generation X
+Denmark,female,7.5,0.923,66114,Boomers
+Denmark,female,2.15,0.923,66114,Millenials
+Denmark,female,1.98,0.923,66114,Millenials
+Denmark,female,0.31,0.923,66114,Generation Z
+Denmark,male,0.29,0.923,66114,Generation Z
+Ireland,male,23.67,0.916,59634,Millenials
+Ireland,male,23.54,0.916,59634,Millenials
+Ireland,male,19.21,0.916,59634,Boomers
+Ireland,male,7.75,0.916,59634,Silent
+Ireland,female,5.75,0.916,59634,Generation X
+Ireland,female,5.66,0.916,59634,Millenials
+Ireland,female,4.21,0.916,59634,Millenials
+Ireland,female,3.47,0.916,59634,Boomers
+Ireland,female,1.41,0.916,59634,Silent
+Ireland,male,0.6,0.916,59634,Generation Z
+Ireland,female,0,0.916,59634,Generation Z
+Iceland,male,16.54,0.899,56833,Millenials
+Iceland,male,16.38,0.899,56833,Generation X
+Iceland,female,9.38,0.899,56833,Generation X
+Iceland,female,9.06,0.899,56833,Silent
+Iceland,female,8.81,0.899,56833,Millenials
+Iceland,female,8.7,0.899,56833,Millenials
+Iceland,female,6.46,0.899,56833,Boomers
+Iceland,female,0,0.899,56833,Generation Z
+Iceland,male,0,0.899,56833,Generation Z
+Austria,female,17.4,0.885,54278,Silent
+Austria,male,17.36,0.885,54278,Millenials
+Austria,male,15.29,0.885,54278,Millenials
+Austria,female,10.87,0.885,54278,Boomers
+Austria,female,7.29,0.885,54278,Generation X
+Austria,female,5.12,0.885,54278,Millenials
+Austria,female,3.44,0.885,54278,Millenials
+Austria,male,0.48,0.885,54278,Generation Z
+Austria,female,0,0.885,54278,Generation Z
+Finland,male,18.94,0.883,52832,Millenials
+Finland,female,10.99,0.883,52832,Millenials
+Finland,female,8.73,0.883,52832,Generation X
+Finland,female,8.43,0.883,52832,Boomers
+Finland,female,6.9,0.883,52832,Millenials
+Finland,female,3.74,0.883,52832,Silent
+Finland,female,0.34,0.883,52832,Generation Z
+Finland,male,0.33,0.883,52832,Generation Z
+Belgium,male,23.05,0.89,50173,Millenials
+Belgium,female,15,0.89,50173,Generation X
+Belgium,female,14.27,0.89,50173,Boomers
+Belgium,female,13.51,0.89,50173,Silent
+Belgium,male,12.58,0.89,50173,Millenials
+Belgium,female,5.93,0.89,50173,Millenials
+Belgium,female,4.13,0.89,50173,Millenials
+Belgium,male,0.62,0.89,50173,Generation Z
+Belgium,female,0,0.89,50173,Generation Z
+Germany,male,20.45,0.916,50167,Generation X
+Germany,male,14.48,0.916,50167,Millenials
+Germany,female,12.06,0.916,50167,Silent
+Germany,male,8.92,0.916,50167,Millenials
+Germany,female,8.54,0.916,50167,Boomers
+Germany,female,6.83,0.916,50167,Generation X
+Germany,female,3.64,0.916,50167,Millenials
+Germany,female,2.87,0.916,50167,Millenials
+Germany,male,0.54,0.916,50167,Generation Z
+Germany,female,0.23,0.916,50167,Generation Z
+France,male,17.54,0.888,47318,Millenials
+France,female,11.53,0.888,47318,Silent
+France,female,10.19,0.888,47318,Boomers
+France,female,9.04,0.888,47318,Generation X
+France,male,7.34,0.888,47318,Millenials
+France,female,4.27,0.888,47318,Millenials
+France,female,2.48,0.888,47318,Millenials
+France,male,0.34,0.888,47318,Generation Z
+France,female,0.31,0.888,47318,Generation Z
+Kuwait,male,3.31,0.816,43774,Millenials
+Kuwait,male,2.59,0.816,43774,Millenials
+Kuwait,female,2.19,0.816,43774,Millenials
+Kuwait,male,2.02,0.816,43774,Generation X
+Kuwait,male,1.91,0.816,43774,Boomers
+Kuwait,female,1.76,0.816,43774,Generation X
+Kuwait,female,1.06,0.816,43774,Boomers
+Kuwait,female,1.02,0.816,43774,Millenials
+Kuwait,male,0,0.816,43774,Silent
+Kuwait,male,0,0.816,43774,Generation Z
+Kuwait,female,0,0.816,43774,Silent
+Kuwait,female,0,0.816,43774,Generation Z
+Israel,male,19.4,0.894,41869,Silent
+Israel,male,13.51,0.894,41869,Generation X
+Israel,male,9.36,0.894,41869,Boomers
+Israel,male,7.07,0.894,41869,Millenials
+Israel,male,5.52,0.894,41869,Millenials
+Israel,female,4.65,0.894,41869,Silent
+Israel,female,3.72,0.894,41869,Boomers
+Israel,female,3.05,0.894,41869,Generation X
+Israel,female,2.26,0.894,41869,Millenials
+Israel,female,1.65,0.894,41869,Millenials
+Israel,male,0.93,0.894,41869,Generation Z
+Israel,female,0.14,0.894,41869,Generation Z
+Japan,male,19.31,0.891,40328,Millenials
+Japan,female,16.26,0.891,40328,Silent
+Japan,female,14.53,0.891,40328,Boomers
+Japan,female,12.72,0.891,40328,Generation X
+Japan,female,12.09,0.891,40328,Millenials
+Japan,female,7.44,0.891,40328,Millenials
+Japan,male,1.22,0.891,40328,Generation Z
+Japan,female,0.64,0.891,40328,Generation Z
+Italy,male,14.05,0.873,37035,Boomers
+Italy,male,12.08,0.873,37035,Generation X
+Italy,male,8.59,0.873,37035,Millenials
+Italy,male,5.54,0.873,37035,Millenials
+Italy,female,3.93,0.873,37035,Generation X
+Italy,female,3.91,0.873,37035,Silent
+Italy,female,3.73,0.873,37035,Boomers
+Italy,female,2.18,0.873,37035,Millenials
+Italy,female,1.59,0.873,37035,Millenials
+Italy,female,0.25,0.873,37035,Generation Z
+Italy,male,0.17,0.873,37035,Generation Z
+Cyprus,male,12.06,0.85,29024,Generation X
+Cyprus,male,11.67,0.85,29024,Millenials
+Cyprus,male,8.46,0.85,29024,Boomers
+Cyprus,female,5.74,0.85,29024,Boomers
+Cyprus,female,5.53,0.85,29024,Millenials
+Cyprus,female,5.07,0.85,29024,Millenials
+Cyprus,male,4.47,0.85,29024,Silent
+Cyprus,male,3.28,0.85,29024,Millenials
+Cyprus,female,0.82,0.85,29024,Generation X
+Cyprus,female,0,0.85,29024,Silent
+Cyprus,male,0,0.85,29024,Generation Z
+Cyprus,female,0,0.85,29024,Generation Z
+Bahrain,male,3.97,0.824,27503,Millenials
+Bahrain,male,1.26,0.824,27503,Millenials
+Bahrain,female,0.9,0.824,27503,Millenials
+Bahrain,male,0.39,0.824,27503,Generation X
+Bahrain,female,0,0.824,27503,Silent
+Bahrain,male,0,0.824,27503,Silent
+Bahrain,male,0,0.824,27503,Generation Z
+Bahrain,female,0,0.824,27503,Generation X
+Bahrain,female,0,0.824,27503,Boomers
+Bahrain,female,0,0.824,27503,Generation Z
+Bahrain,male,0,0.824,27503,Boomers
+Bahrain,female,0,0.824,27503,Millenials
+Greece,male,14.57,0.865,22834,Silent
+Greece,male,12.44,0.865,22834,Boomers
+Greece,male,10.55,0.865,22834,Generation X
+Greece,male,5.98,0.865,22834,Millenials
+Greece,male,4.89,0.865,22834,Millenials
+Greece,female,2.96,0.865,22834,Silent
+Greece,female,2.66,0.865,22834,Boomers
+Greece,female,2.58,0.865,22834,Generation X
+Greece,female,1.74,0.865,22834,Millenials
+Greece,female,1.27,0.865,22834,Millenials
+Greece,male,0.18,0.865,22834,Generation Z
+Greece,female,0,0.865,22834,Generation Z
+Estonia,female,15.31,0.861,21117,Silent
+Estonia,female,8.88,0.861,21117,Generation X
+Estonia,female,8.68,0.861,21117,Millenials
+Estonia,female,5.81,0.861,21117,Boomers
+Estonia,male,2.86,0.861,21117,Generation Z
+Estonia,female,1.45,0.861,21117,Millenials
+Estonia,female,0,0.861,21117,Generation Z
+Czech Republic,male,20.87,0.87,20859,Millenials
+Czech Republic,male,14.85,0.87,20859,Millenials
+Czech Republic,female,11.64,0.87,20859,Silent
+Czech Republic,female,7.89,0.87,20859,Boomers
+Czech Republic,female,6.23,0.87,20859,Generation X
+Czech Republic,female,3.65,0.87,20859,Millenials
+Czech Republic,female,2.04,0.87,20859,Millenials
+Czech Republic,female,0.2,0.87,20859,Generation Z
+Czech Republic,male,0.19,0.87,20859,Generation Z
+Lithuania,female,23.75,0.839,17442,Silent
+Lithuania,female,12.27,0.839,17442,Boomers
+Lithuania,female,9.97,0.839,17442,Generation X
+Lithuania,female,6.44,0.839,17442,Millenials
+Lithuania,female,6.04,0.839,17442,Millenials
+Lithuania,female,2.22,0.839,17442,Generation Z
+Lithuania,male,1.41,0.839,17442,Generation Z
+Latvia,female,14.47,0.819,16544,Silent
+Latvia,female,7.29,0.819,16544,Millenials
+Latvia,female,7.27,0.819,16544,Boomers
+Latvia,female,5.64,0.819,16544,Millenials
+Latvia,female,5.61,0.819,16544,Generation X
+Latvia,female,0,0.819,16544,Generation Z
+Latvia,male,0,0.819,16544,Generation Z
+Chile,male,22.9,0.832,15883,Boomers
+Chile,male,22.25,0.832,15883,Generation X
+Chile,male,20.87,0.832,15883,Millenials
+Chile,male,16.83,0.832,15883,Millenials
+Chile,female,5.25,0.832,15883,Generation X
+Chile,female,4.47,0.832,15883,Millenials
+Chile,female,4.27,0.832,15883,Millenials
+Chile,female,3.48,0.832,15883,Boomers
+Chile,female,1.76,0.832,15883,Silent
+Chile,male,0.94,0.832,15883,Generation Z
+Chile,female,0.73,0.832,15883,Generation Z
+Hungary,male,20.06,0.828,14886,Millenials
+Hungary,female,15.92,0.828,14886,Silent
+Hungary,female,13.54,0.828,14886,Boomers
+Hungary,male,12.09,0.828,14886,Millenials
+Hungary,female,10.68,0.828,14886,Generation X
+Hungary,female,3.69,0.828,14886,Millenials
+Hungary,female,1.42,0.828,14886,Millenials
+Hungary,male,0.4,0.828,14886,Generation Z
+Hungary,female,0,0.828,14886,Generation Z
+Kazakhstan,female,14.44,0.788,14351,Silent
+Kazakhstan,female,9.82,0.788,14351,Millenials
+Kazakhstan,female,8.45,0.788,14351,Millenials
+Kazakhstan,female,7.42,0.788,14351,Generation X
+Kazakhstan,female,5.46,0.788,14351,Boomers
+Kazakhstan,male,2.76,0.788,14351,Generation Z
+Kazakhstan,female,1.38,0.788,14351,Generation Z
+Croatia,female,17.44,0.818,14299,Silent
+Croatia,male,14.71,0.818,14299,Millenials
+Croatia,male,14.62,0.818,14299,Millenials
+Croatia,female,12.97,0.818,14299,Boomers
+Croatia,female,8.39,0.818,14299,Generation X
+Croatia,female,5,0.818,14299,Millenials
+Croatia,female,3.97,0.818,14299,Millenials
+Croatia,female,0.49,0.818,14299,Generation Z
+Croatia,male,0,0.818,14299,Generation Z
+Antigua and Barbuda,female,0,0.783,14093,Generation Z
+Antigua and Barbuda,female,0,0.783,14093,Millenials
+Antigua and Barbuda,female,0,0.783,14093,Boomers
+Antigua and Barbuda,male,0,0.783,14093,Boomers
+Antigua and Barbuda,male,0,0.783,14093,Generation X
+Antigua and Barbuda,female,0,0.783,14093,Silent
+Antigua and Barbuda,male,0,0.783,14093,Generation Z
+Antigua and Barbuda,female,0,0.783,14093,Millenials
+Antigua and Barbuda,female,0,0.783,14093,Generation X
+Antigua and Barbuda,male,0,0.783,14093,Millenials
+Antigua and Barbuda,male,0,0.783,14093,Millenials
+Antigua and Barbuda,male,0,0.783,14093,Silent
+Argentina,male,21.13,0.836,13400,Millenials
+Argentina,male,16.2,0.836,13400,Millenials
+Argentina,male,13.72,0.836,13400,Boomers
+Argentina,male,12.73,0.836,13400,Generation X
+Argentina,female,6.02,0.836,13400,Millenials
+Argentina,female,3.77,0.836,13400,Generation X
+Argentina,female,3.66,0.836,13400,Millenials
+Argentina,female,3.15,0.836,13400,Boomers
+Argentina,female,1.89,0.836,13400,Silent
+Argentina,female,0.99,0.836,13400,Generation Z
+Argentina,male,0.93,0.836,13400,Generation Z
+Brazil,male,16.6,0.755,12975,Silent
+Brazil,male,12.28,0.755,12975,Boomers
+Brazil,male,11.52,0.755,12975,Generation X
+Brazil,male,11.26,0.755,12975,Millenials
+Brazil,male,7.71,0.755,12975,Millenials
+Brazil,female,3.11,0.755,12975,Generation X
+Brazil,female,2.67,0.755,12975,Boomers
+Brazil,female,2.61,0.755,12975,Millenials
+Brazil,female,2.28,0.755,12975,Silent
+Brazil,female,2.17,0.755,12975,Millenials
+Brazil,male,0.52,0.755,12975,Generation Z
+Brazil,female,0.4,0.755,12975,Generation Z
+Costa Rica,male,14.2,0.766,11485,Boomers
+Costa Rica,male,12.32,0.766,11485,Generation X
+Costa Rica,male,12.19,0.766,11485,Millenials
+Costa Rica,male,10.33,0.766,11485,Millenials
+Costa Rica,male,8.61,0.766,11485,Silent
+Costa Rica,female,3.06,0.766,11485,Millenials
+Costa Rica,female,3,0.766,11485,Millenials
+Costa Rica,female,2.26,0.766,11485,Silent
+Costa Rica,female,1.75,0.766,11485,Generation X
+Costa Rica,female,1.47,0.766,11485,Boomers
+Costa Rica,female,0.85,0.766,11485,Generation Z
+Costa Rica,male,0.81,0.766,11485,Generation Z
+Grenada,male,0,0.75,9456,Boomers
+Grenada,male,0,0.75,9456,Millenials
+Grenada,male,0,0.75,9456,Generation Z
+Grenada,male,0,0.75,9456,Millenials
+Grenada,male,0,0.75,9456,Generation X
+Grenada,female,0,0.75,9456,Boomers
+Grenada,female,0,0.75,9456,Generation X
+Grenada,female,0,0.75,9456,Millenials
+Grenada,male,0,0.75,9456,Silent
+Grenada,female,0,0.75,9456,Millenials
+Grenada,female,0,0.75,9456,Generation Z
+Grenada,female,0,0.75,9456,Silent
+Belarus,male,22.12,0.798,8849,Millenials
+Belarus,female,11.16,0.798,8849,Silent
+Belarus,female,6.54,0.798,8849,Generation X
+Belarus,female,5.91,0.798,8849,Boomers
+Belarus,female,5.5,0.798,8849,Millenials
+Belarus,female,2.74,0.798,8849,Millenials
+Belarus,female,1.32,0.798,8849,Generation Z
+Belarus,male,0.42,0.798,8849,Generation Z
+Colombia,male,17.07,0.72,8591,Silent
+Colombia,male,11.38,0.72,8591,Millenials
+Colombia,male,10.12,0.72,8591,Boomers
+Colombia,male,9.96,0.72,8591,Millenials
+Colombia,male,7.89,0.72,8591,Generation X
+Colombia,female,3.23,0.72,8591,Millenials
+Colombia,female,2.05,0.72,8591,Millenials
+Colombia,female,1.34,0.72,8591,Boomers
+Colombia,female,1.27,0.72,8591,Generation X
+Colombia,male,0.9,0.72,8591,Generation Z
+Colombia,female,0.72,0.72,8591,Silent
+Colombia,female,0.69,0.72,8591,Generation Z
+Bulgaria,male,23.27,0.782,8241,Boomers
+Bulgaria,female,17.52,0.782,8241,Silent
+Bulgaria,male,14.82,0.782,8241,Generation X
+Bulgaria,male,9.24,0.782,8241,Millenials
+Bulgaria,male,8.71,0.782,8241,Millenials
+Bulgaria,female,5.37,0.782,8241,Boomers
+Bulgaria,female,3.27,0.782,8241,Generation X
+Bulgaria,female,2.75,0.782,8241,Millenials
+Bulgaria,female,1.4,0.782,8241,Millenials
+Bulgaria,male,0.59,0.782,8241,Generation Z
+Bulgaria,female,0,0.782,8241,Generation Z
+Cuba,male,21.53,0.769,7459,Generation X
+Cuba,female,13.13,0.769,7459,Silent
+Cuba,male,12.8,0.769,7459,Millenials
+Cuba,female,10.79,0.769,7459,Boomers
+Cuba,male,8.14,0.769,7459,Millenials
+Cuba,female,5.66,0.769,7459,Generation X
+Cuba,female,2.67,0.769,7459,Millenials
+Cuba,female,1.64,0.769,7459,Millenials
+Cuba,male,1.39,0.769,7459,Generation Z
+Cuba,female,0.33,0.769,7459,Generation Z
+Ecuador,male,13.55,0.732,7116,Silent
+Ecuador,male,11.05,0.732,7116,Millenials
+Ecuador,male,9.67,0.732,7116,Millenials
+Ecuador,male,8.87,0.732,7116,Boomers
+Ecuador,male,8.53,0.732,7116,Generation X
+Ecuador,female,5.34,0.732,7116,Millenials
+Ecuador,female,2.61,0.732,7116,Millenials
+Ecuador,male,1.79,0.732,7116,Generation Z
+Ecuador,female,1.78,0.732,7116,Boomers
+Ecuador,female,1.2,0.732,7116,Generation X
+Ecuador,female,1.2,0.732,7116,Generation Z
+Ecuador,female,0.43,0.732,7116,Silent
+Belize,male,13.58,0.715,5448,Generation X
+Belize,male,5.53,0.715,5448,Millenials
+Belize,female,5.5,0.715,5448,Millenials
+Belize,female,5.22,0.715,5448,Generation Z
+Belize,female,3.41,0.715,5448,Millenials
+Belize,female,2.65,0.715,5448,Generation X
+Belize,male,0,0.715,5448,Silent
+Belize,female,0,0.715,5448,Silent
+Belize,male,0,0.715,5448,Generation Z
+Belize,female,0,0.715,5448,Boomers
+Bosnia and Herzegovina,male,20.92,0.733,5079,Boomers
+Bosnia and Herzegovina,male,17.96,0.733,5079,Generation X
+Bosnia and Herzegovina,female,9.87,0.733,5079,Silent
+Bosnia and Herzegovina,male,7.52,0.733,5079,Millenials
+Bosnia and Herzegovina,female,5.05,0.733,5079,Generation X
+Bosnia and Herzegovina,female,5.02,0.733,5079,Boomers
+Bosnia and Herzegovina,male,2.19,0.733,5079,Millenials
+Bosnia and Herzegovina,female,1.28,0.733,5079,Millenials
+Bosnia and Herzegovina,female,0.8,0.733,5079,Millenials
+Bosnia and Herzegovina,male,0.44,0.733,5079,Generation Z
+Bosnia and Herzegovina,female,0,0.733,5079,Generation Z
+Georgia,male,23.76,0.754,4757,Silent
+Georgia,male,19.4,0.754,4757,Boomers
+Georgia,male,10.79,0.754,4757,Generation X
+Georgia,female,4.59,0.754,4757,Boomers
+Georgia,male,4.54,0.754,4757,Millenials
+Georgia,male,4.51,0.754,4757,Millenials
+Georgia,female,2.94,0.754,4757,Silent
+Georgia,female,1.99,0.754,4757,Millenials
+Georgia,female,1.05,0.754,4757,Millenials
+Georgia,female,0.92,0.754,4757,Generation X
+Georgia,female,0,0.754,4757,Generation Z
+Georgia,male,0,0.754,4757,Generation Z
+Guatemala,male,8.14,0.627,4210,Generation X
+Guatemala,male,7.49,0.627,4210,Boomers
+Guatemala,male,7.08,0.627,4210,Millenials
+Guatemala,male,6.77,0.627,4210,Millenials
+Guatemala,male,5.36,0.627,4210,Silent
+Guatemala,female,5.07,0.627,4210,Millenials
+Guatemala,female,2.5,0.627,4210,Millenials
+Guatemala,female,1.27,0.627,4210,Boomers
+Guatemala,female,1.22,0.627,4210,Generation X
+Guatemala,female,0.68,0.627,4210,Generation Z
+Guatemala,male,0.3,0.627,4210,Generation Z
+Guatemala,female,0,0.627,4210,Silent
+Armenia,male,14.97,0.733,4142,Silent
+Armenia,female,6.12,0.733,4142,Silent
+Armenia,male,5.35,0.733,4142,Boomers
+Armenia,male,3.58,0.733,4142,Generation X
+Armenia,male,2.37,0.733,4142,Millenials
+Armenia,female,1.38,0.733,4142,Boomers
+Armenia,male,1.3,0.733,4142,Millenials
+Armenia,female,0.88,0.733,4142,Millenials
+Armenia,female,0.58,0.733,4142,Generation Z
+Armenia,female,0.48,0.733,4142,Generation X
+Armenia,male,0,0.733,4142,Generation Z
+Armenia,female,0,0.733,4142,Millenials
+El Salvador,male,21.59,0.666,3965,Silent
+El Salvador,male,18.55,0.666,3965,Millenials
+El Salvador,male,14.49,0.666,3965,Generation X
+El Salvador,male,14.25,0.666,3965,Boomers
+El Salvador,male,8.03,0.666,3965,Millenials
+El Salvador,female,7.84,0.666,3965,Silent
+El Salvador,female,5.05,0.666,3965,Millenials
+El Salvador,female,4.79,0.666,3965,Millenials
+El Salvador,female,3.56,0.666,3965,Generation X
+El Salvador,female,2.7,0.666,3965,Boomers
+El Salvador,female,0.67,0.666,3965,Generation Z
+El Salvador,male,0.32,0.666,3965,Generation Z
+Kyrgyzstan,male,23.12,0.655,1465,Generation X
+Kyrgyzstan,male,18.78,0.655,1465,Millenials
+Kyrgyzstan,male,16.3,0.655,1465,Boomers
+Kyrgyzstan,male,14.76,0.655,1465,Silent
+Kyrgyzstan,male,10.76,0.655,1465,Millenials
+Kyrgyzstan,female,5.65,0.655,1465,Silent
+Kyrgyzstan,female,5.28,0.655,1465,Millenials
+Kyrgyzstan,female,4.48,0.655,1465,Millenials
+Kyrgyzstan,female,4.38,0.655,1465,Generation X
+Kyrgyzstan,female,3.86,0.655,1465,Boomers
+Kyrgyzstan,male,2.91,0.655,1465,Generation Z
+Kyrgyzstan,female,1.51,0.655,1465,Generation Z

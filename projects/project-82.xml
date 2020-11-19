@@ -1,0 +1,39 @@
+
+<project>
+
+<projectID>82</projectID>
+
+<projectDescription>
+This research contains Data of suicide population during 1985-2016 in two countries, With research on suicide as the response variable, we can tell the relation between suicide population and other indicators.
+Thus provide valuable inference to government preventing suicide.
+</projectDescription>
+
+<dataSource>
+Data source: https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+</dataSource>
+
+<dataDescription>
+  Country: chr “Albania” “Antigua and Barbuda”
+  Year: num 1985-2016
+  Gender: chr “Male” “Female”
+  Suicide number: num
+  GDP for the year: num
+  GDP per capital: num
+  Population: num
+  Generation: chr “Silent” “Boomer” “X” “G.I” ”Z” “Millenials”
+</dataDescription>
+
+<researchQuestion>
+Is there any difference in suicide number between generation? Is the difference driven by population?
+</researchQuestion>
+
+<conclusion>
+After adjusting for population F-statistic of generation is still significant 12.51>8.17>2.2 and become bigger.
+So there are more different generations. So it is not driven by populations.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

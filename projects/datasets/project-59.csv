@@ -1,0 +1,501 @@
+Name,Age,Value,Wage
+L. Messi,31,110.5,565000
+Cristiano Ronaldo,33,77,405000
+Neymar Jr,26,118.5,290000
+De Gea,27,72,260000
+K. De Bruyne,27,102,355000
+E. Hazard,27,93,340000
+L. Modri?,32,67,420000
+L. Su¨¢rez,31,80,455000
+Sergio Ramos,32,51,380000
+J. Oblak,25,68,94000
+R. Lewandowski,29,77,205000
+T. Kroos,28,76.5,355000
+D. God¨ªn,32,44,125000
+David Silva,32,60,285000
+N. Kant¨¦,27,63,225000
+P. Dybala,24,89,205000
+H. Kane,24,83.5,205000
+A. Griezmann,27,78,145000
+M. ter Stegen,26,58,240000
+T. Courtois,26,53.5,240000
+Sergio Busquets,29,51.5,315000
+E. Cavani,31,60,2e+05
+M. Neuer,32,38,130000
+S. Ag¨¹ero,30,64.5,3e+05
+G. Chiellini,33,27,215000
+K. Mbapp¨¦,19,81,1e+05
+M. Salah,26,69.5,255000
+Casemiro,26,59.5,285000
+J. Rodr¨ªguez,26,69.5,315000
+L. Insigne,27,62,165000
+Isco,26,73.5,315000
+C. Eriksen,26,73.5,205000
+Coutinho,26,69.5,340000
+P. Aubameyang,29,59,265000
+M. Hummels,29,46,160000
+Marcelo,30,43,285000
+G. Bale,28,60,355000
+H. Lloris,31,36,150000
+G. Higua¨ªn,30,57,245000
+Thiago Silva,33,24,165000
+S. Handanovi?,33,30,110000
+G. Buffon,40,4,77000
+S. Umtiti,24,57,205000
+M. Icardi,25,64.5,130000
+K. Koulibaly,27,51,115000
+P. Pogba,25,64,210000
+K. Navas,31,30.5,195000
+R. Lukaku,25,62.5,230000
+C. Immobile,28,52,115000
+Jordi Alba,29,38,250000
+D. Mertens,31,45,135000
+J. Vertonghen,31,34,155000
+M. Ham?¨ªk,30,46.5,125000
+I. Rakiti?,30,46.5,260000
+Piqu¨¦,31,34,240000
+L. San¨¦,22,61,195000
+Bernardo Silva,23,59.5,180000
+Ederson,24,41.5,125000
+S. Man¨¦,26,52,195000
+V. van Dijk,26,44.5,165000
+R. Sterling,23,56.5,195000
+Roberto Firmino,26,53,195000
+R. Varane,25,50,210000
+M. Verratti,25,55,135000
+Alex Sandro,27,36.5,160000
+Douglas Costa,27,46.5,175000
+T. M¨¹ller,28,45,135000
+Thiago,27,45.5,130000
+M. Reus,29,43.5,1e+05
+Azpilicueta,28,35,175000
+L. Bonucci,31,30,160000
+T. Alderweireld,29,39,150000
+M. Pjani?,28,44,180000
+M. Benatia,31,30,160000
+M. ?zil,29,43.5,190000
+Fernandinho,33,18,185000
+Iniesta,34,21.5,21000
+M. ?kriniar,23,46.5,82000
+S. Milinkovi?-Savi?,23,50.5,73000
+Marco Asensio,22,54,215000
+N. Fekir,24,50,92000
+Alisson,25,36.5,115000
+J. Kimmich,23,40.5,92000
+Sa¨²l,23,50.5,77000
+R. Mahrez,27,40.5,205000
+D. Alaba,26,38,110000
+Koke,26,45,88000
+A. Lacazette,27,45,180000
+K. Manolas,27,37.5,96000
+N. Otamendi,30,28.5,170000
+Parejo,29,37,66000
+Paulinho,29,37,235000
+W. Szcz?sny,28,32,125000
+A. S¨¢nchez,29,37.5,215000
+Y. Brahimi,28,39,28000
+J. Boateng,29,30,115000
+A. Vidal,31,26,205000
+I. Peri?i?,29,37.5,110000
+E. D?eko,32,30.5,115000
+S. Khedira,31,33,160000
+Diego Costa,29,38.5,1e+05
+R. Nainggolan,30,35.5,105000
+Naldo,35,9,38000
+B. Matuidi,31,26,145000
+Miranda,33,15.5,96000
+K. Benzema,30,37,240000
+Filipe Lu¨ªs,32,21.5,81000
+V. Kompany,32,22,170000
+Pepe,35,9,57000
+Z. Ibrahimovi?,36,14,15000
+D. S¨¢nchez,22,34,105000
+J. Gim¨¦nez,23,34,63000
+Alex Telles,25,32,22000
+A. Laporte,24,34,135000
+Bruno Fernandes,23,40.5,22000
+N. S¨¹le,22,36.5,84000
+A. Martial,22,42.5,165000
+D. Alli,22,42.5,115000
+Fabinho,24,34,120000
+Marquinhos,24,35.5,90000
+William Carvalho,26,31.5,38000
+Jorginho,26,38,155000
+F. Thauvin,25,39,72000
+Carvajal,26,31.5,185000
+M. Depay,24,42,93000
+H. Son,25,37,125000
+A. Lopes,27,25,72000
+S. de Vrij,26,31.5,88000
+M. Perin,25,29.5,105000
+J. Cuadrado,30,29.5,150000
+Iago Aspas,30,30,45000
+B. Leno,26,27,115000
+N. Mati?,29,24,165000
+L. Hr¨¢deck?,28,22,74000
+Illarramendi,28,31,51000
+K. Walker,28,24.5,165000
+I. G¨¹ndo?an,27,32,175000
+Jos¨¦ Callej¨®n,31,27.5,105000
+A. Di Mar¨ªa,30,29.5,125000
+M. Mand?uki?,32,25,160000
+Willian,29,30.5,175000
+Sergio Asenjo,29,24,42000
+E. Banega,30,29,31000
+A. Witsel,29,24,77000
+D. Payet,31,27.5,75000
+Jonas,34,16.5,25000
+Sokratis,30,23,140000
+S. Ruffier,31,19,41000
+Falcao,32,25,115000
+K. Schmeichel,31,19,78000
+Ra¨²l Albiol,32,18,88000
+A. G¨®mez,30,30,53000
+A. Barzagli,37,4.2,95000
+Quaresma,34,15.5,80000
+A. Robben,34,15.5,110000
+O. Demb¨¦l¨¦,21,40,155000
+Gabriel Jesus,21,41,130000
+Ronaldo Cabrais,26,28,51000
+Josu¨¦ Chiamulera,26,22.5,43000
+Louri Beretta,26,28.5,60000
+P. Kimpembe,22,30.5,82000
+N. Ke?ta,23,34,120000
+C. Tolisso,23,34,85000
+T. Lemar,22,35.5,64000
+K. Coman,22,34,85000
+J. Tah,22,29.5,67000
+Anderson Talisca,24,36.5,18000
+T. Werner,22,34.5,70000
+A. Rabiot,23,33,91000
+L. Goretzka,23,34,85000
+Q. Promes,26,30.5,28000
+H. Ziyech,25,32.5,28000
+Lucas V¨¢zquez,27,27,205000
+Y. Carrasco,24,33,20000
+Gerard Moreno,26,32,53000
+Felipe,29,20,22000
+M. Kova?i?,24,35,165000
+Kepa,23,28.5,84000
+Manu Trigueros,26,30,49000
+S. Gnabry,22,34.5,85000
+J. Pickford,24,25,78000
+S. Savi?,27,26,67000
+J. Stones,24,28.5,125000
+Suso,24,33,115000
+J. Draxler,24,32.5,91000
+Felipe Anderson,25,31.5,110000
+Lucas Moura,25,31,115000
+Danilo Pereira,26,27,21000
+Nacho Fern¨¢ndez,28,24.5,180000
+T. Horn,25,24,25000
+Allan,27,26.5,87000
+F. Acerbi,30,19,64000
+Sergi Roberto,26,26.5,170000
+Rodrigo,27,30.5,57000
+Pizzi,28,25.5,22000
+K. Kampl,27,26.5,74000
+Neto,28,21,41000
+O. Baumann,28,21,42000
+I. Gueye,28,21,125000
+H. Mkhitaryan,29,25.5,145000
+Marcos Alonso,27,24,130000
+D. Suba?i?,33,13,70000
+K. Glik,30,19,86000
+K. Strootman,28,21,66000
+B. Dost,29,26,26000
+Oscar,26,30.5,29000
+M. Balotelli,27,27.5,55000
+Luiz Gustavo,30,19,63000
+Giuliano,28,26,64000
+David Luiz,31,17.5,130000
+R. F?hrmann,29,20,38000
+Juan Mata,30,24.5,160000
+Ad¨¢n,31,15.5,55000
+Rui Patr¨ªcio,30,16.5,74000
+Y. Sommer,29,20,35000
+Javi Mart¨ªnez,29,20,94000
+L. Bender,29,20,82000
+Lucas Leiva,31,17.5,64000
+S. Mandanda,33,13,51000
+Cesc F¨¤bregas,31,22,140000
+M. Demb¨¦l¨¦,30,24,120000
+F. Rib¨¦ry,35,11.5,72000
+R. Jarstein,33,13,33000
+D. De Rossi,34,8,80000
+Pepe Reina,35,6,56000
+J. Pavlenka,26,19.5,30000
+M. de Ligt,18,27,11000
+Rodri,22,29,59000
+Arthur,21,32.5,125000
+G. Donnarumma,19,29,23000
+Rosberto Dourado,30,16.5,46000
+Juiano Mestres,34,6.5,39000
+Raphaelito Anjos,30,14,32000
+Gelson Martins,23,29.5,59000
+Gon?alo Guedes,21,29,36000
+L. Torreira,22,25,98000
+Malcom,21,31.5,140000
+Pau L¨®pez,23,21.5,21000
+L. Hern¨¢ndez,22,25.5,53000
+C. Lenglet,23,26,135000
+A. Kramari?,27,26,54000
+A. Robertson,24,24.5,98000
+Dani Garc¨ªa,28,20,33000
+F. Bernardeschi,24,29.5,110000
+J. Brandt,22,30.5,68000
+D. Rugani,23,24.5,95000
+Samu Castillejo,23,29,94000
+Jo?o Cancelo,24,25.5,95000
+A. Romagnoli,23,26.5,84000
+T. Partey,25,25.5,59000
+Fred,25,26.5,140000
+J. Vardy,31,20,96000
+A. Belotti,24,30,58000
+E. Forsberg,26,26,67000
+J. Lingard,25,26.5,140000
+F. V¨¢zquez,29,21.5,27000
+E. Vi??a,28,22.5,40000
+A. R¨¹diger,25,22.5,110000
+A. Florenzi,27,20.5,73000
+H. Maguire,25,23.5,77000
+T. Meunier,26,21,87000
+S. San¨¦,27,18.5,41000
+G. Kondogbia,25,27.5,46000
+Rafinha,25,29.5,165000
+Gabriel Paulista,27,21,44000
+Morata,25,28.5,135000
+J. Cillessen,29,18,135000
+W. Ben Yedder,27,23.5,28000
+C. Bakambu,27,26,33000
+Pablo Sarabia,26,26,26000
+W. Zaha,25,28.5,78000
+Luis Alberto,25,28.5,67000
+Jonathan Viera,28,22.5,31000
+Bartra,27,21,32000
+S. Coates,27,21,19000
+Willian Jos¨¦,26,26.5,44000
+M¨¢rio Fernandes,27,18.5,1000
+V¨ªctor Ruiz,29,19.5,43000
+T. Delaney,26,21.5,61000
+K. Casteels,26,19.5,46000
+M. G?tze,26,27,67000
+S. Mustafi,26,22.5,115000
+J. Pastore,29,21.5,84000
+Pedro,30,21,140000
+G. Bonaventura,28,22,115000
+R. B¨¹rki,27,18.5,50000
+Taison,30,21,1000
+S. Nzonzi,29,17,77000
+Marlos,30,21,1000
+A. Ramsey,27,25,130000
+K. Trippier,27,18.5,99000
+A. Kolarov,32,12.5,73000
+G. Sigur?sson,28,22.5,125000
+S. Giovinco,31,20,15000
+M. Arnautovi?,29,22,120000
+N. Gait¨¢n,30,21,22000
+J. Henderson,28,18,125000
+M. Kruse,30,21.5,45000
+M. Parolo,33,9,59000
+L. Fejsa,29,17,18000
+A. Rami,32,12.5,57000
+V. ?orluka,32,12.5,1000
+G. Wijnaldum,27,23,130000
+F. Fazio,31,15,73000
+O. Giroud,31,20,140000
+Marcano,31,15,73000
+A. Guardado,31,19,35000
+E. Garay,31,15,44000
+Jardel,32,12.5,17000
+S. Sirigu,31,13.5,45000
+E. Viviano,32,12.5,15000
+L. Koscielny,32,12.5,115000
+A. Consigli,31,13.5,52000
+L. Biglia,32,12.5,98000
+Dani Alves,35,4.8,62000
+David Villa,36,8,12000
+Aduriz,37,8,29000
+P. ?ech,36,3,60000
+Casillas,37,1.5,10000
+M. Rashford,20,27,110000
+Laure Santeiro,30,17,40000
+L. Bailey,20,26.5,54000
+M. Akanji,22,21,49000
+F. de Jong,21,26,19000
+N¨¦lson Semedo,24,20,125000
+Pablo Fornals,22,24,36000
+Fabi¨¢n,22,26,64000
+E. Bailly,24,21,105000
+Dani Ceballos,21,25,120000
+H. Lozano,22,24,22000
+Morales,30,17,33000
+J. Seri,26,20.5,73000
+M. Politano,24,22.5,57000
+M. Brozovi?,25,18.5,64000
+Williams,24,24.5,31000
+A. Correa,23,24.5,54000
+A. Christensen,22,21.5,91000
+Jo?o M¨¢rio,25,22.5,71000
+T. Strakosha,23,17,36000
+E. Hysaj,24,20,58000
+P. Zieli¨½ski,24,24.5,64000
+Ricardo Pereira,24,19,64000
+Grimaldo,22,20.5,14000
+R. Guerreiro,24,24,54000
+A. Doucour¨¦,25,19.5,60000
+J. Mart¨ªnez,25,22.5,14000
+C. Bacca,31,16,45000
+A. Plea,25,22,40000
+B. Davies,25,18.5,87000
+M. Nastasi?,25,18.5,36000
+A. Milik,24,25.5,71000
+M. Sabitzer,24,22.5,54000
+B. Mendy,23,20,105000
+C. Kramer,27,17,35000
+S. Vrsaljko,26,18,57000
+T. Hazard,25,21.5,40000
+K. Bellarabi,28,18,76000
+S. Zaza,27,21,48000
+F. Ghoulam,27,16.5,68000
+B. Lecomte,27,15,27000
+J. Ili?i?,30,17,41000
+K. Volland,25,22,76000
+Paco Alc¨¢cer,24,23.5,59000
+Vitolo,28,18,65000
+G. Xhaka,25,22,115000
+D. Tadi?,29,17.5,26000
+C. Ar¨¢nguiz,29,17,76000
+S. Verdi,25,19.5,77000
+D. Lovren,28,16,115000
+G. Medel,30,13,56000
+X. Shaqiri,26,19,130000
+J. Corona,25,21.5,18000
+A. Areola,25,16.5,61000
+K. Vogt,26,17.5,42000
+Ander Herrera,28,17.5,140000
+E. Salvio,27,18.5,19000
+S. El Shaarawy,25,21,77000
+C. Smalling,28,16,130000
+Hulk,31,15.5,25000
+S. Kagawa,29,17.5,65000
+M. Lanzini,25,23,90000
+F. Smolov,28,18.5,1000
+L. Stindl,29,18,43000
+O. Toprak,28,16,59000
+D. Perotti,29,17.5,84000
+F. Muslera,32,10,52000
+B. H?wedes,30,13,1000
+S. Kj?r,29,14,23000
+S. Bender,29,14,69000
+M. Valbuena,33,11,86000
+Pedro Le¨®n,31,15.5,32000
+K. Boateng,31,15,65000
+L. Piszczek,33,7,57000
+A. Candreva,31,15.5,74000
+D. Wass,29,17,46000
+E. Lamela,26,21,105000
+D. Rose,27,14.5,92000
+C. Vela,29,17.5,15000
+Renato Augusto,30,16.5,28000
+A. Valencia,32,10,120000
+L. Fabia¨½ski,33,9,70000
+Jo?o Moutinho,31,15,85000
+Borja Valero,33,11,74000
+F. Quagliarella,35,8,39000
+B. Gomis,32,14,56000
+Manuel Fernandes,32,14,1000
+H. Herrera,28,17.5,20000
+Raffael,33,11,41000
+Nani,31,15.5,19000
+J. Milner,32,13.5,120000
+J. Mathieu,34,5.5,18000
+Joaqu¨ªn,36,6,24000
+M. G¨®mez,21,20.5,25000
+K. Havertz,19,22,32000
+T. Ndombele,21,22.5,51000
+H. Aouar,20,23.5,51000
+Carlos Soler,21,21,31000
+Odriozola,22,18.5,115000
+M. Almir¨®n,24,19.5,11000
+Welington Dano,30,10.5,34000
+Everton Andr?o,34,4.5,34000
+Oyarzabal,21,21,29000
+F. Balbuena,26,15.5,80000
+M. Marega,27,16,19000
+B. Pavard,22,17.5,33000
+W. Ndidi,21,17,50000
+A. Onana,22,14.5,14000
+G. Lo Celso,22,20,72000
+M. Acu?a,26,12.5,16000
+R¨²ben Neves,21,20.5,59000
+Mariano,24,20,140000
+Ra¨²l,28,12,19000
+M. Caldara,24,17.5,73000
+M. Vecino,26,14.5,63000
+T. Bakayoko,23,17,85000
+M. Dahoud,22,20,50000
+Rafa,25,18.5,17000
+K. Bald¨¦,23,20,65000
+G. Rulli,26,14,26000
+F. Armani,31,9,22000
+Rony Lopes,22,20,65000
+Santi Mina,22,20,40000
+K. Demirbay,24,19.5,37000
+Gay¨¤,23,16.5,33000
+Andr¨¦ Gomes,24,19.5,130000
+N. Tagliafico,25,15,20000
+M. Sanson,23,19.5,47000
+Pacheco,26,13,23000
+E. Can,24,19.5,91000
+H. ?alhano?lu,24,19.5,89000
+M. Ginter,24,15.5,28000
+M. Keane,25,15.5,88000
+L. Paredes,24,0,0
+T. Stepanenko,28,12,1000
+L. Shaw,22,16.5,96000
+Z. Feddal,28,12,29000
+S. Haller,24,19,41000
+Bernard,25,17.5,97000
+T. Inui,30,14,30000
+Portu,26,17.5,37000
+M. Batshuayi,24,19.5,105000
+E. Zahavi,30,14.5,24000
+T. Vacl¨ªk,29,11.5,17000
+N. Pope,26,13,48000
+H¨¦ctor Beller¨ªn,23,16.5,85000
+P. Kade?¨¢bek,26,14,39000
+J. Butland,25,14,39000
+J. Vestergaard,25,14.5,51000
+J. Tarkowski,25,15.5,56000
+Deulofeu,24,18.5,56000
+E. Dier,24,16.5,73000
+J. Murillo,26,16,38000
+M. Badelj,29,11.5,53000
+Ismaily,28,11.5,1000
+N. Schulz,25,14.5,37000
+L. Digne,24,16,79000
+M. Uth,26,17.5,42000
+Cristian Tello,26,16,30000
+D. Vida,29,11.5,55000
+L. Muriel,27,17.5,24000
+V. Aboubakar,26,18,19000
+A. Oxlade-Chamberlain,24,19.5,94000
+S. Aurier,25,15.5,82000
+J. Matip,26,15,99000
+Y. Rakitskyi,28,12,1000
+Sergi Enrich,28,15.5,34000
+A. Yarmolenko,28,15,92000
+Hugo Mallo,27,13.5,27000
+Andr¨¦ Almeida,27,12,15000
+D. Didavi,28,15,44000
+R. Rodr¨ªguez,25,15.5,81000
+R. Pereyra,27,15.5,65000
+Mario Gaspar,27,12,35000
+Maicon,29,11.5,63000
+D. Blind,28,12,22000
+J. Zoet,27,12.5,16000
+A. Ljaji?,26,17.5,52000
+Canales,27,15.5,30000
+Iago Falqu¨¦,28,15,59000
+L. de Jong,27,16,23000

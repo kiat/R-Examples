@@ -1,0 +1,50 @@
+
+<project>
+
+<projectID>11</projectID>
+
+<projectDescription>
+In resent years we have seen the increase in interest in the world of comics and the heroes.
+The creation of new characters that will assimilate to the publics interests will likely create a steady revenue for a publishing or movie industry.
+We look to find out if there is a correlation between the popularity of a character, with in the basis of the number of the abilities, gender and alliance.
+We am going to look to find the most popular comic book characters from the Marvel Comics Universe and compare the number of abilities.
+</projectDescription>
+
+<dataDescription>
+  We found the dataset in Kaggle and it is called “superhero set”, it contains two sets of data.
+  One data set contains descriptive information about each of the characters gender, weight, height, descriptions and affiliations; the other dataset contains the abilities for each of the characters.
+  In order to reduce the population, we tried to keep it to only the characters from the Marvel Comics Publisher.
+
+  The dataset did not contain a ranking of the comic book characters based on popularity.
+  We obtained datasets and added fields for the missing data.
+  Also, we created a column for the total number of powers and the total abilities per category.
+  We also substituted True/False values to 1/0 in order to be able to be added to get totals per column and row.
+
+  The datasets can be found on the following link.
+  https://www.kaggle.com/claudiodavi/superhero-set
+
+  We also referenced the following link for a popularity listing:
+  https://www.ranker.com/crowdranked-list/top-marvel-comics-superheroes
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/claudiodavi/superhero-set
+</dataSource>
+
+
+<researchQuestion>
+We want to predict that the number of abilities, gender and affiliation will allow us to predict weather a character will be popular or not.
+</researchQuestion>
+
+
+<conclusion>
+
+In conclusion, we was unable to find a relationship between number of abilities, gender and/or affiliation to the popularity of a character.
+
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

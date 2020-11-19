@@ -1,0 +1,55 @@
+
+<project>
+
+<projectID>4</projectID>
+
+<projectDescription>
+Black Friday is an American phenomenon where business will aggressively price products for one day.
+Normally hundreds of thousands of people across the US will wait in line starting early in the morning so that they can be the first to get a good deal.
+In 2018 700 Billion dollars’ worth of revenue was made during black Friday.
+This is a opportunity for retailers to better understand their customers.
+Kaggle has made available data from about 500k individuals so data scientists could understand purchasing trends.
+In this investigation we want to find if there is a specific subset of the population that spends disproportionately more than the population.
+In this case we will create a mock poll at one location and that will be our 500 observations.
+</projectDescription>
+
+<dataDescription>
+  The Data set comes from Kaggle.  To see the raw data visit the following link:
+  https://www.kaggle.com/mehdidag/black-friday
+
+  The main columns we plan to use are:
+  Purchase:  Continuous variables ($)
+  Gender: Categorical Variables (M, F)
+  Age: Categorical Variable (Age Range)
+
+  Since the assignment limits to 500 total columns we are taking 250 random samples from each Gender and performing the analysis off the reduced data.  I see this as a real world equivalent of having interviewers standing outside of a store.
+
+  Very little clean up of data was needed but we did add a categorical Purchase column.  We converted a continuous variable to bins of $1000
+
+</dataDescription>
+
+
+<dataSource>
+https://www.kaggle.com/mehdidag/black-friday
+</dataSource>
+
+<researchQuestion>
+  The research question we would like to solve is if there is a sub group of the population that spends more than the others.  The potential areas we want to investigate would be:
+  1.	Mean Pay by gender
+  2.	Mean Pay by Age group
+  3.	Wholistic view of all spending
+</researchQuestion>
+
+
+<conclusion>
+In conclusion, this project did not find any significant purchase difference by the age and gender variables.
+While the final mosaic plot does show the most purchases center around the 5000 to 8000 price, there was no subset of the population that was spending more than the others.
+From an advertising perspective this equal spending distribution would have ramifications and could explain why advertising for black Friday is so general and widespread.
+It is truly a nationwide event.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

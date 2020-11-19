@@ -1,0 +1,55 @@
+
+<project>
+
+<projectID>3</projectID>
+
+<projectDescription>
+  The research scenario for the following dataset is to predict the insurance charges based on age, sex, region, body mass index, number of children and smoking status.
+  We will use simple linear regression to find out if there’s an association between dependent and independent variables in this model.
+  We will use one-way analysis of variance to compare group means.
+
+</projectDescription>
+
+<dataDescription>
+Medical Cost Personal Dataset
+
+The dataset that we will analyze in this assignment is dataset that describes medical costs of people in the US based on the following factors:
+
+Age - age of primary beneficiary
+BMI – insurance contractor gender – female or male
+Children – number of children covered by health insurance
+Smoker – smoking status – yes or no
+Region – beneficiary’s residential area in the US – northeast, southeast, southwest, northwest
+Charges – individual medical costs billed by health insurance
+
+The dataset has been reduced to 500 participants.
+
+Link to the dataset: https://www.kaggle.com/mirichoi0218/insurance
+
+</dataDescription>
+
+
+
+<dataSource>
+https://www.kaggle.com/mirichoi0218/insurance
+</dataSource>
+
+
+<researchQuestion>
+Calculate the least squares regression equation that predicts insurance charges from age.
+Then, separate simple linear regression that calculates charges from bmi.
+Formally test whether age is a predictor associated with insurance charges at the alpha = 0.05 level.
+</researchQuestion>
+
+<conclusion>
+  Based on the plot we made, we saw the highest correlation was between age and charges.
+  Using simple linear regression, we got: for each additional age insurance charges would be higher by $285.48 per person.
+  We were 95% confident that true values were between 217.5421 and 353.4237.
+  12% of the variability in charges was explained by age.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

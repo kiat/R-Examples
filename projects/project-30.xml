@@ -1,0 +1,48 @@
+
+<project>
+
+<projectID>30</projectID>
+
+<projectDescription>
+The research scenario is to analyze the data of U.S. mortality rate and get answer for question regarding mortality rate and its relationship with other factors.
+Since there is more than two groups in the dataset, one-way analysis of variance (ANOVA) is used to compare means across three groups.
+In this research, the means of three race groups; black, white, and both races are compared. In this scenario, the variance is compared with in the race groups and between the race groups.
+Linear regression is model is created to compare the variance by adjusting the variables.
+Pairwise t test is done to find difference in variance  by adjusting and not adjusting the data set.
+</projectDescription>
+
+<dataDescription>
+  This is dataset contains the U.S. mortality rate trend since 1900.
+  It highlights the differences in age-adjusted death rates and life expectancy at birth by race and sex.
+  Age-adjusted death rates (deaths per 100,000). It has five columns.
+  They are Year, Race, Sex, Average life expectancy, and age adjusted death rate.
+  The dataset contains the data from 1900 through 2014.
+  The race has three groups; All race, black, and white. Similarly, there are three groups of sexes;
+  they are both sexes, male, and female. Average life expectancy column contains the average life expectancy of person in particular year, race, and sex.
+  Similarly, Age adjusted column contains the age adjusted death rate among 100,000 people that fall in particular year, race, and sex.
+  The source of the data:
+  https://catalog.data.gov/dataset/age-adjusted-death-rates-and-life-expectancy-at-birth-all-races-both-sexes-united-sta-1900
+</dataDescription>
+
+<dataSource>
+https://catalog.data.gov/dataset/age-adjusted-death-rates-and-life-expectancy-at-birth-all-races-both-sexes-united-sta-1900
+</dataSource>
+
+<researchQuestion>
+The main research questions is to find out if there is average life expectancy is vary by race group.
+Is there any different in result by adjusting variables in the dataset?
+</researchQuestion>
+
+<conclusion>
+F Statistics, which is ratio of between group variance and within group variance is higher in both cases.
+So, we can say that variance between groups is higher in both cases.
+We can conclude that, there is difference in mean between different races.
+The mean life expectancy and death rate is not same in all races.
+We can see same result in boxplot. The mean life expectancy and age adjusted death rate is higher among African American than White American.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

@@ -1,0 +1,35 @@
+
+<project>
+
+<projectID>81</projectID>
+
+<projectDescription>
+After the 2007/2008 NBA season, all sports analytics are working on their team stats.
+They want to know if there are any relationships between winning rate and field goal percentage and three points percentage.
+If they want to increase their winning rate, how can they improve during the off season.
+Does increase field goal percentage and three points percentage boost their winning percentage?
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+For my mini project, all we need from this dataset is the column of Team, Won, Los, FGM, FGA, 3M and 3A, which are the team names, wins, loses, field goal made, field goal attempted, three points made, three points attempted.
+</dataDescription>
+
+<researchQuestion>
+With the alpha level of 5%, will there be a linear regression relationship between winning rate and field goal percentage, three point percentage, or either of them.
+</researchQuestion>
+
+<conclusion>
+With the multiple linear regression test, we get the p-value of 0.0002744, we can conclude that there is a strong evidence that there is a strong linear relationship between winning rate and field goal percentage or three-point percentage or both of them.
+With the alpha level of 0.05, we have a strong evidence that winning rate has a linear relationship with field goal percentage, which means we fail to reject the null hypothesis.
+However, we have to reject the hypothesis of the linear relationship between winning rate and three-point percentage.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

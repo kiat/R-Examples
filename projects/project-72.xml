@@ -1,0 +1,48 @@
+
+<project>
+
+<projectID>72</projectID>
+
+<projectDescription>
+  To examine the relationship between Chance of Admit and several attributes such as University Rating, TOEFL score and CGPA, we select a dataset with sample of 400 applicants for prediction of Graduate Admissions.
+  We suggest that all the applicants here are applying for a certain graduate program in UCLA, so the Chace of Admit will be evaluated under the same standard.
+  We will compare the admission chance with different attribute amount to see if the attribute has any effect on the chance.
+  By a set of calculation, we found that the average and deviation of Rating of University is 3.087 and 1.144; the average and deviation of TOEFL Score is 107.4 and 6.069; the average and deviation of CGPA is 8.599 and 0.596.
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+  The dataset contains several parameters which are considered important during the application for Masters Programs. The parameters included are :
+  1. GRE Scores ( out of 340 )
+  2. TOEFL Scores ( out of 120 )
+  3. University Rating ( out of 5 )
+  4. Statement of Purpose and Letter of Recommendation Strength ( out of 5 )
+  5. Undergraduate GPA ( out of 10 )
+  6. Research Experience ( either 0 or 1 )
+  7. Chance of Admit ( ranging from 0 to 1 )
+</dataDescription>
+
+<researchQuestion>
+We want to know how the Chance of Admit will be affected by several attributes, such as University Rating, TOEFL score and CGPA.
+</researchQuestion>
+
+<conclusion>
+  As we can see from the above, we did test on the relationship of 3 attributes: TOEFL Scores, Rating of University and CGPA with Chance of Admit.
+  1.	Correlation
+  A bigger value of correlation between attributes means a stronger relationship. So the CGPA has the biggest effect on Chance of Admit, while Rating of University has the smallest.
+  2.	Boxplot
+  Any extra point appeared in the boxplot means outliers. So the data of Chance of Admit and CGPA has one outlier value while TOEFL Score and Rating of University does not.
+  3.	Linear Association
+  One way to judge whether attributes have linear association is to compare the F statistic with qf result.
+  If the qf result is smaller, then we can conclude that they have linear association inside. So by using qf function in R, we can calculate the F-distribution with 3, 396 degrees of freedom and associated with alpha = 0.01, the result is 3.83.
+  Since the F statistic is 0.7817, lower than 3.83, we can conclude that we do not have sufficient evidence that there is a multiple linear association between Chance of Admit and TOEFL Scores, Rating of University and CGPA.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

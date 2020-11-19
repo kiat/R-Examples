@@ -1,0 +1,42 @@
+
+<project>
+
+<projectID>67</projectID>
+
+<projectDescription>
+This set of data describes a group of students with their gender, group number, parents’ education level, test preparation and their score in math, reading and writing.
+It basically shows and lists all the possible explanatory variables that influence all scores.
+</projectDescription>
+
+<dataSource>
+https://www.kaggle.com/spscientist/students-performance-in-exams/downloads/students-performance-in-exams.zip/1
+</dataSource>
+
+<dataDescription>
+  Gender: males and females
+  parental.level.of.education: bachelor or master or high school
+  lunch: standard or free/reduced
+  test.preparation.course: to see whether the students complete the test preparation or not
+  math.score: the score of the math in test
+  reading.score: the score of the reading in test
+  writing.score: the score of the writing in test
+</dataDescription>
+
+<researchQuestion>
+Are the students that are good at math will be also good at reading? Is there any linear regression between them?
+</researchQuestion>
+
+<conclusion>
+  Since the Beta1 is 0.78723 which in close to 1(meaning that the score of math and the score of reading have a strong relationship), and also according to the graph, we could conclude that there is a linear regression relation between math.score and reading.score.
+  When the score of math increase, the score of reading is also increasing.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  3, 2
+</fields>
+
+</project>

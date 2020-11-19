@@ -1,0 +1,73 @@
+
+<project>
+
+<projectID>23</projectID>
+
+<projectDescription>
+Information regarding heart disease was gathered from 4 separate data sources in Cleveland, Hungary, Switzerland, and the VA Long Beach.
+We will explore this data set to understand if there is any potential correlation with the explanatory variables (age, sex, cholesterol) with my response variable (chest pain) and will be doing this through the utilization of multiple linear regression.
+</projectDescription>
+
+<dataDescription>
+  The database was created from 4 separate data sources in Cleveland, Hungary, Switzerland, and the VA Long Beach.
+  The dataset originally had 14 attributes with ~400 observations each, but I have trimmed this down to 4 attributes with 5 observations each (500 total observations) for the purposes of this analysis.
+  Our attributes are: age, sex, cholesterol and chest pain.
+
+  1.	Age
+  a.	Age in years
+  2.	Sex
+  a.	1 = male
+  b.	0 = female
+  3.	Chol
+  a.	serum cholesterol in mg/dl
+  4.	cp
+  a.	chest pain type
+  b.	0: no chest pain
+  c.	1: typical angina
+  d.	2: atypical angina
+  e.	3: non-anginal pain
+  f.	4: asymptomatic
+
+  Link to the dataset: https://www.kaggle.com/ronitf/heart-disease-uci
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/ronitf/heart-disease-uci
+</dataSource>
+
+
+<researchQuestion>
+  We would like to understand if there is a correlation between age, sex, and cholesterol with chest pain.
+
+
+  Our hypothesis for this is as follows:
+  H0: beta_age=beta_sex = beta_cholesterol =0
+  •	Age, sex, and cholesterol are not significant predictors of annual salary.
+
+  H1: beta_age ≠ beta_sex ≠ beta_cholesterol ≠0
+  •	Age, sex, and cholesterol are predictors of annual salary.
+
+  Alpha level will be 0.05 (alpha = 0.05)
+</researchQuestion>
+
+<conclusion>
+  From the very simple analysis above, we see that there is no evidence of a correlation between at least one of the xplanatory variables: age, sex, and cholesterol and the response variable: level of chest pain.
+  Thus, we cannot reject our null hypothesis.
+
+  Note: this is only a sample and cannot be taken as a wholistic view of the dataset.
+  In addition, this was only done utilizing a wholistic measure (whether all the explanatory variables impacted the response variable),
+  NOT at an individual level (whether each individual explanatory variable impacted the response variable).
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>3</field>
+ <field>1</field>
+ <field>2</field>
+ <field>5</field>
+</fields>
+
+</project>

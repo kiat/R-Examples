@@ -1,0 +1,42 @@
+
+<project>
+
+<projectID>75</projectID>
+
+<projectDescription>
+  There is a supermarket mall and through membership cards , we could get some basic data about your customers like Customer ID, age, gender, annual income and spending score.
+  Spending Score is something you assign to the customer based on your defined parameters like customer behavior and purchasing data.
+  As a manager of the mall, we want to know the customers like who can be easily converge. We want to use these data to find our target customers, and plan the strategy accordingly.
+</projectDescription>
+
+<dataSource>
+The data is from: https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python
+</dataSource>
+
+<dataDescription>
+  There aren’t any outliers need to remove.
+  There are five columns in the table: Customer ID, age , gender, annual income and spending score.
+</dataDescription>
+
+<researchQuestion>
+What influences consumption: gender, income, or age?
+</researchQuestion>
+
+<conclusion>
+  a) Relationship between age and spending score
+  From the scatterplot, we can know that spending score is negatively correlated with age. However, the correlation is 0.33, which means the strength of the association between the variables is not very strong.
+  b) Relationship between annual income and spending score
+  The spending score is not associated with annual income. It shows that people with middle income usually have mediocre pending score while for high and low income level people have either high or low spending score.
+  c) Relationship between gender and spending score
+  Also, we could know that there is no difference for males and females in terms of spending.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  5,3
+</fields>
+
+</project>

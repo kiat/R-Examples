@@ -1,0 +1,49 @@
+
+<project>
+
+<projectID>49</projectID>
+
+<projectDescription>
+  Today, there are many kickstart projects in web or mobile app fields.
+  The project planners explain their idea to the crowd with required funding goal.
+  If their idea is interesting with high possibility and the required funding goal seems proper to the crowd, people would support their project with providing funds.
+  However, considerable number of projects failed to fill their funding goal.
+  There should be proper amount of money and date for successful funding request for software projects.
+  As a developer, we want to know the correlation between these variables and the state of funding. With the result, we will be able to estimate proper amount of funding goal and deadline date for our future projects.
+</projectDescription>
+
+<dataDescription>
+  We selected a dataset about 2018 kick starter projects in Kaggle https://www.kaggle.com/kemical/kickstarter-projects.
+  This dataset has 16 columns, but we am not using all of them. We will use state variable, which is current condition of the project, as an event variable consisting of success or failure, and as explanatory variables, we will use funding goal, launched date and deadline for crowdfunding.
+  The dataset is massive, because various project categories are included in the dataset.
+  This time, we am only interested in software projects, so we selected “Web” and “Apps” categories.
+  After filtering the dataset through the categories, we will create date_diff variable using difference of deadline and launch date of its funding in “day” unit.
+  Then we will remove all the outliers and broken data. The event variable needs to be cleaned too, because it has six levels instead of two.
+  We will convert successful value to number one and failed value to number zero, but other “canceled”, “live”, “suspended”, and “undefined” values will be deleted.
+  The reason why we will delete theses is its result or causes are indistinct yet. Finally, we will select 500 from the cleaned dataset.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/kemical/kickstarter-projects
+</dataSource>
+
+<researchQuestion>
+The question is association between funding state and the amount of a posted funding goal and its period.
+If there is an association between goal and period for a funding state, we will check odds ratio of the event in unit increases and its ROC curve.
+</researchQuestion>
+
+<conclusion>
+  The amount of funding goal and period date were not strong facts for the state of funding, but there is slight association.
+  When we applied the two explanatory variables funding goal and date diff, we received a significant result from a date diff variable and p-value, 0.023, from the wald test.
+  Therefore, we can reject the null hypothesis, which states that there is no association between funding goal and period for state of funding.
+  Variable goal does not have direct influence to the odds of funding state, because its odds ratio is almost 1. However, variable date diff cause 1.08 times higher odds ratio by its increasing 1 day.
+  This model’s ROC curve result shows slight better predicting result of its funding state with 0.59 c-statistic value than random guessing. However, obviously, these two variables are not strong facts for successful funding result.
+  There should be stronger facts rather than estimating funding goal and period.
+  Therefore, first, the investors do not care much about required money for the projects, but taking longer time would be advantageous for successful funding plan.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

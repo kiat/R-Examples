@@ -1,0 +1,81 @@
+
+<project>
+
+<projectID>55</projectID>
+
+<projectDescription>
+  In this project, we explore the important features or factors that cause people’s decision making in dating events.
+  The Data used is corrected in dating events where for the first 4 minutes individual meets another gender and for the last 4 minutes they decide if they want to date the opponent again.
+  People are asked to rate themselves personality and score their preferences.
+  When people decide the next date, people are asked to rate opponents’ personality.
+
+  One of tasks in this project is to check whether there is association between a person who get match and their level of humbleness or overconfidence.
+  The difference of rate of participants’ personality (attractive and intelligence) is calculated to see whether they are humble or overconfident about their personality.
+
+  Another task is check whether the person who rate themselves highly attractive rate their intelligence to be high.
+
+  The last task is whether particular races consider opponent’s race with their age.
+</projectDescription>
+
+<dataSource>
+https://www.openml.org/d/40536
+</dataSource>
+
+<dataDescription>
+  There are 9 columns, age, race, importance_same_race, attractive (rated by themselves), attractive_o (rated by opponent), attractive_importance, intelligence, intelligence_o, match.
+
+  -	Age:
+  Int 19 - 38
+  -	Race:
+  Asian, Black, Latino, European, Other
+  -	Importance_same_race: the level of how much the person consider same race as important feature.
+  Int 1 – 10
+  -	Attractive: Level of attractiveness rated by participants themselves.
+  Int 3- 10
+  -	Attractive_o: Level of attractiveness rated by opponents.
+  float 1-10
+  -	Attractive_importance: how the person value attractive
+  Float 0.0-58.0
+  -	Intelligence: Level of intelligencerated by participants themselves.
+  Int 2-10
+  -	Intelligence_o: Level of intelligence rated by opponents.
+  Int 1-10
+  -	Match: if the person got matched or not
+  1 or 0 (1 is yes, 0 is no)
+</dataDescription>
+
+<researchQuestion>
+  For the first task, calculate difference between rating of personality by participants and by their opponents (attracitive_diff = attractive – attractive_o and intelligence_diff = intelligence – intelligence_o).
+  Assuming the intervals among the attractive_diff and intelligence_diff are the same. Conduct multiple logistic regression inference using attractive_difference and intelligence_difference as independent variables and match as a dependent variable at the alpha level 0.05.
+
+  The next task is to check association between how the person rate his or her attractiveness and how the one rate his or her intelligence. Conduct correlation test.
+
+  The last task is to test whether there are different mean of important_same_race among races(ANOVA) and how about after controlling age(ANCOVA).
+</researchQuestion>
+
+<conclusion>
+  In the multiplt logistic regression inference for the task 1, we are assuming the intervals among difference in rating by participants themselves and by their opponents for attractiveness and/or intelligence are the same.
+  It rejects null hypothesis because p-value given in Chi-squared test is smaller than alpha = 0.05 in the global test.
+  Therefore, there is significant evidence that there is association between the odds of match and the level of difference in rating by participants themselves and by their opponents for attractiveness and/or intelligence.
+  According to the result of single logistic regression given by the summary function with the multiple logistic regression model, in the case of using only attractive differences as explanatory variable, the test shows that there is association between the odds of match and the level of attractive differences, but not for intelligence differences.
+
+  For the task 2, the kendall correlation test was conducted, since the variables are ordinal variables with tie values.
+  It reject null hypothesis, so there is significant evidence that there is monotonic relationship between rating of attractive and intelligence.
+  However, the relationship is in moderate level, because the tau is 0.3209.
+
+  In the ANOVA for the task 3, the global F-test shows rejecting null hypothesis because p-value given is smaller than alpha = 0.05.
+  That is why there is significant evidence that there are different means of level of how participants consider same race of the partner among the races. 
+
+  The pairwise-t-test shows that after controlling other factors there is significant evidence that there are different means of level of how participants consider same race of the partner between European and Asian and European and Latino.
+
+
+  In the ANCOVA the global F-test shows rejecting null hypothesis because p-value given is smaller than alpha = 0.05. That is why there is significant evidence that there are different means of level of how participants consider same race of the partner among the races after controlling for the age.
+
+  In the pairwise comparison for this test, after controlling other factors there is significant evidence that there are different means of level of how participants consider same race of the partner between European and Asian and European and Latino after controlling the age.
+</conclusion>
+
+<class>
+ANOVA, ANCOVA, Logistic Regression
+</class>
+
+</project>

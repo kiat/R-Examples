@@ -1,0 +1,46 @@
+
+<project>
+
+<projectID>1</projectID>
+
+<projectDescription>
+We are interested in whether the proportion of men and women with running speed greaterthan or equal to 10 mi/hour are equal.
+Therefore, we need to dichotomize the speed variable.
+Create a new variable, called “speed_test” in which speed_test = 1 if speed >= 10 and speed_test =0 if  speed less than 10.
+</projectDescription>
+
+<dataDescription>
+The data set contains 4 columns: Age, Sex and Running Speed for some athletes.
+The data set has been cleaned to make it shorter. Also deleted column weight,
+since we are not checking the impact of candidate weight on running speed.
+Male=1
+Female=0
+https://www.statcrunch.com/app/index.php?dataid=2862328
+</dataDescription>
+
+<dataSource>
+https://www.statcrunch.com/app/index.php?dataid=2862328
+</dataSource>
+
+
+<researchQuestion>
+We are interested in whether the sex of runner has association with high running speed greater
+than or equal to 10 mi/hour. Therefore, we need to dichotomize the speed variable.
+Create a new variable, called “speed_test” in which speed_test = 1 if speed > = 10 and speed_test =0 if  speed less than 10.
+Case1: Perform a logistic regression with sex as the only explanatory variable.
+Case2: Perform a multiple logistic regression predicting speed level from sex and age.
+Conclude which model fit the data better?
+</researchQuestion>
+
+<conclusion>
+Since p smaller than alph We have significant evidence at the alph= 0.05 level that beta1 != 0 .
+There is evidence of an association between High speed level and sex of the person.
+The model without age (initial model) is better, though the area under ROC curve increases with including age but the impact of Age does not changes the model much in terms of information, so it is not very helpful. Also the initial model is simple and easy to implement.
+
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

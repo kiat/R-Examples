@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>20</projectID>
+
+<projectDescription>
+The dataset contains the socio-economic info along with suicide rates.
+Our goal is to evaluate if there is a relationship between the sum of suicide rate and the gdp per capita.
+This will give us an indication if economic prosperity (or the lack thereof) is related to suicide rate.
+</projectDescription>
+
+<dataDescription>
+The dataset contains socio-economic info with suicide rates, by sex, age group, year, and by country.
+For our research we are looking to evaluate the correlation between the per capita gdp and the suicide rate.
+There are two suicide fields – suicide numbers, and suicides per 100k of population.
+If we use the suicide numbers directly, the data will be biased based on the population size – bigger countries will obviously have more suicide numbers.
+Hence we are going to use the suicides per 100 k of population, as this is standardized and will not be affected by the overall population of the country.
+The per capita gdp per country, per year is constant.  So we are going to sum up the suicide data for each gdp per capita value.
+Once we have this data, we will extract a random sample of 500 rows and perform our evaluations on it.
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+
+<researchQuestion>
+Calculate the correlation coefficient between suicide rate and gdp per capita.
+Plot a scatterplot graph, and check for any outliers.  If there are outliers, evaluate the effect of the outliers on the relationship.
+Test if there is a linear relationship present between suicide rate and the gdp per capita, at alpha = 0.05.
+State your conclusion.
+</researchQuestion>
+
+<conclusion>
+  Summary of findings:
+  1.	We find the correlation coefficient, both before (0.0012) and after removing the potential outliers (0.018), does NOT indicate a strong relationship between suicide rate and per capita GDP.
+  2.	Considering H0 as the hypothesis which states that there is no linear relationship between suicide rate and per capita GDP, at 95% confidence level we are unable to reject H0 using a t test.
+
+  Conclusion:
+  At 95% confidence level we are unable to find a strong linear relationship between suicide rate and per capita GDP.
+</conclusion>
+
+<class>
+Correlation Tests
+</class>
+
+</project>

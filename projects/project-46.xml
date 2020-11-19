@@ -1,0 +1,46 @@
+
+<project>
+
+<projectID>46</projectID>
+
+<projectDescription>
+  We have data, representing the suicide rate in the world.
+  It is based on country, year, sex, age group, GDP.
+  Data was collected by UN, WHO and Worlds Bank for the period of 1985-2016 yy.
+  We want to analyze the influence of GDP on the suicide rate in a set of western European countries.
+  Germany, France and Belgium were chosen for this analysis.
+  In this research we will ignore sex and age group breakdown, as we are just interested in economical aspect influence on the suicide rate in western Europe.
+</projectDescription>
+
+<dataDescription>
+  Dataset was downloaded from kaggle.com:
+  https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+  After cleaning the dataset we have data just for 3 countries: France, Germany and Belgium. Age groups and sex are removed, dataset is aggregated with mean function to take the average suicide rate between 2 genders and multiple age groups.
+  So the columns are: Country, Year, GDP_per_capita(in $1000), Suicide_rate(per 100 000 population).
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+</dataSource>
+
+<researchQuestion>
+Is there a linear correlation between GDP per capita and suicide rate in selected countries? If yes, how strong is the correlation. Is it negative or positive?
+</researchQuestion>
+
+<conclusion>
+  Based on the research I can say that Suicide rate in 3 European countries have linear correlation in the observed period.
+  Correlation is medium strong(approximately 60% of suicide rates can be explained by GDP per capita).
+  And the correlation is negative, ie when GDP increases, suicide rate decreases.
+  Slope of the line is approx. -0.3(sucide rate drops by 0.3 per 100 000 population) on every $1000 GDP per capita increase.
+  Intercept is ~29.7, this is a theoretical value of suicide rate when GDP = 0.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+
+</fields>
+
+</project>

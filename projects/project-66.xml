@@ -1,0 +1,38 @@
+
+<project>
+
+<projectID>66</projectID>
+
+<projectDescription>
+  Describe your research scenario in no more than 200 words.
+  This is a general description of the use case. Similar to our class examples, we first describe the overall scenario and then we specify a specific research question based on it.
+  Through using the aov function in R to analyze the data and summarize the results by the 5 step procedure.
+  If the overall results are significant, then perform the appropriate pairwise comparisons using Tukey’s procedure to adjust for multiple comparison.
+</projectDescription>
+
+<dataSource>
+  This is the link to the data set:
+  https://github.com/datasets/openml-datasets/tree/1e58ec568e0c1ad07909bc0f967a1fd3f5a9e5b3/data/bank-marketing
+</dataSource>
+
+<dataDescription>
+The data is related with direct marketing campaigns of a Portuguese banking institution. There are 17 columns in the data set, including age, job, martial, education, balance etc.
+Since we only use balance and education for this project, I remove some columns in order to make it clearer.
+</dataDescription>
+
+<researchQuestion>
+  By using ANOVA and pairwise comparison to compare data across multiple groups (education
+  level in this case), we will test the null hypothesis that the underlying population means are all
+  equal versus the alternative that at least two of the underlying population means differ.
+</researchQuestion>
+
+<conclusion>
+  In this data set, we know that there is a difference in average yearly balance among people who have different education degree.
+  To understand which exact group it is, we use pairwise comparison and find out it is tertiary and secondary education level has significant difference in average yearly balance.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

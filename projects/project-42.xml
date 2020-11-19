@@ -1,0 +1,61 @@
+
+<project>
+
+<projectID>42</projectID>
+
+<projectDescription>
+In the real world, we know that the condition of car, year of car and the kilometers that driven by the cars can reduce the price of car. To examine the relationship between car condition, Kilometers driven and car price,
+We get a subset of car list that all the year of cars are 2016 or later, then we randomly select a sample of 250 cars from the list of New cars, and a sample of 250 used cars from the list of Used cars, then merge these two datasets.
+What’s more, we will build a multiple linear regression to predict the car price from the condition of car, year of car and the kilometers that driven by the cars.
+Finally, we formally test whether the set of these predictors are associated with car price at the alpha = 0.05.
+</projectDescription>
+
+<dataDescription>
+  The data is regarding the used cars and their prices in Pakistan.
+  It was scrapped from different car selling websites.
+  https://www.kaggle.com/karimali/used-cars-data-pakistan/downloads/used-cars-data-pakistan.zip/2
+
+  Brand: It shows the brand of each car.
+  Condition: It show whether the car is new or used.
+  Fuel: It shows which types of fuels that each car used.
+  KMs Driven: It shows the kilometers that each car has driven.
+  Model: It shows the model of each car.
+  Price: It shows the price of each car.
+  Registered City: It shows the registered city of each car.
+  Transaction Type: It shows the transaction type of each car.
+  Year: It shows the year of make of each car.
+</dataDescription>
+
+
+<dataSource>
+  https://www.kaggle.com/karimali/used-cars-data-pakistan/downloads/used-cars-data-pakistan.zip/2
+</dataSource>
+
+<researchQuestion>
+
+Whether the set of these predictors are associated with car price at the alpha = 0.05.
+
+</researchQuestion>
+
+<conclusion>
+From the result above, we can find that the multiple linear regression is car_price = 2.134e+06 - 5.700e-02 * KMs.Driven - 7.357e+05 * Condition + 2.004e+05 * Year.
+And we can interpret that if the kilometer of car driven increase by one unit, the price of car will decrease by 0.057 unit when all other variables do not change.
+And if the condition of car is new, the price of car will increase by 7.357+05 unit when all other variables do not change.
+And if the year of car is 2017, the price of car will decrease by 2.004e+05 unit when all other varibales do not change.
+The null hypothesis is the condition of car, year of car and the kilometers that driven by the cars are not significant predictors of car price.
+From the results we show above, we find that the value of F statistics is 0.8702 which is less than the critical value qf(0.95, 3, 496) = 2.622879;
+therefore, we fail to reject the null hypothesis and conclude that the condition of car, year of car and the kilometers that driven by the cars are not significant predictors of car price.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>4</field>
+ <field>3</field>
+ <field>2</field>
+ <field>5</field>
+</fields>
+
+</project>

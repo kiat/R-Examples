@@ -1,0 +1,57 @@
+
+<project>
+
+<projectID>28</projectID>
+
+<projectDescription>
+This data set contains measurements of 250 men from BYU Human Performance Research Center. Percent of body fat is a health indicator,
+but percent of body fat is difficult to measure and is often costly， such as requires special machinery, expertise.
+</projectDescription>
+
+<dataDescription>
+  This dataset has 250 men. There was one outlier as it relates to body fat (i.e., had 47.5% body fat).
+  This was removed in the final analysis, and therefore there were only 249 men utilized in this regression analysis.
+  The columns are as follows. Density is a result from Percent of Body Fat, which will not be part of the regression analysis.
+  Pct.BF is an accurate reading of the percentage of body fat an individual has.
+  Age is measured in years. Weight is measured in pounds.
+
+</dataDescription>
+
+<dataSource>
+  <!--
+  https://dasl.datadescription.com/datafile/bodyfat/?_sfm_methods=Multiple+Regression&_sfm_cases=4+59943
+-->
+</dataSource>
+
+<researchQuestion>
+   Based on factors that are more easily, inexpensively measurable (i.e., age, weight, height, and other body measurements), what is a predictive model for percent of body fat?
+</researchQuestion>
+
+<conclusion>
+A model can be built for men that can provide an estimate of percent of body fat utilizing data and measurements from other men.
+The key variables to consider are Age, Neck, Abdomen, and Wrist but also likely Waist as other variables may have significant difference.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>2</field>
+ <field>3</field>
+ <field>4</field>
+ <field>5</field>
+ <field>6</field>
+ <field>7</field>
+ <field>8</field>
+ <field>9</field>
+ <field>10</field>
+ <field>11</field>
+ <field>12</field>
+ <field>13</field>
+ <field>14</field>
+ <field>15</field>
+ <field>16</field>
+</fields>
+
+</project>

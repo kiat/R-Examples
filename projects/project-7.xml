@@ -1,0 +1,50 @@
+
+<project>
+
+<projectID>7</projectID>
+
+<projectDescription>
+Video games are often thought of as child’s play, and that as people age, their performance in video games suffers.
+In order to see if there is any relationship between performance and player age, the player data for the game of FIFA 19 was examined and overall rating vs.
+Age was reviewed for a correlation.
+</projectDescription>
+
+<dataDescription>
+  The dataset is all player data for FIFA19.  It was extracted from Kaggle on March 3, 2019.
+  The data describes each players character’s statistics and how well they have been playing soccer.
+  To clean up the data and reduce the size to be manageable for this project, we extracted only users with a Nationality of ‘United States’
+  For this project, we extracted the columns of Age, Nationality, Overall, and Preferred.Foot.
+  Overall which is a cumulative score of the player rating (their player performance).
+
+  There were no significant outliers to remove.
+
+  https://www.kaggle.com/karangadiya/fifa19
+
+</dataDescription>
+
+
+<dataSource>
+https://www.kaggle.com/karangadiya/fifa19
+</dataSource>
+
+
+<researchQuestion>
+Is there a linear association between the overall player rating in FIFA 19 and the age of the player, use alpha = 0.05?
+</researchQuestion>
+
+<conclusion>
+There appears to be a loose linear relationship between age and player performance.
+The correlation between age and the overall rating of a player is such that the older a player is the better they can be expected to be.
+However, it is not a strong correlation and no causation can be derived from this finding.
+Also, since this study was limited to one game and one country, other nationalities and games would need to be included in future studies to get a definitive finding.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  3,1
+</fields>
+
+</project>

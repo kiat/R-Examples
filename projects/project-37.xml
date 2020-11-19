@@ -1,0 +1,58 @@
+
+<project>
+
+<projectID>37</projectID>
+
+<projectDescription>
+  After students graduated from college, if they want to apply a graduate program, they need to submit their GRE score, TOEFL for international students, college GPA, reference letter, etc., to the program admission department.
+  Based on applicant profile, the admission office will make a decision whether they would send an admission offer.
+  Can we use GRE, TOEFL and college GPA to predict the chance of admission?
+  Which factor is the most important? As we know, the admission requirement might be different due to the university ranking, the higher rating university may require higher scores.
+  So, we will also consider the University rating as well, as one of the independent variable.
+  Here, we will use multiple linear regression model to do our analysis.
+  From this analysis, we want to help students to better manage and select their university programs based on their profile and give them a fair idea about their admission chance for the university program they selected.
+</projectDescription>
+
+<dataDescription>
+  The dataset contains 500 application cases, and several parameters that are considered important during the applicant for Master Program.
+  The first column is serial No. The second column is GRE scores (out of 340), the third column is TOEFL scores (out of 120), the fourth column is University Rating (1 – 5),
+  the fifth column it CGPA, which is undergraduate GPA (out of 10), and the last column is the change of admit,
+  represented by percentage from 0 to 1. The original dataset contains also strength of reference letter and statement purpose, as well as the research experience,
+  considered these factors are not standardized scores given by a specific organization, we will not consider these factors in this analysis.
+
+  Below is link to the original data
+  https://www.kaggle.com/mohansacharya/graduate-admissions
+
+  Dataset Citation:
+  Mohan S Acharya, Asfia Armaan, Aneeta S Antony : A Comparison of Regression Models for Prediction of Graduate Admissions, IEEE International Conference on Computational Intelligence in Data Science 2019
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/mohansacharya/graduate-admissions
+</dataSource>
+
+<researchQuestion>
+  Is there a relationship between GRE, TOEFL, Undergraduate GPA and University Rating with chance of admit?
+  Can we use these factors to predict the change of admit?
+  We will calculate the least squares regression equation that predicts change of admit from GRE, TOEFL, GPA and University rating, and check if these predictors are associated with chance of admit at alpha =0.05 level
+</researchQuestion>
+
+<conclusion>
+We are 95% confidence that GRE score, TOEFL score, Undergraduate GPA and University rating are all significant predictors for chance of admit.
+The regression equation to predict the change of admit is y = -1.37 + 0.002*xgre + 0.002*xtoefl + 0.015*xrating + 0.13 * xgpa, we can see 1 unit point increase in undergraduate GPA, will cause estimated 0.13 increase in admission change, after controlling other factors.
+Student who are preparing apply a master degree can put their scores into this equation to predict their chance of getting an admission offer.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>6</field>
+ <field>2</field>
+ <field>3</field>
+ <field>4</field>
+ <field>5</field>
+</fields>
+
+</project>

@@ -1,0 +1,7 @@
+title,installment,int_rate,issue_d,loan_amnt,loan_status,term,pymnt_plan,annual_inc,emp_length,fico_range_high,total_acc,avg_cur_bal,acc_now_delinq,delinq_2yrs,mths_since_last_delinq,pub_rec,verification_status
+Other,186.82,20.39,18-Mar,5000,Current,36,n,50000,8 years,669,18,3869,0,1,9,0,Verified
+Debt consolidation,483.45,9.92,18-Mar,15000,Current,36,n,196000,2 years,704,53,31468,0,0,65,0,Source Verified
+Debt consolidation,688.35,21.85,18-Mar,25000,Current,60,n,65000,10+ years,669,16,10685,0,1,22,0,Source Verified
+Major purchase,93.1,7.34,18-Mar,3000,Fully Paid,36,n,52000,9 years,764,30,25099,0,0,26,0,Source Verified
+Debt consolidation,454.1,20.39,18-Mar,17000,Current,60,n,52000,10+ years,674,14,2004,0,0,77,0,Source Verified
+Debt consolidation,197.95,6.07,18-Mar,6500,Current,36,n,50000,10+ years,709,16,34788,0,0,58,0,Not Verified

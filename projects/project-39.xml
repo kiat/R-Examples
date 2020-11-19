@@ -1,0 +1,63 @@
+
+<project>
+
+<projectID>39</projectID>
+
+<projectDescription>
+  We are interested in how the ratings affect the number of user downloads for the app in the Google Play Store.
+  To understand it, we have to do multiple linear regression since my dependent variable (the number of user downloads) is continuous and can be impacted by other variables, such as paid/free.
+  In other words, paid apps may have affected by ratings differently than the free ones in terms of the number of downloads.
+  So, we have to control it. Otherwise, the omitted variable problem may occur.
+
+  As we have to limit my data to 500, we will choose one of the categories, sports, as my subgroup.
+  We will check whether higher rating levels for support related applications associated with the higher number of installments or not.
+  By researching this, we aim to understand how people are affecting each other’s opinions while installing an application.
+</projectDescription>
+
+<dataDescription>
+  Data set can be found: https://www.kaggle.com/lava18/google-play-store-apps/version/6
+  They are 13 variables in the data set. Some of them  definitive string variables, so I use 7 of them.
+  •	Category: Category the app belongs to (we used this category in order to subset data to sports.)
+  •	Install: Number of user downloads/installs for the app (as when scraped – this is my dependent variable. Since it is based on large values, such as 100.000, 200.000, I take the log of the variable.)
+  •	Rating: Overall user rating of the app (as when scraped - This is my independent variable)
+  •	Reviews: Number of user reviews for the app (as when scraped – this is a control variable)
+  •	Type: Paid or Free (this is a categorical control variable. If the app is paid, 1, otherwise, 0)
+  •	Price: Price of the app (as when scraped - this is a control variable)
+  •	Content Rating: Age group the app is targeted at - Children / Mature 21+ / Adult (this is a categorical control variable. For each variable I created a dummy variable.)
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/lava18/google-play-store-apps/version/6
+</dataSource>
+
+<researchQuestion>
+Our research question is what are the effects on the number of installs for apps.
+Is there a positive correlation between ratings and the number of installs for apps while controlling for the price, content rating and review numbers?
+</researchQuestion>
+
+<conclusion>
+  If an application has higher rating values, this application is more likely to be installed more.
+  The association between rating and the number of installments have a positive and significant relationship.
+  The number of reviews also positively significant but its effect is smaller than that of rating.
+
+  If an application is paid, the number of installments decrease significantly.
+  If an application is free, people are more likely to install it.
+
+  We expected that if an application is reachable by everyone, it would be more installed.
+  However, the content rating categorical variables have no significant relation with the number of installments.
+
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>10</field>
+ <field>4</field>
+ <field>11</field>
+ <field>8</field>
+ <field>4</field>
+</fields>
+
+</project>

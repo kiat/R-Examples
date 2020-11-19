@@ -1,0 +1,45 @@
+
+<project>
+
+<projectID>38</projectID>
+
+<projectDescription>
+The data set we find is about the earthquakes which happened in the turkey.
+The data set includes city, direction, distance and depth, totally four four columns.
+This time, we want to test the relationship between column distance and depth.
+</projectDescription>
+
+<dataDescription>
+There are totally four columns in the dataset.
+The first one is city, which represents where the earthquake happened.
+The second one is direction, it shows in which part the earthquake happened in the city.
+The third one is distance, which shows the distance of the earthquake.
+The last one is depth, which means the depth of the earthquake.
+</dataDescription>
+
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+Calculate the ANOVA table and the table which gives the standard error of  1.
+Formally test the hypothesis that beta_1 = 0 using either the F-test or the t-test at the alpha level α=0.10.
+Calculate the R2.
+</researchQuestion>
+
+<conclusion>
+  From the test below, we know that t-value = 2.047 > 1.648.
+  So we have significant evidence at the alpha = 0.1 level that beta_1 ≠0, besides, beta_1 means the slope (the expected change in y for each one-unit change in x).
+  And we know that R2 = 0.008362257, which means the quantity that represents the proportion of the variation explained by the regression.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  3, 4
+</fields>
+
+</project>

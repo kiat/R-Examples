@@ -1,0 +1,65 @@
+
+<project>
+
+<projectID>22</projectID>
+
+<projectDescription>
+The data source contains data related to college admissions. Key attributes that would be reviewed in the admittance of a student into a university are included in this dataset, such as GRE Score, TOEFL Score,  etc.
+As these attributes control admittance, the following research applies statistical theory to determine which attributes have a significant relationship with admittance into the university.
+</projectDescription>
+
+<dataDescription>
+  The data set has an individual ID number, attributes that effect admittance, and a percent chance of admittance into the university.
+
+  Serial.No: This is the unique identifier within the dataset. Each application to a school has its’ own Serial Number ID.
+
+  GRE.Score: This is the standardized test (GRE) score for the corresponding application.
+
+  TOEFL.Score: This is the international standardized test (TOEFL) score for the corresponding application.
+
+  University.Rating: This is rating is related to the prestige of the university an applicant is seeking admission.
+
+  SOP: Statement of Purpose Rating is a score between 1-5 (5 is strongest), this is the rating for a self-written letter included in university application.
+
+  LOR: Letter of Recommendation Rating is a score between 1-5 (5 is strongest), this is rating the strength of the recommendation for the corresponding application.
+
+  CGPA: Undergraduate university GPA on a scale of 1-10, 10 being the highest (best grades).
+
+  Research: Binary variable relating to whether the applicant has performed research (1 = has performed research)
+
+  Chance.of.Admit: Percent chance of applicant admission.
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+
+
+<researchQuestion>
+  Identify which of the continuous variables has the most significant relationship with admission.
+
+  GRE is a prominent factor in college admissions and will be evaluated on its’ own using Simple Linear Regression.
+
+  GRE, TOEFL and CGPA will then be used together in multiple linear regression.
+
+  Alpha level = .05
+</researchQuestion>
+
+<conclusion>
+  There is significant evidence that the GRE effects the chance of admittance into University. Based on the model to determine whether GRE has an effect on admittance, a p-value of 2.2e-16 was observed. This is the probability of occurrence given that GRE does not have an effect on admittance.
+  Multiple Linear Regression displays that when accounted for together, GRE, TOEFL, GPA all impact admittance. Performance of t-test on the model including these variables shows that GPA has a large t-value (16.003), meaning one unit increase of GPA has the most significant relationship with admittance if other variables are held constant.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>9</field>
+ <field>2</field>
+ <field>3</field>
+ <field>7</field>
+</fields>
+
+</project>

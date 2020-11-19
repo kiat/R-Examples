@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>17</projectID>
+
+<projectDescription>
+  We want to compare the mean monthly return of the S-P 500 stock index (SPX) compared to the Dow Jones Industrial Average (Dow).
+  The SPX has 500 individual constituents and the Dow has only 30.
+  It would be much cheaper to replicate the Dow index compared to the SPX because you would need to buy less stocks which would save you a lot in commissions and fees.
+
+  Can we get the same exposure and return characteristics by buying the cheaper index?
+  Do the means differ over a long history?
+  Do the indices have different ratios for large negative returns over the same time period?
+</projectDescription>
+
+<dataDescription>
+  We used Yahoo finance to grab the monthly returns of each index.
+  We downloaded monthly index levels from January 2000 – December 2018.
+  We then calculated the monthly return based off the index levels and was left with a return series from February 2000 – December 2018.
+  We compiled the data into a single spreadsheet in the below format to make it easier to do comparisons.
+  The first column is the date. The second column “Perc_Chg” is the monthly return of the index, expressed in decimal format.
+  The last column is “Group” which is the index the return is associated with.
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+
+<researchQuestion>
+Are the SPX and Dow monthly returns equivalent?
+Can we use the smaller index to replicate a broader US index when it comes to equity investments?
+</researchQuestion>
+
+
+<conclusion>
+  The S-P 500 and Dow Jones Industrial Average monthly returns are not statistically different.
+  Although the mean SPX return 3.47% per month and the respective Dow return was 4.17% both data sets had relatively large standard deviations which resulted in no statistical difference in data sets.
+
+  Furthermore, when looking at the proportion of months that had a negative return smaller than -7% there was again no statistical difference in the proportions.
+</conclusion>
+
+<class>
+ANONA
+</class>
+
+</project>

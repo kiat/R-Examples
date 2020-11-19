@@ -1,0 +1,39 @@
+
+<project>
+
+<projectID>71</projectID>
+
+<projectDescription>
+A supermarket mall provides membership cards for its customers, and the membership cards contain some basic data about the customers like Customer ID, age, gender, annual income and spending score.
+Spending score is something you assign to the customer based on your defined parameters like customer behavior and purchasing data.
+The owner of the supermarket wants to understand the customers like who can be defined as target customers, so that the sense can be given to marketing team and plan the strategy accordingly.
+</projectDescription>
+
+<dataSource>
+  Here is the link to the main dataset: https://www.kaggle.com/vjchoudhary7/customer-segmentation-tutorial-in-python/downloads/customer-segmentation-tutorial-in-python.zip/1
+</dataSource>
+
+<dataDescription>
+There are 5 columns and 200 rows in the dataset.
+The columns are CustomerID, gender, age, annual Income, and spending score (Spending score is something you assign to the customer based on your defined parameters like customer behavior and purchasing data).
+Here we remove CustomerID, which is useless.
+To be more specific, except gender which is qualitative data, other variables are all quantitative data.
+</dataDescription>
+
+<researchQuestion>
+  Does customer gender/age/annual Income((k$) affect customer spending score?
+  What effect does customer gender/age/ annual Income((k$) have on customer spending score?
+</researchQuestion>
+
+<conclusion>
+There is a negative and weak association between age and spending score.
+Customers with younger age have higher spending score.
+There is no association between spending score and customer’s income.
+There is no significant difference in spending score between male and female customers.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

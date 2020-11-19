@@ -1,0 +1,45 @@
+
+<project>
+
+<projectID>73</projectID>
+
+<projectDescription>
+Heart disease is a comprehensive disease that many factors can contribute to its morbidity.
+To figure out the relationship between some common factors or heart related factors and the incidence, a study group set the Cleverland database of about 300 people about their sex, age and so on, and whether they have heart disease.
+First they want to know whether there are some common factors that influence the morbidity.
+</projectDescription>
+
+<dataSource>
+The link to the original data:  https://www.kaggle.com/ronitf/heart-disease-uci/version/1
+</dataSource>
+
+<dataDescription>
+The original dataset contains 76 attributes, but only offers 14 of them to study.
+
+To study the relationship of common physical factors and the heart disease, we filtrate five of them which are the experimenters’ age, sex, resting blood pressure (in mm Hg), serum cholesterol in mg/dl and whether they have exercise induced angina.
+
+The total experimenters amount is 303, after remove the outliers in serum cholesterol there are 302 samples to be studied.
+
+We assume that the explanatory variables only have linear relationship with heart disease morbidity or have no relationship. We assume all samples are independent and be chosen randomly.
+
+We assume that the variability of the response is constant across the regression line. And we also assume the residuals of regression follow a normal distribution.
+</dataDescription>
+
+<researchQuestion>
+  We want to analyze the regression relationship between one’s age, sex, resting blood pressure, serum cholesterol, the exerciser induced angina case and the proportion of having heart disease, and also how reliable the relationship is.
+  In this case, our explanatory variable is sex (dummy variable 1 for male and 0 for female), age, cholesterol level (in mg/dl), resting blood pressure (in mm Hg).
+  And our outcome is whether or not the subject had heart disease.
+</researchQuestion>
+
+<conclusion>
+The result of logistic regression shows that there are overall logistic regression relationships between one’s age, sex, resting blood pressure, serum cholesterol, the exercise induced angina case and heart disease morbidity.
+More specifically are the factors age, sex and the exercise induced angina case that effect the disease most.
+Based on the regression formula, elder people who has angina induced by exercise have higher proportion of getting heart disease.
+And the morbidity is higher in male than in female.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

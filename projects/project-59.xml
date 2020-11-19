@@ -1,0 +1,39 @@
+
+<project>
+
+<projectID>59</projectID>
+
+<projectDescription>
+In our dataset, we have the wage of the soccer players, the value of the soccer players and age of the soccer players.
+To find out if there is a linear relationship between the wage and their age and their value, we select 500 players to do the research.
+These 500 players are randomly selected from top 10000 soccer players around the world.
+By a set of calculation, we found that the average and deviation of age is 27.192 and 3.626;
+the average and deviation of wage is 93192 and 76441.81;
+the average and deviation of value is 27.026M and 16.5147.
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+  We use three attributes to achieve my analysis job, the first one is the response variable – the wage of the soccer players, this is the annual salary of a soccer;
+  the second variable is an explanatory variable named value, the value of a soccer player is the estimate of the overall ability in Fifa 19 soccer game, the more value a soccer player has, the more he can contribute to his team; the third variable is also an explanatory variable which is the age of soccer players.
+  Actually, there are many other variables in this dataset, thus we need to remove these variables manually, after doing this, the number of variables is reduced from 14 to 4.
+</dataDescription>
+
+<researchQuestion>
+To find out if there is a linear relationship between the wage and their age and their value, Perform this test at the alpha =0.01 level.
+</researchQuestion>
+
+<conclusion>
+We use qf function in R, we can calculate the F-distribution with 2, 497 degrees of freedom and associated with alpha = 0.01, the result is 4.65.
+Since the F statistic is 0.6251, lower than 4.65, we can conclude that we do not have sufficient evidence at 0.01 level, Beta(age) != 0 or Beta(Value) != 0.
+There is no evidence of a linear association between annual salary and age and/or value.
+</conclusion>
+
+<class>
+F-test
+</class>
+
+</project>

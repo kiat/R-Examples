@@ -1,0 +1,66 @@
+
+<project>
+
+<projectID>
+</projectID>
+
+<projectDescription>
+The United States has one of the largest incarceration rates in the world (more than 500 prisoners for every 100,000 people in the country).
+One reason for this is because the U.S. also has very high recidivism rates (i.e. when prisoners are released and, after some amount of time, are re-arrested and sent back to prison).
+In an effort to reduce the overall incarceration rate, researchers would like to determine if, 1.) giving prisoners financial aid upon leaving prison, 2.) age, and/or 3.) full-time employment for the first two months upon release, are factors that lead to a lower recidivism rate during the first year of release (i.e. fewer number of previous inmates being re-arrested and sent back to prison within 52 weeks).
+</projectDescription>
+
+<dataDescription>
+  The data set contains information on 432 prisoners who were released from Maryland state prisons and who were followed up on one year after release.  Half the released prisoners were assigned at random to an experimental program in which they were given financial aid.  The remaining half of prisoners did not receive aid.
+  Format:  A data frame with 432 observations with the following 12 columns.
+  week:  week of first arrest after release leading to re-incarceration.
+
+  arrest:  1 if arrested and sent back to prison; 0 if not.
+
+  fin:  financial aid given:  yes or no.
+
+  age:  in years at time of release.
+
+  emp1:  employment status in the first week after release:  yes or no
+
+  emp2:  employment status in the second week after release:  yes or no
+
+  emp3:  employment status in the third week after release:  yes or no
+
+  emp4:  employment status in the fourth week after release:  yes or no
+
+  emp5:  employment status in the fifth week after release:  yes or no
+
+  emp6:  employment status in the sixth week after release:  yes or no
+
+  emp7:  employment status in the seventh week after release:  yes or no
+
+  emp8:  employment status in the eighth week after release:  yes or no
+
+</dataDescription>
+
+
+<dataSource>
+https://vincentarelbundock.github.io/Rdatasets/csv/carData/Rossi.csv
+</dataSource>
+
+
+<researchQuestion>
+We want to perform a multiple logistic regression to predict prisoner recidivism within the first year of release based on whether financial aid was given, age, and/or full-time employment for the first two months upon release.
+If any of these factors are significant (at the α=0.10 level), then we want to compute the odds ratio and examine the ROC curves for our data models.
+</researchQuestion>
+
+<conclusion>
+In our analysis, we have considered three factors (financial aid, age, and full-time employment for the first two months upon release) as possible predictors for prisoner recidivism.
+Of these three, only financial aid and age were found to be significant (at the α=0.10 level).
+Indeed, there is evidence of an association between prisoner recidivism and financial aid after adjusting for age and employment.
+Likewise, there is also evidence of an association between prisoner recidivism and age after adjusting for financial aid and employment.
+Furthermore, the odds of recidivism is 1.09 times lower among prisoners for every one-year increase in age at the time of release.
+The odds recidivism is 1.49 times lower among prisoners that received financial aid as compared to prisoners that did not receive financial aid.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

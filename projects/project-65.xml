@@ -1,0 +1,43 @@
+
+<project>
+
+<projectID>65</projectID>
+
+<projectDescription>
+I used the dataset of “predict survival on the Titanic”. I wanted to see if there’s a pattern for the people who survived in Titanic between the age, financial situation, sex, etc.
+</projectDescription>
+
+<dataSource>
+Resource: https://www.kaggle.com/c/titanic/data
+</dataSource>
+
+<dataDescription>
+  This data is the Titanic dataset, the dataset including the passenger ID, survived, PClass, the name of the passenger, sex, age, sibsp, parch ticket, fare, cabin, and embarked.
+  The entire dataset has 891 data which are 891 individual passengers.
+  The passenger ID is just the number for each data.
+  The survived were recorded as 1 or 0, 0 as dead and 1 as survived.
+  The Pclass is the passenger class for each individual passenger. There were represented between 1- first class to 3 – lowest class.
+  The name is the name of each individual.
+  The sex is the sex of each individual.
+  The age is the age of each individual.
+  The sibsp is the number of siblings/spouses aboard parch.
+  The parch ticket is the number of parents/children aboard.
+  The ticket is the ticket number of each individual.
+  The fare is the passenger fare.
+  The cabin is the cabin of the individual was staying.
+  The embarked is port of embarketing, they were represented as C, Q, S. C as Cherbourg, Q as Queenstown, S as Southampton.
+</dataDescription>
+
+<researchQuestion>
+Since Titanic is a very specific word so I went with it. However, it came out too many results and so I added survival rate into the search bar and this is the best one I found.
+</researchQuestion>
+
+<conclusion>
+So the result we received from calculating and analytics of the prediction of the survival rate of the Titanic had the accuracy rate of 82.12291% which is a success for this test.
+</conclusion>
+
+<class>
+  Logistic Regression
+</class>
+
+</project>

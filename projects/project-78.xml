@@ -1,0 +1,37 @@
+
+<project>
+<projectID>78</projectID>
+
+<projectDescription>
+Film is one of the most popular forms of entertainment in contemporary times and one of the ways people improve their culture.
+The quality of the film not only affects the direction of social culture, but also affects the development of the economy.
+IMDB is a very objective and fair film review site. Many movie lovers will comment on the movies on IMDB and give us an intuitive judgment.
+In this project, we want to check if the movie's poster likes in facebook has nothing to do with the movie's excellent or not.
+</projectDescription>
+
+<dataSource>
+
+</dataSource>
+
+<dataDescription>
+We get the dataset from data.world and data.world gets the dataset from the IMDB website. The number of instances is 5044, and the number of attributes is 29. After cleaning up the data, there are two columns in the data set (facenumber_in_poster and whether the class is normal or normal).
+In the facenumber_in_poster column, we use 1 for excellent and 0 for normal. Out of a total of 5,044 movies, there are 4,296 regular movies and 747 excellent movies.
+
+"facenumber_in_poster": poster likes in facebook
+</dataDescription>
+
+<researchQuestion>
+We want to test (at the alpha = 0.05 level) whether there is a poster likes in facebook movie and the proportion of survivors without poster likes in facebook is the same, predicting the excess rate of 2878 movies with poster likes in facebook and calculating the ROC of the prediction model.
+</researchQuestion>
+
+<conclusion>
+The movie that plays posters on Facebook is an excellent movie with a rating of 0.6235598
+
+We can conclude that there is a bigger chance for a movie like Facebook to become a good movie on Facebook.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

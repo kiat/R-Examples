@@ -1,0 +1,52 @@
+
+<project>
+
+<projectID>29</projectID>
+
+<projectDescription>
+  We have a collected a random sample of data from 29 universities concerning male to female employment status and earnings after enrollment.
+  The information is for the number of female and male students who are working and not enrolled 6 and 10 years after entry, and the average earnings of females and males working and not enrolled 6 and 10 years after entry.
+  Our research scenarios are the following:
+  Scenario 1: We would like to know if the same number of males and females are working 6 years after enrolling in college.
+
+  Scenario 2: We would like to know if the same number of males and females are working 10 years after enrolling in college.
+
+  Scenario 3: We would like to know if males and females earn the same amount 6 years after enrolling in college.
+
+  Scenario 4: We would like to know if males and females earn the same amount 10 years after enrolling in college.
+</projectDescription>
+
+<dataDescription>
+The dataset was reduced to schools with no null or privacy suppressed values.
+A random sample of 29 rows of the remaining 1548 that remained were chosen, and the fields included were those only used for testing and renamed to better display their attributes.
+Based on this criteria, the data was reduced to 8 fields of study to answer the research question.
+Each college reported data on the number of female and male students who were working and not enrolled 6 and 10 years after study, as well as their average incomes for those time periods.
+Original File Can Be Found Here: https://collegescorecard.ed.gov/data/
+Post-School Earnings
+Data Dictionary
+</dataDescription>
+
+<dataSource>
+https://collegescorecard.ed.gov/data/
+</dataSource>
+
+
+<researchQuestion>
+  Do males and females enjoy the same level and rate of success after enrolling in college?
+  This question is answered by seeing how many females and males are working and not enrolled after 6 and 10 years.
+</researchQuestion>
+
+<conclusion>
+Males and females do not enjoy the same level and rate of success after college.
+Taking the small population from the dataset, with the standard deviation being unknown, we will perform a two-sided t-test.
+At each level, we are testing if the p value is less than or equal to an alpha of .10, as we are testing at the 90% confidence interval.
+After 10 years of not being enrolled, we are 90% confident we can reject the null hypothesis that there is the same number of males and females working and that they earn the same because our p value is less than our alpha.
+Data from 6 years of not being enrolled returned results where we fail to reject the null hypothesis that there is the same number working, but we still reject the null hypothesis that they earn the same in this time frame.
+Males had higher counts and averages in all categories, so the conclusions are supported by a general look at the data.
+</conclusion>
+
+<class>
+Two-sample t test
+</class>
+
+</project>

@@ -1,0 +1,39 @@
+
+<project>
+
+<projectID>80</projectID>
+
+<projectDescription>
+  Web scraped data of 10k Play Store apps for analyzing the Android market. It has the data of apps’ category, rating, reviews etc.
+  So, these data can help get the understanding of people’s use and opinion of apps and know more about the app market based on different categories.
+
+  In order to see the relationship between social category and shopping category, we only review the data of these two categories.
+  So A random sample of 257 of apps is taken from the overall dataset.
+  We are interested in estimating if the app rating varies by the app category of social and shopping.
+</projectDescription>
+
+<dataSource>
+Data was pulled from the dataset(https://www.kaggle.com/lava18/google-play-store-apps/version/6).
+</dataSource>
+
+<dataDescription>
+  The data set describes each app’s statistics and their rating and received reviews.
+
+  To clean up the data and reduce the size to be manageable for this project, we extracted only apps who belong to social category and shopping category.
+  For this project, we extracted the columns of app, category and rating.
+</dataDescription>
+
+<researchQuestion>
+RQ: Do app rating varies by the app category of social and shopping（alpha = 0.05）
+</researchQuestion>
+
+<conclusion>
+Since 2.442 less than 3.878184. So we do not have significant evidence at the alpha = 0.05 that there is a different in rating and app categories of social and shopping.
+Therefore, app rating does not vary by the app category of social and shopping.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

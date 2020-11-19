@@ -1,0 +1,44 @@
+
+<project>
+
+<projectID>64</projectID>
+
+<projectDescription>
+This research will analyze the factors affecting the admission rate of graduate students.
+For example, GRE score, TOEFL score, GPA, Statement of purpose and research experience are important factors of chance of admit.
+We select multiple linear regression as he analytic method in this research.
+</projectDescription>
+
+<dataSource>
+Dataset source: https://www.kaggle.com/mohansacharya/graduate-admissions#
+</dataSource>
+
+<dataDescription>
+  The dataset was found in Kaggle.com. it consists of 400 instances and 9 variables. The parameters included are:
+  1. Serial No.
+  2. GRE Scores (out of 340)
+  3. TOEFL Scores (out of 120)
+  4. University Rating (out of 5)
+  5. Statement of Purpose (out of 5)
+  6. Letter of Recommendation Strength (out of 5)
+  7. Undergraduate GPA (out of 4)
+  8. Research Experience (either 0 or 1)
+  9. Chance of Admit (ranging from 0 to 1)
+  I kept GRE Scores, Undergraduate GPA and Chance of Admit by cleaning the data.
+</dataDescription>
+
+<researchQuestion>
+Is there a linear relationship between chance of admit and GRE Score and Undergraduate GPA? (at the alpha = 0.05)
+</researchQuestion>
+
+<conclusion>
+  Reject H0 since F statistic >=3.02.
+  We have significant evidence at the alpha = 0.05 level that βGRE.Score beta_GRE.Score ≠ 0 and/or beta_CGPA ≠ 0
+  There is evidence of a linear association between chance of admit and GRE score and undergraduate GPA.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

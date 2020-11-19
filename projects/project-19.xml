@@ -1,0 +1,69 @@
+
+<project>
+<projectID>19</projectID>
+
+<projectDescription>
+  There are suicides happening across the globe and we are looking at the suicide rate and analyze it in the light of different factors like sex, age, income and others to understand.
+  We are interested to know the relationship of the various factors like age, sex, gdp to the suicide rate across the regios.
+  The given sample data has data for the number of suicides committed in the world in various countries from 1985-2016.
+  The data has variables like country, age, sex, population, suicides, HDI for year, gdp_for_year, gdp_per_capita, generation (based on age grouping average).
+
+  This use-case is to find the difference between suicide numbers by age, sex and gdp_per_capita and population of a country.
+</projectDescription>
+
+<dataDescription>
+  The given sample data has data for the number of suicides committed in the world over years.
+  The data has variables like country, age, sex, population, suicides, HDI for year, gdp_for_year, gdp_per_capita, generation (based on age grouping average).
+
+  For our use-case, we will be focusing on the following columns of the data:
+
+  1)	Age – Age of the person who committed suicide
+  2)	Sex – Sex of the person who committed suicide
+  3)	Suicides – Number of suicides
+  4)	gdp_per_capita – GDP per capita of the country
+  5)	Population – Population of a country
+
+  The data has been downloaded from, https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016/version/1 and is then read and loaded in R.
+  Following are the commands used to read the data and to clean the data, to get only the fields of interest, from the dataset.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016/version/1
+</dataSource>
+
+<researchQuestion>
+  Find out the if the suicide numbers across the various countries differ by age, sex, population and gdp_per_capita
+
+  In the book Blink by Malcolm Gladwell, Gladwell states that a study of CEOs of Fortune 500 companies found that these individuals tend to be taller than the average US population.
+  In order to study this phenomenon in more detail and to see if height is associated with increased success in business (as measured by salary), 100 men between the ages of 25 and 65 were polled for their heights (in inches) and annual salaries.
+</researchQuestion>
+
+<conclusion>
+  As per the analysis done on the given data set and the various test results, we can conclude that:
+
+  There is an interaction between age and sex for the suicide numbers. The suicide number are always higher in males than in females.
+  The age group 5-14 is least vulnerable to suicides, both in males and females, and the males of the age group 35-54 are the most vulnerable and most suicides reported are for this group of people.
+
+  Almost 49% of the variability in suicide amongst various age groups is explained by the population of a country.
+
+  In conclusion, following are the key factors which account towards the reported suicide numbers:
+
+  The Suicide Numbers are highest in ‘United States’.
+  •	Age:
+  o	There is difference in suicide numbers between various age groups.
+  o	There are least suicides in the age range 5-14.
+  o	Maximum suicides are committed by the people in the age range 35-54
+  •	Sex
+  o	Compared to women, men have a greater number of suicides
+  •	Population
+  o	The population of a country somewhat accounts to the number of suicides. The number of suicides in general is directly proportional to the population
+  •	GDP
+  o	As seen in the data the countries with high GDP per capita have more number of suicides (Like United States and Japan).
+
+</conclusion>
+
+<class>
+ANCOVA
+</class>
+
+</project>

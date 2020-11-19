@@ -1,0 +1,43 @@
+
+<project>
+
+<projectID>9</projectID>
+
+<projectDescription>
+  Food Choices of Students in College:
+  The dataset provided will show data regarding food choices and the types of students that make them.
+  The data will be cleaned prior to use.
+  This dataset includes information on food choices, nutrition, preferences, childhood favorites, and other information from college students.
+  There are 126 responses from students.
+  The data provided allows me to research the association between eating out and gender.
+  We will use simple linear regression and multiple linear regression to review the association.
+
+</projectDescription>
+
+<dataDescription>
+  The data set is made up of 126 responses by students from the Mercyhurst University.
+  The data set provided has 61 columns however will focus on the following columns: Students that cook, Gender, and Eating out.
+</dataDescription>
+
+
+<dataSource>
+<!--
+https://www.kaggle.com/datasets?sortBy=relevance&group=public&search=coll&page=1&pageSize=20&size=all&filetype=all&license=all
+-->
+</dataSource>
+
+<researchQuestion>
+What is the strength of the correlation between eating out and gender?
+What is the strength of the correlation between eating out, gender and those that cook.
+</researchQuestion>
+
+<conclusion>
+The P value of students that cook is large. The p Value of students by gender is also large.
+At the alpha =.05 level, this shows there is very little correlation between those students that eat our and those that cook or by their gender.
+</conclusion>
+
+<class>
+Correlation Tests
+</class>
+
+</project>

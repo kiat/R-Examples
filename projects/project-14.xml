@@ -1,0 +1,52 @@
+
+<project>
+
+<projectID>14</projectID>
+
+<projectDescription>
+We plan to analyze graduate admission GRE scores of student’s vs chances of getting the admission based on the factors which are considered important during the application for Masters Programs and how these factors are interrelated among themselves.
+It will also help predict one's chances of admission given the rest of the variables.
+By end of this report, will have enough idea of what are the scores required for different tests to have better admission chances and get into a good graduate school.
+</projectDescription>
+
+<dataDescription>
+The dataset contains several parameters which are considered important during the application for Masters Programs.
+The parameters included are:
+  •	GRE Scores (out of 340)
+  •	TOEFL Scores (out of 120)
+  •	University Rating (out of 5)
+  •	Statement of Purpose and Letter of Recommendation Strength (out of 5)
+  •	Undergraduate GPA (out of 10)
+  •	Research Experience (either 0 or 1)
+  •	Chance of Admit (from 0 to 1)
+</dataDescription>
+
+
+<dataSource>
+
+</dataSource>
+
+
+<researchQuestion>
+We would like to understand the relationship or association between two continuous or quantitative factors and where we will visualize the relationship (plot the data via scatterplots) and describe the form, direction, and strength of the association.
+Will use numerical summaries to help us describe the strength of the association, the relationship between the factors (via simple linear regression) and sample to make inference about population parameters.
+Is there a linear relationship between GRE scores and chance of admission?
+</researchQuestion>
+
+<conclusion>
+By observing the scatterplot, a moderately strong and positive-associated relationship between the variables seems to be linear since they all point towards a straight-line pattern.
+The correlation coefficient is 0.8026105.
+Since the value is greater than 0 which indicates a positive association...as the value of one variable increases, so does the value of the other variable.
+The stronger the association of the two variables, the closer the correlation coefficient, r, will be to either +1 or -1 depending on whether the relationship is positive.
+There is evidence of a significant linear association between both of the variables.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  1,8
+</fields>
+
+</project>

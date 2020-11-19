@@ -1,0 +1,52 @@
+
+<project>
+
+<projectID>62</projectID>
+
+<projectDescription>
+The World Meteorological Organization has collected data of residents in hurricane-prone areas.
+The subject dataset includes collected data of U.S. East Coast residents when Hurricane Irma hit, along with whether or not each individual in the dataset survived the hurricane.
+The WMO is looking for patterns in the data to help predict who has the best chance of surviving a hurricane.
+</projectDescription>
+
+<dataSource>
+The dataset includes data on demographics (e.g. age, gender, salary) and personal preferences of each (e.g. favorite TV show, color, and superhero).
+The dataset can be found at https://www.kaggle.com/rahulsathyajit/wmo-hurricane-survival-dataset
+</dataSource>
+
+<dataDescription>
+  We am only using the following fields from the original dataset:
+
+  DOB: Data of Birth
+  M_STATUS: Marital Status
+  SALARY: Salary
+  EDU_DATA: Education Level
+  EMP_DATA: Employment Status
+  REL_ORIEN: Religious Status (Believer, Agnostic, or Atheist)
+  GENDER: Male or Female
+  ENDU_LEVEL: Rating of the individuals rating (units were not given)
+  DIST_FRM_COAST: Distance the individual lives from the coast (in km)
+  ALCOHOL: Preferred alcoholic beverage
+  Class: x = “will survive”; y = “will not survive”
+
+  Before loading the data, we added an Age field to use instead of DOB. This is the individuals age as an integer number of years.
+
+  For cleanup, we moved from the provided factor fields to dummy variables. We also removed any rows with at least one blank input.
+</dataDescription>
+
+<researchQuestion>
+  1.	Is “Age” a good predictor for survival?
+  2.	What is the risk difference between Married and Unmarried individuals?
+  3.	Are “Age” and “CloseToCoast” together good predictors for survival?
+</researchQuestion>
+
+<conclusion>
+  1.	We do not have significant evidence at α=0.05 that “Age” is a good predictor for survival (p = 0.614); c-statistic = 0.5, meaning that age is no better than selecting at random.
+  2.	We do not have significant evidence at α=0.05 that there is a risk difference between married and unmarried individuals.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

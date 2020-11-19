@@ -1,0 +1,488 @@
+"","age","race","importance_same_race","attractive","attractive_o","attractive_important","intelligence","intelligence_o","match","attractive_diff","intelligence_diff","Asian","Black","Latino","European","Other"
+"1",26,"'Latino/Hispanic American'",1,7,10,15,8,9,1,3,1,0,0,0,0,0
+"2",33,"Other",2,7,4,22,7,7,0,-3,0,0,0,0,0,1
+"3",25,"'Latino/Hispanic American'",1,8,6,10,10,7,0,-2,-3,0,0,0,0,0
+"4",30,"'Latino/Hispanic American'",1,8,7,18.6,8,7,0,-1,-1,0,0,0,0,0
+"5",24,"'Asian/Pacific Islander/Asian-American'",5,7,4,10,9,6,0,-3,-3,0,0,0,0,0
+"6",25,"'Asian/Pacific Islander/Asian-American'",1,6,5,15,8,5,0,-1,-3,0,0,0,0,0
+"7",28,"'Asian/Pacific Islander/Asian-American'",6,6,4,20,9,9,0,-2,0,0,0,0,0,0
+"8",24,"'Asian/Pacific Islander/Asian-American'",3,7,3,15,10,5,0,-4,-5,0,0,0,0,0
+"9",32,"European/Caucasian-American",2,8,2,30,7,4,0,-6,-3,0,0,0,1,0
+"10",25,"European/Caucasian-American",3,7,0,30,9,3,0,-7,-6,0,0,0,1,0
+"11",33,"European/Caucasian-American",2,8,7,20,7,8,0,-1,1,0,0,0,1,0
+"12",33,"'Black/African American'",4,4,6,20,9,10,0,2,1,0,0,0,0,0
+"13",25,"European/Caucasian-American",1,7,7,40,8,7,1,0,-1,0,0,0,1,0
+"14",26,"'Latino/Hispanic American'",1,7,9,15,8,10,0,2,2,0,0,0,0,0
+"15",24,"'Latino/Hispanic American'",3,7,5,30,7,7,0,-2,0,0,0,0,0,0
+"16",21,"European/Caucasian-American",9,8,7,25,9,5,0,-1,-4,0,0,0,1,0
+"17",25,"'Black/African American'",2,9,7,11.54,10,8,1,-2,-2,0,0,0,0,0
+"18",22,"'Black/African American'",1,7,5,25,9,8,0,-2,-1,0,0,0,0,0
+"19",30,"European/Caucasian-American",2,9,6,17.5,7,7,0,-3,0,0,0,0,1,0
+"20",23,"European/Caucasian-American",5,7,7,20,8,7,0,0,-1,0,0,0,1,0
+"21",27,"'Black/African American'",2,7,3,40,3,4,0,-4,1,0,0,0,0,0
+"22",22,"European/Caucasian-American",7,7,6,30,8,7,0,-1,-1,0,0,0,1,0
+"23",30,"'Latino/Hispanic American'",2,7,10,10,7,9,1,3,2,0,0,0,0,0
+"24",30,"European/Caucasian-American",4,6,6,30,6,10,0,0,4,0,0,0,1,0
+"25",22,"European/Caucasian-American",7,7,7,30,8,8,0,0,0,0,0,0,1,0
+"26",27,"'Latino/Hispanic American'",1,7,6,30,9,8,0,-1,-1,0,0,0,0,0
+"27",30,"European/Caucasian-American",1,8,6,31.58,9,8,0,-2,-1,0,0,0,1,0
+"28",27,"European/Caucasian-American",6,7,8,30,8,7,0,1,-1,0,0,0,1,0
+"29",24,"European/Caucasian-American",5,8,7,10,10,8,0,-1,-2,0,0,0,1,0
+"30",25,"Other",6,6,8,15,7,7,0,2,0,0,0,0,0,1
+"31",27,"European/Caucasian-American",3,5,6,20,7,6,0,1,-1,0,0,0,1,0
+"32",27,"Other",1,7,5,10,7,7,0,-2,0,0,0,0,0,1
+"33",29,"European/Caucasian-American",1,9,8,10,9,6,0,-1,-3,0,0,0,1,0
+"34",31,"European/Caucasian-American",3,7,7,12,8,7,0,0,-1,0,0,0,1,0
+"35",27,"European/Caucasian-American",1,7,7,20.51,6,9,0,0,3,0,0,0,1,0
+"36",24,"'Asian/Pacific Islander/Asian-American'",6,6,6,15,6,6,0,0,0,0,0,0,0,0
+"37",28,"'Asian/Pacific Islander/Asian-American'",5,7,6,14.29,9,6,0,-1,-3,0,0,0,0,0
+"38",28,"'Asian/Pacific Islander/Asian-American'",10,6,10,13.04,7,10,1,4,3,0,0,0,0,0
+"39",25,"'Asian/Pacific Islander/Asian-American'",1,7,5,20,10,8,0,-2,-2,0,0,0,0,0
+"40",22,"European/Caucasian-American",7,9,5,25,9,8,0,-4,-1,0,0,0,1,0
+"41",25,"European/Caucasian-American",7,8,7,27,6,7,0,-1,1,0,0,0,1,0
+"42",26,"European/Caucasian-American",8,8,6,40,8,5,0,-2,-3,0,0,0,1,0
+"43",28,"European/Caucasian-American",1,8,4,40,8,4,0,-4,-4,0,0,0,1,0
+"44",21,"European/Caucasian-American",8,8,4,50,8,5,0,-4,-3,0,0,0,1,0
+"45",25,"European/Caucasian-American",10,9,7,25,10,6,0,-2,-4,0,0,0,1,0
+"46",22,"European/Caucasian-American",10,6,5,10,10,7,0,-1,-3,0,0,0,1,0
+"47",24,"Other",1,7,4,30,8,4,1,-3,-4,0,0,0,0,1
+"48",24,"European/Caucasian-American",4,8,5,25,8,7,1,-3,-1,0,0,0,1,0
+"49",23,"'Asian/Pacific Islander/Asian-American'",4,5,6,15,5,8,0,1,3,0,0,0,0,0
+"50",26,"European/Caucasian-American",2,5,7,20,6,9,1,2,3,0,0,0,1,0
+"51",30,"'Black/African American'",1,9,7,15,10,7,0,-2,-3,0,0,0,0,0
+"52",27,"European/Caucasian-American",3,8,8,15,8,7,0,0,-1,0,0,0,1,0
+"53",29,"'Asian/Pacific Islander/Asian-American'",1,6,2,25,7,9,0,-4,2,0,0,0,0,0
+"54",25,"European/Caucasian-American",2,7,7,15,8,9,0,0,1,0,0,0,1,0
+"55",24,"European/Caucasian-American",1,8,7,22,7,5,0,-1,-2,0,0,0,1,0
+"56",26,"'Asian/Pacific Islander/Asian-American'",1,6,7,15,6,9,0,1,3,0,0,0,0,0
+"57",24,"European/Caucasian-American",9,9,3,16,8,5,0,-6,-3,0,0,0,1,0
+"58",27,"'Black/African American'",2,7,3,40,3,7,0,-4,4,0,0,0,0,0
+"59",28,"European/Caucasian-American",9,7,10,16.36,9,10,0,3,1,0,0,0,1,0
+"60",24,"European/Caucasian-American",2,7,8,19.57,9,9,0,1,0,0,0,0,1,0
+"61",25,"European/Caucasian-American",1,8,6,13.21,8,6,0,-2,-2,0,0,0,1,0
+"62",28,"European/Caucasian-American",0,9,7,5,5,8,0,-2,3,0,0,0,1,0
+"63",27,"European/Caucasian-American",2,7,6,20,6,9,0,-1,3,0,0,0,1,0
+"64",23,"European/Caucasian-American",2,7,4,10,9,7,0,-3,-2,0,0,0,1,0
+"65",26,"'Latino/Hispanic American'",1,9,7,30,9,7,0,-2,-2,0,0,0,0,0
+"66",28,"European/Caucasian-American",7,8,9,50,9,8,1,1,-1,0,0,0,1,0
+"67",26,"'Latino/Hispanic American'",1,7,5,15,8,6,0,-2,-2,0,0,0,0,0
+"68",34,"European/Caucasian-American",10,8,7,10,7,6,0,-1,-1,0,0,0,1,0
+"69",28,"'Latino/Hispanic American'",3,7,3,23,9,6,0,-4,-3,0,0,0,0,0
+"70",25,"European/Caucasian-American",3,6,9,25,7,9,0,3,2,0,0,0,1,0
+"71",21,"'Asian/Pacific Islander/Asian-American'",8,5,9,12,7,6,0,4,-1,0,0,0,0,0
+"72",23,"'Latino/Hispanic American'",1,3,7,10,3,8,1,4,5,0,0,0,0,0
+"73",21,"European/Caucasian-American",1,7,9,19,9,9,1,2,0,0,0,0,1,0
+"74",28,"European/Caucasian-American",4,7,4,20,8,5,0,-3,-3,0,0,0,1,0
+"75",27,"European/Caucasian-American",3,8,8,15,8,6,0,0,-2,0,0,0,1,0
+"76",25,"'Black/African American'",7,8,6,10,9,6,0,-2,-3,0,0,0,0,0
+"77",29,"'Latino/Hispanic American'",8,9,7,40,8,7,0,-2,-1,0,0,0,0,0
+"78",26,"'Asian/Pacific Islander/Asian-American'",1,8,8,20,8,10,0,0,2,0,0,0,0,0
+"79",23,"European/Caucasian-American",8,8,5,25,8,5,0,-3,-3,0,0,0,1,0
+"80",23,"European/Caucasian-American",1,7,3,20,8,5,0,-4,-3,0,0,0,1,0
+"81",25,"'Asian/Pacific Islander/Asian-American'",9,3,6,25,8,7,0,3,-1,0,0,0,0,0
+"82",27,"European/Caucasian-American",3,8,6,25,8,7,0,-2,-1,0,0,0,1,0
+"83",24,"European/Caucasian-American",6,7,6,20,10,6,0,-1,-4,0,0,0,1,0
+"84",27,"European/Caucasian-American",5,7,7,15.09,6,8,0,0,2,0,0,0,1,0
+"85",26,"European/Caucasian-American",3,7,7,10,9,7,1,0,-2,0,0,0,1,0
+"86",23,"'Asian/Pacific Islander/Asian-American'",7,8,5,25,8,8,0,-3,0,0,0,0,0,0
+"87",29,"European/Caucasian-American",7,7,8,45,10,8,0,1,-2,0,0,0,1,0
+"88",23,"European/Caucasian-American",9,8,8,17.31,10,6,0,0,-4,0,0,0,1,0
+"89",24,"'Asian/Pacific Islander/Asian-American'",1,7,4,25,6,7,0,-3,1,0,0,0,0,0
+"90",24,"'Asian/Pacific Islander/Asian-American'",1,5,7,13.51,4,9,0,2,5,0,0,0,0,0
+"91",22,"European/Caucasian-American",4,9,6,16,9,7,0,-3,-2,0,0,0,1,0
+"92",33,"'Latino/Hispanic American'",2,10,5,40,10,6,0,-5,-4,0,0,0,0,0
+"93",26,"European/Caucasian-American",5,8,8,50,9,8,0,0,-1,0,0,0,1,0
+"94",22,"Other",1,5,6,20,6,7,0,1,1,0,0,0,0,1
+"95",28,"European/Caucasian-American",7,5,2,15.91,8,6,0,-3,-2,0,0,0,1,0
+"96",30,"European/Caucasian-American",8,10,6,40,10,8,0,-4,-2,0,0,0,1,0
+"97",27,"'Asian/Pacific Islander/Asian-American'",5,6,4,20,7,10,0,-2,3,0,0,0,0,0
+"98",24,"'Latino/Hispanic American'",1,9,9,30,8,8,1,0,0,0,0,0,0,0
+"99",32,"European/Caucasian-American",1,5,5,18,6,6,0,0,0,0,0,0,1,0
+"100",25,"'Asian/Pacific Islander/Asian-American'",7,6,5,15,6,8,0,-1,2,0,0,0,0,0
+"101",24,"Other",1,6,6,20,8,7,0,0,-1,0,0,0,0,1
+"102",24,"European/Caucasian-American",5,5,3,20,6,8,0,-2,2,0,0,0,1,0
+"103",26,"European/Caucasian-American",4,7,5,15,9,9,0,-2,0,0,0,0,1,0
+"104",23,"European/Caucasian-American",3,6,8,15,9,7,0,2,-2,0,0,0,1,0
+"105",27,"'Asian/Pacific Islander/Asian-American'",4,5,3,30,7,10,0,-2,3,0,0,0,0,0
+"106",28,"European/Caucasian-American",1,7,5,15,7,10,0,-2,3,0,0,0,1,0
+"107",27,"European/Caucasian-American",8,7,9,20,6,10,0,2,4,0,0,0,1,0
+"108",29,"'Black/African American'",3,8,9,16,9,9,0,1,0,0,0,0,0,0
+"109",24,"European/Caucasian-American",10,6,7,50,8,9,0,1,1,0,0,0,1,0
+"110",29,"European/Caucasian-American",6,3,3,30,6,8,0,0,2,0,0,0,1,0
+"111",31,"'Black/African American'",2,8,10,14.58,8,10,1,2,2,0,0,0,0,0
+"112",26,"European/Caucasian-American",1,8,6,25,8,6,1,-2,-2,0,0,0,1,0
+"113",25,"'Asian/Pacific Islander/Asian-American'",2,7,7,20.93,5,7,0,0,2,0,0,0,0,0
+"114",23,"'Asian/Pacific Islander/Asian-American'",3,7,6,20,9,7,0,-1,-2,0,0,0,0,0
+"115",22,"European/Caucasian-American",7,7,4,10,9,7,0,-3,-2,0,0,0,1,0
+"116",26,"'Latino/Hispanic American'",3,7,7,10,9,7,0,0,-2,0,0,0,0,0
+"117",31,"European/Caucasian-American",9,7,6,12,6,6,0,-1,0,0,0,0,1,0
+"118",25,"'Asian/Pacific Islander/Asian-American'",1,6,7,15,8,7,0,1,-1,0,0,0,0,0
+"119",26,"European/Caucasian-American",7,7,4,18,8,5,0,-3,-3,0,0,0,1,0
+"120",21,"European/Caucasian-American",10,5,3,15,6,7,0,-2,1,0,0,0,1,0
+"121",27,"European/Caucasian-American",9,7,6,30,8,7,0,-1,-1,0,0,0,1,0
+"122",29,"European/Caucasian-American",8,7,5,30,5,9,0,-2,4,0,0,0,1,0
+"123",24,"'Asian/Pacific Islander/Asian-American'",1,6,5,5,9,6,0,-1,-3,0,0,0,0,0
+"124",22,"European/Caucasian-American",9,7,10,20,10,10,1,3,0,0,0,0,1,0
+"125",24,"'Asian/Pacific Islander/Asian-American'",1,5,7,13.51,4,10,0,2,6,0,0,0,0,0
+"126",27,"'Asian/Pacific Islander/Asian-American'",10,6,7,15,7,9,0,1,2,0,0,0,0,0
+"127",29,"'Asian/Pacific Islander/Asian-American'",1,5,7,15,7,5,0,2,-2,0,0,0,0,0
+"128",29,"European/Caucasian-American",4,7,8,50,7,10,0,1,3,0,0,0,1,0
+"129",27,"'Asian/Pacific Islander/Asian-American'",1,5,8,10,7,9,0,3,2,0,0,0,0,0
+"130",26,"'Asian/Pacific Islander/Asian-American'",3,6,6,16.67,6,6,0,0,0,0,0,0,0,0
+"131",32,"European/Caucasian-American",1,7,2,50,9,5,0,-5,-4,0,0,0,1,0
+"132",27,"European/Caucasian-American",5,5,9,17.78,9,9,0,4,0,0,0,0,1,0
+"133",33,"European/Caucasian-American",6,7,5,8.33,7,8,0,-2,1,0,0,0,1,0
+"134",23,"European/Caucasian-American",3,6,7,15,9,6,0,1,-3,0,0,0,1,0
+"135",24,"European/Caucasian-American",4,8,5,20,6,8,0,-3,2,0,0,0,1,0
+"136",29,"European/Caucasian-American",1,8,9,20,7,8,1,1,1,0,0,0,1,0
+"137",27,"European/Caucasian-American",6,9,7,20,7,7,0,-2,0,0,0,0,1,0
+"138",22,"Other",1,7,10,40,8,10,0,3,2,0,0,0,0,1
+"139",36,"European/Caucasian-American",6,8,5,20,9,7,0,-3,-2,0,0,0,1,0
+"140",20,"'Asian/Pacific Islander/Asian-American'",1,7,7,30,8,8,0,0,0,0,0,0,0,0
+"141",24,"European/Caucasian-American",9,5,2,11.36,7,6,0,-3,-1,0,0,0,1,0
+"142",33,"European/Caucasian-American",1,8,5,20,7,7,0,-3,0,0,0,0,1,0
+"143",23,"European/Caucasian-American",8,8,7,20,8,7,0,-1,-1,0,0,0,1,0
+"144",28,"European/Caucasian-American",1,8,4,40,10,5,0,-4,-5,0,0,0,1,0
+"145",25,"'Black/African American'",1,8,7,30,9,8,1,-1,-1,0,0,0,0,0
+"146",32,"European/Caucasian-American",1,8,8,17.24,8,8,0,0,0,0,0,0,1,0
+"147",27,"'Asian/Pacific Islander/Asian-American'",7,8,9,15.09,9,9,1,1,0,0,0,0,0,0
+"148",27,"'Asian/Pacific Islander/Asian-American'",1,7,6,50,9,10,0,-1,1,0,0,0,0,0
+"149",29,"European/Caucasian-American",1,6,3,10,5,7,0,-3,2,0,0,0,1,0
+"150",29,"'Asian/Pacific Islander/Asian-American'",1,8,8,40,8,8,0,0,0,0,0,0,0,0
+"151",27,"'Black/African American'",4,8,4,35,9,6,0,-4,-3,0,0,0,0,0
+"152",21,"European/Caucasian-American",8,8,7,20,8,7,0,-1,-1,0,0,0,1,0
+"153",21,"European/Caucasian-American",8,8,10,35,9,10,0,2,1,0,0,0,1,0
+"154",26,"European/Caucasian-American",4,7,10,20,9,7,0,3,-2,0,0,0,1,0
+"155",27,"Other",6,8,7,16.98,8,7,0,-1,-1,0,0,0,0,1
+"156",29,"European/Caucasian-American",6,3,3,30,6,4,0,0,-2,0,0,0,1,0
+"157",24,"European/Caucasian-American",4,8,8,20,6,9,1,0,3,0,0,0,1,0
+"158",25,"Other",5,8,9,15,6,10,0,1,4,0,0,0,0,1
+"159",36,"European/Caucasian-American",1,8,4,18.18,8,7,0,-4,-1,0,0,0,1,0
+"160",27,"European/Caucasian-American",5,7,5,15.09,6,8,0,-2,2,0,0,0,1,0
+"161",28,"European/Caucasian-American",3,6,3,16,6,7,0,-3,1,0,0,0,1,0
+"162",30,"European/Caucasian-American",1,8,7,31.58,9,7,0,-1,-2,0,0,0,1,0
+"163",22,"Other",1,7,5,20,8,6,0,-2,-2,0,0,0,0,1
+"164",28,"European/Caucasian-American",2,8,7,25,7,7,0,-1,0,0,0,0,1,0
+"165",26,"'Asian/Pacific Islander/Asian-American'",3,7,6,14.89,9,10,0,-1,1,0,0,0,0,0
+"166",25,"European/Caucasian-American",2,5,5,25,5,8,1,0,3,0,0,0,1,0
+"167",22,"'Asian/Pacific Islander/Asian-American'",3,4,4,19,8,8,0,0,0,0,0,0,0,0
+"168",28,"European/Caucasian-American",2,8,7,40,8,9,0,-1,1,0,0,0,1,0
+"169",29,"'Asian/Pacific Islander/Asian-American'",6,7,8,10,8,9,0,1,1,0,0,0,0,0
+"170",29,"European/Caucasian-American",1,8,5,20,7,5,0,-3,-2,0,0,0,1,0
+"171",21,"European/Caucasian-American",8,8,10,20,8,6,1,2,-2,0,0,0,1,0
+"172",24,"Other",3,7,3,20,8,4,0,-4,-4,0,0,0,0,1
+"173",19,"'Latino/Hispanic American'",5,8,9,50,10,9,1,1,-1,0,0,0,0,0
+"174",24,"'Asian/Pacific Islander/Asian-American'",6,6,4,15,6,8,0,-2,2,0,0,0,0,0
+"175",22,"European/Caucasian-American",9,7,7,30,6,7,0,0,1,0,0,0,1,0
+"176",30,"'Asian/Pacific Islander/Asian-American'",1,8,3,10,8,10,0,-5,2,0,0,0,0,0
+"177",33,"European/Caucasian-American",6,7,5,8.33,7,9,0,-2,2,0,0,0,1,0
+"178",30,"'Asian/Pacific Islander/Asian-American'",1,9,6,20,7,8,0,-3,1,0,0,0,0,0
+"179",27,"European/Caucasian-American",7,5,3,7.5,9,5,0,-2,-4,0,0,0,1,0
+"180",23,"'Asian/Pacific Islander/Asian-American'",2,8,6,20,10,7,0,-2,-3,0,0,0,0,0
+"181",27,"'Asian/Pacific Islander/Asian-American'",9,8,5,58,9,5,0,-3,-4,0,0,0,0,0
+"182",26,"European/Caucasian-American",5,7,7,10,7,5,0,0,-2,0,0,0,1,0
+"183",23,"'Asian/Pacific Islander/Asian-American'",1,5,5,11.11,5,6,0,0,1,0,0,0,0,0
+"184",29,"'Asian/Pacific Islander/Asian-American'",1,7,6,14,8,9,0,-1,1,0,0,0,0,0
+"185",30,"'Latino/Hispanic American'",1,8,8,15,7,8,0,0,1,0,0,0,0,0
+"186",25,"Other",1,6,7,7,8,8,1,1,0,0,0,0,0,1
+"187",25,"'Asian/Pacific Islander/Asian-American'",7,6,4,15,6,6,0,-2,0,0,0,0,0,0
+"188",24,"Other",1,7,2,30,8,1,0,-5,-7,0,0,0,0,1
+"189",23,"European/Caucasian-American",3,6,9,15,9,9,0,3,0,0,0,0,1,0
+"190",29,"European/Caucasian-American",10,8,7,20,6,9,0,-1,3,0,0,0,1,0
+"191",26,"European/Caucasian-American",5,7,7,10,7,8,0,0,1,0,0,0,1,0
+"192",23,"European/Caucasian-American",2,7,7,10,9,10,1,0,1,0,0,0,1,0
+"193",22,"'Asian/Pacific Islander/Asian-American'",3,8,9,15,9,7,1,1,-2,0,0,0,0,0
+"194",26,"European/Caucasian-American",4,6,6,15,10,6,0,0,-4,0,0,0,1,0
+"195",25,"European/Caucasian-American",8,7,9,15.38,9,9,0,2,0,0,0,0,1,0
+"196",28,"European/Caucasian-American",6,7,8,17.39,7,9,0,1,2,0,0,0,1,0
+"197",27,"European/Caucasian-American",1,6,3,6.67,6,7,0,-3,1,0,0,0,1,0
+"198",22,"European/Caucasian-American",6,4,6,20,7,10,0,2,3,0,0,0,1,0
+"199",24,"'Asian/Pacific Islander/Asian-American'",9,7,6,20,9,8,0,-1,-1,0,0,0,0,0
+"200",29,"European/Caucasian-American",1,10,5,19.57,10,8,0,-5,-2,0,0,0,1,0
+"201",30,"European/Caucasian-American",4,8,10,16.67,7,9,0,2,2,0,0,0,1,0
+"202",30,"European/Caucasian-American",1,7,7,25,8,9,0,0,1,0,0,0,1,0
+"203",24,"European/Caucasian-American",1,3,4,25,3,5,0,1,2,0,0,0,1,0
+"204",27,"European/Caucasian-American",9,7,7,30,8,8,0,0,0,0,0,0,1,0
+"205",23,"European/Caucasian-American",10,9,8,10,10,6,1,-1,-4,0,0,0,1,0
+"206",23,"'Latino/Hispanic American'",1,3,6,10,3,6,0,3,3,0,0,0,0,0
+"207",23,"'Black/African American'",1,7,6,25,9,9,0,-1,0,0,0,0,0,0
+"208",22,"European/Caucasian-American",8,7,7,21,8,8,0,0,0,0,0,0,1,0
+"209",22,"'Asian/Pacific Islander/Asian-American'",2,6,8,15,5,6,0,2,1,0,0,0,0,0
+"210",23,"'Black/African American'",8,8,8,50,7,10,0,0,3,0,0,0,0,0
+"211",24,"'Asian/Pacific Islander/Asian-American'",1,5,7,13.51,4,10,0,2,6,0,0,0,0,0
+"212",22,"'Latino/Hispanic American'",1,4,7,10,3,8,0,3,5,0,0,0,0,0
+"213",28,"European/Caucasian-American",6,7,5,17.39,7,5,0,-2,-2,0,0,0,1,0
+"214",23,"European/Caucasian-American",1,6,5,18.6,7,7,0,-1,0,0,0,0,1,0
+"215",20,"'Latino/Hispanic American'",1,6,8,10,8,10,1,2,2,0,0,0,0,0
+"216",23,"'Asian/Pacific Islander/Asian-American'",4,5,6,15,5,8,0,1,3,0,0,0,0,0
+"217",24,"European/Caucasian-American",10,6,6,50,8,8,0,0,0,0,0,0,1,0
+"218",23,"European/Caucasian-American",5,6,2,23,6,8,0,-4,2,0,0,0,1,0
+"219",31,"European/Caucasian-American",9,7,8,12,6,6,0,1,0,0,0,0,1,0
+"220",23,"European/Caucasian-American",2,7,6,15,9,6,0,-1,-3,0,0,0,1,0
+"221",33,"European/Caucasian-American",2,8,8,20,9,10,0,0,1,0,0,0,1,0
+"222",23,"European/Caucasian-American",5,6,7,25,2,9,0,1,7,0,0,0,1,0
+"223",23,"European/Caucasian-American",3,7,6,19.05,7,8,0,-1,1,0,0,0,1,0
+"224",28,"'Black/African American'",7,7,6,13.04,8,9,0,-1,1,0,0,0,0,0
+"225",25,"'Asian/Pacific Islander/Asian-American'",1,5,6,20,2,8,0,1,6,0,0,0,0,0
+"226",23,"European/Caucasian-American",1,6,6,18.6,7,6,0,0,-1,0,0,0,1,0
+"227",21,"'Asian/Pacific Islander/Asian-American'",3,6,2,15,10,9,0,-4,-1,0,0,0,0,0
+"228",23,"'Asian/Pacific Islander/Asian-American'",2,5,7,16,7,8,0,2,1,0,0,0,0,0
+"229",28,"'Asian/Pacific Islander/Asian-American'",5,7,6,14.29,9,8,0,-1,-1,0,0,0,0,0
+"230",22,"'Asian/Pacific Islander/Asian-American'",1,3,4,20,9,7,0,1,-2,0,0,0,0,0
+"231",25,"'Asian/Pacific Islander/Asian-American'",9,3,2,25,8,10,0,-1,2,0,0,0,0,0
+"232",23,"'Asian/Pacific Islander/Asian-American'",2,8,4,20,10,8,1,-4,-2,0,0,0,0,0
+"233",34,"European/Caucasian-American",5,7,4,30,5,7,0,-3,2,0,0,0,1,0
+"234",27,"'Asian/Pacific Islander/Asian-American'",10,6,10,15,7,7,1,4,0,0,0,0,0,0
+"235",28,"European/Caucasian-American",1,8,4,40,10,4,0,-4,-6,0,0,0,1,0
+"236",26,"European/Caucasian-American",7,8,5,20,8,8,1,-3,0,0,0,0,1,0
+"237",24,"Other",2,7,3,14,9,4,0,-4,-5,0,0,0,0,1
+"238",29,"European/Caucasian-American",1,7,10,30,8,7,0,3,-1,0,0,0,1,0
+"239",22,"'Asian/Pacific Islander/Asian-American'",3,8,6,15,9,9,0,-2,0,0,0,0,0,0
+"240",27,"European/Caucasian-American",6,9,10,20,7,10,0,1,3,0,0,0,1,0
+"241",23,"European/Caucasian-American",8,9,8,40,9,7,0,-1,-2,0,0,0,1,0
+"242",30,"European/Caucasian-American",5,7,6,30,7,8,0,-1,1,0,0,0,1,0
+"243",23,"European/Caucasian-American",1,6,10,25,7,9,1,4,2,0,0,0,1,0
+"244",27,"'Latino/Hispanic American'",1,5,9,10,5,10,0,4,5,0,0,0,0,0
+"245",28,"'Asian/Pacific Islander/Asian-American'",1,4,6,20,10,8,0,2,-2,0,0,0,0,0
+"246",22,"'Latino/Hispanic American'",1,6,8,17,7,8,0,2,1,0,0,0,0,0
+"247",23,"European/Caucasian-American",8,8,8,25,8,7,0,0,-1,0,0,0,1,0
+"248",22,"European/Caucasian-American",4,7,3,8,8,7,0,-4,-1,0,0,0,1,0
+"249",23,"European/Caucasian-American",5,7,3,50,7,7,0,-4,0,0,0,0,1,0
+"250",27,"European/Caucasian-American",1,8,8,55,9,7,0,0,-2,0,0,0,1,0
+"251",29,"'Latino/Hispanic American'",3,7,5,30,7,5,0,-2,-2,0,0,0,0,0
+"252",33,"'Asian/Pacific Islander/Asian-American'",1,5,7,15,8,8,0,2,0,0,0,0,0,0
+"253",27,"European/Caucasian-American",2,7,8,10,9,8,0,1,-1,0,0,0,1,0
+"254",33,"'Asian/Pacific Islander/Asian-American'",1,8,1,25,9,8,0,-7,-1,0,0,0,0,0
+"255",23,"European/Caucasian-American",9,9,5,28,10,5,0,-4,-5,0,0,0,1,0
+"256",26,"European/Caucasian-American",9,9,8,18.18,7,8,1,-1,1,0,0,0,1,0
+"257",30,"European/Caucasian-American",2,7,5,20,9,8,1,-2,-1,0,0,0,1,0
+"258",24,"Other",5,10,5,50,10,5,0,-5,-5,0,0,0,0,1
+"259",21,"European/Caucasian-American",1,7,6,15.56,7,7,0,-1,0,0,0,0,1,0
+"260",24,"'Asian/Pacific Islander/Asian-American'",9,7,4,20,9,6,0,-3,-3,0,0,0,0,0
+"261",27,"European/Caucasian-American",5,7,7,10,7,8,0,0,1,0,0,0,1,0
+"262",23,"'Asian/Pacific Islander/Asian-American'",1,5,6,10,8,8,0,1,0,0,0,0,0,0
+"263",26,"European/Caucasian-American",5,8,10,50,9,9,0,2,0,0,0,0,1,0
+"264",25,"'Asian/Pacific Islander/Asian-American'",1,8,5,15,10,6,0,-3,-4,0,0,0,0,0
+"265",26,"European/Caucasian-American",2,7,8,20,5,7,0,1,2,0,0,0,1,0
+"266",23,"'Asian/Pacific Islander/Asian-American'",2,8,3,40,9,5,0,-5,-4,0,0,0,0,0
+"267",38,"European/Caucasian-American",4,6,6,15,6,8,0,0,2,0,0,0,1,0
+"268",25,"'Asian/Pacific Islander/Asian-American'",1,7,6,10,6,4,0,-1,-2,0,0,0,0,0
+"269",27,"European/Caucasian-American",1,8,7,55,9,8,0,-1,-1,0,0,0,1,0
+"270",27,"'Latino/Hispanic American'",1,5,5,10,5,5,0,0,0,0,0,0,0,0
+"271",30,"'Black/African American'",1,8,5,30,10,9,0,-3,-1,0,0,0,0,0
+"272",25,"European/Caucasian-American",2,5,6,25,5,7,0,1,2,0,0,0,1,0
+"273",28,"European/Caucasian-American",1,9,8,14.55,10,8,0,-1,-2,0,0,0,1,0
+"274",24,"European/Caucasian-American",5,8,4,10,10,9,0,-4,-1,0,0,0,1,0
+"275",33,"'Latino/Hispanic American'",2,10,7,40,10,7,0,-3,-3,0,0,0,0,0
+"276",22,"'Latino/Hispanic American'",1,4,6,10,3,7,0,2,4,0,0,0,0,0
+"277",33,"Other",2,8,5,19,9,6,0,-3,-3,0,0,0,0,1
+"278",23,"European/Caucasian-American",1,6,9,25,7,6,0,3,-1,0,0,0,1,0
+"279",32,"European/Caucasian-American",1,7,5,50,9,6,0,-2,-3,0,0,0,1,0
+"280",27,"'Asian/Pacific Islander/Asian-American'",6,7,6,15.56,7,9,0,-1,2,0,0,0,0,0
+"281",29,"European/Caucasian-American",1,8,9,20,7,9,0,1,2,0,0,0,1,0
+"282",21,"European/Caucasian-American",1,10,6,25,6,7,0,-4,1,0,0,0,1,0
+"283",25,"Other",5,8,9,15,6,7,0,1,1,0,0,0,0,1
+"284",27,"European/Caucasian-American",8,4,2,9.52,7,4,0,-2,-3,0,0,0,1,0
+"285",29,"European/Caucasian-American",10,8,5,20,6,8,0,-3,2,0,0,0,1,0
+"286",28,"European/Caucasian-American",8,7,5,25,7,9,0,-2,2,0,0,0,1,0
+"287",29,"'Asian/Pacific Islander/Asian-American'",6,7,5,10,8,5,0,-2,-3,0,0,0,0,0
+"288",32,"European/Caucasian-American",1,5,4,18,6,10,0,-1,4,0,0,0,1,0
+"289",24,"European/Caucasian-American",7,8,9,20,8,8,1,1,0,0,0,0,1,0
+"290",22,"European/Caucasian-American",3,7,7,10,7,9,0,0,2,0,0,0,1,0
+"291",33,"European/Caucasian-American",2,8,6,20,9,5,0,-2,-4,0,0,0,1,0
+"292",23,"European/Caucasian-American",8,9,8,15,9,6,0,-1,-3,0,0,0,1,0
+"293",26,"'Asian/Pacific Islander/Asian-American'",3,7,5,25,8,7,0,-2,-1,0,0,0,0,0
+"294",23,"'Asian/Pacific Islander/Asian-American'",7,8,5,25,8,9,0,-3,1,0,0,0,0,0
+"295",34,"'Asian/Pacific Islander/Asian-American'",2,5,5,2,8,8,0,0,0,0,0,0,0,0
+"296",26,"'Asian/Pacific Islander/Asian-American'",3,6,7,16.67,6,7,0,1,1,0,0,0,0,0
+"297",29,"'Asian/Pacific Islander/Asian-American'",1,8,8,40,8,8,0,0,0,0,0,0,0,0
+"298",29,"European/Caucasian-American",1,9,7,25,9,8,0,-2,-1,0,0,0,1,0
+"299",25,"European/Caucasian-American",7,8,7,27,6,8,0,-1,2,0,0,0,1,0
+"300",27,"European/Caucasian-American",1,7,6,25,7,9,1,-1,2,0,0,0,1,0
+"301",36,"'Asian/Pacific Islander/Asian-American'",1,7,3,18,8,7,0,-4,-1,0,0,0,0,0
+"302",28,"European/Caucasian-American",2,8,8,25,7,8,0,0,1,0,0,0,1,0
+"303",23,"'Black/African American'",1,6,6,20,10,7,0,0,-3,0,0,0,0,0
+"304",34,"European/Caucasian-American",6,7,5,10,7,6,0,-2,-1,0,0,0,1,0
+"305",24,"European/Caucasian-American",3,7,4,20,7,8,0,-3,1,0,0,0,1,0
+"306",27,"European/Caucasian-American",6,9,7,20,7,8,0,-2,1,0,0,0,1,0
+"307",35,"'Asian/Pacific Islander/Asian-American'",1,8,7,15,7,6,0,-1,-1,0,0,0,0,0
+"308",24,"'Asian/Pacific Islander/Asian-American'",8,6,6,12.77,7,9,0,0,2,0,0,0,0,0
+"309",29,"European/Caucasian-American",7,7,6,45,10,10,1,-1,0,0,0,0,1,0
+"310",26,"'Asian/Pacific Islander/Asian-American'",1,8,9,20,8,8,0,1,0,0,0,0,0,0
+"311",23,"European/Caucasian-American",5,7,7,15.38,9,6,0,0,-3,0,0,0,1,0
+"312",23,"European/Caucasian-American",1,6,9,25,7,8,1,3,1,0,0,0,1,0
+"313",30,"'Asian/Pacific Islander/Asian-American'",6,6,6,50,6,7,0,0,1,0,0,0,0,0
+"314",30,"'Asian/Pacific Islander/Asian-American'",1,9,6,20,7,6,0,-3,-1,0,0,0,0,0
+"315",28,"European/Caucasian-American",6,8,10,10,8,9,0,2,1,0,0,0,1,0
+"316",25,"European/Caucasian-American",3,6,7,25,7,7,0,1,0,0,0,0,1,0
+"317",26,"'Asian/Pacific Islander/Asian-American'",3,7,7,14.89,9,8,0,0,-1,0,0,0,0,0
+"318",24,"'Latino/Hispanic American'",6,6,8,20,6,5,0,2,-1,0,0,0,0,0
+"319",26,"European/Caucasian-American",7,7,8,20,8,8,0,1,0,0,0,0,1,0
+"320",28,"'Asian/Pacific Islander/Asian-American'",6,6,0,20,9,5,0,-6,-4,0,0,0,0,0
+"321",27,"European/Caucasian-American",5,7,10,15.09,6,8,0,3,2,0,0,0,1,0
+"322",30,"'Asian/Pacific Islander/Asian-American'",1,8,6,10,8,5,1,-2,-3,0,0,0,0,0
+"323",31,"European/Caucasian-American",9,7,6,12,6,7,0,-1,1,0,0,0,1,0
+"324",29,"European/Caucasian-American",8,7,5,30,5,7,0,-2,2,0,0,0,1,0
+"325",27,"European/Caucasian-American",1,7,6,20.51,6,7,0,-1,1,0,0,0,1,0
+"326",29,"'Asian/Pacific Islander/Asian-American'",1,9,7,50,10,9,1,-2,-1,0,0,0,0,0
+"327",22,"'Asian/Pacific Islander/Asian-American'",7,7,4,20,9,6,0,-3,-3,0,0,0,0,0
+"328",26,"European/Caucasian-American",8,8,8,40,8,8,0,0,0,0,0,0,1,0
+"329",28,"'Asian/Pacific Islander/Asian-American'",2,5,6,10,4,7,0,1,3,0,0,0,0,0
+"330",22,"European/Caucasian-American",9,7,7,20,10,8,0,0,-2,0,0,0,1,0
+"331",27,"European/Caucasian-American",6,7,5,30,8,7,1,-2,-1,0,0,0,1,0
+"332",29,"Other",1,6,7,40,6,9,0,1,3,0,0,0,0,1
+"333",21,"European/Caucasian-American",1,10,8,25,6,7,0,-2,1,0,0,0,1,0
+"334",24,"Other",8,8,7,20,8,10,1,-1,2,0,0,0,0,1
+"335",23,"European/Caucasian-American",1,6,3,18.6,7,8,0,-3,1,0,0,0,1,0
+"336",32,"Other",5,7,9,20,7,8,0,2,1,0,0,0,0,1
+"337",25,"European/Caucasian-American",3,6,7,25,7,7,1,1,0,0,0,0,1,0
+"338",29,"'Latino/Hispanic American'",8,9,6,40,8,7,0,-3,-1,0,0,0,0,0
+"339",25,"European/Caucasian-American",3,7,9,30,9,10,0,2,1,0,0,0,1,0
+"340",26,"'Latino/Hispanic American'",5,3,3,10,9,5,0,0,-4,0,0,0,0,0
+"341",27,"'Asian/Pacific Islander/Asian-American'",1,6,7,20,8,7,1,1,-1,0,0,0,0,0
+"342",30,"European/Caucasian-American",3,9,10,35,10,9,0,1,-1,0,0,0,1,0
+"343",31,"European/Caucasian-American",3,7,7,12,8,9,0,0,1,0,0,0,1,0
+"344",30,"European/Caucasian-American",4,8,7,16.67,7,6,0,-1,-1,0,0,0,1,0
+"345",27,"European/Caucasian-American",7,5,5,7.5,9,7,0,0,-2,0,0,0,1,0
+"346",26,"European/Caucasian-American",6,4,8,15,7,8,0,4,1,0,0,0,1,0
+"347",21,"European/Caucasian-American",8,8,6,35,9,8,0,-2,-1,0,0,0,1,0
+"348",24,"Other",5,10,5,50,10,6,0,-5,-4,0,0,0,0,1
+"349",35,"'Asian/Pacific Islander/Asian-American'",5,9,3,15.22,7,9,0,-6,2,0,0,0,0,0
+"350",27,"European/Caucasian-American",3,9,6,15.38,10,9,1,-3,-1,0,0,0,1,0
+"351",27,"European/Caucasian-American",2,7,4,20,6,6,0,-3,0,0,0,0,1,0
+"352",30,"European/Caucasian-American",4,8,8,16.67,7,10,0,0,3,0,0,0,1,0
+"353",25,"European/Caucasian-American",1,7,6,9.09,8,7,0,-1,-1,0,0,0,1,0
+"354",26,"Other",1,7,8,27.78,7,6,1,1,-1,0,0,0,0,1
+"355",23,"'Asian/Pacific Islander/Asian-American'",1,5,6,11.11,5,8,0,1,3,0,0,0,0,0
+"356",29,"European/Caucasian-American",7,7,7,45,10,6,0,0,-4,0,0,0,1,0
+"357",24,"'Latino/Hispanic American'",1,9,10,30,8,8,1,1,0,0,0,0,0,0
+"358",30,"European/Caucasian-American",1,7,7,30,8,9,1,0,1,0,0,0,1,0
+"359",26,"European/Caucasian-American",7,7,8,24,7,9,1,1,2,0,0,0,1,0
+"360",30,"European/Caucasian-American",4,8,8,16.67,7,7,0,0,0,0,0,0,1,0
+"361",23,"'Asian/Pacific Islander/Asian-American'",2,8,5,40,9,6,0,-3,-3,0,0,0,0,0
+"362",29,"European/Caucasian-American",1,9,6,10,9,7,0,-3,-2,0,0,0,1,0
+"363",26,"European/Caucasian-American",2,7,8,20,5,6,1,1,1,0,0,0,1,0
+"364",33,"European/Caucasian-American",1,8,8,20,7,8,1,0,1,0,0,0,1,0
+"365",24,"Other",1,8,6,20,10,8,0,-2,-2,0,0,0,0,1
+"366",24,"European/Caucasian-American",1,3,3,25,3,10,0,0,7,0,0,0,1,0
+"367",24,"European/Caucasian-American",1,3,1,25,3,1,0,-2,-2,0,0,0,1,0
+"368",28,"European/Caucasian-American",2,7,7,20,8,8,1,0,0,0,0,0,1,0
+"369",32,"European/Caucasian-American",3,7,6,15,7,9,0,-1,2,0,0,0,1,0
+"370",25,"European/Caucasian-American",1,7,3,30,4,4,0,-4,0,0,0,0,1,0
+"371",26,"European/Caucasian-American",2,5,3,20,6,5,0,-2,-1,0,0,0,1,0
+"372",28,"'Asian/Pacific Islander/Asian-American'",10,6,6,13.04,7,7,0,0,0,0,0,0,0,0
+"373",26,"'Asian/Pacific Islander/Asian-American'",1,7,7,17.39,8,7,0,0,-1,0,0,0,0,0
+"374",25,"European/Caucasian-American",2,7,9,15,8,6,0,2,-2,0,0,0,1,0
+"375",26,"'Latino/Hispanic American'",3,7,2,10,9,4,0,-5,-5,0,0,0,0,0
+"376",23,"'Black/African American'",1,7,7,25,9,6,1,0,-3,0,0,0,0,0
+"377",21,"European/Caucasian-American",1,10,5,25,6,6,0,-5,0,0,0,0,1,0
+"378",29,"European/Caucasian-American",8,7,6,30,5,7,0,-1,2,0,0,0,1,0
+"379",27,"'Asian/Pacific Islander/Asian-American'",3,6,3,10,8,8,0,-3,0,0,0,0,0,0
+"380",32,"European/Caucasian-American",2,8,4,30,7,7,0,-4,0,0,0,0,1,0
+"381",29,"'Black/African American'",3,8,5,16,9,7,0,-3,-2,0,0,0,0,0
+"382",24,"European/Caucasian-American",6,7,6,20,10,6,0,-1,-4,0,0,0,1,0
+"383",24,"European/Caucasian-American",5,5,6,20,6,8,0,1,2,0,0,0,1,0
+"384",30,"'Asian/Pacific Islander/Asian-American'",3,2,6,20,4,10,0,4,6,0,0,0,0,0
+"385",22,"European/Caucasian-American",1,8,6,25,8,8,0,-2,0,0,0,0,1,0
+"386",27,"'Black/African American'",1,6,4,21,7,7,0,-2,0,0,0,0,0,0
+"387",23,"'Asian/Pacific Islander/Asian-American'",3,7,8,20,9,9,0,1,0,0,0,0,0,0
+"388",22,"'Asian/Pacific Islander/Asian-American'",3,8,3,40,8,6,0,-5,-2,0,0,0,0,0
+"389",29,"'Asian/Pacific Islander/Asian-American'",1,5,8,15,7,8,0,3,1,0,0,0,0,0
+"390",31,"European/Caucasian-American",1,8,6,35,7,8,0,-2,1,0,0,0,1,0
+"391",27,"European/Caucasian-American",5,7,6,10,7,6,0,-1,-1,0,0,0,1,0
+"392",34,"European/Caucasian-American",2,5,7,30,5,8,0,2,3,0,0,0,1,0
+"393",27,"European/Caucasian-American",3,8,7,30,9,6,0,-1,-3,0,0,0,1,0
+"394",27,"'Asian/Pacific Islander/Asian-American'",10,6,9,15,7,7,0,3,0,0,0,0,0,0
+"395",33,"'Asian/Pacific Islander/Asian-American'",1,5,5,15,8,8,0,0,0,0,0,0,0,0
+"396",24,"Other",2,7,7,14,9,7,0,0,-2,0,0,0,0,1
+"397",22,"European/Caucasian-American",8,7,6,15.38,9,8,0,-1,-1,0,0,0,1,0
+"398",25,"'Asian/Pacific Islander/Asian-American'",1,7,10,10,6,9,0,3,3,0,0,0,0,0
+"399",28,"European/Caucasian-American",2,5,6,50,5,8,0,1,3,0,0,0,1,0
+"400",28,"Other",2,8,4,25,7,8,0,-4,1,0,0,0,0,1
+"401",27,"'Asian/Pacific Islander/Asian-American'",1,6,7,20,8,7,0,1,-1,0,0,0,0,0
+"402",23,"European/Caucasian-American",1,7,6,14,7,8,0,-1,1,0,0,0,1,0
+"403",23,"European/Caucasian-American",8,9,6,15,9,6,0,-3,-3,0,0,0,1,0
+"404",24,"Other",8,8,6,20,8,5,0,-2,-3,0,0,0,0,1
+"405",28,"European/Caucasian-American",2,5,8,50,5,8,0,3,3,0,0,0,1,0
+"406",26,"European/Caucasian-American",1,7,6,12,8,7,0,-1,-1,0,0,0,1,0
+"407",27,"European/Caucasian-American",1,8,8,55,9,7,0,0,-2,0,0,0,1,0
+"408",27,"'Asian/Pacific Islander/Asian-American'",3,6,4,10,8,7,0,-2,-1,0,0,0,0,0
+"409",25,"European/Caucasian-American",10,9,6,25,10,6,0,-3,-4,0,0,0,1,0
+"410",26,"European/Caucasian-American",4,7,5,15,9,4,0,-2,-5,0,0,0,1,0
+"411",27,"European/Caucasian-American",2,7,4,20,6,8,0,-3,2,0,0,0,1,0
+"412",26,"'Asian/Pacific Islander/Asian-American'",3,7,6,14.89,9,9,0,-1,0,0,0,0,0,0
+"413",25,"European/Caucasian-American",1,8,4,13.21,8,7,0,-4,-1,0,0,0,1,0
+"414",27,"European/Caucasian-American",2,7,9,20,6,9,1,2,3,0,0,0,1,0
+"415",25,"European/Caucasian-American",1,7,5,20,5,5,0,-2,0,0,0,0,1,0
+"416",29,"European/Caucasian-American",4,7,8,50,7,8,0,1,1,0,0,0,1,0
+"417",23,"European/Caucasian-American",3,6,7,15,9,6,1,1,-3,0,0,0,1,0
+"418",32,"'Latino/Hispanic American'",1,7,3,20,8,6,0,-4,-2,0,0,0,0,0
+"419",29,"'Asian/Pacific Islander/Asian-American'",1,6,7,25,7,7,0,1,0,0,0,0,0,0
+"420",25,"European/Caucasian-American",1,7,7,20,5,7,0,0,2,0,0,0,1,0
+"421",23,"European/Caucasian-American",1,6,8,18.6,7,8,0,2,1,0,0,0,1,0
+"422",35,"'Asian/Pacific Islander/Asian-American'",1,8,9,15,7,9,1,1,2,0,0,0,0,0
+"423",28,"'Asian/Pacific Islander/Asian-American'",1,7,4,9.76,6,6,0,-3,0,0,0,0,0,0
+"424",25,"'Asian/Pacific Islander/Asian-American'",1,6,6,15,8,10,1,0,2,0,0,0,0,0
+"425",30,"European/Caucasian-American",3,7,6,20,9,8,0,-1,-1,0,0,0,1,0
+"426",21,"'Asian/Pacific Islander/Asian-American'",3,6,3,15,10,6,0,-3,-4,0,0,0,0,0
+"427",22,"'Black/African American'",1,7,3,25,9,5,0,-4,-4,0,0,0,0,0
+"428",22,"European/Caucasian-American",8,9,6,15.09,8,6,0,-3,-2,0,0,0,1,0
+"429",28,"European/Caucasian-American",6,7,4,20.45,6,6,0,-3,0,0,0,0,1,0
+"430",29,"European/Caucasian-American",8,7,4,30,5,6,0,-3,1,0,0,0,1,0
+"431",29,"'Asian/Pacific Islander/Asian-American'",1,9,5,9.52,8,8,0,-4,0,0,0,0,0,0
+"432",25,"European/Caucasian-American",7,7,6,24,8,10,0,-1,2,0,0,0,1,0
+"433",24,"'Asian/Pacific Islander/Asian-American'",1,5,6,13.51,4,9,0,1,5,0,0,0,0,0
+"434",28,"European/Caucasian-American",2,7,8,17.78,7,9,0,1,2,0,0,0,1,0
+"435",20,"'Latino/Hispanic American'",1,6,9,10,8,8,0,3,0,0,0,0,0,0
+"436",27,"European/Caucasian-American",8,6,5,33.33,6,8,0,-1,2,0,0,0,1,0
+"437",29,"European/Caucasian-American",1,8,5,15,5,7,0,-3,2,0,0,0,1,0
+"438",24,"'Latino/Hispanic American'",3,7,6,30,7,7,0,-1,0,0,0,0,0,0
+"439",30,"Other",3,8,4,20,7,4,1,-4,-3,0,0,0,0,1
+"440",27,"European/Caucasian-American",6,9,2,20,7,5,0,-7,-2,0,0,0,1,0
+"441",21,"European/Caucasian-American",1,7,6,19,9,8,0,-1,-1,0,0,0,1,0
+"442",25,"Other",2,8,6,20,8,6,0,-2,-2,0,0,0,0,1
+"443",24,"Other",8,8,9,20,8,8,1,1,0,0,0,0,0,1
+"444",25,"European/Caucasian-American",3,7,6,30,9,6,0,-1,-3,0,0,0,1,0
+"445",26,"'Latino/Hispanic American'",3,7,6,25,6,7,0,-1,1,0,0,0,0,0
+"446",26,"'Asian/Pacific Islander/Asian-American'",1,3,6,10,5,7,0,3,2,0,0,0,0,0
+"447",27,"'Black/African American'",1,7,6,20,7,7,0,-1,0,0,0,0,0,0
+"448",22,"'Asian/Pacific Islander/Asian-American'",7,7,6,20,9,7,0,-1,-2,0,0,0,0,0
+"449",28,"European/Caucasian-American",10,8,5,15,6,8,0,-3,2,0,0,0,1,0
+"450",24,"European/Caucasian-American",9,7,2,20.51,3,3,0,-5,0,0,0,0,1,0
+"451",28,"European/Caucasian-American",7,8,8,50,9,9,0,0,0,0,0,0,1,0
+"452",23,"European/Caucasian-American",2,6,8,20,8,6,0,2,-2,0,0,0,1,0
+"453",33,"European/Caucasian-American",1,8,6,20,7,6,0,-2,-1,0,0,0,1,0
+"454",25,"'Asian/Pacific Islander/Asian-American'",1,9,8,17.65,9,7,0,-1,-2,0,0,0,0,0
+"455",30,"European/Caucasian-American",1,7,5,25,8,5,0,-2,-3,0,0,0,1,0
+"456",32,"'Latino/Hispanic American'",1,7,7,30,7,8.5,0,0,1.5,0,0,0,0,0
+"457",26,"European/Caucasian-American",5,8,5,25,8,9,0,-3,1,0,0,0,1,0
+"458",24,"European/Caucasian-American",10,6,7,50,8,6,0,1,-2,0,0,0,1,0
+"459",23,"European/Caucasian-American",2,6,5,20,8,10,0,-1,2,0,0,0,1,0
+"460",22,"European/Caucasian-American",4,3,5,10,6,7,0,2,1,0,0,0,1,0
+"461",23,"European/Caucasian-American",6,8,8,17.02,10,10,0,0,0,0,0,0,1,0
+"462",24,"'Latino/Hispanic American'",3,7,6,30,10,6,0,-1,-4,0,0,0,0,0
+"463",24,"'Latino/Hispanic American'",3,7,4,30,10,3,0,-3,-7,0,0,0,0,0
+"464",25,"'Asian/Pacific Islander/Asian-American'",1,6,6,15,8,8,1,0,0,0,0,0,0,0
+"465",28,"'Black/African American'",7,7,8,13.04,8,6,0,1,-2,0,0,0,0,0
+"466",28,"Other",2,8,6,25,7,7,0,-2,0,0,0,0,0,1
+"467",34,"European/Caucasian-American",1,7,5,15,9,6,0,-2,-3,0,0,0,1,0
+"468",34,"European/Caucasian-American",1,7,3,15,9,4,0,-4,-5,0,0,0,1,0
+"469",24,"European/Caucasian-American",1,9,8,14.29,9,9,0,-1,0,0,0,0,1,0
+"470",24,"European/Caucasian-American",5,7,6,22,7,8,0,-1,1,0,0,0,1,0
+"471",21,"European/Caucasian-American",4,8,3,15,8,2,0,-5,-6,0,0,0,1,0
+"472",24,"European/Caucasian-American",10,6,2,50,8,4,0,-4,-4,0,0,0,1,0
+"473",27,"European/Caucasian-American",8,6,5,33.33,6,6,0,-1,0,0,0,0,1,0
+"474",27,"'Black/African American'",1,7,4,20,7,6,0,-3,-1,0,0,0,0,0
+"475",22,"European/Caucasian-American",6,4,6,20,7,10,0,2,3,0,0,0,1,0
+"476",23,"European/Caucasian-American",5,6,9,23,6,7,0,3,1,0,0,0,1,0
+"477",25,"European/Caucasian-American",9,8,8,20,9,8,1,0,-1,0,0,0,1,0
+"478",23,"'Asian/Pacific Islander/Asian-American'",1,5,6,20,6,7,0,1,1,0,0,0,0,0
+"479",27,"European/Caucasian-American",6,9,9,20,7,9,1,0,2,0,0,0,1,0
+"480",29,"'Latino/Hispanic American'",8,9,5,40,8,4,0,-4,-4,0,0,0,0,0
+"481",28,"European/Caucasian-American",8,7,7,25,7,6,0,0,-1,0,0,0,1,0
+"482",22,"'Asian/Pacific Islander/Asian-American'",2,6,7,15,5,5,0,1,0,0,0,0,0,0
+"483",27,"European/Caucasian-American",8,6,5,33.33,6,7,1,-1,1,0,0,0,1,0
+"484",23,"'Asian/Pacific Islander/Asian-American'",1,5,6,11.11,5,7,0,1,2,0,0,0,0,0
+"485",38,"European/Caucasian-American",4,6,6,15,6,7,0,0,1,0,0,0,1,0
+"486",29,"'Asian/Pacific Islander/Asian-American'",1,8,8,40,8,8,0,0,0,0,0,0,0,0
+"487",27,"'Asian/Pacific Islander/Asian-American'",9,8,9,58,9,8,0,1,-1,0,0,0,0,0

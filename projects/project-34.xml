@@ -1,0 +1,50 @@
+
+<project>
+
+<projectID>34</projectID>
+
+<projectDescription>
+This mini project describes data about people who travelled Titanic.
+As we know very few survived, there are certain group of people that survived more likely than others.
+The factors could be age, sex or class people were travelling etc.
+So by performing analysis, tests on the data with respect to the factors mentioned above we can figure out what people should consider before travelling again,
+if titanic was ever to travel again in the same path someday.
+</projectDescription>
+
+<dataDescription>
+  The dataset we used is the titanic.csv data available in the following link:
+  (https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets).
+  This data has the following columns:
+  1.	Total passengers (here 888 passengers)
+  2.	Name of the passengers
+  3.	Age of the passengers
+  4.	Sex of the passengers
+  5.	Column to say if passengers survived or not
+  6.	The class in which the passengers travelled
+  7.	Ticket number of the passengers
+  8.	Fare of the tickets
+</dataDescription>
+
+
+<dataSource>
+https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+</dataSource>
+
+<researchQuestion>
+To perform analysis of variation on the factors effecting survival like Age, Sex and Class.
+Perform a logistic regression with sex as the only explanatory variable.
+Find what is the odds ratio for sex and the associated 95% confidence interval based on the model in your summary.
+Also find what is the c-statistic for this model.
+</researchQuestion>
+
+<conclusion>
+Based on data analysis on main effects using the Analysis of variance (ANOVA) and logistic regression,
+we can estimate that if the Titanic vessel were to set sail again, then on an average,
+there would be more survivors from the upper class, more survivors who are women and there is no significant effect of Age.
+</conclusion>
+
+<class>
+ANOVA, Logistic Regression
+</class>
+
+</project>

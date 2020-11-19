@@ -1,0 +1,33 @@
+
+<project>
+
+<projectID>84</projectID>
+
+<projectDescription>
+The researcher is aimed to studying the presence of heart disease in the patient.
+The records of 303 patients with heart disease include the patients’ age, sex, resting blood pressure and so on.
+</projectDescription>
+
+<dataSource>
+Data was pulled from this dataset (https://www.kaggle.com/ronitf/heart-disease-uci).
+</dataSource>
+
+<dataDescription>
+The dataset includes 303 records of patients with heart disease and columns are kept are the age in years and resting blood pressure (in mm Hg on admission to the hospital).
+</dataDescription>
+
+<researchQuestion>
+Is there a linear association between age and resting blood pressure, using alpha=0.05?
+</researchQuestion>
+
+<conclusion>
+There appears to be a loose, positive, and linear association between age and resting blood pressure.
+And there is evidence of this linear association between age and resting blood pressure.
+Only 7% percent of variability in the resting blood pressure could be explained by the age.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+</project>

@@ -1,0 +1,50 @@
+
+<project>
+
+<projectID>51</projectID>
+
+<projectDescription>
+A data science professor from the University of X wants to examine what causes students’ math scores.
+There were 1000 thousand students participating in this survey.
+Some relevant information was collected through the survey.
+</projectDescription>
+
+<dataDescription>
+  This dataset is from https://www.kaggle.com/spscientist/students-performance-in-exams
+  Name of data: Student Performance in Exams
+  Format: csv file
+  Source: https://www.kaggle.com/spscientist/students-performance-in-exams
+  Description of Attributes:
+    Gender: Nominal data
+    Race/Ethnicity: Nominal data
+    Parental Level of Education: Ordinal data
+    Lunch: Nominal data
+    Test Preparation: Nominal data
+    Math Score: Qualitative data
+    Reading Score: Qualitative data
+    Writing Score: Qualitative data
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/spscientist/students-performance-in-exams
+</dataSource>
+
+
+<researchQuestion>
+  1.	If the student’s parents have good degrees, do they have same math scores?
+  2.	What is the risk difference between prepared or unprepared for getting higher math scores?
+  3.	Comparing lunch and gender, which is a better influence for the student’s math scores?
+</researchQuestion>
+
+<conclusion>
+It is not surprised that there are a couple of factors affecting students’ math scores.
+Apparently, the parental level of education is one of the key causes to impact the math score.
+Education is really a big problem for many students and families. A higher math score is not guaranteed to decide the future of a student, but it can reflect how much you have learned from the class.
+A good family education background is more likely to make a student study better.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

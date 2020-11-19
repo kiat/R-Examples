@@ -1,0 +1,43 @@
+<project>
+
+<projectID>41</projectID>
+
+<projectDescription>
+No two graduate schools have the same admission standards.
+Some favor test scores, while others prefer to see a student’s social impact or experience.
+On the other hand, students may prefer more prestigious schools to lesser known schools.
+However, before going through the process of filling out an application to certain schools, which can be laborious, students want to know how likely they are to get admitted.
+The use of this research scenario is to provide prospective students a fitted probability of admittance to the graduate school.
+In addition, it can be used for students in the future to determine what they need to prioritize to get into their dream school as well as similar schools.
+</projectDescription>
+
+<dataDescription>
+
+The dataset is from UCLA and tracks 7 fields for 400 student applications to graduate school.
+The fields include GRE scores, TOEFL scores, a University Rating score (1-5), Strength of Recommendations (1-5), GPA from Undergraduate school, whether or not a student has research experience (dummy variable) and the probability of admittance, as provided by the school.
+The data set is clean and requires no work to clean up.
+The dataset does lean toward higher scoring students on the GREs and the TOEFL, with the minimum score being 290 and 92 respectively, which is above average for both.
+Thus, the model can only be applied to students in the range provided, meaning that this model does not hold for below average test score students.
+
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+In what effect does GRE scores, research experience and undergraduate GPA have on the probability of graduate school admittance? In addition, are there different effects at different ratings of universities?
+</researchQuestion>
+
+<conclusion>
+GRE score, undergraduate GPA and research are all significant factors into a higher probability of admittance of grad school.
+If a student has to focus on one, undergraduate GPA is the most important, giving the chance of admittance a 15% boost for each point.
+For every 10 points gained on the GRE, your odds of getting admitted increase by 2%.
+Research has varying importance depending on the rating of the school you want to attend, as the data show that lowly rated schools barely care (0.5% impact for level 1) while prestigious care a whole lot more (7.7% impact for level 5).
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

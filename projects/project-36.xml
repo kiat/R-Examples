@@ -1,0 +1,58 @@
+
+<project>
+
+<projectID>36</projectID>
+
+<projectDescription>
+  https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016/version/1
+
+  Suicide has been one of the leading causes of death in the United states of America.
+  Life can be hard at times, and people sometimes make an irrational decision of ending their own lives.
+  One solution to the suicide problem can be to understand what factors affect the people to take such a drastic decision and identifying these cases so that timely emotional support can be provided to them.
+
+  In this assignment, we have tried to collect some of these factors like Gender, GDP per capita and Human development index (HDI) and check the statistical significance of these attributes on suicide rates.
+</projectDescription>
+
+<dataDescription>
+  Url- https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+
+  This dataset consists of records of people who committed suicides between 1905 to year 2016 and consisted of more than 26000 records. In the sample data that we are using for the analysis, there are 423 randomly selected records and we have also got rid of the outliers in the quantitative attributes.
+
+  6 columns
+
+  1)	Country – Country of the group of suicide victims in the group.
+  2)	Sex – This column is categorical and consists of gender information about the group.  Values are either ‘male’ or ‘female’.
+  3)	Number of Suicides per 100K – Continuous quantitative value denoting number of suicide cases per 100K population.
+  4)	HDI (Human Development Index) – this is a quantitative attribute. This is a statistic composite index of life expectancy, education and per capita income. The values range from 0 to 1 and is a continuous variable. Closer to 1, better the HDI.
+  5)	GDP per capita – This is a monetary measure of the country the person lives in and is useful in gauging the living standards of the people in the country. This is a continuous variable.
+  6)	Generation – This is a demographic cohort. Categorical variable - Boomers, Generation X, Generation Z, Millennial and Silent.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/russellyates88/suicide-rates-overview-1985-to-2016
+</dataSource>
+
+
+<researchQuestion>
+We are interested in understanding the effect of generation category on suicide rates and answer the question whether the suicide rates vary by generation or not.
+For this, we will perform a one way ANOVA using the aov function in R and perform the hypotheses testing.
+If the results of the model are significant, then we will perform  pairwise t test to multiple comparisons to determine where the differences lie.
+</researchQuestion>
+
+<conclusion>
+  Evaluating the results of the above tests, we can conclude that the global test conducted depicts that the overall model is significant.
+  This means that we have significant evidence that generation is an important predictor of suicide rates.
+
+  From the individual T test, we can summarize that mean suicide rates are different between the following pairs
+
+  Gen Z and Boomers
+  Gen Z and Gen X
+  Millennials and Gen Z
+  Silent and Gen Z
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

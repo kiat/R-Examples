@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>25</projectID>
+
+<projectDescription>
+  This data set belongs to transactions made in a retail store during Black Friday event.
+  Using this data we are trying to extract the customer purchase behavior of various products.
+  We are performing a regression test to predict the dependent or response variables purchase amount with various independent or explanatory variables gender, city stay in years, marital status, and age group.
+
+  A sample of 500 observations were taken with quantitative variable Purchase Amount, and city stay in years.
+  The Qualitative or categorical variables are gender, marital status, and age group.
+
+  Correlation tests to find out the correlation between age and Purchase Amounts or years of stay and Purchase Amount
+  Multiple Linear Regression Model: Used to find of relation between set of Explanatory variables and Response variable.
+  Logistics Regression: It is based on linear relationships between the natural logarithm of the odds of an event and linear combination of explanatory variables.
+</projectDescription>
+
+<dataDescription>
+This data set belongs to transactions made in a retail store during Black Friday event.
+Using this data we are trying to extract the customer purchase behavior of various products.
+We are performing a regression test to predict the dependent or response variables purchase amount with various independent or explanatory variables gender, city stay in years, marital status, and age group.
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+
+<researchQuestion>
+  Since there are one or more explanatory variables like Marital Status, Age Groups, Gender I would like to perform a logistic Regression by modeling relationship between independent variables and response variable Purchase Price.
+  This will give us a good visibility to purchase behavior.
+</researchQuestion>
+
+<conclusion>
+  In Multiple regression model we have evidence that there is linear association between Age and Purchase Amount after controlling years of City Stay.
+  Likewise we don’t have evidence that is linear association between City Stay and Purchase amounts after controlling age of consumers.
+
+  From Multiple Logistic Regression there evidence that there is association between Marital status and Purchase after controlling City stay in years.
+  The is no evidence that there is association between city stay and Purchases.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

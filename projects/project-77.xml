@@ -1,0 +1,45 @@
+
+<project>
+
+<projectID>77</projectID>
+
+<projectDescription>
+  Overall scenario:
+  This dataset containing the applicants’ information and according chance of admit for graduate students from an Indian perspective. 
+  The data includes the applicants GRE scores, TOEFL scores, University Rating, Statement of Purpose, Letter of Recommendation Strength, Undergraduate GPA, Research Experience and their chance of admit.
+
+  Research question:
+  We are interested in whether there exists a linear relationship between multiple explanatory variables (GRE scores, TOEFL scores, University Rating, Statement of Purpose, Letter of Recommendation Strength, Undergraduate GPA, Research Experience) and response variables (chance of admit).
+</projectDescription>
+
+<dataSource>
+The dataset link is here:
+https://www.kaggle.com/mohansacharya/graduate-admissions
+</dataSource>
+
+<dataDescription>
+This dataset is inspired by the UCLA Graduate Dataset.
+The dataset has 500 graduate degree applicants with their GRE scores (out of 340), TOEFL scores (out of 120), University Rating (out of 5), Statement of Purpose (out of 5), Letter of Recommendation Strength (out of 5), Undergraduate GPA (out of 10), Research Experience (either 0 or 1) and their chance of admit (ranging from 0 to 1).
+We used R to check all data in dataset and there is no NA in it.
+</dataDescription>
+
+<researchQuestion>
+We want to build multiple linear regression model to predict the admission results.
+So, the main research question for me is to find out is it suitable to use multiple linear regression model, that is, whether there exists linear relation between multiple explanatory variables (GRE scores, TOEFL scores, University Rating, Statement of Purpose, Letter of Recommendation Strength, Undergraduate GPA, Research Experience) and response variables (chance of admit).
+</researchQuestion>
+
+<conclusion>
+From above result, we can conclude that this dataset is suitable for linear regression model.
+
+The F-value of it is very large and associated p-values is very small. That means that no linear relationship between multiple explanatory variables (GRE scores, TOEFL scores, University Rating, Statement of Purpose, Letter of Recommendation Strength, Undergraduate GPA, Research Experience) and response variables (chance of admit) is almost impossible.
+
+From the adjusted R-squared value, we can know that after linear regression, the regression model fit data well. 81.94% of the variation in the response variable explained by the regression model.
+
+We also can conclude that we have significant evidence that GRE scores, TOEFL scores, Letter of recommendation, GPA and research experience are significant predictors of chance of admit while we don’t have significant evidence that statement of purpose and University rating are significant predictors of chance of admit.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+</project>

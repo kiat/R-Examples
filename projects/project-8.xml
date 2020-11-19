@@ -1,0 +1,41 @@
+
+<project>
+
+<projectID>8</projectID>
+
+<projectDescription>
+This data set contains information of students in various subjects, which contains gender, race/ethnicity, parental level of education, lunch, test prep course, math score, reading score and writing score.
+er can discover if there is a relationship between gender and test scores.
+</projectDescription>
+
+<dataDescription>
+  The data set contains information about students in high school from the United States.
+  https://www.kaggle.com/spscientist/students-performance-in-exams
+  We deleted half the dataset from 1000 observations to 500.
+  We removed columns race/ethnicity, lunch, and test preparation course.
+  We will have attached the .csv file that I modified.
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/spscientist/students-performance-in-exams
+</dataSource>
+
+<researchQuestion>
+  In this research, we would like to know with 95% confidence:
+  Do female students usually score higher than male students in the various categories of reading, writing, and math?
+</researchQuestion>
+
+<conclusion>
+The conclusion is that females have higher test scores in subjects reading and writing,
+however, males are higher test scores in the math subject.
+</conclusion>
+
+<class>
+SLR, Logistic Regression
+</class>
+
+<fields>
+  6,1
+</fields>
+
+</project>

@@ -1,0 +1,57 @@
+
+<project>
+
+<projectID>16</projectID>
+
+<projectDescription>
+One hypothesis on people’s income is education level.
+Many studies show that higher level of education leads to higher income.
+There are multiple ways to show this: compare individual’s income vs their educational levels, or use macroeconomic datasets to see the correlation between average income level of a region vs people’s educational background.
+In this scenario, we’d like to study whether educational level can be a good predictor for regional income level using US Metropolitan data.
+</projectDescription>
+
+<dataDescription>
+  Data source: US government.
+  The original dataset contains a lot information for 107 metropolitan areas in the US.
+  The dataset is very comprehensive. I only use a few variables for the study:
+
+  GEO.display-label – specify the geographic region
+  EST_VC344 – income per capita
+  EST_VC135 – percent of 25+ population with less than high school
+  EST_VC136 – percent of 25+ population with high school
+  EST_VC137 – percent of 25+ population with college or associate degree
+  EST_VC138 – percent of 25+ population with bachelor degree
+  EST_VC139 – percent of 25+ population with graduate or professional degree
+</dataDescription>
+
+<dataSource>
+<!--
+https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?pid=ACS_17_1YR_S0201&prodType=table
+-->
+</dataSource>
+
+
+
+<researchQuestion>
+The main question is whether education is a good predictor for regional income level.
+If yes, what degree has the most explanatory power.
+</researchQuestion>
+
+
+<conclusion>
+Based on the result, college and master degree alone is the most significant variable to predict income and regions with higher share of college and master degree people have higher income.
+When using multiple variables to predict income, we do not need college or master degree population as the rest of the classifications combine can provide very good predictor power.
+</conclusion>
+
+<class>
+MLR
+</class>
+
+<fields>
+ <field>9</field>
+ <field>2</field>
+ <field>3</field>
+ <field>7</field>
+</fields>
+
+</project>

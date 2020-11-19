@@ -1,0 +1,46 @@
+
+<project>
+
+<projectID>27</projectID>
+
+<projectDescription>
+Daily inmates in custody dataset is obtained from the New York City public safety site.
+This dataset has various attributes such as custody level, mental health designation, race, gender, age, legal status, sealed status, security risk group membership, top charge and infraction flag. Here, we would be interested to see if the mean age differs across the various races.
+If it differs then we would be interested to find out which races mean age group differs with each other.
+</projectDescription>
+
+<dataDescription>
+  The dataset contains 13 attributes but we are interested only in 2 attributes which are RACE and AGE.
+  The RACE is a factor attribute and it has 5 different values and those values define the race.
+  A -> Asian
+  B -> Black
+  O -> Other
+  U -> Latino
+  W -> White
+
+  The link to the dataset is:
+  https://data.cityofnewyork.us/Public-Safety/Daily-Inmates-In-Custody/7479-ugqb
+
+  The dataset has 8079 records but we will sample only 500 records randomly.
+</dataDescription>
+
+<dataSource>
+https://data.cityofnewyork.us/Public-Safety/Daily-Inmates-In-Custody/7479-ugqb
+</dataSource>
+
+<researchQuestion>
+We are interested to find out what Races differ with respect to the mean age.
+We will do global F-test to find out if these group are same or they differ.
+If they differ then we would like to know which groups differ.
+</researchQuestion>
+
+<conclusion>
+When we built the one-way anova model, we got the F statistic very low and the p-value is 0.375 which is very high compared to the default value (0.05)
+so we failed to reject the null hypothesis which means that the mean age across all the race is same.
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

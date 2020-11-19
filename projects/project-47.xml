@@ -1,0 +1,36 @@
+
+<project>
+
+<projectID>47</projectID>
+
+<projectDescription>
+Heart disease is a very common disease for human beings.
+And heart disease is possible at any age.
+In order to see if there is any relationship between the serum cholesterol and the age of the cardiac, the heart disease data from Cleveland database was examined.
+</projectDescription>
+
+<dataDescription>
+  The original dataset is from the Cleveland database about the heart disease.
+  https://www.kaggle.com/ronitf/heart-disease-uci
+  It was extracted from Kaggle. The data contains 14 attributes and 303 observations.
+  To clean up the data for this project, I extracted only two columns: age and chol and removed the outliers. Age column is the age of every patient and chol column is the serum cholesterol (in mg/dl) of every patient. And I wrote the new data frame in a new csv file called heart_cleanup.csv.
+  Read the data set using
+</dataDescription>
+
+<researchQuestion>
+Is there a linear association between the serum cholesterol (in mg/dl) and the age of the patient, use alpha =0.05?
+</researchQuestion>
+
+
+<conclusion>
+  There appears a very weak linear relationship between age and serum cholesterol of the patient.
+  That is, the older a patient, the higher serum cholesterol they will be.
+  However, since the correlation coefficient is 0.1895562, which is very small, the relationship between age and serum cholesterol of the patient is very weak.
+  In addition, because this is a very small part of the whole data of Cleveland database, the result will be more precise if the dataset is larger.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+</project>

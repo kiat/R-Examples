@@ -1,0 +1,39 @@
+
+<project>
+
+<projectID>52</projectID>
+
+<projectDescription>
+A random sample of high school students from the U.S was collected to see how test scores differ among different groups.
+To carry out this study, these subjects were assigned to groups based on their gender and whether or not they had any test preparation.
+</projectDescription>
+
+<dataDescription>
+This dataset gives 1000 records of information about student’s academic performance in high school from the U.S.
+The original dataset contained the columns of gender, race/ethnicity (Group A, B, C, D, E), lunch type, parental level of education (associates, bachelors, high school, masters, some college, some high school), whether they had no or complete test preparation, and scores for their math, reading and writing sections.
+We decided to add up the different subjects scores together to get a total score.
+We also decided to disregard/remove columns of race/ethnicity, lunch type and parental level of education as we wanted to put my focus on factors of gender and whether the student has any test preparation.
+Link: https://www.kaggle.com/spscientist/students-performance-in-exams
+</dataDescription>
+
+<dataSource>
+https://www.kaggle.com/spscientist/students-performance-in-exams
+</dataSource>
+
+<researchQuestion>
+Using the overall test score as the response, determine whether there is an interaction between the two group factors of gender and test preparation.
+If the p-value of interaction is significant, stratify the analysis using one of the factors to perform separate on-way ANOVAS.
+If the p-value is not significant, proceed with two-way ANOVA procedure to determine whether gender type and test preparation have significant effects on test scores.
+</researchQuestion>
+
+<conclusion>
+Because the p-value of interaction was significant, we stratified using one of the factors and performed separate ANOVAS.
+Based on results here, the p-values from both ANOVA’s showed significant differences.
+We can say we have significant evidence that at the alpha = 0.05 level there is a difference between test and no test preparation within the female sample and a difference between test and no test within the male sample
+</conclusion>
+
+<class>
+ANOVA
+</class>
+
+</project>

@@ -1,0 +1,47 @@
+
+<project>
+
+<projectID>43</projectID>
+
+<projectDescription>
+  In our daily life, take the airplane is becoming more and more popular.
+  During our trip by airplane, we sometimes meet the delay of airplane.
+  Then we need to wait. It is very unpleasant.
+  By statistic analyze, Can we conclude the relationship between delay and the airplane server time per week or the relationship between delay and the name of airplane.
+  If we can ,then ,maybe next time you can choose airplane by this conclusion.
+</projectDescription>
+
+<dataDescription>
+  https://raw.githubusercontent.com/datasets/openml-datasets/master/data/airlines/airlines.csv
+
+  Only choose Airline, Time, Delay column and reduce them to 500 rows.
+</dataDescription>
+
+<dataSource>
+https://raw.githubusercontent.com/datasets/openml-datasets/master/data/airlines/airlines.csv
+</dataSource>
+
+<researchQuestion>
+  Does airplane server time per week has a positive relationship with its delay?
+  Does airplane’s company has a relationship with its delay?
+</researchQuestion>
+
+<conclusion>
+  By the cor value:-0.11 the server time and Delay has no significant relationship.
+
+  By the summary, we can clear see that the Airline name: ”AS” server the most little time.
+  The “F9” and “WN”’s server time is a const number. Never change.
+  The AS, YV delay every time and F9 never delay.
+  The F value is not big enough to support that Time is diff between different Airline.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+ <field>3</field>
+ <field>2</field>
+</fields>
+
+</project>

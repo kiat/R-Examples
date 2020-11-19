@@ -1,0 +1,43 @@
+
+<project>
+
+<projectID>68</projectID>
+
+<projectDescription>
+  This is a data set including information about people who are admitted to the hospital due to heart disease.
+  In this dataset we have 14 columns of data, including the age of the patients, the sex of patients, the chest pain type of patients, the blood pressure of patients, the serum cholesterol of patients, the blood sugar of patient, the resting graphic of patient, the maximum heart rate achieved by those patients the ST pressure of patient, the slope of the peak of patient, the number of vessels of patients and the target of patients.
+  Our goal for this project is to find out if there is a linear relationship between the age of the patients and the maximum heart rate of the patients.
+</projectDescription>
+
+<dataSource>
+  Here is the link to the main data set source:
+  https://www.kaggle.com/ronitf/heart-disease-uci
+</dataSource>
+
+<dataDescription>
+I only need two columns of information in this dataset to achieve my goal for this project, the age of patient and the heart rate of patient, all other 12 unnecessary columns was deleted.
+The data size was reduced from 14 columns to 2 columns.
+There are total of 303 patient’s information selected in the dataset.
+</dataDescription>
+
+<researchQuestion>
+Our goal for this project is to find out if there is a linear relationship between the age of the patients and the maximum heart rate of the patients.
+Performance this test at alpha = 0.05 level.
+</researchQuestion>
+
+<conclusion>
+  F-distribution with 1, 301 degrees of freedom and associated with alpha = 0.05 is 3.8725.
+  After the calculation in R, the F distribution in our dataset is 58.831.
+  Because the number in our dataset is greater than the standard dataset, so we reject H0.
+  There is a linear relationship between the age of patients and the heart rate of patients.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+  1,2
+</fields>
+
+</project>

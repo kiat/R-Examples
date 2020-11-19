@@ -1,0 +1,48 @@
+
+<project>
+
+<projectID>18</projectID>
+
+<projectDescription>
+  A survey of 126 students from Mercyhurst University reported their GPA along with various information regarding their food choices, preferences, and perceptions of health.
+
+  The students rated how strongly they agree with the statement “I feel very healthy!” on a scale from 1 to 10 where 1 is strongly agree and 10 is strongly disagree.
+
+  We am interested in knowing if there is a linear correlation between how healthy the student feels and their GPA.
+</projectDescription>
+
+<dataDescription>
+  The dataset was raw and uncleaned containing 61 columns of responses and 125 rows downloaded from https://www.kaggle.com/borapajo/food-choices
+
+  Because there were so many variables and many students did not respond to each question, several columns had missing data so we simplified the analysis to focus only on two columns:
+  data$GPA (column 1) and data$healthy_feeling (column 34)
+
+  Next, we checked for outliers and removed rows with outliers for GPA values.
+  Then, we exported only these two columns to write a csv file named “datafile.csv” we outline in section 6 below importing raw data first, then the import of datafile.csv for analysis
+</dataDescription>
+
+<dataSource>
+
+</dataSource>
+
+<researchQuestion>
+Is there a correlation between the student GPA and Feeling Healthy variables in this dataset?
+Formally test the hypothesis that beta1= 0 using a t-test at the alpha = 0.10 level.
+</researchQuestion>
+
+<conclusion>
+  There does not seem to be a correlation between GPA and healthy rating that is significant statistically.
+  When the GPA is mapped to each student’s rating: it appears to have a very small negative correlation: meaning as the healthiness rating increases, the student GPA decreases.
+  Standardizing the average of all GPA and ratings individually compared to each difference from all students, the difference is not large enough to indicate they’re correlated.
+  Because this tested value is not larger than what would be expected to deviate if there were a correlation, it indicates the two variables are not likely correlated.
+</conclusion>
+
+<class>
+SLR
+</class>
+
+<fields>
+ 2,3
+</fields>
+
+</project>

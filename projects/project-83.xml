@@ -1,0 +1,46 @@
+
+<project>
+
+<projectID>83</projectID>
+
+<projectDescription>
+As students are applying for graduate schools, they usually take the specified exams (GRE and TOEFL for international students), write their personal statements, and send their application with recommendation letters and other required information to the admissions office.
+However, most students are not sure whether they can be admitted by the graduate school or not. Therefore, we would like to find out the association between the application elements and the chance of being admitted by the graduate school in this research.
+</projectDescription>
+
+<dataSource>
+Here is the URL of the original dataset (Admission_Predict.csv): https://www.kaggle.com/mohansacharya/graduate-admissions/downloads/graduate-admissions.zip/2
+</dataSource>
+
+<dataDescription>
+  The dataset used for this research is based on 400 Indian students’ applications to UCLA’s graduate program. This dataset contains nine columns: serial number, GRE score, TOEFL score, University Rating (out of 5), the scores of the statement of purpose and letter of recommendation strength (out of 5), GPA of undergraduate (out of 10), research experience (No = 0, Yes = 1), and chance of being admitted (ranging from 0 to 1).
+
+  Serial number (Serial.No.): starting from 1 to 400, represents individual observation
+  GRE score (GRE.Score): score of GRE exam
+  TOEFL score (TOEFL.Score): score of TOEFL exam
+  University Rating (University.Rating): the rating of student’s college, highest is 5, lowest is 0
+  Statement of Purpose (SOP): score of the statement of purpose, highest is 5, lowest is 0
+  Letter of Recommendation (LOR): score of the letter of recommendation, highest is 5, lowest is 0
+  Undergraduate GPA (CGPA): GPA at college, highest is 10, lowest is 0
+  Research experience (Research): whether a student has done research during college or not, Yes = 1, No = 0
+  Chance of being admitted (Chance.of.Admit): the chance of being admitted, highest is 1, lowest is 0
+</dataDescription>
+
+<researchQuestion>
+We would like to find out if there is association between the variables (GRE, TOEFL, University Rating, statement of purpose, letter of recommendation, college GPA, and research experience) and the high chance of being admitted (chance of admit greater than or equal to 80%).
+</researchQuestion>
+
+<conclusion>
+  The global test indicates that the p-value is very small, so there is at least one variable’s beta is not equal to 0.
+
+  According to the result, we reject the null hypotheses due to the absolute value of z values for TOEFL score, undergraduate GPA, and research experience larger than 1.96 (p values smaller than 0.05 alpha level).
+  We have significant evidence at 0.05 alpha level that their betas  0 after adjusting other variables. 
+
+  In conclusion, the TOEFL score, undergraduate GPA, and research experience have significant impact on the high chance of being admitted by the graduate school.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>

@@ -1,0 +1,45 @@
+
+<project>
+
+<projectID>32</projectID>
+
+<projectDescription>
+  We am interested in the association between gender and ticket fare impact on survival of passengers during the titanic mishap.
+  This is to analyze during old days if there was an gender and being able to afford high ticket fares on the impacted survival in an adversity.
+
+  The data for this is obtained from https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+</projectDescription>
+
+<dataDescription>
+  The data for this is obtained from https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+
+  The data set chosen has details on the passengers who survived/not survived during the titanic incident.
+
+  The columns of interest in the dataset are as follows
+  Survived – a Boolean indicating survival from Titanic incident. 1-survived and 0-not survived.
+  Sex – Gender of the survivor
+  Fare – Ticket fare paid by the passenger
+  Gender – dummy variable created from Sex with 0-male and 1-female
+</dataDescription>
+
+<dataSource>
+https://github.com/awesomedata/awesome-public-datasets/tree/master/Datasets
+</dataSource>
+
+<researchQuestion>
+  Determine if gender and Fare or just one of these parameters impacted the survival rate of passengers in the Titanic incident. Assume alpha = 0.05.
+</researchQuestion>
+
+<conclusion>
+  From the collected sample, there is evidence of association between gender and survival in the titanic incident after adjusting for Fare.
+  The odds ratio of survival is higher (Odds ratio = 13.61) for female vs male after adjusting for Fare.
+  There is also evidence of association between Fare and survival in the titanic incident after adjusting for Gender.
+  The odds ratio of survival is 1.01 for every 1 unit increase in Fare after adjusting for Gender.
+  As a statistician, we can see that the model fits multiple logistic regression.
+</conclusion>
+
+<class>
+Logistic Regression
+</class>
+
+</project>
