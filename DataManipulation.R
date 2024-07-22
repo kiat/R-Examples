@@ -1,4 +1,4 @@
-# install.pacakges('dplyr')
+# install.packges('dplyr')
 library(stats)
 library(base)
 library(dplyr)
@@ -30,11 +30,11 @@ airport.dat <- tbl_df(airport.dat)
 ###
 airport.dat
 
-# Find all flight which occurred in Janurary
+# Find all flight which occurred in January
 filter(delay.dat.houston, Month==1)
 
 # we could of course save this too
-# delay.dat.houston.jan <- fitler(delay.dat.houston, Month==1)
+# delay.dat.houston.jan <- filter(delay.dat.houston, Month==1)
 
 ## ---- filterEx2 -----------------------------------------------
 # Using airport data, find a list of iata abbreviations for houston texas airports
