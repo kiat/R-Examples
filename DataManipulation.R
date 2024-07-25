@@ -1,4 +1,4 @@
-# install.packges('dplyr')
+# install.packages('dplyr')
 library(stats)
 library(base)
 library(dplyr)
@@ -11,7 +11,7 @@ delay.dat.houston <- read.csv(DelayDataLocation,
                               stringsAsFactors = FALSE)
 
 # tbl_df allows for nice printing
-delay.dat.houston <- tbl_df(delay.dat.houston)
+delay.dat.houston <- as_tibble(delay.dat.houston)
 
 
 ###
@@ -24,7 +24,7 @@ airport.dat <- read.table(AirDataLocation,
                           sep=",",
                           stringsAsFactors = FALSE)
 
-airport.dat <- tbl_df(airport.dat)
+airport.dat <- as_tibble(airport.dat)
 
 
 ###
@@ -37,7 +37,7 @@ filter(delay.dat.houston, Month==1)
 # delay.dat.houston.jan <- filter(delay.dat.houston, Month==1)
 
 ## ---- filterEx2 -----------------------------------------------
-# Using airport data, find a list of iata abbreviations for houston texas airports
+# Using airport data, find a list of iata abbreviations for Houston Texas airports
 filter(airport.dat, state=='TX', city=='Houston')
 
 ## ---- filterEx3 ------------------------------------------------
@@ -49,7 +49,7 @@ filter(delay.dat.houston,
 
 ## ---- filterEx4 -----------------------------------------------
 # Find the subset of flights departing on the weekend.
-filter(delay.dat.houston, DayOfWeek == 6 | DayOfWeek == 7)
+weekend.data <- filter(delay.dat.houston, DayOfWeek == 6 | DayOfWeek == 7)
 
 # another alternative
 filter(delay.dat.houston,  DayOfWeek %in% c(6,7))
@@ -123,10 +123,9 @@ delay.dat.houston %>%
   distinct(Origin) 
 
 # Find a list of distinct (Origin, Dest) pairs
-delay.dat.houston %>%
-  distinct(Origin, Dest) 
+alldest<- delay.dat.houston %>% distinct(Origin, Dest) 
 
-# Origin airport with largest Janurary departure delay
+# Origin airport with largest January departure delay
 delay.dat.houston %>%
   filter(Month==1) %>%
   arrange(desc(DepDelay)) %>%
@@ -225,10 +224,10 @@ qplot(Dep,
   geom_abline(intercept=0,slope=1,color='red')
 
 ## ---- merge_toy_read .  ----------------------------
-people.info <- read.table('./data/mergedata/PeopleInfo.csv',
+people.info <- read.table('./Datasets/mergedata/PeopleInfo.csv',
                           sep=',',
                           header=TRUE)
-occup.info <- read.table('./data/mergedata/OccupationInfo.csv',
+occup.info <- read.table('./Datasets/mergedata/OccupationInfo.csv',
                           sep=',',
                           header=TRUE)
 
